@@ -1,0 +1,9 @@
+,tau,band_hit,agree_with_gold,scene_contiguity,word_count,pds_mean
+A1 graph -CAUSES/-FORESHADOWS,0.4171,0.4286,0.5568,0.9708,638.6786,4.179
+A2 graph -pre/post,0.4398,0.4643,0.5573,0.9791,625.75,4.143
+A3 graph -learns,0.3992,0.4643,0.561,0.9744,626.2857,4.05
+A4 graph -questions/-REVEALS,0.3832,0.4643,0.5024,0.9763,610.1071,3.986
+A5 graph -participants/-location,0.4089,0.5,0.5257,0.9781,651.5357,4.043
+G0 fabula only,0.362,0.4107,0.5541,0.9796,562.1429,3.85
+G1 full graph,0.4154,0.5179,0.5538,0.9777,631.2857,4.096
+G2 told order (oracle),0.3334,0.9821,0.9979,0.9982,608.2143,3.936

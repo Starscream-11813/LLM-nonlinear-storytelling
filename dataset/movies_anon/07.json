@@ -1,0 +1,913 @@
+{
+  "story_id": "S07",
+  "source_index": 7,
+  "genre": "Drama, Crime, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Mathematician Aaron Vale is told that his failing heart will kill him within weeks unless a donor is found.",
+    "His estranged wife Della presses him to agree to be inseminated with his frozen sperm before he dies.",
+    "Ex-convict Wes Tarrow, newly born again, holds down a job and coaches boys' baseball while his wife Nita dreads his fanaticism and his temper.",
+    "Lena Ward, a recovered addict, lives a settled suburban life with her husband Doug and their two young daughters.",
+    "Wes's pickup hits Doug and both girls at a crossing; he drives off, turns back, and then flees.",
+    "Lena is told at the hospital that her husband and both children are dead.",
+    "Doug's heart is transplanted into Aaron, who wakes up alive for the first time in months.",
+    "Wes walks into a police station, confesses to the hit-and-run and is sent back to prison.",
+    "Lena goes back to cocaine and begins methodically destroying herself.",
+    "Unable to stop thinking about whose heart is beating in his chest, Aaron hires a private investigator to find the donor's widow.",
+    "Aaron follows Lena, engineers a meeting at a swimming pool, and the two begin an affair.",
+    "Aaron leaves Della and tells her he does not want the child she is trying to conceive.",
+    "Aaron admits to Lena that he is carrying her husband's heart; she throws him out, then takes him back.",
+    "Released early, Wes walks out on Nita and on his faith and takes work at a motel far from home.",
+    "Lena demands that Wes be killed, and Aaron buys a gun and tracks him to the motel.",
+    "Aaron cannot go through with it and only wounds Wes, telling him to run.",
+    "Wes follows the pair back to their motel and asks Aaron to finish the job, and Aaron turns the gun on himself instead.",
+    "Lena and Wes get the dying Aaron to a hospital where the transplanted heart fails; Wes goes home to his family and Lena, pregnant, goes home alone."
+  ],
+  "syuzhet_order": [
+    15,
+    3,
+    4,
+    1,
+    9,
+    5,
+    2,
+    6,
+    8,
+    7,
+    10,
+    14,
+    11,
+    12,
+    16,
+    13,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    17
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "Three strands are diced and interleaved with no captions, no dates and no block structure, so the told order follows no statable rule.",
+  "syuzhet_notes": "The film cuts continuously between three strands - the dying man's illness and transplant, the widow's family and bereavement, the ex-convict's conversion and crime - with no captions, dates or dissolves to mark the jumps, so almost every told-order bullet is a leap backwards or forwards relative to the one before it. Told-order bullet 1 is a flash-forward into the final act, and bullets 2-4 drop back to before the accident that starts everything.",
+  "fabula_notes": "The collision itself is shown only in fragments and from a distance, never as one continuous scene. The transplant operation and the years in prison are implied by their consequences rather than staged, and the pregnancy at the close is carried by closing narration rather than dramatised.",
+  "story_graph": {
+    "characters": {
+      "Aaron": {
+        "archetype": "Hero"
+      },
+      "Della": {
+        "archetype": "Ally"
+      },
+      "Lena": {
+        "archetype": "Shapeshifter"
+      },
+      "Doug": {
+        "archetype": "Ally"
+      },
+      "the girls": {
+        "archetype": "Ally"
+      },
+      "Wes": {
+        "archetype": "Shadow"
+      },
+      "Nita": {
+        "archetype": "Ally"
+      },
+      "the investigator": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "a doctor",
+          "tells",
+          "Aaron he is dying"
+        ],
+        "content": "A mathematician who has been short of breath on staircases is shown the numbers and told that the muscle is finished, that it will be weeks rather than months, and that the only thing that helps is somebody else dying at the right time.",
+        "participants": [
+          "Aaron"
+        ],
+        "location": "a cardiology clinic",
+        "pre": {},
+        "post": {
+          "aaron_dying": true
+        },
+        "learns": {
+          "Aaron": [
+            "he has weeks unless somebody dies"
+          ],
+          "reader": [
+            "intro:Aaron",
+            "a man is waiting for a stranger's death"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "does a heart arrive in time?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Della",
+          "presses",
+          "Aaron for a child"
+        ],
+        "content": "His wife, who has been out of the house for a year, sits across a kitchen table with a clinic form and asks him to sign while he still can, because what is in the freezer is all there will ever be.",
+        "participants": [
+          "Aaron",
+          "Della"
+        ],
+        "location": "the kitchen of Aaron's house",
+        "pre": {
+          "aaron_dying": true
+        },
+        "post": {
+          "della_seeking_a_child": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Della",
+            "the wife wants the child more than she wants the marriage"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "does she get the child she is asking for?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Wes",
+          "preaches",
+          "to the boys"
+        ],
+        "content": "An ex-convict with scripture inked up both forearms holds down a job, runs a boys' team on Saturdays and testifies to anyone who will sit still. His wife watches the certainty in him the way you watch weather coming.",
+        "participants": [
+          "Wes",
+          "Nita"
+        ],
+        "location": "a baseball field and a small house",
+        "pre": {},
+        "post": {
+          "wes_converted": true
+        },
+        "learns": {
+          "Nita": [
+            "the faith and the temper are the same thing wearing different clothes"
+          ],
+          "reader": [
+            "intro:Wes",
+            "intro:Nita",
+            "the convert is one shock away from something"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what is a man this certain going to do?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Lena",
+          "lives",
+          "a settled life"
+        ],
+        "content": "A woman who used to be somebody else does the school run, keeps the garden, and has not had anything in her system for years. Two girls and a husband who adores her, in a house with a fixed rate on it.",
+        "participants": [
+          "Lena",
+          "Doug",
+          "the girls"
+        ],
+        "location": "a suburban house",
+        "pre": {},
+        "post": {
+          "lena_settled": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Lena",
+            "intro:Doug",
+            "intro:the girls",
+            "the life that is about to be removed"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "how long does a life like this last?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Wes",
+          "hits",
+          "Doug and the girls"
+        ],
+        "content": "The pickup comes through a crossing at the wrong moment and takes a man and two children off their feet. It goes on a hundred yards, stops, sits there with the engine running, backs up a little, and then goes.",
+        "participants": [
+          "Wes",
+          "Doug",
+          "the girls"
+        ],
+        "location": "a road crossing",
+        "pre": {
+          "wes_converted": true,
+          "lena_settled": true
+        },
+        "post": {
+          "doug_and_girls_dead": true,
+          "wes_fled": true
+        },
+        "learns": {
+          "Wes": [
+            "he has killed three people and driven away"
+          ],
+          "reader": [
+            "the accident that joins all three strands"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "a doctor",
+          "tells",
+          "Lena they are dead"
+        ],
+        "content": "She is taken into a side room off a corridor and told about her husband, and then, while she is still on the first thing, about both children.",
+        "participants": [
+          "Lena"
+        ],
+        "location": "a hospital corridor",
+        "pre": {
+          "doug_and_girls_dead": true
+        },
+        "post": {
+          "lena_bereaved": true
+        },
+        "learns": {
+          "Lena": [
+            "all three of them are gone"
+          ],
+          "reader": [
+            "the whole of her life is removed in one sentence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "a surgeon",
+          "transplants",
+          "the heart"
+        ],
+        "content": "Somewhere in the same building a chest is opened and a heart that was beating an hour ago in somebody else is put into it. He wakes in the night able to breathe, and lies there listening to it.",
+        "participants": [
+          "Aaron"
+        ],
+        "location": "an operating theatre",
+        "pre": {
+          "aaron_dying": true,
+          "doug_and_girls_dead": true
+        },
+        "post": {
+          "aaron_transplanted": true,
+          "aaron_dying": false
+        },
+        "learns": {
+          "Aaron": [
+            "he is going to live"
+          ],
+          "reader": [
+            "one family's catastrophe is another man's reprieve"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Wes",
+          "confesses",
+          "to the police"
+        ],
+        "content": "He walks up the steps of a police station on his own, waits at the counter, and tells the desk sergeant what he did at the crossing and how far he drove afterwards. He is back inside within the month.",
+        "participants": [
+          "Wes"
+        ],
+        "location": "a police station",
+        "pre": {
+          "wes_fled": true
+        },
+        "post": {
+          "wes_imprisoned": true
+        },
+        "learns": {
+          "reader": [
+            "the faith that failed to stop him is what brings him in"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Lena",
+          "returns",
+          "to cocaine"
+        ],
+        "content": "She starts again the way somebody starts a job, in the bathroom of a bar with the door locked, and then in the house, and then at the kitchen table with the girls' drawings still on the wall behind her.",
+        "participants": [
+          "Lena"
+        ],
+        "location": "bars and the suburban house",
+        "pre": {
+          "lena_bereaved": true
+        },
+        "post": {
+          "lena_using_again": true
+        },
+        "learns": {
+          "reader": [
+            "the grief is being converted into a method of dying"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what has happened to this woman?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Aaron",
+          "hires",
+          "an investigator"
+        ],
+        "content": "He cannot stop thinking about whose it was. He pays a man in a car park to find out, is told it is against every rule there is, and pays him anyway, and is handed a name and a street.",
+        "participants": [
+          "Aaron",
+          "the investigator"
+        ],
+        "location": "a car park",
+        "pre": {
+          "aaron_transplanted": true
+        },
+        "post": {
+          "donor_identified": true
+        },
+        "learns": {
+          "Aaron": [
+            "the donor's widow and where she lives"
+          ],
+          "reader": [
+            "intro:the investigator",
+            "the recipient has gone looking for the source"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Aaron",
+          "engineers",
+          "a meeting"
+        ],
+        "content": "He follows her for a week, learns which pool she swims at, and arranges to be in the water at the same hour until it stops being a coincidence. Within a fortnight he is in her house.",
+        "participants": [
+          "Aaron",
+          "Lena"
+        ],
+        "location": "a swimming pool and Lena's house",
+        "pre": {
+          "donor_identified": true,
+          "lena_using_again": true
+        },
+        "post": {
+          "aaron_and_lena_together": true
+        },
+        "learns": {
+          "reader": [
+            "the affair is begun on a lie of omission"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "does she know who he is?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Aaron",
+          "leaves",
+          "Della"
+        ],
+        "content": "He tells his wife that he is not coming back and that he does not want the child, and she says the thing that is true, which is that he is spending a life somebody else paid for.",
+        "participants": [
+          "Aaron",
+          "Della"
+        ],
+        "location": "Aaron's house",
+        "pre": {
+          "aaron_and_lena_together": true,
+          "della_seeking_a_child": true
+        },
+        "post": {
+          "aaron_left_della": true
+        },
+        "learns": {
+          "Della": [
+            "the marriage and the child are both finished"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Aaron",
+          "tells",
+          "Lena about the heart"
+        ],
+        "content": "He says it in her kitchen, badly, and she puts him out of the house that night with everything he brought. Four days later she asks him to come back, and he does.",
+        "participants": [
+          "Aaron",
+          "Lena"
+        ],
+        "location": "Lena's house",
+        "pre": {
+          "aaron_and_lena_together": true
+        },
+        "post": {
+          "lena_knows_about_the_heart": true
+        },
+        "learns": {
+          "Lena": [
+            "what is beating in his chest"
+          ],
+          "reader": [
+            "she takes him back knowing exactly what he is carrying"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Wes",
+          "leaves",
+          "Nita"
+        ],
+        "content": "Released early on somebody's recommendation, he gets as far as the gate, looks at the family waiting for him, and keeps walking. He takes a job cleaning rooms at a motel four hundred miles from any of it.",
+        "participants": [
+          "Wes",
+          "Nita"
+        ],
+        "location": "a prison gate and a roadside motel",
+        "pre": {
+          "wes_imprisoned": true
+        },
+        "post": {
+          "wes_released": true,
+          "wes_alone": true
+        },
+        "learns": {
+          "Nita": [
+            "he is not coming home"
+          ],
+          "reader": [
+            "the convert has put down the faith along with the family"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Lena",
+          "demands",
+          "that Wes be killed"
+        ],
+        "content": "She says she cannot go on breathing in the same country as him, and keeps saying it until it is the only thing in the house. He buys a pistol from a man in a lock-up and drives out to the motel with it under the seat.",
+        "participants": [
+          "Lena",
+          "Aaron"
+        ],
+        "location": "Lena's house and the road",
+        "pre": {
+          "lena_knows_about_the_heart": true,
+          "wes_released": true
+        },
+        "post": {
+          "aaron_armed": true
+        },
+        "learns": {
+          "reader": [
+            "the grief has finally found something to do"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why do these two want a man they have never met dead?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Aaron",
+          "wounds",
+          "Wes"
+        ],
+        "content": "He gets him against a wall in the dark behind the motel and cannot make his hand do it. The shot goes somewhere it will not kill, and he stands over him telling him to get up and run.",
+        "participants": [
+          "Aaron",
+          "Wes"
+        ],
+        "location": "behind the motel",
+        "pre": {
+          "aaron_armed": true
+        },
+        "post": {
+          "wes_wounded": true
+        },
+        "learns": {
+          "Wes": [
+            "the man came a long way to do this and could not"
+          ],
+          "reader": [
+            "the execution fails on the trigger"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Wes",
+          "asks",
+          "Aaron to finish it"
+        ],
+        "content": "He follows the two of them back to their own room, bleeding through his shirt, and stands in the doorway asking to be finished. The other man turns the gun round and puts it into his own chest instead.",
+        "participants": [
+          "Aaron",
+          "Lena",
+          "Wes"
+        ],
+        "location": "a motel room",
+        "pre": {
+          "wes_wounded": true
+        },
+        "post": {
+          "aaron_shot_himself": true
+        },
+        "learns": {
+          "reader": [
+            "the only man who wanted to die is the one left standing"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "does any of the three of them come out of this room?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the three",
+          "reach",
+          "a hospital"
+        ],
+        "content": "They get him into a car and drive with the horn down, and the borrowed heart stops on the table anyway. The other man goes back to the family he walked out on, and the woman goes home on her own carrying something.",
+        "participants": [
+          "Aaron",
+          "Lena",
+          "Wes"
+        ],
+        "location": "a hospital",
+        "pre": {
+          "aaron_shot_himself": true
+        },
+        "post": {
+          "aaron_dead": true,
+          "lena_pregnant": true
+        },
+        "learns": {
+          "reader": [
+            "the heart that came out of the crossing goes back into the ground"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the man who drove away from the crossing"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e18"
+      }
+    ]
+  }
+}

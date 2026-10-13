@@ -1,0 +1,976 @@
+{
+  "story_id": "S29",
+  "source_index": 29,
+  "genre": "Mystery, Thriller, Neo-noir",
+  "source": "Film",
+  "events_chronological": [
+    "Saxophonist Alden Frey suspects his wife Lorna of an affair and cannot reach her in bed or anywhere else.",
+    "Unmarked tapes begin turning up at the door, showing first the outside of the house, then its rooms, then the two of them asleep.",
+    "At a party Alden meets a pale stranger who tells him he is inside Alden's house at that moment and hands him a phone that proves it.",
+    "A tape arrives showing Alden standing over Lorna's dismembered body.",
+    "Alden is convicted of her murder and put on death row.",
+    "Blinding headaches take hold in the cell, and one morning Alden is gone and a young mechanic named Cully Boone is in his place.",
+    "Baffled police release Cully to his parents, who will not say what they saw the night he appeared.",
+    "Cully goes back to work at the garage, where the gangster Mr. Vance is a favoured customer.",
+    "Mr. Vance brings his girlfriend Sunny Keele, Lorna's double as a blonde, to the garage, and she and Cully begin an affair.",
+    "Sunny tells Cully that Mr. Vance - the pornographer Rolf Dane - forced her into his films at gunpoint.",
+    "Mr. Vance telephones Cully and puts the pale stranger on to explain what happens to men who sleep with his girlfriend.",
+    "Sunny talks Cully into robbing and killing the fence Perry so the two of them can run.",
+    "Cully kills Perry by accident and sees a photograph of Sunny and Lorna together in Mr. Vance's world.",
+    "Sunny and Cully drive to a cabin in the desert and have sex on the sand, and she tells him he will never have her.",
+    "Sunny walks into the cabin and the man who stands up outside is Alden Frey again.",
+    "The pale stranger films Alden at the cabin and tells him that the woman's name is Lorna.",
+    "Alden takes Mr. Vance into the desert, cuts his throat with the stranger's help, and is shown a screen playing his own life back at him.",
+    "Alden drives to his own house and speaks into the intercom the words the film opened with: \"Rolf Dane is dead.\"",
+    "The police give chase down the road as Alden's face distorts and the film ends where it began."
+  ],
+  "syuzhet_order": [
+    18,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    11,
+    12,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "Forward throughout apart from the opening, which is the later scene the loop closes on.",
+  "syuzhet_notes": "The film is a closed loop: told-order bullet 1 is the husband hearing through his own intercom the message that told-order bullet 18 shows him delivering, so the first scene is caused by the second-to-last. Apart from that closure the telling runs forward, but it runs forward through a transformation that swaps one protagonist for another at told-order bullet 7 and swaps back at bullet 16, leaving the two halves impossible to lay on one timeline with any confidence.",
+  "fabula_notes": "The film offers no account of the transformation, so this chronology treats it as literal succession, which is one reading among several; the common alternative is that the mechanic material is a fugue constructed on death row, in which case bullets 7-15 are not later than bullets 5-6 but simultaneous with them. Whether the two women are the same woman is deliberately unresolved.",
+  "story_graph": {
+    "characters": {
+      "Alden": {
+        "archetype": "Hero"
+      },
+      "Lorna": {
+        "archetype": "Shapeshifter"
+      },
+      "the pale stranger": {
+        "archetype": "Shadow"
+      },
+      "Cully": {
+        "archetype": "Hero"
+      },
+      "Mr. Vance": {
+        "archetype": "Shadow"
+      },
+      "Sunny": {
+        "archetype": "Shapeshifter"
+      },
+      "Perry": {
+        "archetype": "Threshold Guardian"
+      },
+      "Cully's parents": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Alden",
+          "suspects",
+          "Lorna"
+        ],
+        "content": "He plays four sets a night and comes home to a woman who is always already asleep, and the questions he asks her are answered in a way that closes them rather than settles them.",
+        "participants": [
+          "Alden",
+          "Lorna"
+        ],
+        "location": "the Frey house",
+        "pre": {},
+        "post": {
+          "marriage_cold": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Alden",
+            "intro:Lorna",
+            "a marriage in which one person is being watched by the other"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the tapes",
+          "arrive",
+          "at the door"
+        ],
+        "content": "First the front of the house from across the road. Then the hall and the stairs. Then the bedroom, and the two of them in it, filmed from a foot away while they slept.",
+        "participants": [
+          "Alden",
+          "Lorna"
+        ],
+        "location": "the Frey house",
+        "pre": {
+          "marriage_cold": true
+        },
+        "post": {
+          "tapes_arriving": true
+        },
+        "learns": {
+          "reader": [
+            "somebody has been inside, repeatedly, and left proof"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "who is making these tapes?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the pale stranger",
+          "speaks",
+          "to Alden"
+        ],
+        "content": "A man with no eyebrows says he has met him before, at this house, and that he is at the house right now - and hands over a telephone on which his own voice answers.",
+        "participants": [
+          "Alden",
+          "the pale stranger"
+        ],
+        "location": "a party in the hills",
+        "pre": {
+          "tapes_arriving": true
+        },
+        "post": {
+          "stranger_met": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the pale stranger",
+            "the film's one openly impossible figure"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q8": "what is the pale man?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "a tape",
+          "shows",
+          "Lorna's body"
+        ],
+        "content": "The last tape is of the bedroom again. In it a man is kneeling on the floor over what is left of his wife, and the man is him.",
+        "participants": [
+          "Alden",
+          "Lorna"
+        ],
+        "location": "the Frey house",
+        "pre": {
+          "stranger_met": true
+        },
+        "post": {
+          "lorna_dead": true
+        },
+        "learns": {
+          "Alden": [
+            "his wife is dead and the film says he did it"
+          ],
+          "reader": [
+            "the murder, delivered as footage rather than as an event"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q5": "who actually killed her?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the court",
+          "condemns",
+          "Alden"
+        ],
+        "content": "He cannot account for the night and there is a tape of it, so it takes very little time, and then there is a corridor and a door and a small room with a window in it.",
+        "participants": [
+          "Alden"
+        ],
+        "location": "a courtroom and a prison",
+        "pre": {
+          "lorna_dead": true
+        },
+        "post": {
+          "alden_condemned": true
+        },
+        "learns": {
+          "reader": [
+            "the man is closed into a box, which is where the film changes"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Alden",
+          "becomes",
+          "Cully"
+        ],
+        "content": "Headaches that put him on the floor of the cell for three nights, and on the fourth the guard looks through the slot and there is a different, younger man sitting on the bunk.",
+        "participants": [
+          "Alden",
+          "Cully"
+        ],
+        "location": "a prison cell",
+        "pre": {
+          "alden_condemned": true
+        },
+        "post": {
+          "cully_in_the_cell": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Cully",
+            "the substitution, offered without explanation"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what happened to the man who was in that cell?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the police",
+          "release",
+          "Cully"
+        ],
+        "content": "There is no charge that fits, so he goes home to a mother and father who will not discuss the night he turned up, and who watch him eat.",
+        "participants": [
+          "Cully",
+          "Cully's parents"
+        ],
+        "location": "the Boone house",
+        "pre": {
+          "cully_in_the_cell": true
+        },
+        "post": {
+          "cully_released": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Cully's parents",
+            "somebody knows something and will not say it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Cully",
+          "returns",
+          "to the garage"
+        ],
+        "content": "He is good with engines and the work is waiting for him, and among the regulars is a man everyone is careful around, who pays in cash and is never billed.",
+        "participants": [
+          "Cully",
+          "Mr. Vance"
+        ],
+        "location": "a garage",
+        "pre": {
+          "cully_released": true
+        },
+        "post": {
+          "cully_at_the_garage": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Mr. Vance",
+            "the second half assembles its own cast"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Cully and Sunny",
+          "begin",
+          "an affair"
+        ],
+        "content": "The man brings a blonde in on the passenger seat and she looks at the mechanic while her hand is on the other man's leg, and within a week there is a motel.",
+        "participants": [
+          "Cully",
+          "Sunny",
+          "Mr. Vance"
+        ],
+        "location": "a garage and a motel",
+        "pre": {
+          "cully_at_the_garage": true
+        },
+        "post": {
+          "affair_begun": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Sunny",
+            "the dead wife's face, on somebody else, in the other half of the film"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "who is this second woman?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Sunny",
+          "tells",
+          "her story"
+        ],
+        "content": "She says the man is a pornographer under another name, and that the first film she made for him was made with a gun on the table, and that she has been his ever since.",
+        "participants": [
+          "Cully",
+          "Sunny"
+        ],
+        "location": "a motel room",
+        "pre": {
+          "affair_begun": true
+        },
+        "post": {
+          "sunny_story_told": true
+        },
+        "learns": {
+          "Cully": [
+            "there is a reason to kill the man"
+          ],
+          "reader": [
+            "the account she gives, which may be an account rather than the truth"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Mr. Vance",
+          "warns",
+          "Cully"
+        ],
+        "content": "The telephone rings in the garage and the voice explains, pleasantly, what is done to men who touch what belongs to him, and then puts the pale stranger on to say it again.",
+        "participants": [
+          "Cully",
+          "Mr. Vance",
+          "the pale stranger"
+        ],
+        "location": "a garage",
+        "pre": {
+          "sunny_story_told": true
+        },
+        "post": {
+          "cully_warned": true
+        },
+        "learns": {
+          "reader": [
+            "the two halves of the film are using the same telephone"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Sunny",
+          "proposes",
+          "the robbery"
+        ],
+        "content": "She has a fence with a safe and a habit of being alone in it. She talks it through until it sounds like the only way either of them gets out.",
+        "participants": [
+          "Cully",
+          "Sunny",
+          "Perry"
+        ],
+        "location": "a motel room",
+        "pre": {
+          "cully_warned": true
+        },
+        "post": {
+          "robbery_planned": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Perry",
+            "she is steering, and he is being steered"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Cully",
+          "kills",
+          "Perry"
+        ],
+        "content": "It goes wrong in the first ten seconds, and afterwards there is a man on a glass table and a photograph on the wall of two blondes standing either side of the pornographer.",
+        "participants": [
+          "Cully",
+          "Sunny",
+          "Perry",
+          "Mr. Vance"
+        ],
+        "location": "the fence's house",
+        "pre": {
+          "robbery_planned": true
+        },
+        "post": {
+          "perry_dead": true,
+          "photograph_seen": true
+        },
+        "learns": {
+          "Cully": [
+            "the two women are in the same photograph"
+          ],
+          "reader": [
+            "the film's one piece of hard evidence that the halves are joined"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Cully and Sunny",
+          "reach",
+          "the cabin"
+        ],
+        "content": "Headlights out in the desert, a shack with a generator, and sand. Afterwards she says into his ear that he will never have her, and goes inside.",
+        "participants": [
+          "Cully",
+          "Sunny"
+        ],
+        "location": "a desert cabin",
+        "pre": {
+          "perry_dead": true
+        },
+        "post": {
+          "at_the_cabin": true
+        },
+        "learns": {
+          "reader": [
+            "the refusal, which is the last thing said to the mechanic"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Cully",
+          "becomes",
+          "Alden"
+        ],
+        "content": "She walks into the cabin. The man who gets up off the sand a moment later, in the same clothes, is the saxophonist, and the film has changed back without comment.",
+        "participants": [
+          "Cully",
+          "Alden",
+          "Sunny"
+        ],
+        "location": "a desert cabin",
+        "pre": {
+          "at_the_cabin": true
+        },
+        "post": {
+          "alden_restored": true
+        },
+        "learns": {
+          "reader": [
+            "the second substitution, closing the detour"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the pale stranger",
+          "films",
+          "Alden"
+        ],
+        "content": "He is standing outside the cabin with a camera already running, and he asks the question the film has been avoiding, and answers it himself with the dead wife's name.",
+        "participants": [
+          "Alden",
+          "the pale stranger"
+        ],
+        "location": "outside a desert cabin",
+        "pre": {
+          "alden_restored": true
+        },
+        "post": {
+          "name_given": true
+        },
+        "learns": {
+          "Alden": [
+            "the woman he has been with has the name of the woman he killed"
+          ],
+          "reader": [
+            "the two women are named as one, and nothing is explained by it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Alden",
+          "kills",
+          "Mr. Vance"
+        ],
+        "content": "He takes him out into the desert, opens his throat with help, and is then shown his own life on a screen held up in front of him in the dark.",
+        "participants": [
+          "Alden",
+          "Mr. Vance",
+          "the pale stranger"
+        ],
+        "location": "the desert",
+        "pre": {
+          "name_given": true
+        },
+        "post": {
+          "vance_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the revenge, and the film watching itself while it happens"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Alden",
+          "speaks",
+          "into his own intercom"
+        ],
+        "content": "He drives to the house he used to live in, presses the button at the gate, and says four words to whoever is inside - which is himself, at the beginning of the film.",
+        "participants": [
+          "Alden"
+        ],
+        "location": "the Frey house",
+        "pre": {
+          "vance_dead": true
+        },
+        "post": {
+          "message_delivered": true
+        },
+        "learns": {
+          "reader": [
+            "the loop closes: the film's first line is spoken by its last scene"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q3",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what do these four words mean, and who is saying them?",
+          "q2": "whose house is this?",
+          "q3": "what happened in this house?",
+          "q9": "where does this road go?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the police",
+          "chase",
+          "Alden"
+        ],
+        "content": "Two cars behind him on a black road with the white line coming at the screen, and his face going through changes that the headlights do not account for.",
+        "participants": [
+          "Alden"
+        ],
+        "location": "a night highway",
+        "pre": {
+          "message_delivered": true
+        },
+        "post": {
+          "chase_begun": true
+        },
+        "learns": {
+          "reader": [
+            "the ending, which is also the beginning, and is not a resolution"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e13",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the house, lived in and then filmed"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the surveillance and the man who admits to it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the party and the tape that follows it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the murder and the conviction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the cell"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the young man nobody can account for"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the mechanic's ordinary life, resumed"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the garage and the woman brought into it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the motel"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the pornographer, described and then heard"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the threat and the plan made under it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the fence's house"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the flight into the desert"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the cabin, and the two men outside it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the saxophonist, restored and then named to"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the pale man, filming and then assisting"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the killing and the message announcing it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the gate and the road away from it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "the same intercom, heard at the start and spoken into at the end"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e16",
+        "on": "the same name, given to two women"
+      }
+    ]
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "story_id": "S52",
+  "source_index": 52,
+  "genre": "Drama, War, Romance",
+  "source": "Novel",
+  "events_chronological": [
+    "Dreading conscription, a young man and his closest friend agree to end their lives together; the friend dies and the young man is discovered still breathing.",
+    "The survivor is convicted over the death and taken away to serve a sentence.",
+    "A typist starts an affair with a soldier who has a wife at home, meeting him on packed trains and in unlit streets.",
+    "Steering an ambulance through a night of bombing, a woman in trousers pulls another woman out of a house that has come down.",
+    "The two women become lovers in the weeks that follow the rescue.",
+    "The pair share a flat, one of them jealous of everyone the other knew first and lying about small things.",
+    "The younger of the two meets an old lover of her partner's, and the two of them start an affair kept carefully hidden.",
+    "The typist bleeds badly after a backstreet termination in a hired room, and the soldier walks out and leaves her there.",
+    "The ambulance driver finds her bleeding, gets her to a hospital, and slides her own gold band onto the girl's finger so the nurses will assume a husband.",
+    "The convicted man shares a cell with an objector who keeps pressing him about what he is really being punished for.",
+    "The ambulance driver lodges alone in a rented room, walking the streets in men's clothes with nothing left to occupy her.",
+    "The two lovers live together while one of them goes through the other's pockets and letters hunting for a betrayal she cannot name.",
+    "The typist takes a desk at a marriage agency and still meets her soldier in hotel rooms, the borrowed gold band shut in a drawer.",
+    "The released man keeps house for an elderly lodger until the objector from his cell arrives at the door and unsettles the whole arrangement."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    13,
+    14,
+    6,
+    7,
+    8,
+    9,
+    10,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. The three dated parts run 1947, 1944, 1941; each part moves forward inside itself, but every part is earlier than the one before it.",
+  "syuzhet_notes": "The story is in three dated parts running backwards: the latest year first, then the middle years, then the earliest. The opening four bullets are the aftermath, the middle five the war years that produced it, and the last five the beginning of everything.",
+  "fabula_notes": "Chronology is unambiguous because each part carries a date. Within a part the narration moves forward, so the reversal operates on the parts rather than on individual scenes.",
+  "story_graph": {
+    "characters": {
+      "the young survivor": {
+        "archetype": "Hero"
+      },
+      "his closest friend": {
+        "archetype": "Herald"
+      },
+      "the objector": {
+        "archetype": "Mentor"
+      },
+      "the elderly lodger": {
+        "archetype": "Threshold Guardian"
+      },
+      "the typist": {
+        "archetype": "Hero"
+      },
+      "the soldier": {
+        "archetype": "Shadow"
+      },
+      "the ambulance driver": {
+        "archetype": "Hero"
+      },
+      "the rescued woman": {
+        "archetype": "Shapeshifter"
+      },
+      "the old lover": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the young survivor and his closest friend",
+          "attempt",
+          "suicide together"
+        ],
+        "content": "Fear of conscription leads the two men to a pact that kills one and leaves the other alive to face a legal account of their private decision.",
+        "participants": [
+          "the young survivor",
+          "his closest friend"
+        ],
+        "location": "a private room before wartime service",
+        "pre": {},
+        "post": {
+          "friend_dead": true,
+          "survivor_found_alive": true
+        },
+        "learns": {
+          "the young survivor": [
+            "his closest friend has died while he survived"
+          ],
+          "reader": [
+            "the later conviction begins in a failed joint suicide rather than an intended murder"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "a court",
+          "convicts",
+          "the young survivor"
+        ],
+        "content": "Public judgment translates the pact into criminal responsibility and removes him from the war into a different confined life.",
+        "participants": [
+          "the young survivor"
+        ],
+        "location": "a courtroom and prison transport",
+        "pre": {
+          "friend_dead": true,
+          "survivor_found_alive": true
+        },
+        "post": {
+          "survivor_imprisoned": true
+        },
+        "learns": {
+          "the young survivor": [
+            "the court holds him responsible for his friend's death"
+          ],
+          "reader": [
+            "the survivor enters prison carrying grief and disputed guilt"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the typist",
+          "begins",
+          "an affair with a married soldier"
+        ],
+        "content": "Packed trains and dark streets give the pair temporary cover, while his wife remains an absent fact structuring every meeting.",
+        "participants": [
+          "the typist",
+          "the soldier"
+        ],
+        "location": "wartime trains and streets",
+        "pre": {},
+        "post": {
+          "typist_soldier_affair": true
+        },
+        "learns": {
+          "the typist": [
+            "the soldier will continue seeing her despite his marriage"
+          ],
+          "reader": [
+            "the affair begins under wartime secrecy and unequal commitments"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the ambulance driver",
+          "rescues",
+          "the trapped woman"
+        ],
+        "content": "During a bombing she steers through debris and pulls a stranger from a collapsed house, creating intimacy through immediate physical dependence.",
+        "participants": [
+          "the ambulance driver",
+          "the rescued woman"
+        ],
+        "location": "a bombed city street",
+        "pre": {},
+        "post": {
+          "woman_rescued": true
+        },
+        "learns": {
+          "the rescued woman": [
+            "the ambulance driver risked herself to save her"
+          ],
+          "reader": [
+            "the two women's relationship begins in a rescue"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the two women",
+          "become",
+          "lovers"
+        ],
+        "content": "In the weeks after the bombing, gratitude and proximity develop into a shared emotional life shaped by the dangers surrounding them.",
+        "participants": [
+          "the ambulance driver",
+          "the rescued woman"
+        ],
+        "location": "wartime rooms and streets",
+        "pre": {
+          "woman_rescued": true
+        },
+        "post": {
+          "driver_rescued_woman_together": true
+        },
+        "learns": {
+          "the ambulance driver": [
+            "the rescued woman returns her affection"
+          ],
+          "the rescued woman": [
+            "the relationship offers safety after the bombing"
+          ],
+          "reader": [
+            "the rescue becomes a partnership"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the couple",
+          "share",
+          "a jealous household"
+        ],
+        "content": "Possessiveness, small lies and scrutiny of earlier attachments erode the trust on which their intense wartime bond depends.",
+        "participants": [
+          "the ambulance driver",
+          "the rescued woman"
+        ],
+        "location": "the women's shared flat",
+        "pre": {
+          "driver_rescued_woman_together": true
+        },
+        "post": {
+          "relationship_jealous": true
+        },
+        "learns": {
+          "the rescued woman": [
+            "her partner is jealous of anyone who knew her first"
+          ],
+          "reader": [
+            "the shared flat turns protection into surveillance"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the rescued woman",
+          "starts",
+          "a hidden affair with the old lover"
+        ],
+        "content": "Meeting someone from her partner's past produces the betrayal the jealous household has been anticipating without being able to name.",
+        "participants": [
+          "the rescued woman",
+          "the old lover"
+        ],
+        "location": "wartime meeting places",
+        "pre": {
+          "relationship_jealous": true
+        },
+        "post": {
+          "second_affair_started": true
+        },
+        "learns": {
+          "the rescued woman": [
+            "the old lover will keep their meetings secret"
+          ],
+          "reader": [
+            "the driver's old attachment becomes her partner's new affair"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the typist",
+          "haemorrhages after",
+          "a backstreet termination"
+        ],
+        "content": "The soldier abandons her in a hired room when the unsafe procedure goes wrong, exposing how little protection the affair ever offered.",
+        "participants": [
+          "the typist",
+          "the soldier"
+        ],
+        "location": "a hired room",
+        "pre": {
+          "typist_soldier_affair": true
+        },
+        "post": {
+          "typist_haemorrhaging": true,
+          "soldier_abandoned_typist": true
+        },
+        "learns": {
+          "the typist": [
+            "the soldier will leave when her life is in danger"
+          ],
+          "reader": [
+            "the affair's pregnancy ends in a medical emergency"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "will anyone return in time to save the bleeding typist?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the ambulance driver",
+          "saves",
+          "the typist"
+        ],
+        "content": "She transports the bleeding woman to hospital and uses her own ring to invent a husband the institution will respect.",
+        "participants": [
+          "the ambulance driver",
+          "the typist"
+        ],
+        "location": "an ambulance and hospital",
+        "pre": {
+          "typist_haemorrhaging": true
+        },
+        "post": {
+          "typist_hospitalised": true,
+          "ring_lent": true
+        },
+        "learns": {
+          "the typist": [
+            "the ambulance driver has given her a ring to secure treatment"
+          ],
+          "reader": [
+            "the borrowed ring joins two otherwise separate wartime lives"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6",
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the objector",
+          "questions",
+          "the convicted man"
+        ],
+        "content": "In their cell, the objector refuses the official version of guilt and presses the survivor to distinguish punishment from what he believes he did.",
+        "participants": [
+          "the young survivor",
+          "the objector"
+        ],
+        "location": "a prison cell",
+        "pre": {
+          "survivor_imprisoned": true
+        },
+        "post": {
+          "objector_knows_survivor": true
+        },
+        "learns": {
+          "the young survivor": [
+            "the objector sees unresolved truth beneath the conviction"
+          ],
+          "reader": [
+            "the prison relationship is built around the survivor's unspoken account"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the ambulance driver",
+          "lives",
+          "alone"
+        ],
+        "content": "After the war and the relationships it intensified, she walks in men's clothes through a city that offers no role equal to the urgency she once had.",
+        "participants": [
+          "the ambulance driver"
+        ],
+        "location": "a rented room and city streets",
+        "pre": {
+          "second_affair_started": true
+        },
+        "post": {
+          "driver_alone": true
+        },
+        "learns": {
+          "reader": [
+            "the ambulance driver's wartime partnership has ended and left her directionless"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what first connected the lonely ambulance driver to the woman she lost?",
+          "q4": "who once shared the ambulance driver's life?",
+          "q5": "what betrayal left the ambulance driver alone?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the rescued woman and the old lover",
+          "live",
+          "under suspicion"
+        ],
+        "content": "Their hidden wartime affair has become a household, but searching pockets and letters reproduces the jealousy through which it began.",
+        "participants": [
+          "the rescued woman",
+          "the old lover"
+        ],
+        "location": "the new couple's home",
+        "pre": {
+          "second_affair_started": true
+        },
+        "post": {
+          "new_couple_distrustful": true
+        },
+        "learns": {
+          "the rescued woman": [
+            "a relationship founded in secrecy does not make secrecy disappear"
+          ],
+          "reader": [
+            "the new couple inherit the old household's distrust"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the typist",
+          "keeps",
+          "the borrowed ring hidden"
+        ],
+        "content": "At a marriage agency she arranges other people's respectable futures while still meeting the married soldier, the evidence of her rescue shut in a drawer.",
+        "participants": [
+          "the typist",
+          "the soldier"
+        ],
+        "location": "a marriage agency and hotel rooms",
+        "pre": {
+          "typist_hospitalised": true,
+          "ring_lent": true
+        },
+        "post": {
+          "typist_affair_continues": true
+        },
+        "learns": {
+          "reader": [
+            "survival did not end the typist's attachment to the man who abandoned her"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "how did the typist's continuing affair with the soldier begin?",
+          "q6": "why is the gold band hidden in the typist's drawer?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the objector",
+          "returns to",
+          "the released man"
+        ],
+        "content": "The former prisoner has made a narrow domestic life caring for an elderly lodger when the person who knows his hidden past arrives and unsettles its fragile order.",
+        "participants": [
+          "the young survivor",
+          "the objector",
+          "the elderly lodger"
+        ],
+        "location": "the elderly lodger's house",
+        "pre": {
+          "objector_knows_survivor": true
+        },
+        "post": {
+          "objector_returned": true
+        },
+        "learns": {
+          "the young survivor": [
+            "the objector has found him after prison"
+          ],
+          "reader": [
+            "the released man's quiet household cannot exclude the unresolved conviction"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what act still binds the released man to the objector from prison?",
+          "q7": "how do the objector and the released man know one another?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the pact and resulting conviction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14",
+        "on": "the released man's hidden past"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10",
+        "on": "the convicted survivor in prison"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "the typist's affair and pregnancy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e13",
+        "on": "the typist's continuing meetings with the soldier"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the rescue that begins the relationship"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e9",
+        "on": "the ambulance driver's wartime rescue work"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the women's shared relationship"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e11",
+        "on": "the ambulance driver's lost partnership"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "jealousy and the hidden affair"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e12",
+        "on": "jealousy repeated in two households"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e11",
+        "on": "the affair that leaves the driver alone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e12",
+        "on": "the affair becoming a household"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the typist's medical crisis"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e13",
+        "on": "the borrowed gold ring"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "the two former cellmates"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the two households after the original couple separates"
+      }
+    ]
+  }
+}

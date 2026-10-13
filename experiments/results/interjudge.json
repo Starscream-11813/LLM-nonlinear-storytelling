@@ -1,0 +1,9 @@
+{
+ "n_pairs": 93,
+ "judge_a": "Claude Opus 5",
+ "judge_b": "Gemini 3.1 Pro",
+ "pearson_tau": 0.8953509324337888,
+ "mean_abs_diff": 0.04376458751770847,
+ "mean_a": 0.753602538921624,
+ "mean_b": 0.7311376691782163
+}

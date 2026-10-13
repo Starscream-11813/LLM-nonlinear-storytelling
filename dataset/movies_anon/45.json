@@ -1,0 +1,1027 @@
+{
+  "story_id": "S45",
+  "source_index": 45,
+  "genre": "Crime, Comedy",
+  "source": "Film",
+  "events_chronological": [
+    "Solly Two Coats and his crew rob a diamond house in a northern port dressed as devout pilgrims and walk out with a huge stone.",
+    "His cousin Marv, overseas, tells Solly to bring the stone straight over.",
+    "Grigor the Nail tells Solly about a bookmaker's in the city and simultaneously tips off the pawnbrokers Ike and Benno to rob him there.",
+    "Boxing promoters Halloway and Digby send the fighter Pretty Sam to buy a caravan from a camp of travellers.",
+    "The bare-knuckle fighter Finn knocks Sam out over the deal, leaving Halloway without a man for the gang boss Coldstone's fixed bout.",
+    "Halloway has to put Finn in the fight instead, and promises Coldstone that Finn will go down in the fourth round.",
+    "Solly lands in the city, delivers the stone to the fence Hersch, and heads for the bookmaker's to bet on the fight.",
+    "Ike, Benno and Tulley bungle the robbery, take Solly's arm and his case, and are chased off by Grigor.",
+    "Finn knocks his opponent out cold in the first round, and Coldstone loses a fortune and takes it out on Halloway.",
+    "Marv flies in, finds Solly gone, and hires the bounty hunter Ledge to find him.",
+    "Grigor takes Solly, cuts off his arm to get the case open, and finds that the stone is not inside it.",
+    "Ledge traces the pawnbrokers, shoots their car to pieces and takes both them and the stone.",
+    "Coldstone feeds Solly to his pigs and tells Halloway and Digby what will happen to them if the second fight goes wrong.",
+    "Halloway and Digby tell Finn to go down in the fourth, and Coldstone's men burn Finn's mother to death in her caravan.",
+    "Grigor ambushes Ledge's car with Ike and Benno inside, and in the shootout Ledge, Grigor and Benno are all killed.",
+    "Tulley gets away with the dog that has swallowed the diamond.",
+    "Finn knocks his opponent out again in the fourth round, and the travellers massacre Coldstone's men in the crowd.",
+    "Halloway and Digby find Coldstone and shoot him, and by morning the travellers have vanished.",
+    "The dog is handed in at a pet shop, coughs up the diamond, and Halloway and Digby end up holding it."
+  ],
+  "syuzhet_order": [
+    1,
+    4,
+    5,
+    2,
+    6,
+    3,
+    7,
+    9,
+    8,
+    10,
+    11,
+    13,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    14,
+    15,
+    15,
+    16
+  ],
+  "nonlinear_category": "CHRONICLE",
+  "nonlinear_category_reason": "Three largely simultaneous strands cut sideways, so the only inversions are between concurrent events the narrator introduces when they become useful.",
+  "syuzhet_notes": "One of the promoters narrates in retrospect and introduces characters with freeze-frames and captions at the moment they become useful rather than when they first appear, so the film jumps sideways between three largely simultaneous strands - the diamond, the fights, the pawnbrokers. Told-order bullets 4 and 6 drop back to set up men already on screen, and bullet 8 shows the fight that the robbery at bullet 9 was timed to coincide with.",
+  "fabula_notes": "The three strands overlap heavily and the film supplies no dates, so the ordering rests on its two fixed points - the two fights - and on who is holding the stone at any moment. The thief's fate and the dog's route to the pet shop are both established after the fact rather than shown in sequence.",
+  "story_graph": {
+    "characters": {
+      "Solly Two Coats": {
+        "archetype": "Herald"
+      },
+      "Marv": {
+        "archetype": "Shadow"
+      },
+      "Grigor the Nail": {
+        "archetype": "Shadow"
+      },
+      "Halloway": {
+        "archetype": "Hero"
+      },
+      "Digby": {
+        "archetype": "Ally"
+      },
+      "Pretty Sam": {
+        "archetype": "Threshold Guardian"
+      },
+      "Finn": {
+        "archetype": "Hero"
+      },
+      "Coldstone": {
+        "archetype": "Shadow"
+      },
+      "Hersch": {
+        "archetype": "Threshold Guardian"
+      },
+      "Ike": {
+        "archetype": "Trickster"
+      },
+      "Benno": {
+        "archetype": "Trickster"
+      },
+      "Tulley": {
+        "archetype": "Trickster"
+      },
+      "Ledge": {
+        "archetype": "Shapeshifter"
+      },
+      "the travellers": {
+        "archetype": "Ally"
+      },
+      "Finn's mother": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the dog": {
+        "archetype": "Trickster"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Solly Two Coats and his crew",
+          "steal",
+          "a large diamond"
+        ],
+        "content": "Disguised as pilgrims, the robbers cross a guarded showroom before dropping the disguise and escaping with one exceptional stone.",
+        "participants": [
+          "Solly Two Coats"
+        ],
+        "location": "a diamond house in a northern port",
+        "pre": {},
+        "post": {
+          "diamond_stolen": true
+        },
+        "learns": {
+          "reader": [
+            "Solly Two Coats has the diamond and intends to move it overseas"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who finally ends up with the stolen diamond?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Marv",
+          "orders",
+          "the diamond delivered"
+        ],
+        "content": "A terse call from overseas turns the theft into a delivery job and establishes that Solly is answerable to his cousin.",
+        "participants": [
+          "Solly Two Coats",
+          "Marv"
+        ],
+        "location": "two cities linked by telephone",
+        "pre": {
+          "diamond_stolen": true
+        },
+        "post": {
+          "delivery_ordered": true
+        },
+        "learns": {
+          "Solly Two Coats": [
+            "Marv expects the stone immediately"
+          ],
+          "reader": [
+            "Marv is waiting for the stolen diamond"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Grigor the Nail",
+          "sets up",
+          "a bookmaker robbery"
+        ],
+        "content": "Grigor points Solly toward a wager while separately giving three inept thieves the same address, arranging a collision that neither side understands.",
+        "participants": [
+          "Solly Two Coats",
+          "Grigor the Nail",
+          "Ike",
+          "Benno"
+        ],
+        "location": "the city underworld",
+        "pre": {
+          "delivery_ordered": true
+        },
+        "post": {
+          "bookmaker_robbery_planned": true
+        },
+        "learns": {
+          "Solly Two Coats": [
+            "a bookmaker will take his wager"
+          ],
+          "Ike": [
+            "Grigor wants the bookmaker robbed"
+          ],
+          "Benno": [
+            "Grigor wants the bookmaker robbed"
+          ],
+          "reader": [
+            "Grigor has deliberately put both parties on the same path"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Halloway and Digby",
+          "send",
+          "Pretty Sam for a caravan"
+        ],
+        "content": "The promoters expect a routine purchase at the travellers' camp and discover too late that their fighter treats the residents with contempt.",
+        "participants": [
+          "Halloway",
+          "Digby",
+          "Pretty Sam",
+          "Finn",
+          "the travellers"
+        ],
+        "location": "a travellers' camp",
+        "pre": {},
+        "post": {
+          "caravan_deal_attempted": true
+        },
+        "learns": {
+          "reader": [
+            "the promoters need a caravan and rely on Pretty Sam to handle the deal"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Finn",
+          "knocks out",
+          "Pretty Sam"
+        ],
+        "content": "A quarrel over the caravan ends with the professional fighter unconscious and an unlicensed bare-knuckle fighter standing over him.",
+        "participants": [
+          "Finn",
+          "Pretty Sam",
+          "Halloway",
+          "Digby",
+          "the travellers"
+        ],
+        "location": "a travellers' camp",
+        "pre": {
+          "caravan_deal_attempted": true
+        },
+        "post": {
+          "pretty_sam_unavailable": true
+        },
+        "learns": {
+          "Halloway": [
+            "Finn can hit much harder than expected"
+          ],
+          "Digby": [
+            "their contracted fighter cannot compete"
+          ],
+          "reader": [
+            "Finn has accidentally become the promoters' only usable fighter"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Halloway",
+          "promises",
+          "a fourth-round loss"
+        ],
+        "content": "With no replacement acceptable to the gang boss, Halloway stakes his safety on making the unpredictable Finn take a dive at an exact moment.",
+        "participants": [
+          "Halloway",
+          "Digby",
+          "Finn",
+          "Coldstone"
+        ],
+        "location": "Coldstone's office",
+        "pre": {
+          "pretty_sam_unavailable": true
+        },
+        "post": {
+          "first_fight_fixed": true
+        },
+        "learns": {
+          "Finn": [
+            "he is expected to lose in the fourth round"
+          ],
+          "Coldstone": [
+            "Halloway guarantees the result"
+          ],
+          "reader": [
+            "the promoters' lives now depend on controlling Finn"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "will Finn obey the first fix?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Solly Two Coats",
+          "hands over",
+          "the diamond"
+        ],
+        "content": "Solly places the stone with a fence for safekeeping and carries an apparently valuable case to the bookmaker, making himself a visible target without carrying the prize.",
+        "participants": [
+          "Solly Two Coats",
+          "Hersch"
+        ],
+        "location": "Hersch's workshop and a bookmaker's shop",
+        "pre": {
+          "diamond_stolen": true,
+          "bookmaker_robbery_planned": true
+        },
+        "post": {
+          "diamond_with_hersch": true,
+          "solly_at_bookmaker": true
+        },
+        "learns": {
+          "Hersch": [
+            "Solly is entrusting him with the stolen stone"
+          ],
+          "reader": [
+            "the case Solly carries no longer contains the diamond"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Ike, Benno and Tulley",
+          "botch",
+          "the bookmaker robbery"
+        ],
+        "content": "The masked men seize Solly's arm and case amid alarms and confusion, then flee from the very man who arranged their job.",
+        "participants": [
+          "Solly Two Coats",
+          "Grigor the Nail",
+          "Ike",
+          "Benno",
+          "Tulley"
+        ],
+        "location": "a bookmaker's shop",
+        "pre": {
+          "solly_at_bookmaker": true
+        },
+        "post": {
+          "solly_abducted": true,
+          "empty_case_stolen": true
+        },
+        "learns": {
+          "Ike": [
+            "the robbery has trapped them with a dangerous captive"
+          ],
+          "reader": [
+            "the pawnbrokers have taken the decoy case rather than the stone"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Finn",
+          "wins",
+          "the fixed fight early"
+        ],
+        "content": "Instead of waiting for the agreed round, Finn ends the contest with one blow, destroying Coldstone's wager and the promoters' protection.",
+        "participants": [
+          "Finn",
+          "Halloway",
+          "Digby",
+          "Coldstone"
+        ],
+        "location": "an underground boxing venue",
+        "pre": {
+          "first_fight_fixed": true
+        },
+        "post": {
+          "first_fix_broken": true
+        },
+        "learns": {
+          "Coldstone": [
+            "Finn ignored the fix and cost him heavily"
+          ],
+          "reader": [
+            "Finn cannot be relied on to follow a criminal script"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Marv",
+          "hires",
+          "Ledge"
+        ],
+        "content": "Finding neither cousin nor stone where promised, Marv brings in a hunter whose method is to follow the least competent people in the chain.",
+        "participants": [
+          "Marv",
+          "Ledge"
+        ],
+        "location": "the city",
+        "pre": {
+          "delivery_ordered": true
+        },
+        "post": {
+          "ledge_hired": true
+        },
+        "learns": {
+          "Ledge": [
+            "Solly and the diamond are missing"
+          ],
+          "reader": [
+            "a second pursuit of the diamond has begun"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Grigor the Nail",
+          "opens",
+          "Solly's case"
+        ],
+        "content": "Grigor mutilates Solly to defeat the lock and discovers that brutality has produced only an empty container.",
+        "participants": [
+          "Solly Two Coats",
+          "Grigor the Nail"
+        ],
+        "location": "an underworld workshop",
+        "pre": {
+          "solly_abducted": true,
+          "empty_case_stolen": true
+        },
+        "post": {
+          "grigor_knows_case_empty": true
+        },
+        "learns": {
+          "Grigor the Nail": [
+            "the diamond was removed before the robbery"
+          ],
+          "reader": [
+            "Grigor's plan failed because Solly had already used a fence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Ledge",
+          "recovers",
+          "the diamond and pawnbrokers"
+        ],
+        "content": "Following the robbers rather than the missing thief, Ledge disables their car and takes custody of both survivors and the stone they have since retrieved.",
+        "participants": [
+          "Ledge",
+          "Ike",
+          "Benno"
+        ],
+        "location": "a city street",
+        "pre": {
+          "ledge_hired": true,
+          "diamond_with_hersch": true
+        },
+        "post": {
+          "diamond_with_hersch": false,
+          "diamond_with_ledge": true,
+          "pawnbrokers_captured": true
+        },
+        "learns": {
+          "Marv": [
+            "Ledge has found the diamond"
+          ],
+          "reader": [
+            "the stone and the vulnerable witnesses are now travelling together"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Coldstone",
+          "kills",
+          "Solly Two Coats"
+        ],
+        "content": "The gang boss disposes of the mutilated thief with his pigs, then makes the spectacle serve as a warning about the rematch.",
+        "participants": [
+          "Solly Two Coats",
+          "Coldstone",
+          "Halloway",
+          "Digby"
+        ],
+        "location": "Coldstone's piggery",
+        "pre": {
+          "first_fix_broken": true
+        },
+        "post": {
+          "solly_dead": true,
+          "second_fight_threatened": true
+        },
+        "learns": {
+          "Halloway": [
+            "failure in the second fight means the same death"
+          ],
+          "Digby": [
+            "Coldstone's threat is literal"
+          ],
+          "reader": [
+            "the fight strand has absorbed the missing thief"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Coldstone's men",
+          "burn",
+          "Finn's mother"
+        ],
+        "content": "After the promoters repeat the instruction to fall in the fourth, the gang attacks the travellers' camp and turns coercion into a blood debt.",
+        "participants": [
+          "Finn",
+          "Finn's mother",
+          "Halloway",
+          "Digby",
+          "the travellers"
+        ],
+        "location": "a travellers' camp",
+        "pre": {
+          "second_fight_threatened": true
+        },
+        "post": {
+          "finn_mother_dead": true,
+          "travellers_seek_revenge": true
+        },
+        "learns": {
+          "Finn": [
+            "Coldstone's men killed his mother"
+          ],
+          "reader": [
+            "Finn now has a reason to sabotage the fix deliberately"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "how will the travellers answer the killing at their camp?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Grigor the Nail",
+          "ambushes",
+          "Ledge's car"
+        ],
+        "content": "The competing searches converge around a vehicle carrying the stone and captives; gunfire kills the hunter, the schemer and one pawnbroker.",
+        "participants": [
+          "Grigor the Nail",
+          "Ledge",
+          "Ike",
+          "Benno"
+        ],
+        "location": "a city road",
+        "pre": {
+          "diamond_with_ledge": true,
+          "grigor_knows_case_empty": true
+        },
+        "post": {
+          "ledge_dead": true,
+          "grigor_dead": true,
+          "benno_dead": true,
+          "diamond_with_ledge": false,
+          "diamond_loose": true
+        },
+        "learns": {
+          "Ike": [
+            "every stronger claimant to the stone has been killed"
+          ],
+          "reader": [
+            "the diamond is loose after all three pursuers destroy one another"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who leaves the shootout carrying the diamond?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Tulley",
+          "escapes with",
+          "the dog"
+        ],
+        "content": "The last inept robber leaves the carnage with an animal whose earlier appetite has hidden the diamond better than any safe.",
+        "participants": [
+          "Tulley",
+          "the dog"
+        ],
+        "location": "a city street",
+        "pre": {
+          "diamond_loose": true
+        },
+        "post": {
+          "diamond_loose": false,
+          "diamond_in_dog": true,
+          "tulley_escaped": true
+        },
+        "learns": {
+          "Tulley": [
+            "the dog is his only thing left from the robbery"
+          ],
+          "reader": [
+            "the missing diamond is inside the dog"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Finn and the travellers",
+          "destroy",
+          "Coldstone's fight plan"
+        ],
+        "content": "Finn waits until the named fourth round only to knock his opponent out, while armed travellers remove Coldstone's men throughout the crowd.",
+        "participants": [
+          "Finn",
+          "Coldstone",
+          "Halloway",
+          "Digby",
+          "the travellers"
+        ],
+        "location": "an underground boxing venue",
+        "pre": {
+          "travellers_seek_revenge": true
+        },
+        "post": {
+          "second_fix_broken": true,
+          "coldstone_exposed": true
+        },
+        "learns": {
+          "Coldstone": [
+            "the entire rematch was turned into an ambush"
+          ],
+          "reader": [
+            "Finn obeyed the timing only to reverse the intended result"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Halloway and Digby",
+          "shoot",
+          "Coldstone"
+        ],
+        "content": "With the gang boss isolated after the massacre, the promoters find him before he can carry out his threats; by dawn their traveller allies are gone.",
+        "participants": [
+          "Halloway",
+          "Digby",
+          "Coldstone",
+          "the travellers"
+        ],
+        "location": "the boxing venue and travellers' camp",
+        "pre": {
+          "coldstone_exposed": true
+        },
+        "post": {
+          "coldstone_dead": true,
+          "travellers_gone": true
+        },
+        "learns": {
+          "reader": [
+            "the promoters survive because the travellers completed their revenge"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the dog",
+          "coughs up",
+          "the diamond"
+        ],
+        "content": "A pet-shop examination solves the final disappearance, placing the prize in the hands of the two promoters who never joined the original theft.",
+        "participants": [
+          "the dog",
+          "Halloway",
+          "Digby"
+        ],
+        "location": "a pet shop",
+        "pre": {
+          "diamond_in_dog": true,
+          "coldstone_dead": true
+        },
+        "post": {
+          "diamond_in_dog": false,
+          "diamond_with_promoters": true
+        },
+        "learns": {
+          "Halloway": [
+            "the dog swallowed the stolen diamond"
+          ],
+          "Digby": [
+            "the diamond has survived every pursuit"
+          ],
+          "reader": [
+            "the fight promoters end with the object from the separate robbery plot"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e7",
+        "on": "the diamond's route from theft to fence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10",
+        "on": "Marv's missing delivery"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "the arranged bookmaker robbery"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the caravan deal"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "Finn replacing Pretty Sam"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e9",
+        "on": "the first fixed fight"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e11",
+        "on": "Solly and the empty case"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e12",
+        "on": "the pawnbrokers and the stone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e13",
+        "on": "Coldstone's lost wager"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12",
+        "on": "Ledge's hunt"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e15",
+        "on": "Grigor's search for the stone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e15",
+        "on": "Ledge's car and its cargo"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e17",
+        "on": "the threatened rematch"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e18",
+        "on": "the travellers' revenge"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the diamond after the shootout"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e19",
+        "on": "the dog carrying the diamond"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "Coldstone's defeat"
+      }
+    ]
+  }
+}

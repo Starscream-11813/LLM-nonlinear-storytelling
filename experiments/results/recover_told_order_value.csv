@@ -1,0 +1,5 @@
+model,tau: as written (R1-R0),tau: de-dated (R3-R2),exact: as written (R1-R0),exact: de-dated (R3-R2)
+Claude Opus 5,0.0308,0.0304,0.1084,0.0964
+Gemini 3.6 Flash,0.0319,0.024,0.0854,0.0241
+Grok 4.5,0.0421,0.0455,0.1566,0.1325
+Llama 4 Maverick,0.1569,0.1365,0.0244,0.0

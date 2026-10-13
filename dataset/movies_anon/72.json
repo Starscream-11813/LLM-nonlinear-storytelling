@@ -1,0 +1,985 @@
+{
+  "story_id": "S72",
+  "source_index": 72,
+  "genre": "Thriller, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "A career field officer sells two missiles in a Middle Eastern capital and loses track of one, which an arms dealer carries off.",
+    "In an oil-rich desert state the drilling rights held by a large western company are handed instead to a Chinese firm.",
+    "A migrant labourer on the state's oilfield is laid off along with his father when the contract changes hands.",
+    "The western company announces a merger with a small firm that has just won drilling rights in central Asia.",
+    "A government inquiry opens into the merger, and a young lawyer is instructed to turn up exactly enough corruption to satisfy it.",
+    "An energy analyst brings his family to a party at the ruler's palace, where his small son is electrocuted in the swimming pool.",
+    "The ruler's elder son takes on the analyst as an adviser, out of guilt and out of conviction both.",
+    "The labourer and his father queue for work and are drawn into a school where a preacher takes a close interest in them.",
+    "The field officer is sent to arrange the killing of the elder son, who is judged unfriendly to western interests.",
+    "He is betrayed to a militia, tortured and dumped, and comes home to find his own service suspects him.",
+    "The elder son sets out his programme: the rights go to the highest bidder, the parliament gets real power, and women get the vote.",
+    "The lawyer establishes that an executive at the small firm paid bribes for the central Asian field, and delivers him to the inquiry along with his own mentor.",
+    "The ruler names his younger son rather than his elder as successor.",
+    "The field officer works out that the killing is going ahead regardless and drives into the desert to warn the prince.",
+    "The labourer and another young man take the missing missile out to sea in a fishing boat.",
+    "A missile from a drone destroys the prince's convoy in the desert, killing him, his family, the analyst's employer and the field officer.",
+    "The labourer steers the boat into the side of a new tanker and the missile detonates.",
+    "The merger goes through, and the men who engineered the whole of it are photographed collecting a prize."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6,
+    7,
+    9,
+    8,
+    10,
+    11,
+    12,
+    14,
+    13,
+    15,
+    16,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "CHRONICLE",
+  "nonlinear_category_reason": "Every strand keeps its own forward order and nothing is ever shown out of turn in time; the inversions are only between strands running at the same moment, which the telling cuts between sideways. Four strands on three continents advance together towards a single week, cut between without captions.",
+  "syuzhet_notes": "Four strands are cut into one another from the opening with almost no captions, and none of them is a flashback: they are happening at once in different countries and converge on the same fortnight.",
+  "fabula_notes": "The ordering follows the causal chain from the lost missile and the transferred drilling rights. Concurrent strands can be ranked either way.",
+  "story_graph": {
+    "characters": {
+      "field officer": {
+        "archetype": "Hero"
+      },
+      "arms dealer": {
+        "archetype": "Shadow"
+      },
+      "western oil company": {
+        "archetype": "Shadow"
+      },
+      "small energy firm": {
+        "archetype": "Shapeshifter"
+      },
+      "migrant labourer": {
+        "archetype": "Hero"
+      },
+      "labourer's father": {
+        "archetype": "Ally"
+      },
+      "preacher": {
+        "archetype": "Shadow"
+      },
+      "young recruit": {
+        "archetype": "Ally"
+      },
+      "government inquiry": {
+        "archetype": "Threshold Guardian"
+      },
+      "lawyer": {
+        "archetype": "Shapeshifter"
+      },
+      "lawyer's mentor": {
+        "archetype": "Mentor"
+      },
+      "energy analyst": {
+        "archetype": "Hero"
+      },
+      "analyst's employer": {
+        "archetype": "Ally"
+      },
+      "analyst's spouse": {
+        "archetype": "Ally"
+      },
+      "analyst's child": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "ruler": {
+        "archetype": "Threshold Guardian"
+      },
+      "elder prince": {
+        "archetype": "Hero"
+      },
+      "prince's family": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "younger prince": {
+        "archetype": "Shapeshifter"
+      },
+      "militia": {
+        "archetype": "Shadow"
+      },
+      "intelligence service": {
+        "archetype": "Shadow"
+      },
+      "drone crew": {
+        "archetype": "Shadow"
+      },
+      "award officials": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "field officer",
+          "loses",
+          "a stolen missile"
+        ],
+        "content": "A covert sale places two weapons in a capital; one leaves the transaction in an unauthorised dealer's hands and disappears from official sight.",
+        "participants": [
+          "field officer",
+          "arms dealer"
+        ],
+        "location": "a warehouse in a desert capital",
+        "pre": {},
+        "post": {
+          "missile_missing": true
+        },
+        "learns": {
+          "reader": [
+            "one portable missile has escaped the controlled sale"
+          ]
+        },
+        "raises": [
+          "q72_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_1": "where will the missile that escaped the sale reappear?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "ruler",
+          "transfers",
+          "oil rights"
+        ],
+        "content": "A state awards its main field to a new foreign bidder, abruptly displacing the western company that had treated access as permanent.",
+        "participants": [
+          "ruler",
+          "western oil company"
+        ],
+        "location": "an oil ministry",
+        "pre": {},
+        "post": {
+          "western_drilling_rights_lost": true
+        },
+        "learns": {
+          "reader": [
+            "the transfer of drilling rights threatens a powerful company"
+          ]
+        },
+        "raises": [
+          "q72_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_2": "how will the displaced company replace the lost oil field?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "western oil company",
+          "dismisses",
+          "migrant workers"
+        ],
+        "content": "The contract change reaches the labour camp as unemployment, leaving a young worker and his father in a queue with no income or status.",
+        "participants": [
+          "western oil company",
+          "migrant labourer",
+          "labourer's father"
+        ],
+        "location": "an oilfield labour camp",
+        "pre": {
+          "western_drilling_rights_lost": true
+        },
+        "post": {
+          "labourer_unemployed": true
+        },
+        "learns": {
+          "migrant labourer": [
+            "the oilfield no longer has work for him"
+          ],
+          "reader": [
+            "corporate displacement has produced personal precarity"
+          ]
+        },
+        "raises": [
+          "q72_3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_3": "where can the dismissed labourer find work and belonging?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "western oil company",
+          "announces",
+          "a merger"
+        ],
+        "content": "To replace the lost field, the corporation seeks a smaller firm whose distant drilling concession promises comparable access.",
+        "participants": [
+          "western oil company",
+          "small energy firm"
+        ],
+        "location": "a corporate press room",
+        "pre": {
+          "western_drilling_rights_lost": true
+        },
+        "post": {
+          "merger_announced": true
+        },
+        "learns": {
+          "reader": [
+            "the proposed merger is the company's route back to reserves"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "government inquiry",
+          "assigns",
+          "the lawyer"
+        ],
+        "content": "Regulators open a review, while the lawyer is privately told to uncover enough misconduct to legitimise a result already desired.",
+        "participants": [
+          "government inquiry",
+          "lawyer",
+          "lawyer's mentor"
+        ],
+        "location": "a government office",
+        "pre": {
+          "merger_announced": true
+        },
+        "post": {
+          "merger_inquiry_open": true
+        },
+        "learns": {
+          "lawyer": [
+            "the inquiry wants controlled sacrifice rather than full truth"
+          ],
+          "reader": [
+            "the merger investigation has a predetermined limit"
+          ]
+        },
+        "raises": [
+          "q72_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_4": "whose corruption will the controlled inquiry sacrifice?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "analyst's child",
+          "dies",
+          "in the palace pool"
+        ],
+        "content": "At a royal reception, an unsafe underwater light turns a family outing into a sudden death that binds the analyst to the ruling household.",
+        "participants": [
+          "energy analyst",
+          "analyst's spouse",
+          "analyst's child",
+          "ruler",
+          "elder prince"
+        ],
+        "location": "a palace swimming pool",
+        "pre": {},
+        "post": {
+          "analyst_child_dead": true
+        },
+        "learns": {
+          "energy analyst": [
+            "his child has died on palace grounds"
+          ],
+          "reader": [
+            "private grief will connect the analyst to the elder prince"
+          ]
+        },
+        "raises": [
+          "q72_5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_5": "what relationship will grow out of the child's death at the palace?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "elder prince",
+          "hires",
+          "energy analyst"
+        ],
+        "content": "Guilt opens the meeting, but the prince's reform programme gives the bereaved analyst a reason to remain as adviser.",
+        "participants": [
+          "elder prince",
+          "energy analyst"
+        ],
+        "location": "a palace office",
+        "pre": {
+          "analyst_child_dead": true
+        },
+        "post": {
+          "analyst_advises_prince": true
+        },
+        "learns": {
+          "energy analyst": [
+            "the prince intends to reform the oil economy"
+          ],
+          "reader": [
+            "grief and political conviction have joined the analyst to the prince"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "preacher",
+          "recruits",
+          "migrant labourer"
+        ],
+        "content": "Food, lessons and sustained attention at a religious school answer needs the labour camp no longer meets, drawing the unemployed pair inward.",
+        "participants": [
+          "migrant labourer",
+          "labourer's father",
+          "preacher",
+          "young recruit"
+        ],
+        "location": "a religious school",
+        "pre": {
+          "labourer_unemployed": true
+        },
+        "post": {
+          "labourer_radicalised": true
+        },
+        "learns": {
+          "migrant labourer": [
+            "the school offers belonging and a cause"
+          ],
+          "reader": [
+            "economic exclusion has made the labourer vulnerable to recruitment"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "intelligence service",
+          "orders",
+          "the prince's killing"
+        ],
+        "content": "The field officer is handed a deniable operation against the reforming heir, framed as routine protection of strategic interests.",
+        "participants": [
+          "field officer",
+          "intelligence service"
+        ],
+        "location": "a secure operations room",
+        "pre": {
+          "analyst_advises_prince": true
+        },
+        "post": {
+          "prince_assassination_ordered": true
+        },
+        "learns": {
+          "field officer": [
+            "his service wants the elder prince removed"
+          ],
+          "reader": [
+            "the reform programme has triggered a covert death order"
+          ]
+        },
+        "raises": [
+          "q72_6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_6": "will the order to kill the elder prince ultimately be carried out?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "militia",
+          "tortures",
+          "field officer"
+        ],
+        "content": "The operation is betrayed before execution; captivity and repudiation teach the officer that his own service is prepared to erase him.",
+        "participants": [
+          "field officer",
+          "militia",
+          "intelligence service"
+        ],
+        "location": "a militia holding room",
+        "pre": {
+          "prince_assassination_ordered": true
+        },
+        "post": {
+          "field_officer_disavowed": true
+        },
+        "learns": {
+          "field officer": [
+            "the mission was compromised and his service suspects him"
+          ],
+          "reader": [
+            "the officer has become expendable to the system he served"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "elder prince",
+          "announces",
+          "a reform programme"
+        ],
+        "content": "He proposes open bidding, representative government and votes for women, converting business rivalry into an explicit threat to entrenched power.",
+        "participants": [
+          "elder prince",
+          "energy analyst",
+          "ruler",
+          "younger prince"
+        ],
+        "location": "a policy meeting",
+        "pre": {
+          "analyst_advises_prince": true
+        },
+        "post": {
+          "prince_reforms_public": true
+        },
+        "learns": {
+          "reader": [
+            "the elder prince's agenda challenges both family succession and foreign interests"
+          ]
+        },
+        "raises": [
+          "q72_7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_7": "can the reform programme survive the interests arrayed against it?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "lawyer",
+          "delivers",
+          "two scapegoats"
+        ],
+        "content": "Following the bribe trail gives the inquiry an executive and the lawyer's own mentor, containing the scandal without threatening the merger's architects.",
+        "participants": [
+          "lawyer",
+          "lawyer's mentor",
+          "small energy firm",
+          "government inquiry"
+        ],
+        "location": "an inquiry hearing",
+        "pre": {
+          "merger_inquiry_open": true
+        },
+        "post": {
+          "inquiry_satisfied": true
+        },
+        "learns": {
+          "lawyer": [
+            "his advancement depends on sacrificing his mentor"
+          ],
+          "reader": [
+            "the inquiry has isolated acceptable blame"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "ruler",
+          "selects",
+          "younger prince"
+        ],
+        "content": "The succession bypasses the reformer, making family authority another instrument that protects the existing oil arrangement.",
+        "participants": [
+          "ruler",
+          "elder prince",
+          "younger prince"
+        ],
+        "location": "a royal court",
+        "pre": {
+          "prince_reforms_public": true
+        },
+        "post": {
+          "younger_prince_named_successor": true
+        },
+        "learns": {
+          "elder prince": [
+            "his father has denied him succession"
+          ],
+          "reader": [
+            "institutional power has closed around the reformer"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "field officer",
+          "drives to warn",
+          "elder prince"
+        ],
+        "content": "Having recognised that the assassination survived his failed mission, the disavowed officer races towards the convoy he was once ordered to destroy.",
+        "participants": [
+          "field officer"
+        ],
+        "location": "a desert road",
+        "pre": {
+          "field_officer_disavowed": true
+        },
+        "post": {
+          "warning_attempted": true
+        },
+        "learns": {
+          "field officer": [
+            "a remote strike is still imminent"
+          ],
+          "reader": [
+            "the former assassin is now trying to prevent the killing"
+          ]
+        },
+        "raises": [
+          "q72_8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q72_8": "can the field officer reach the convoy before the strike?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "migrant labourer",
+          "arms",
+          "a fishing boat"
+        ],
+        "content": "The missing shoulder weapon reappears with the two recruits as they take a small craft towards the newly opened tanker route.",
+        "participants": [
+          "migrant labourer",
+          "young recruit"
+        ],
+        "location": "a harbour and fishing boat",
+        "pre": {
+          "missile_missing": true,
+          "labourer_radicalised": true
+        },
+        "post": {
+          "attack_boat_armed": true
+        },
+        "learns": {
+          "reader": [
+            "the lost missile and the dismissed worker have entered the same attack plan"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "drone crew",
+          "destroys",
+          "the prince's convoy"
+        ],
+        "content": "A remote missile reaches the desert before the officer's warning can, killing the reformer, his family, the analyst's employer and would-be rescuer together.",
+        "participants": [
+          "drone crew",
+          "elder prince",
+          "prince's family",
+          "analyst's employer",
+          "field officer"
+        ],
+        "location": "a desert highway",
+        "pre": {
+          "prince_assassination_ordered": true,
+          "warning_attempted": true
+        },
+        "post": {
+          "elder_prince_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the reform programme and the attempt to save it have been eliminated"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q72_6",
+          "q72_7",
+          "q72_8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "migrant labourer",
+          "detonates",
+          "the missing missile"
+        ],
+        "content": "The fishing boat strikes the tanker and converts a weapon misplaced at the beginning into the labourer's final act.",
+        "participants": [
+          "migrant labourer",
+          "young recruit"
+        ],
+        "location": "an oil terminal at sea",
+        "pre": {
+          "attack_boat_armed": true
+        },
+        "post": {
+          "tanker_destroyed": true
+        },
+        "learns": {
+          "reader": [
+            "the missile's untracked path ends in a successful suicide attack"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "award officials",
+          "honour",
+          "the merger architects"
+        ],
+        "content": "With the inquiry contained and rivals dead, the transaction closes and its senior beneficiaries pose for a photograph of respectable success.",
+        "participants": [
+          "western oil company",
+          "small energy firm",
+          "lawyer",
+          "government inquiry",
+          "award officials"
+        ],
+        "location": "an awards ceremony",
+        "pre": {
+          "inquiry_satisfied": true,
+          "elder_prince_dead": true
+        },
+        "post": {
+          "merger_completed": true
+        },
+        "learns": {
+          "reader": [
+            "the institutions that generated the violence emerge rewarded"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e15",
+        "on": "the portable missile, lost and then mounted on the boat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "the oil rights lost and the corporate replacement plan"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e11",
+        "on": "competing visions for control of the state's oil"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "the labourer and father before and inside the school"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the proposed merger under inquiry"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e12",
+        "on": "the lawyer's limited corruption assignment"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the child's death and the alliance it creates"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e11",
+        "on": "the analyst's work on the prince's reforms"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e15",
+        "on": "the recruited labourer and young companion"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the operation that turns against its field officer"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e16",
+        "on": "the assassination order and its remote completion"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "the disavowed officer's change of purpose"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13",
+        "on": "the reformer and the succession that excludes him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e18",
+        "on": "the contained inquiry and approved merger"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e16",
+        "on": "the converging convoy and failed warning"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e17",
+        "on": "the armed fishing boat and tanker attack"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e18",
+        "on": "the reformer's death and the corporate celebration after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "violence at the oil terminal and profit at the awards ceremony"
+      }
+    ]
+  }
+}

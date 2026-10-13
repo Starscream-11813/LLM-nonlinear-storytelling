@@ -1,0 +1,622 @@
+{
+  "story_id": "S58",
+  "source_index": 58,
+  "genre": "Comedy, Crime",
+  "source": "Film",
+  "events_chronological": [
+    "A butcher marries a local woman and the pair set up home above his shop.",
+    "His wife takes a lover, and the butcher works out what has been happening.",
+    "The butcher kills his wife and cuts her up on the block in his own shop.",
+    "He distributes the pieces about the city in brown paper parcels and a travelling case.",
+    "He takes up with a young woman who knows nothing whatever about any of it.",
+    "He kills his wife's lover and disposes of him by the same method.",
+    "The parcels come to light and the police open a murder inquiry.",
+    "The butcher is arrested in his rooms and led away in front of his neighbours.",
+    "He stands trial while the court is told what the parcels contained.",
+    "He is sentenced to death.",
+    "He is beheaded in the prison yard.",
+    "His body is buried and his belongings are returned to nobody in particular."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    9,
+    10,
+    8,
+    7,
+    6,
+    5,
+    3,
+    4,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    8
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. The film is assembled and played backwards outright, so an execution reads as a birth and a dismemberment as a woman being put together.",
+  "syuzhet_notes": "Every shot is printed and run in reverse, and a narrator reads the result as though it were the right way round, so the film opens on the execution and calls it a birth. The first told bullet is the last thing in the story and the last bullet the first.",
+  "fabula_notes": "The bullets record the events in the order a clock would put them, not in the order the reversed narration claims for them.",
+  "story_graph": {
+    "characters": {
+      "the butcher": {
+        "archetype": "Hero",
+        "archetype_detail": "Antihero"
+      },
+      "the wife": {
+        "archetype": "Ally",
+        "archetype_detail": "Victim"
+      },
+      "the lover": {
+        "archetype": "Ally",
+        "archetype_detail": "Victim"
+      },
+      "the young woman": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the police": {
+        "archetype": "Threshold Guardian"
+      },
+      "the court": {
+        "archetype": "Threshold Guardian"
+      },
+      "the prison officials": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the butcher",
+          "marries",
+          "the wife"
+        ],
+        "content": "The couple make a domestic life directly above the shop where he earns his living.",
+        "participants": [
+          "the butcher",
+          "the wife"
+        ],
+        "location": "rooms above a butcher shop",
+        "pre": {},
+        "post": {
+          "couple_married": true,
+          "shop_home_established": true
+        },
+        "learns": {
+          "reader": [
+            "the marriage and shop precede every later crime"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the wife",
+          "takes",
+          "the lover"
+        ],
+        "content": "The secret relationship continues until her husband recognizes the deception.",
+        "participants": [
+          "the butcher",
+          "the wife",
+          "the lover"
+        ],
+        "location": "the couple's neighbourhood",
+        "pre": {
+          "couple_married": true
+        },
+        "post": {
+          "affair_discovered": true
+        },
+        "learns": {
+          "reader": [
+            "the husband discovers the affair that supplies his motive"
+          ],
+          "the butcher": [
+            "his wife has a lover"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the butcher",
+          "kills",
+          "the wife"
+        ],
+        "content": "He murders her at the block in the shop and dismembers her there.",
+        "participants": [
+          "the butcher",
+          "the wife"
+        ],
+        "location": "the butcher shop",
+        "pre": {
+          "affair_discovered": true,
+          "shop_home_established": true
+        },
+        "post": {
+          "wife_dead": true,
+          "wife_remains_cut": true
+        },
+        "learns": {
+          "reader": [
+            "the first victim is the wife"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what drove the butcher to kill his wife?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the butcher",
+          "distributes",
+          "the wife's remains"
+        ],
+        "content": "Brown paper and a travelling case let him scatter the dismembered remains around the city.",
+        "participants": [
+          "the butcher",
+          "the wife"
+        ],
+        "location": "streets across the city",
+        "pre": {
+          "wife_remains_cut": true
+        },
+        "post": {
+          "wife_remains_distributed": true
+        },
+        "learns": {
+          "reader": [
+            "the parcels contain the wife's remains"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the butcher",
+          "courts",
+          "the young woman"
+        ],
+        "content": "He begins another relationship while concealing both the murder and the affair that preceded it.",
+        "participants": [
+          "the butcher",
+          "the young woman"
+        ],
+        "location": "the butcher's rooms",
+        "pre": {
+          "wife_dead": true
+        },
+        "post": {
+          "new_relationship": true
+        },
+        "learns": {
+          "reader": [
+            "the new companion is ignorant of the crimes"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the butcher",
+          "kills",
+          "the lover"
+        ],
+        "content": "He murders the second participant in the affair and disposes of that body in the same fashion.",
+        "participants": [
+          "the butcher",
+          "the lover"
+        ],
+        "location": "the butcher shop",
+        "pre": {
+          "affair_discovered": true,
+          "wife_remains_distributed": true
+        },
+        "post": {
+          "lover_dead": true,
+          "lover_remains_distributed": true
+        },
+        "learns": {
+          "reader": [
+            "the lover becomes the second victim"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the police",
+          "open",
+          "the murder inquiry"
+        ],
+        "content": "Recovered parcels expose human remains and turn scattered evidence into a coordinated investigation.",
+        "participants": [
+          "the police",
+          "the wife",
+          "the lover"
+        ],
+        "location": "the city",
+        "pre": {
+          "wife_remains_distributed": true,
+          "lover_remains_distributed": true
+        },
+        "post": {
+          "murder_inquiry_open": true
+        },
+        "learns": {
+          "reader": [
+            "the discovered parcels prompt a police inquiry"
+          ],
+          "the police": [
+            "the parcels contain murder victims"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q3"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q2": "where did the parcels of human remains come from?",
+          "q3": "why do the recovered parcels point to more than one victim?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the police",
+          "arrest",
+          "the butcher"
+        ],
+        "content": "Officers take him from his rooms while neighbours watch the private life above the shop become public.",
+        "participants": [
+          "the butcher",
+          "the police"
+        ],
+        "location": "rooms above the butcher shop",
+        "pre": {
+          "murder_inquiry_open": true
+        },
+        "post": {
+          "butcher_arrested": true
+        },
+        "learns": {
+          "reader": [
+            "the inquiry identifies the butcher as the suspect"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q4": "what caused the police to arrest the butcher?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the court",
+          "tries",
+          "the butcher"
+        ],
+        "content": "The prosecution explains the contents of the parcels and attributes both deaths to him.",
+        "participants": [
+          "the butcher",
+          "the court",
+          "the police"
+        ],
+        "location": "a courtroom",
+        "pre": {
+          "butcher_arrested": true
+        },
+        "post": {
+          "trial_completed": true,
+          "butcher_convicted": true
+        },
+        "learns": {
+          "reader": [
+            "the parcel evidence is presented at trial"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "how did the accused man come before this court?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the court",
+          "sentences",
+          "the butcher to death"
+        ],
+        "content": "The conviction is converted into a formal death sentence.",
+        "participants": [
+          "the butcher",
+          "the court"
+        ],
+        "location": "a courtroom",
+        "pre": {
+          "butcher_convicted": true
+        },
+        "post": {
+          "death_sentence": true
+        },
+        "learns": {
+          "reader": [
+            "the court orders the butcher's execution"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the prison officials",
+          "behead",
+          "the butcher"
+        ],
+        "content": "The sentence is carried out in the prison yard before the body is removed.",
+        "participants": [
+          "the butcher",
+          "the prison officials"
+        ],
+        "location": "a prison yard",
+        "pre": {
+          "death_sentence": true
+        },
+        "post": {
+          "butcher_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the butcher dies by judicial execution"
+          ]
+        },
+        "raises": [
+          "q6",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "why is the butcher being executed?",
+          "q7": "what becomes of his body and possessions after the execution?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the prison officials",
+          "bury",
+          "the butcher"
+        ],
+        "content": "His body is interred and the few possessions left behind find no meaningful recipient.",
+        "participants": [
+          "the butcher",
+          "the prison officials"
+        ],
+        "location": "a burial ground",
+        "pre": {
+          "butcher_dead": true
+        },
+        "post": {
+          "butcher_buried": true
+        },
+        "learns": {
+          "reader": [
+            "burial closes the butcher's story without a claimant"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e6",
+        "on": "the same shop and method of disposal"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7",
+        "on": "the parcels scattered and later recovered"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e11"
+      }
+    ]
+  }
+}

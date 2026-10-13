@@ -1,0 +1,53 @@
+{
+  "title": "Time's Arrow",
+  "release_year": 1991,
+  "genre": "Drama, War",
+  "source": "Novel",
+  "events_chronological": [
+    "Odilo Unverdorben grows up in a small German town and qualifies as a doctor.",
+    "Odilo marries Herta, and the child they have dies in infancy.",
+    "Odilo takes a post at an institute where the disabled are killed by injection and by gas.",
+    "Odilo is transferred to a camp in the east and stands beside the senior doctor at selections on the ramp.",
+    "Odilo carries out dental work and experiments on prisoners inside the camp.",
+    "Odilo takes a prisoner as a lover and has her sent to the chamber when he has finished with her.",
+    "The camp is emptied ahead of the advancing army and Odilo walks west carrying false papers.",
+    "Odilo hides for years in Portugal under the name Hamilton de Souza, living quietly off gold.",
+    "He crosses to New York as John Young, handed a new identity by a churchman who asks him nothing.",
+    "Working in American hospitals, he inflicts pain on patients and tells himself he is healing them.",
+    "He conducts a long affair with a woman called Irene, who never learns one true thing about him.",
+    "He grows old as Tod Friendly, gardening, hoarding tins, and waking from dreams of a man in a white coat.",
+    "Tod Friendly collapses in his garden and dies in an American hospital."
+  ],
+  "syuzhet_order": [
+    13,
+    12,
+    10,
+    11,
+    9,
+    8,
+    7,
+    6,
+    4,
+    5,
+    3,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10
+  ],
+  "syuzhet_notes": "The narration runs strictly from the death backwards to the birth, so the doctor appears to be a healer and the camp appears to be a place where people are made. Told-order bullet 1 is the last thing that happens and bullet 13 the first.",
+  "fabula_notes": "Because the narrator reads every action in reverse, the surface of the prose inverts cause and effect. These bullets record what actually occurred, in the order it occurred."
+}

@@ -1,0 +1,5 @@
+,broken reveal,confusing mess,transparent telling,well-made enigma
+G0 fabula only,0.545,0.205,0.227,0.023
+G1 full graph,0.558,0.233,0.116,0.093
+G2 told order (oracle),0.654,0.096,0.212,0.038
+H human telling (reference),0.615,0.077,0.231,0.077

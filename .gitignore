@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Plot written by experiments/score_rcg.py when the tables are regenerated
+dataset/figures/
+
+# API credentials. The generation scripts read OPENROUTER_API_KEY from the
+# environment; a key file must never be committed.
+.env
+.env.*
+
+# OS clutter
+.DS_Store
+Thumbs.db

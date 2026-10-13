@@ -1,0 +1,930 @@
+{
+  "story_id": "S76",
+  "source_index": 76,
+  "genre": "War, Comedy, Drama",
+  "source": "Novel",
+  "events_chronological": [
+    "A bombardier arrives on the island base and flies his first missions.",
+    "A gunner is hit over a target town and dies in the bombardier's arms as he finds the second wound under the flak suit.",
+    "The colonel raises the number of missions required to go home, then raises it again, and again after that.",
+    "The bombardier reports sick with a liver complaint just short of jaundice and stays in hospital as long as the doctors permit.",
+    "He censors the enlisted men's letters out of boredom and signs them with a borrowed name.",
+    "An investigator arrives to look into the forged signatures and turns up nothing whatever.",
+    "The squadron doctor explains that asking to be grounded for madness proves sanity, and is therefore grounds for nothing.",
+    "The mess officer builds a syndicate trading across both sides of the front and corners an entire country's cotton crop.",
+    "The mess officer contracts with the enemy to bomb his own squadron for an agreed fee.",
+    "One unfailingly cheerful patient empties the ward of every other man in it.",
+    "A idealistic airman is tried for an offence nobody can name, and later flies into a cloud and is never seen again.",
+    "The squadron doctor is recorded as dead because his name was on a flight manifest, and no paperwork can restore him.",
+    "A young airman falls in love with a prostitute who is asleep every time he calls on her.",
+    "The young airman is killed over a coastal target, and his prostitute blames the bombardier and tries to knife him wherever he goes.",
+    "The military police clear out the apartments, and the bombardier walks back through the city alone past one atrocity after another.",
+    "A fellow officer rapes and kills a maid and is not arrested, while the bombardier is arrested for being in the city without a pass.",
+    "The colonel and his second offer the bombardier a bargain: say the squadron is wonderful and go home a hero.",
+    "He refuses the bargain, learns that a lost comrade rowed all the way to neutral waters, and sets out to follow him."
+  ],
+  "syuzhet_order": [
+    4,
+    10,
+    7,
+    1,
+    5,
+    6,
+    3,
+    13,
+    8,
+    11,
+    2,
+    9,
+    12,
+    16,
+    14,
+    15,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. The book circles one death over and over, approaching it from a different direction each time and never once laying its episodes out in order.",
+  "syuzhet_notes": "Chapters are named for people rather than for moments, and the same episodes recur out of order with more of the truth revealed each time. The gunner's death in particular is approached repeatedly and only completed at the end.",
+  "fabula_notes": "The chronology is recoverable almost entirely from the rising mission count, which the book repeats constantly. Nothing else fixes it.",
+  "story_graph": {
+    "characters": {
+      "bombardier": {
+        "archetype": "Hero"
+      },
+      "gunner": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "colonel": {
+        "archetype": "Shadow"
+      },
+      "colonel's second": {
+        "archetype": "Shadow"
+      },
+      "squadron doctor": {
+        "archetype": "Mentor"
+      },
+      "investigator": {
+        "archetype": "Threshold Guardian"
+      },
+      "mess officer": {
+        "archetype": "Trickster"
+      },
+      "cheerful patient": {
+        "archetype": "Threshold Guardian"
+      },
+      "idealistic airman": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "young airman": {
+        "archetype": "Ally"
+      },
+      "prostitute": {
+        "archetype": "Shapeshifter"
+      },
+      "military police": {
+        "archetype": "Shadow"
+      },
+      "criminal officer": {
+        "archetype": "Shadow"
+      },
+      "murdered maid": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "bombardier",
+          "begins",
+          "combat missions"
+        ],
+        "content": "Arrival at the island base places an inexperienced airman inside a system where each completed sortie only leads to another.",
+        "participants": [
+          "bombardier",
+          "gunner",
+          "colonel"
+        ],
+        "location": "an island air base",
+        "pre": {},
+        "post": {
+          "bombardier_on_combat_duty": true
+        },
+        "learns": {
+          "reader": [
+            "the bombardier's war is measured by missions flown"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "gunner",
+          "dies in",
+          "the bombardier's arms"
+        ],
+        "content": "Over a target, the first visible wound proves secondary; opening the flak suit reveals the fatal injury the bombardier could not stop.",
+        "participants": [
+          "bombardier",
+          "gunner"
+        ],
+        "location": "a bomber over a target town",
+        "pre": {
+          "bombardier_on_combat_duty": true
+        },
+        "post": {
+          "gunner_dead": true
+        },
+        "learns": {
+          "bombardier": [
+            "the gunner is dying from a hidden wound"
+          ],
+          "reader": [
+            "the death beneath the flak suit is the bombardier's central combat trauma"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "colonel",
+          "raises",
+          "the mission quota"
+        ],
+        "content": "Every approach to the required total produces a new order, making the promised route home recede through repeated administrative fiat.",
+        "participants": [
+          "bombardier",
+          "colonel"
+        ],
+        "location": "the island air base",
+        "pre": {
+          "bombardier_on_combat_duty": true
+        },
+        "post": {
+          "mission_quota_escalating": true
+        },
+        "learns": {
+          "bombardier": [
+            "finishing the stated quota will not guarantee release"
+          ],
+          "reader": [
+            "the colonel can indefinitely redefine completion"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "bombardier",
+          "hides in",
+          "the hospital"
+        ],
+        "content": "A liver complaint kept just below diagnosable jaundice offers temporary shelter from both missions and the memory attached to them.",
+        "participants": [
+          "bombardier",
+          "squadron doctor"
+        ],
+        "location": "a military hospital ward",
+        "pre": {
+          "mission_quota_escalating": true
+        },
+        "post": {
+          "bombardier_in_hospital": true
+        },
+        "learns": {
+          "reader": [
+            "the hospital is an improvised refuge rather than a cure"
+          ]
+        },
+        "raises": [
+          "q76_1",
+          "q76_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q76_1": "what continuing pressure makes the bombardier hide in hospital?",
+          "q76_2": "what combat memory lies beneath his refusal to keep flying?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "bombardier",
+          "censors",
+          "soldiers' letters"
+        ],
+        "content": "Boredom turns official censorship into arbitrary wordplay, and a borrowed signature creates a bureaucratic mystery from nonsense.",
+        "participants": [
+          "bombardier"
+        ],
+        "location": "a military hospital ward",
+        "pre": {
+          "bombardier_in_hospital": true
+        },
+        "post": {
+          "false_signatures_created": true
+        },
+        "learns": {
+          "reader": [
+            "the bombardier has planted an offence with no meaningful content"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "investigator",
+          "pursues",
+          "the false signatures"
+        ],
+        "content": "An earnest inquiry searches wards and files for a conspirator who exists only as the bombardier's passing joke.",
+        "participants": [
+          "bombardier",
+          "investigator"
+        ],
+        "location": "the hospital and air base",
+        "pre": {
+          "false_signatures_created": true
+        },
+        "post": {
+          "signature_inquiry_failed": true
+        },
+        "learns": {
+          "investigator": [
+            "the paperwork cannot identify the borrowed name's source"
+          ],
+          "reader": [
+            "bureaucracy treats the meaningless signature as a serious threat"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "squadron doctor",
+          "explains",
+          "the grounding paradox"
+        ],
+        "content": "A request to stop flying would demonstrate rational fear, so the rule recognises insanity only in people too insane to invoke it.",
+        "participants": [
+          "bombardier",
+          "squadron doctor"
+        ],
+        "location": "the squadron medical tent",
+        "pre": {
+          "mission_quota_escalating": true
+        },
+        "post": {
+          "grounding_paradox_understood": true
+        },
+        "learns": {
+          "bombardier": [
+            "the regulation makes a valid request to be grounded impossible"
+          ],
+          "reader": [
+            "the system converts self-preservation into proof of fitness"
+          ]
+        },
+        "raises": [
+          "q76_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q76_4": "is there any route out of a rule that makes grounding impossible?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "mess officer",
+          "expands",
+          "a global syndicate"
+        ],
+        "content": "Food procurement becomes private empire as the officer buys and sells through allies and enemies, eventually owning more cotton than he can move.",
+        "participants": [
+          "mess officer"
+        ],
+        "location": "the island mess and foreign markets",
+        "pre": {},
+        "post": {
+          "mess_syndicate_powerful": true
+        },
+        "learns": {
+          "reader": [
+            "the mess officer values transactions above military allegiance"
+          ]
+        },
+        "raises": [
+          "q76_5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q76_5": "how far will the mess officer take a syndicate without loyalties?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "mess officer",
+          "sells",
+          "an attack on his own base"
+        ],
+        "content": "For an agreed fee he contracts with the enemy and treats falling bombs on his squadron as another balanced entry in the syndicate's accounts.",
+        "participants": [
+          "mess officer",
+          "bombardier",
+          "colonel"
+        ],
+        "location": "the island air base",
+        "pre": {
+          "mess_syndicate_powerful": true
+        },
+        "post": {
+          "own_base_bombed_for_profit": true
+        },
+        "learns": {
+          "reader": [
+            "commercial logic has erased the distinction between ally and enemy"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "cheerful patient",
+          "empties",
+          "the hospital ward"
+        ],
+        "content": "His relentless sociability drives sick and malingering men alike back to duty, making cheerfulness another force from which the bombardier cannot escape.",
+        "participants": [
+          "bombardier",
+          "cheerful patient"
+        ],
+        "location": "a military hospital ward",
+        "pre": {
+          "bombardier_in_hospital": true
+        },
+        "post": {
+          "hospital_refuge_emptied": true
+        },
+        "learns": {
+          "reader": [
+            "even the hospital cannot remain a stable refuge"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "military court",
+          "erases",
+          "the idealistic airman"
+        ],
+        "content": "He is tried under accusations that never settle into a charge; later his aircraft enters a cloud and the institution simply absorbs his disappearance.",
+        "participants": [
+          "idealistic airman",
+          "colonel"
+        ],
+        "location": "a hearing room and the sky",
+        "pre": {},
+        "post": {
+          "idealistic_airman_missing": true
+        },
+        "learns": {
+          "reader": [
+            "arbitrary procedure and physical disappearance are equally final on the base"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "army records",
+          "declare",
+          "the squadron doctor dead"
+        ],
+        "content": "A name mistakenly placed on a passenger list acquires more authority than the living doctor standing before the clerks who refuse to restore him.",
+        "participants": [
+          "squadron doctor"
+        ],
+        "location": "the island air base",
+        "pre": {},
+        "post": {
+          "doctor_officially_dead": true
+        },
+        "learns": {
+          "squadron doctor": [
+            "official records no longer acknowledge that he is alive"
+          ],
+          "reader": [
+            "paper status overrides embodied fact"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "young airman",
+          "visits",
+          "the sleeping prostitute"
+        ],
+        "content": "His hopeful courtship consists largely of arriving while she sleeps, but he sustains a private future around the meetings.",
+        "participants": [
+          "young airman",
+          "prostitute",
+          "bombardier"
+        ],
+        "location": "a city apartment",
+        "pre": {},
+        "post": {
+          "young_airman_in_love": true
+        },
+        "learns": {
+          "reader": [
+            "the young airman's optimism is attached to a fragile imagined relationship"
+          ]
+        },
+        "raises": [
+          "q76_6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q76_6": "will the young airman's hopeful city romance survive the war?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "young airman",
+          "dies over",
+          "a coastal target"
+        ],
+        "content": "His death ends the imagined future and redirects the prostitute's grief into repeated knife attacks on the bombardier she blames.",
+        "participants": [
+          "young airman",
+          "prostitute",
+          "bombardier"
+        ],
+        "location": "a coastal target and city streets",
+        "pre": {
+          "young_airman_in_love": true
+        },
+        "post": {
+          "young_airman_dead": true,
+          "prostitute_hunts_bombardier": true
+        },
+        "learns": {
+          "bombardier": [
+            "the prostitute holds him responsible for the young airman's death"
+          ],
+          "reader": [
+            "another combat death produces danger far from the mission itself"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "bombardier",
+          "walks through",
+          "the stripped city"
+        ],
+        "content": "After police clear the apartments, his return route passes exploitation and casual violence until the whole civilian world resembles the base's logic.",
+        "participants": [
+          "bombardier",
+          "prostitute",
+          "military police"
+        ],
+        "location": "city streets at night",
+        "pre": {
+          "prostitute_hunts_bombardier": true
+        },
+        "post": {
+          "bombardier_exposed_to_city_atrocities": true
+        },
+        "learns": {
+          "reader": [
+            "the injustice of the military system extends into the surrounding city"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "military police",
+          "arrest",
+          "the bombardier"
+        ],
+        "content": "A fellow officer's rape and murder draw no punishment, while the witness without a pass becomes the offence the authorities can process.",
+        "participants": [
+          "bombardier",
+          "military police",
+          "criminal officer",
+          "murdered maid"
+        ],
+        "location": "a city apartment and street",
+        "pre": {
+          "bombardier_exposed_to_city_atrocities": true
+        },
+        "post": {
+          "bombardier_arrested": true
+        },
+        "learns": {
+          "bombardier": [
+            "the institution will punish paperwork while ignoring murder"
+          ],
+          "reader": [
+            "the arrest completes the system's inversion of guilt"
+          ]
+        },
+        "raises": [
+          "q76_3",
+          "q76_7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q76_3": "what brought the bombardier through the city before his absurd arrest?",
+          "q76_7": "how will the commanders exploit the bombardier's arrest?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "colonel",
+          "offers",
+          "a dishonest release"
+        ],
+        "content": "The commander and his second will finally send the bombardier home if he publicly praises them and converts coercion into a heroic story.",
+        "participants": [
+          "bombardier",
+          "colonel",
+          "colonel's second"
+        ],
+        "location": "the commanders' office",
+        "pre": {
+          "bombardier_arrested": true,
+          "mission_quota_escalating": true
+        },
+        "post": {
+          "corrupt_release_offered": true
+        },
+        "learns": {
+          "bombardier": [
+            "freedom is available only through endorsement of the commanders"
+          ],
+          "reader": [
+            "the leaders want narrative legitimacy more than obedience"
+          ]
+        },
+        "raises": [
+          "q76_8"
+        ],
+        "resolves": [
+          "q76_7"
+        ],
+        "questions": {
+          "q76_8": "will he accept the commanders' bargain in order to go home?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "bombardier",
+          "rejects",
+          "the bargain"
+        ],
+        "content": "News that a missing comrade rowed to neutral territory supplies an alternative, and the bombardier leaves to attempt the same escape.",
+        "participants": [
+          "bombardier",
+          "colonel",
+          "colonel's second"
+        ],
+        "location": "the hospital and route off the island",
+        "pre": {
+          "corrupt_release_offered": true
+        },
+        "post": {
+          "bombardier_deserting": true
+        },
+        "learns": {
+          "bombardier": [
+            "the lost comrade survived by escaping to neutral territory"
+          ],
+          "reader": [
+            "the bombardier chooses uncertain flight over a corrupt safe passage"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q76_4",
+          "q76_8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the bomber crew before and during the gunner's death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3",
+        "on": "missions begun and continually extended"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "the hidden wound and the bombardier's hidden trauma"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e7",
+        "on": "two bureaucratic devices that make escape impossible"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the bombardier's hospital refuge"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the borrowed signature and futile inquiry"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e12",
+        "on": "official investigation and official nonexistence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e12",
+        "on": "the doctor explaining and then suffering bureaucratic paradox"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the syndicate and its attack-for-hire"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e17",
+        "on": "command structures that trade loyalty for advantage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "people removed from the ward and from institutional recognition"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "two men erased by opaque procedure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the young airman's courtship and death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the prostitute's grief driving the bombardier into the city"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the city's violence and the arrest that concludes the walk"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the arrest used as leverage by command"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the offered bargain and refusal"
+      }
+    ]
+  }
+}

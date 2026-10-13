@@ -1,0 +1,53 @@
+{
+  "title": "Irreversible",
+  "release_year": 2002,
+  "genre": "Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Alex lies in bed with Marcus describing a recurring dream of a red tunnel while the two tease each other about her ex-boyfriend Pierre.",
+    "Alone in the flat, Alex takes a pregnancy test and finds that it is positive.",
+    "Alex reads in a park among sprinklers and playing children, one hand resting on her stomach.",
+    "Alex, Marcus and Pierre ride the Metro to a party, arguing cheerfully about sex and about Marcus's drinking.",
+    "At the party Marcus gets steadily drunk and high and starts pursuing other women, and a disgusted Alex leaves on her own.",
+    "Rather than cross a busy road Alex takes a pedestrian underpass and walks in on the pimp Le Tenia beating a transsexual woman.",
+    "Le Tenia rapes Alex and beats her head against the concrete while a passer-by glimpses them and backs away.",
+    "Marcus and Pierre come out of the party to find Alex being loaded into an ambulance.",
+    "Two men in the street offer to sell Marcus the rapist's name and steer him and Pierre towards a club called the Rectum.",
+    "Marcus hunts through the club, seizes the wrong man and has his arm snapped.",
+    "Pierre beats that man's face in with a fire extinguisher while the real Le Tenia watches from a few feet away.",
+    "Police handcuff Marcus and Pierre and carry the pair out of the club into the street.",
+    "In a flat above that street, an old man tells a younger one that time destroys everything."
+  ],
+  "syuzhet_order": [
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    1,
+    2,
+    3
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "syuzhet_notes": "The film runs in strict reverse chronological order for its first ten told-order bullets, each long take beginning at the point where the previous one started, so the audience sees the revenge before the crime and the crime before the evening that led to it. The last three told-order bullets are the exception: the morning scenes play forward, so the film closes on its earliest and gentlest images.",
+  "fabula_notes": "Nothing here is inferred - the reverse structure shows every event directly - but the film gives no clock times or captions, so the ordering within the day rests on causal links and on the reversal itself. The revenge in told-order bullets 3-4 is aimed at the wrong man, which the chronology makes plain and the telling does not."
+}

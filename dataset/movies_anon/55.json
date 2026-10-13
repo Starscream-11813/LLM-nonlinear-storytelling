@@ -1,0 +1,745 @@
+{
+  "story_id": "S55",
+  "source_index": 55,
+  "genre": "Drama, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "On a southern beach a woman notices a man who is holidaying at the same hotel with his girlfriend.",
+    "The girlfriend flies home after a row, and the man knocks at the woman's door that evening.",
+    "The two of them wade out into the sea together as the sun goes down.",
+    "At their wedding in a country hotel her estranged parents are seated at opposite ends of the table and every speech is cold.",
+    "He passes out drunk on the wedding night, and she lets a stranger in from the corridor.",
+    "Their son is delivered by emergency surgery while the father sits in the car park unable to make himself go inside.",
+    "He arrives on the ward hours later and admits where he has been.",
+    "Over dinner for his brother and his brother's boyfriend, he describes watching strangers have sex at a club.",
+    "She says at the same table that she was there and watched too, and the evening turns.",
+    "The couple begin sleeping in separate rooms, and he takes a lover at his office.",
+    "A clerk in a lawyer's office reads out the terms of the divorce and the two of them sign it.",
+    "They take a hotel room afterwards, sleep together one last time, and he dresses and leaves her lying on the bed."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    8,
+    9,
+    10,
+    6,
+    7,
+    4,
+    5,
+    1,
+    2,
+    3
+  ],
+  "event_scenes": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. Five episodes reverse a marriage: the divorce, a dinner, the birth, the wedding, and the day the two met.",
+  "syuzhet_notes": "Five self-contained episodes play in reverse, each opening after the one before it has already been undone: the divorce first, the first meeting last. Nothing in the telling ever moves forward between episodes.",
+  "fabula_notes": "Each episode is a single continuous stretch, so its own bullets play in order; the reversal operates entirely at the level of the five episodes.",
+  "story_graph": {
+    "characters": {
+      "the woman": {
+        "archetype": "Hero"
+      },
+      "the man": {
+        "archetype": "Hero"
+      },
+      "the girlfriend": {
+        "archetype": "Shapeshifter"
+      },
+      "the woman's parents": {
+        "archetype": "Threshold Guardian"
+      },
+      "the wedding-night stranger": {
+        "archetype": "Shapeshifter"
+      },
+      "their son": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the man's brother": {
+        "archetype": "Ally"
+      },
+      "the brother's boyfriend": {
+        "archetype": "Ally"
+      },
+      "the office lover": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the woman",
+          "notices",
+          "the man on holiday"
+        ],
+        "content": "At a southern hotel she sees a stranger still travelling with another woman, making the future relationship begin as observation rather than destiny.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the girlfriend"
+        ],
+        "location": "a southern beach hotel",
+        "pre": {},
+        "post": {
+          "woman_noticed_man": true
+        },
+        "learns": {
+          "the woman": [
+            "the man is staying at her hotel with a girlfriend"
+          ],
+          "reader": [
+            "the couple's first contact occurs before his previous relationship has ended"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the man",
+          "visits",
+          "the woman's room"
+        ],
+        "content": "After a quarrel sends his girlfriend home, he knocks on the other guest's door the same evening, turning abrupt loss into immediate courtship.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the girlfriend"
+        ],
+        "location": "the southern beach hotel",
+        "pre": {
+          "woman_noticed_man": true
+        },
+        "post": {
+          "new_couple_connected": true,
+          "girlfriend_left": true
+        },
+        "learns": {
+          "the woman": [
+            "the man's girlfriend has left and he wants her company"
+          ],
+          "reader": [
+            "one relationship gives way to the next without pause"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the new couple",
+          "wade into",
+          "the evening sea"
+        ],
+        "content": "They enter the water together under a setting sun, an image of possibility shown only after the audience has seen every later fracture.",
+        "participants": [
+          "the woman",
+          "the man"
+        ],
+        "location": "the southern sea",
+        "pre": {
+          "new_couple_connected": true
+        },
+        "post": {
+          "relationship_begun": true
+        },
+        "learns": {
+          "reader": [
+            "the relationship begins with mutual attraction and an open horizon"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the couple",
+          "marry",
+          "before divided families"
+        ],
+        "content": "At a country hotel, her estranged parents sit apart and cold speeches surround the formal promise with inherited evidence of marital failure.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the woman's parents"
+        ],
+        "location": "a country-hotel wedding",
+        "pre": {
+          "relationship_begun": true
+        },
+        "post": {
+          "couple_married": true
+        },
+        "learns": {
+          "the man": [
+            "the woman's parents remain bitterly estranged"
+          ],
+          "reader": [
+            "the wedding embeds the new marriage in an older failed one"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the woman",
+          "lets in",
+          "a wedding-night stranger"
+        ],
+        "content": "After her husband passes out, she opens the door to a man in the corridor and makes the first night of marriage contain a secret betrayal.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the wedding-night stranger"
+        ],
+        "location": "a country-hotel bedroom",
+        "pre": {
+          "couple_married": true
+        },
+        "post": {
+          "wedding_night_betrayal": true
+        },
+        "learns": {
+          "reader": [
+            "the marriage is unfaithful from its first night, though the husband does not know"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "surgeons",
+          "deliver",
+          "the couple's son"
+        ],
+        "content": "An emergency operation saves mother and child while the father remains in the car park, unable to cross into the frightening family event.",
+        "participants": [
+          "the woman",
+          "the man",
+          "their son"
+        ],
+        "location": "a hospital and its car park",
+        "pre": {
+          "couple_married": true
+        },
+        "post": {
+          "son_born": true,
+          "father_absent_from_birth": true
+        },
+        "learns": {
+          "the woman": [
+            "the man was not beside her during the emergency delivery"
+          ],
+          "reader": [
+            "the father's absence marks a central failure of support"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the man",
+          "returns",
+          "to the maternity ward"
+        ],
+        "content": "Hours after the surgery he tells his wife where he has been, offering factual admission without undoing his absence when she needed him.",
+        "participants": [
+          "the woman",
+          "the man",
+          "their son"
+        ],
+        "location": "a maternity ward",
+        "pre": {
+          "son_born": true,
+          "father_absent_from_birth": true
+        },
+        "post": {
+          "birth_absence_admitted": true
+        },
+        "learns": {
+          "the woman": [
+            "where the man spent the hours of the emergency birth"
+          ],
+          "reader": [
+            "the couple retain honesty about an abandonment they cannot repair"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the man",
+          "describes",
+          "watching strangers at a club"
+        ],
+        "content": "At dinner with his brother and the brother's boyfriend, he presents voyeurism as an anecdote while testing what can be spoken inside the marriage.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the man's brother",
+          "the brother's boyfriend"
+        ],
+        "location": "the couple's dining room",
+        "pre": {
+          "couple_married": true
+        },
+        "post": {
+          "club_story_told": true
+        },
+        "learns": {
+          "the woman": [
+            "the man is publicly describing the sexual club"
+          ],
+          "reader": [
+            "the dinner exposes the couple's sexual distance through confession and performance"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what does the wife know about the club story?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the woman",
+          "reveals",
+          "she also watched at the club"
+        ],
+        "content": "Her answer removes his control over the anecdote and makes the table confront a shared experience the spouses understood differently.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the man's brother",
+          "the brother's boyfriend"
+        ],
+        "location": "the couple's dining room",
+        "pre": {
+          "club_story_told": true
+        },
+        "post": {
+          "shared_club_secret_open": true
+        },
+        "learns": {
+          "the man": [
+            "his wife was present and watching at the club"
+          ],
+          "reader": [
+            "both spouses participated in the same boundary-crossing evening"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the couple",
+          "separate",
+          "their bedrooms"
+        ],
+        "content": "Domestic distance becomes architectural, and the man begins an office affair instead of addressing what the dinner exposed.",
+        "participants": [
+          "the woman",
+          "the man",
+          "the office lover"
+        ],
+        "location": "the family home and an office",
+        "pre": {
+          "shared_club_secret_open": true
+        },
+        "post": {
+          "couple_sleep_separately": true,
+          "office_affair_started": true
+        },
+        "learns": {
+          "the woman": [
+            "the marriage now operates from separate rooms"
+          ],
+          "reader": [
+            "emotional separation is followed by another affair"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the couple",
+          "sign",
+          "their divorce"
+        ],
+        "content": "A clerk reduces the accumulated betrayals and absences to terms on paper, and both spouses accept the legal ending without discovering a single decisive cause.",
+        "participants": [
+          "the woman",
+          "the man"
+        ],
+        "location": "a lawyer's office",
+        "pre": {
+          "couple_sleep_separately": true,
+          "office_affair_started": true
+        },
+        "post": {
+          "divorce_signed": true
+        },
+        "learns": {
+          "the woman": [
+            "the legal marriage is over"
+          ],
+          "the man": [
+            "the legal marriage is over"
+          ],
+          "reader": [
+            "the relationship's endpoint is administrative and mutually accepted"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "where and in what circumstances did the divorced couple first see one another?",
+          "q4": "what model of marriage surrounded their wedding?",
+          "q5": "what secret betrayal existed from the first night of the marriage?",
+          "q6": "what absence had the wife been asked to absorb during the marriage?",
+          "q7": "what immediate domestic separation led to the divorce papers?",
+          "q9": "does signing the divorce truly end their physical bond?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the former couple",
+          "share",
+          "a final hotel room"
+        ],
+        "content": "Sex after the signatures briefly restores physical familiarity without restoring a future; he dresses and leaves her alone on the bed.",
+        "participants": [
+          "the woman",
+          "the man"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "divorce_signed": true
+        },
+        "post": {
+          "couple_parted": true
+        },
+        "learns": {
+          "the woman": [
+            "the final intimacy does not change his departure"
+          ],
+          "reader": [
+            "desire survives the marriage but cannot reverse the divorce"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q3"
+        ],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {
+          "q2": "what previous relationship ended immediately before this one began?",
+          "q3": "what promise of possibility makes their final separation painful?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the southern-hotel meeting"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3",
+        "on": "the couple's first holiday"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the first evening together"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10",
+        "on": "relationships replaced through infidelity"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e12",
+        "on": "the first and last private encounters"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the wedding and its night"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11",
+        "on": "the marriage begun and legally ended"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e10",
+        "on": "infidelity at both ends of the marriage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the son's birth"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e11",
+        "on": "the family divided by divorce"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the man's admissions to his wife"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the same dinner conversation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the dinner's effect on the household"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the immediate path from separation to divorce"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the day of the divorce"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+,mean,size
+G0 fabula only,0.214,56
+G1 full graph,0.218,55
+G2 told order (oracle),0.071,56
+H human telling (reference),0.071,14

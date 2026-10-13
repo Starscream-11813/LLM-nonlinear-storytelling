@@ -1,0 +1,761 @@
+{
+  "story_id": "S70",
+  "source_index": 70,
+  "genre": "Drama, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "A doctor whose face was destroyed in the war sits in the lobby telling anyone passing that people come and go and nothing ever happens here.",
+    "A bookkeeper who has been told he is dying cashes in his savings and takes the most expensive room in the building.",
+    "A ruined nobleman working the corridors as a thief is pressed by his creditors for money he has not got.",
+    "A manufacturer arrives to close a merger that will collapse unless he lies about it.",
+    "A famous dancer refuses to go on, saying nobody comes to watch her any more.",
+    "The manufacturer engages a typist and makes clear what else the position involves.",
+    "The thief hides in the dancer's room to take her pearls and instead spends the night listening to her.",
+    "She discovers him there, and by morning the two of them are in love.",
+    "The bookkeeper loses his temper in the bar with the manufacturer, who is his own employer, and tells him precisely what he thinks of him.",
+    "The thief takes up with the bookkeeper and teaches him to drink and to dance.",
+    "The dancer performs better than she has in years and arranges to leave for the south with the thief in the morning.",
+    "The bookkeeper wins heavily at cards and then loses his wallet, and the thief, who took it, hands it back.",
+    "The manufacturer's merger collapses when the truth about the foreign contract comes out.",
+    "The thief breaks into the manufacturer's room for the money, and the manufacturer beats him to death with a telephone.",
+    "The manufacturer is arrested, the dancer leaves for her train believing her lover will follow, the bookkeeper takes the typist away with him, and the doctor repeats that nothing ever happens."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "nonlinear_category": "CHRONICLE",
+  "nonlinear_category_reason": "Every strand keeps its own forward order and nothing is ever shown out of turn in time; the inversions are only between strands running at the same moment, which the telling cuts between sideways. Five guests pass through one hotel over two days, and the film moves between their rooms rather than between times.",
+  "syuzhet_notes": "The telling moves from room to room across two days in one building, so consecutive told bullets belong to different guests rather than to different times.",
+  "fabula_notes": "The two days run continuously. Where two guests are doing things in the same hour, either ranking would serve.",
+  "story_graph": {
+    "characters": {
+      "the doctor": {
+        "archetype": "Herald",
+        "archetype_detail": "Observer"
+      },
+      "the bookkeeper": {
+        "archetype": "Hero"
+      },
+      "the ruined nobleman": {
+        "archetype": "Hero",
+        "archetype_detail": "Tragic Hero"
+      },
+      "the manufacturer": {
+        "archetype": "Shadow"
+      },
+      "the dancer": {
+        "archetype": "Hero"
+      },
+      "the typist": {
+        "archetype": "Ally"
+      },
+      "the creditors": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Threshold Guardians"
+      },
+      "the police": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Threshold Guardians"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the doctor",
+          "observes",
+          "the hotel lobby"
+        ],
+        "content": "His damaged face and repeated claim that nothing happens make him the stationary witness to everyone else's crossings.",
+        "participants": [
+          "the doctor"
+        ],
+        "location": "the grand hotel lobby",
+        "pre": {},
+        "post": {
+          "doctor_observing": true
+        },
+        "learns": {
+          "reader": [
+            "the doctor supplies the ironic frame for the hotel's concentrated dramas"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the bookkeeper",
+          "spends",
+          "his savings on luxury"
+        ],
+        "content": "A terminal diagnosis turns thrift into an expensive room and a decision to experience pleasure while time remains.",
+        "participants": [
+          "the bookkeeper"
+        ],
+        "location": "the hotel lobby and an expensive room",
+        "pre": {},
+        "post": {
+          "bookkeeper_dying": true,
+          "bookkeeper_splurging": true
+        },
+        "learns": {
+          "reader": [
+            "the dying bookkeeper has money to spend and no reason to save it"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "will the dying bookkeeper manage to enjoy the wealth he has finally decided to spend?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the ruined nobleman",
+          "faces",
+          "his creditors"
+        ],
+        "content": "Debt has converted rank into a disguise for theft, and the hotel corridors into his workplace.",
+        "participants": [
+          "the ruined nobleman",
+          "the creditors"
+        ],
+        "location": "the hotel corridors",
+        "pre": {},
+        "post": {
+          "nobleman_in_debt": true,
+          "nobleman_stealing": true
+        },
+        "learns": {
+          "reader": [
+            "the nobleman's urgent debts drive his planned thefts"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "can the ruined nobleman escape his creditors without another theft?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the manufacturer",
+          "plans",
+          "a fraudulent merger"
+        ],
+        "content": "The agreement can survive only if he conceals the collapse of the foreign contract on which it depends.",
+        "participants": [
+          "the manufacturer",
+          "the typist"
+        ],
+        "location": "the manufacturer's hotel suite",
+        "pre": {},
+        "post": {
+          "merger_pending": true,
+          "foreign_contract_lie": true
+        },
+        "learns": {
+          "reader": [
+            "the manufacturer's merger rests on a material lie"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "will the merger survive the manufacturer's lie about the foreign contract?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the dancer",
+          "refuses",
+          "to perform"
+        ],
+        "content": "Her fame feels empty in a hotel room where she believes the audience has stopped caring.",
+        "participants": [
+          "the dancer"
+        ],
+        "location": "the dancer's hotel suite",
+        "pre": {},
+        "post": {
+          "dancer_despondent": true
+        },
+        "learns": {
+          "reader": [
+            "the dancer begins in professional despair and isolation"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "can anything restore the dancer's desire and ability to perform?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the manufacturer",
+          "hires",
+          "the typist"
+        ],
+        "content": "The employment offer carries a sexual demand that makes the unequal terms unmistakable.",
+        "participants": [
+          "the manufacturer",
+          "the typist"
+        ],
+        "location": "the hotel lobby",
+        "pre": {
+          "merger_pending": true
+        },
+        "post": {
+          "typist_hired": true,
+          "typist_exploited": true
+        },
+        "learns": {
+          "reader": [
+            "the typist enters the manufacturer's orbit under coercive conditions"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "can the typist leave the manufacturer's coercive employment?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the ruined nobleman",
+          "abandons",
+          "the pearl theft"
+        ],
+        "content": "Hidden in the dancer's room, he listens through her despair and chooses companionship over the jewels he came to take.",
+        "participants": [
+          "the ruined nobleman",
+          "the dancer"
+        ],
+        "location": "the dancer's hotel suite",
+        "pre": {
+          "nobleman_stealing": true,
+          "dancer_despondent": true
+        },
+        "post": {
+          "pearl_theft_abandoned": true,
+          "dancer_nobleman_connected": true
+        },
+        "learns": {
+          "reader": [
+            "the thief's attempted robbery becomes an intimate encounter"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the dancer",
+          "falls in love with",
+          "the ruined nobleman"
+        ],
+        "content": "Discovering the stranger in her room leads by morning to a mutual promise rather than an alarm.",
+        "participants": [
+          "the dancer",
+          "the ruined nobleman"
+        ],
+        "location": "the dancer's hotel suite",
+        "pre": {
+          "dancer_nobleman_connected": true
+        },
+        "post": {
+          "dancer_nobleman_in_love": true
+        },
+        "learns": {
+          "reader": [
+            "the dancer and thief form a genuine relationship overnight"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "will the dancer and nobleman be able to leave together in the morning?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the bookkeeper",
+          "defies",
+          "the manufacturer"
+        ],
+        "content": "The dying employee uses the hotel bar to say everything workplace dependence once required him to swallow.",
+        "participants": [
+          "the bookkeeper",
+          "the manufacturer"
+        ],
+        "location": "the hotel bar",
+        "pre": {
+          "bookkeeper_dying": true
+        },
+        "post": {
+          "bookkeeper_defied_employer": true
+        },
+        "learns": {
+          "reader": [
+            "knowledge of death frees the bookkeeper to confront his employer"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the ruined nobleman",
+          "befriends",
+          "the bookkeeper"
+        ],
+        "content": "Drink and dancing let two men with little future create an exuberant companionship for one night.",
+        "participants": [
+          "the ruined nobleman",
+          "the bookkeeper"
+        ],
+        "location": "the hotel bar",
+        "pre": {
+          "bookkeeper_splurging": true
+        },
+        "post": {
+          "nobleman_bookkeeper_friends": true
+        },
+        "learns": {
+          "reader": [
+            "the thief becomes the dying bookkeeper's guide to pleasure"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the dancer",
+          "recovers",
+          "her performance"
+        ],
+        "content": "Love restores her confidence, and she arranges to leave south with the nobleman the next morning.",
+        "participants": [
+          "the dancer",
+          "the ruined nobleman"
+        ],
+        "location": "a theatre and the hotel",
+        "pre": {
+          "dancer_nobleman_in_love": true
+        },
+        "post": {
+          "dancer_performed_well": true,
+          "southern_trip_planned": true
+        },
+        "learns": {
+          "reader": [
+            "the new relationship revives the dancer and creates a shared escape plan"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the ruined nobleman",
+          "returns",
+          "the bookkeeper's wallet"
+        ],
+        "content": "After the bookkeeper wins at cards, need makes the thief take the wallet and friendship makes him give it back.",
+        "participants": [
+          "the ruined nobleman",
+          "the bookkeeper"
+        ],
+        "location": "the hotel card room",
+        "pre": {
+          "nobleman_in_debt": true,
+          "nobleman_bookkeeper_friends": true
+        },
+        "post": {
+          "bookkeeper_won_cards": true,
+          "wallet_returned": true
+        },
+        "learns": {
+          "reader": [
+            "the nobleman's loyalty briefly overcomes the debt-driven habit of theft"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the merger",
+          "collapses",
+          "under the exposed lie"
+        ],
+        "content": "News of the failed foreign contract removes the deception holding the manufacturer's deal together.",
+        "participants": [
+          "the manufacturer",
+          "the typist"
+        ],
+        "location": "the manufacturer's hotel suite",
+        "pre": {
+          "merger_pending": true,
+          "foreign_contract_lie": true
+        },
+        "post": {
+          "merger_failed": true
+        },
+        "learns": {
+          "reader": [
+            "the manufacturer's concealed contract failure destroys the merger"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the manufacturer",
+          "kills",
+          "the ruined nobleman"
+        ],
+        "content": "Still desperate for money, the thief enters the manufacturer's room and is beaten to death with the telephone.",
+        "participants": [
+          "the ruined nobleman",
+          "the manufacturer"
+        ],
+        "location": "the manufacturer's hotel suite",
+        "pre": {
+          "nobleman_in_debt": true,
+          "merger_failed": true
+        },
+        "post": {
+          "nobleman_dead": true,
+          "manufacturer_killed_man": true
+        },
+        "learns": {
+          "reader": [
+            "debt drives the nobleman back to theft and into the manufacturer's violence"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q2",
+          "q7"
+        ],
+        "questions": {
+          "q8": "what consequences follow the nobleman's death in the hotel room?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the guests",
+          "depart",
+          "into unequal endings"
+        ],
+        "content": "Police take the manufacturer, the dancer leaves expecting a man who is dead, and the bookkeeper offers the typist another destination as the doctor repeats his refrain.",
+        "participants": [
+          "the doctor",
+          "the bookkeeper",
+          "the dancer",
+          "the typist",
+          "the manufacturer",
+          "the police"
+        ],
+        "location": "the hotel lobby",
+        "pre": {
+          "nobleman_dead": true,
+          "manufacturer_killed_man": true,
+          "southern_trip_planned": true,
+          "typist_hired": true
+        },
+        "post": {
+          "manufacturer_arrested": true,
+          "dancer_departed_unaware": true,
+          "bookkeeper_typist_departed": true
+        },
+        "learns": {
+          "reader": [
+            "the hotel disperses its guests after love, crime, freedom and loss intersect"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5",
+          "q8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e13",
+        "on": "the employee's defiance and the employer's business collapse"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      }
+    ]
+  }
+}

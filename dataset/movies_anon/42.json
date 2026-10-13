@@ -1,0 +1,981 @@
+{
+  "story_id": "S42",
+  "source_index": 42,
+  "genre": "Musical, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "As a boy at a religious school, Bruno Malvasi sneaks down to the beach to watch the prostitute Mareva dance, and is beaten for it by the priests.",
+    "Bruno's mother watches over him from the edge of every memory, and he loses her early.",
+    "Bruno becomes the country's most celebrated director, with a run of hits and a public that hangs on his every word.",
+    "Bruno marries the actress Renata, who gives up her own career for him.",
+    "Bruno takes a mistress, Gilda, and installs her in hotels near wherever he happens to be shooting.",
+    "Bruno's last two films fail, and he finds he cannot write the next one.",
+    "A press conference in the capital for the unwritten film Aurora turns into an ambush, and Bruno flees to a spa on the coast.",
+    "His costume designer and confidante Zita tells him plainly that he has nothing to say.",
+    "Gilda follows him to the spa, checks into his hotel and stages an elaborate seduction.",
+    "Bruno summons his muse, the star Adriana, and cannot tell her what the part is.",
+    "The producer begins erecting sets for a picture with no screenplay, while the crew idles on the lot.",
+    "Renata arrives at the spa and sees Gilda's name in the hotel register.",
+    "Told to leave, Gilda takes an overdose in her room and survives it.",
+    "Bruno imagines every woman in his life singing for him at once on an empty soundstage.",
+    "Renata confronts Bruno in front of the press and tells him she is done being his material.",
+    "Bruno abandons the film on the day shooting was to start, and the sets are struck.",
+    "Bruno spends two years in silence, until Zita talks him into trying once more.",
+    "Bruno calls Renata to a screen test for a film about the two of them, and she agrees to sit and watch."
+  ],
+  "syuzhet_order": [
+    14,
+    7,
+    11,
+    9,
+    5,
+    8,
+    2,
+    1,
+    10,
+    3,
+    12,
+    4,
+    6,
+    13,
+    15,
+    16,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The fortnight before the shoot is the present the film keeps returning to, and the memories interrupting it are all earlier and arrive by association.",
+  "syuzhet_notes": "The present is the fortnight before a shoot that never starts, and it keeps breaking into two kinds of interruption: memories - told-order bullets 5, 7, 8, 10 and 12 - and staged musical numbers that happen only inside the director's head. The largest of those is told-order bullet 1, which opens the film on a soundstage that exists nowhere in the story.",
+  "fabula_notes": "Several numbers are fantasy rather than event and have no fixed position in time; they are placed here at the moment in his life they draw on. His childhood, his mother's death and the arc of his career are recalled rather than staged as present action.",
+  "story_graph": {
+    "characters": {
+      "Bruno": {
+        "archetype": "Hero"
+      },
+      "Renata": {
+        "archetype": "Ally"
+      },
+      "Gilda": {
+        "archetype": "Shapeshifter"
+      },
+      "Zita": {
+        "archetype": "Mentor"
+      },
+      "Adriana": {
+        "archetype": "Shapeshifter"
+      },
+      "Mareva": {
+        "archetype": "Herald"
+      },
+      "Bruno's mother": {
+        "archetype": "Mentor"
+      },
+      "the producer": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Bruno",
+          "watches",
+          "Mareva dance"
+        ],
+        "content": "Four boys down a cliff path to a beach hut, a handful of coins, and a woman dancing on the sand for them until the priests arrive with a strap.",
+        "participants": [
+          "Bruno",
+          "Mareva"
+        ],
+        "location": "a beach below a religious school",
+        "pre": {},
+        "post": {
+          "boyhood_beach": true
+        },
+        "learns": {
+          "Bruno": [
+            "what women are, according to a nine-year-old"
+          ],
+          "reader": [
+            "intro:Bruno",
+            "intro:Mareva",
+            "the template every later woman is measured against"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Bruno",
+          "loses",
+          "his mother"
+        ],
+        "content": "She is at the edge of every memory he has, scrubbing him in a wine barrel, calling him in off the sand, and then she is not there and he is still calling.",
+        "participants": [
+          "Bruno",
+          "Bruno's mother"
+        ],
+        "location": "a house by the sea",
+        "pre": {
+          "boyhood_beach": true
+        },
+        "post": {
+          "mother_lost": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Bruno's mother",
+            "the absence he keeps casting other people in"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Bruno",
+          "becomes",
+          "a celebrated director"
+        ],
+        "content": "Five pictures, all of them adored, and a country that reads his interviews as though they were policy, and a man who has begun to believe the coverage.",
+        "participants": [
+          "Bruno",
+          "the producer"
+        ],
+        "location": "the film capital",
+        "pre": {
+          "mother_lost": true
+        },
+        "post": {
+          "bruno_celebrated": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the producer",
+            "the position from which everything falls"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4",
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Bruno",
+          "marries",
+          "Renata"
+        ],
+        "content": "An actress with her own reviews puts them in a drawer and becomes a wife, on the understanding that he will be worth it.",
+        "participants": [
+          "Bruno",
+          "Renata"
+        ],
+        "location": "the film capital",
+        "pre": {
+          "bruno_celebrated": true
+        },
+        "post": {
+          "married_renata": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Renata",
+            "the bargain, and which of them keeps their side"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Bruno",
+          "installs",
+          "Gilda"
+        ],
+        "content": "A woman in a series of hotel rooms near a series of locations, kept in comfort and out of sight, who has understood the arrangement from the beginning and takes it anyway.",
+        "participants": [
+          "Bruno",
+          "Gilda"
+        ],
+        "location": "hotels near locations",
+        "pre": {
+          "married_renata": true
+        },
+        "post": {
+          "gilda_installed": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Gilda",
+            "the standing arrangement, and that everyone knows"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Bruno",
+          "loses",
+          "the thread"
+        ],
+        "content": "Two pictures in a row that nobody likes, and then a desk, and a blank page, and a man discovering that the thing he does had never been under his control in the first place.",
+        "participants": [
+          "Bruno"
+        ],
+        "location": "a study in the film capital",
+        "pre": {
+          "gilda_installed": true
+        },
+        "post": {
+          "films_failed": true
+        },
+        "learns": {
+          "Bruno": [
+            "he has nothing"
+          ],
+          "reader": [
+            "the crisis, and it is not a crisis of confidence but of material"
+          ]
+        },
+        "raises": [
+          "q12"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q12": "does he write anything again?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the press",
+          "ambush",
+          "Bruno"
+        ],
+        "content": "A room of microphones asking what the new picture is about, and a director who talks for four minutes without saying a noun, and then goes out of a side door and drives to the sea.",
+        "participants": [
+          "Bruno",
+          "the producer"
+        ],
+        "location": "a press conference in the capital",
+        "pre": {
+          "films_failed": true
+        },
+        "post": {
+          "fled_to_the_spa": true
+        },
+        "learns": {
+          "reader": [
+            "the flight, disguised as a rest cure"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why can he not answer a single question?",
+          "q9": "does the film ever get made?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Zita",
+          "tells",
+          "Bruno the truth"
+        ],
+        "content": "The one person who has been with him since the beginning sits on a bed with a tape measure round her neck and says it without decoration: he has nothing to say and is spending a fortune not saying it.",
+        "participants": [
+          "Bruno",
+          "Zita"
+        ],
+        "location": "a spa hotel on the coast",
+        "pre": {
+          "fled_to_the_spa": true
+        },
+        "post": {
+          "zita_spoke": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Zita",
+            "the diagnosis, from the only character who is never fooled"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what is missing in this man?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Gilda",
+          "follows",
+          "him to the spa"
+        ],
+        "content": "She books into his hotel under a name he chose for her, telephones up to his room, and performs an entrance she has clearly rehearsed on the way.",
+        "participants": [
+          "Bruno",
+          "Gilda"
+        ],
+        "location": "a spa hotel on the coast",
+        "pre": {
+          "zita_spoke": true
+        },
+        "post": {
+          "gilda_at_the_spa": true
+        },
+        "learns": {
+          "reader": [
+            "the arrangement, brought inconveniently into the same building as the crisis"
+          ]
+        },
+        "raises": [
+          "q5",
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "who is she to him?",
+          "q10": "what happens to the woman in the hotel?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Bruno",
+          "summons",
+          "Adriana"
+        ],
+        "content": "He sends for the star everybody assumes he is making it for, sits opposite her with a menu, and cannot tell her a single thing about the part.",
+        "participants": [
+          "Bruno",
+          "Adriana"
+        ],
+        "location": "a spa hotel on the coast",
+        "pre": {
+          "gilda_at_the_spa": true
+        },
+        "post": {
+          "adriana_summoned": true
+        },
+        "learns": {
+          "Adriana": [
+            "there is no film"
+          ],
+          "reader": [
+            "intro:Adriana",
+            "the muse arrives and finds nothing to be a muse for"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "why does the star come when he calls?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the producer",
+          "builds",
+          "the sets"
+        ],
+        "content": "Scaffolding goes up on the lot for a picture with no screenplay, and a hundred people are paid to stand near it while somebody tries to write.",
+        "participants": [
+          "Bruno",
+          "the producer"
+        ],
+        "location": "a studio lot",
+        "pre": {
+          "adriana_summoned": true
+        },
+        "post": {
+          "sets_built": true
+        },
+        "learns": {
+          "reader": [
+            "the money, committed on the strength of a name"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why would anyone put money into this?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Renata",
+          "reads",
+          "the register"
+        ],
+        "content": "She comes down to the coast to be supportive, stands at the desk while the clerk finds her key, and reads a name three lines above her husband's.",
+        "participants": [
+          "Bruno",
+          "Renata",
+          "Gilda"
+        ],
+        "location": "a spa hotel on the coast",
+        "pre": {
+          "sets_built": true
+        },
+        "post": {
+          "renata_knows": true
+        },
+        "learns": {
+          "Renata": [
+            "the woman is in this building"
+          ],
+          "reader": [
+            "the wife stops being able to not know"
+          ]
+        },
+        "raises": [
+          "q7",
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "what did the wife give up for him?",
+          "q11": "what will the wife do about it?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Gilda",
+          "takes",
+          "the pills"
+        ],
+        "content": "Told to go home, she does the arithmetic on what she has actually been for ten years, and takes what she has, and is found in time.",
+        "participants": [
+          "Gilda",
+          "Bruno"
+        ],
+        "location": "a spa hotel on the coast",
+        "pre": {
+          "renata_knows": true
+        },
+        "post": {
+          "gilda_overdosed": true
+        },
+        "learns": {
+          "reader": [
+            "the arrangement's cost, itemised"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Bruno",
+          "imagines",
+          "them all singing"
+        ],
+        "content": "On a bare soundstage with a strip of light, every woman he has ever needed something from performs for him in turn, and none of them is in the room.",
+        "participants": [
+          "Bruno",
+          "Renata",
+          "Gilda",
+          "Zita",
+          "Adriana",
+          "Mareva",
+          "Bruno's mother"
+        ],
+        "location": "an empty soundstage",
+        "pre": {
+          "gilda_overdosed": true
+        },
+        "post": {
+          "fantasy_staged": true
+        },
+        "learns": {
+          "reader": [
+            "the film's whole cast, assembled in a place that does not exist"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q13"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who are all of these women to him?",
+          "q2": "which of them is his wife?",
+          "q13": "which of them does he actually want?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Renata",
+          "refuses",
+          "to be material"
+        ],
+        "content": "In front of the press she says she has spent twenty years being turned into somebody else's scenes and that she will not be doing the next one, and leaves the building.",
+        "participants": [
+          "Bruno",
+          "Renata"
+        ],
+        "location": "a press event on the coast",
+        "pre": {
+          "fantasy_staged": true
+        },
+        "post": {
+          "renata_leaves": true
+        },
+        "learns": {
+          "reader": [
+            "the one person he cannot rewrite says so publicly"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q11"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Bruno",
+          "abandons",
+          "the film"
+        ],
+        "content": "On the morning shooting was to start he tells them there is no picture, and the scaffolding comes down over three days with everybody watching.",
+        "participants": [
+          "Bruno",
+          "the producer"
+        ],
+        "location": "a studio lot",
+        "pre": {
+          "renata_leaves": true
+        },
+        "post": {
+          "film_abandoned": true
+        },
+        "learns": {
+          "reader": [
+            "the collapse, made public and expensive"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Zita",
+          "talks",
+          "him back"
+        ],
+        "content": "Two years of not working, and then a costume designer with a folder walks into a room and asks whether he is going to do this or not.",
+        "participants": [
+          "Bruno",
+          "Zita"
+        ],
+        "location": "a room in the film capital",
+        "pre": {
+          "film_abandoned": true
+        },
+        "post": {
+          "two_years_silence": true
+        },
+        "learns": {
+          "reader": [
+            "the recovery, and who supplies it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q12"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Bruno",
+          "calls",
+          "Renata to a screen test"
+        ],
+        "content": "A single chair on a stage, a camera, and a film about the two of them. She comes, and sits down, and does not promise anything except to watch.",
+        "participants": [
+          "Bruno",
+          "Renata"
+        ],
+        "location": "a soundstage",
+        "pre": {
+          "two_years_silence": true
+        },
+        "post": {
+          "screen_test": true
+        },
+        "learns": {
+          "reader": [
+            "the ending, which is an offer rather than a reconciliation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q13"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the boy, at the beach and at home"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the years between the school and the studio"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the director at his height, and the actress who marries him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "a wife and a mistress, arranged in parallel"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the years of hotels, and the drying up"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the empty page and the press conference about it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the spa, fled to and then seen through"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the hotel, with the confidante and the mistress in it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the two women summoned to the same coast"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the picture that does not exist, cast and then built"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the sets going up and the wife arriving"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the register, and what reading it sets off"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the overdose and the fantasy that follows it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the wife, imagined singing and then speaking"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the walk-out and the cancellation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the silence and the end of it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the return to a soundstage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "a man watching a woman perform for him, at nine and at fifty"
+      }
+    ]
+  }
+}

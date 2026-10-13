@@ -1,0 +1,615 @@
+{
+  "story_id": "S59",
+  "source_index": 59,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Two inseparable schoolgirls sit the entrance examination for a selective school and both of them pass.",
+    "One girl's stepfather refuses to let her take the place, saying the uniform and the fees are out of reach.",
+    "The other girl starts at the selective school in the new uniform on her own.",
+    "The first girl stays at the local school and begins going round with older boys.",
+    "Her mother and stepfather fight through the evenings and she starts staying out at night.",
+    "The second girl's mother makes it clear she considers her daughter's friend a bad influence.",
+    "The first girl leaves home and moves into a shared house with a boy she barely knows.",
+    "She dyes her hair, takes work behind a counter and stops going to school at all.",
+    "The second girl visits the shared house once and is frightened by what she sees.",
+    "The two of them quarrel at a party and stop speaking.",
+    "The second girl settles at her new school, makes new friends and wins a prize for music.",
+    "The first girl appears at her old friend's front door months afterwards and neither of them can think of anything to say."
+  ],
+  "syuzhet_order": [
+    12,
+    11,
+    10,
+    9,
+    7,
+    8,
+    6,
+    4,
+    5,
+    3,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. Six months of a schoolgirl friendship unwind from the two girls having nothing to say to each other back to the day they both passed the same exam.",
+  "syuzhet_notes": "The telling runs backwards in dated blocks from the estrangement to the examination result, so the audience meets the two girls as near strangers and only gradually learns what they had been to each other.",
+  "fabula_notes": "Chronology is fixed by captions. Each block plays forward within itself, so the reversal operates at the level of the blocks.",
+  "story_graph": {
+    "characters": {
+      "the first girl": {
+        "archetype": "Hero"
+      },
+      "the second girl": {
+        "archetype": "Ally"
+      },
+      "the first girl's mother": {
+        "archetype": "Ally"
+      },
+      "the stepfather": {
+        "archetype": "Threshold Guardian"
+      },
+      "the second girl's mother": {
+        "archetype": "Threshold Guardian"
+      },
+      "the older boys": {
+        "archetype": "Shapeshifter"
+      },
+      "the housemate": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the two girls",
+          "pass",
+          "the entrance examination"
+        ],
+        "content": "The inseparable friends earn the same opportunity at the same selective school.",
+        "participants": [
+          "the first girl",
+          "the second girl"
+        ],
+        "location": "an examination hall",
+        "pre": {},
+        "post": {
+          "both_passed": true,
+          "girls_close": true
+        },
+        "learns": {
+          "reader": [
+            "both friends qualify for the selective school"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the stepfather",
+          "refuses",
+          "the first girl's place"
+        ],
+        "content": "He treats the uniform and fees as costs the household cannot carry, separating outcomes that merit made equal.",
+        "participants": [
+          "the first girl",
+          "the stepfather",
+          "the first girl's mother"
+        ],
+        "location": "the first girl's home",
+        "pre": {
+          "both_passed": true
+        },
+        "post": {
+          "first_place_refused": true
+        },
+        "learns": {
+          "reader": [
+            "money and the stepfather's decision split the girls' paths"
+          ],
+          "the first girl": [
+            "she will not be allowed to attend with her friend"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the second girl",
+          "starts",
+          "at the selective school"
+        ],
+        "content": "She enters in the new uniform without the friend who passed beside her.",
+        "participants": [
+          "the second girl"
+        ],
+        "location": "the selective school",
+        "pre": {
+          "first_place_refused": true
+        },
+        "post": {
+          "girls_at_separate_schools": true
+        },
+        "learns": {
+          "reader": [
+            "only the second girl is permitted to take the place"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {
+          "q1": "why did only one of the two successful girls start at this school?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the first girl",
+          "falls in with",
+          "the older boys"
+        ],
+        "content": "Left at the local school, she begins spending time with older companions beyond its routines.",
+        "participants": [
+          "the first girl",
+          "the older boys"
+        ],
+        "location": "the local school and nearby streets",
+        "pre": {
+          "girls_at_separate_schools": true
+        },
+        "post": {
+          "older_circle": true
+        },
+        "learns": {
+          "reader": [
+            "the first girl's new social circle forms after the school split"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the first girl",
+          "stays out",
+          "through the family fights"
+        ],
+        "content": "Evening arguments between her mother and stepfather make absence feel safer than going home.",
+        "participants": [
+          "the first girl",
+          "the first girl's mother",
+          "the stepfather"
+        ],
+        "location": "the first girl's home",
+        "pre": {},
+        "post": {
+          "home_conflict": true,
+          "first_girl_stays_out": true
+        },
+        "learns": {
+          "reader": [
+            "conflict at home drives the first girl to stay away"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the second girl's mother",
+          "condemns",
+          "the friendship"
+        ],
+        "content": "She interprets the first girl's changed life as a danger to her own daughter.",
+        "participants": [
+          "the second girl",
+          "the second girl's mother"
+        ],
+        "location": "the second girl's home",
+        "pre": {
+          "older_circle": true
+        },
+        "post": {
+          "friendship_forbidden": true
+        },
+        "learns": {
+          "reader": [
+            "adult disapproval adds pressure to the girls' separation"
+          ],
+          "the second girl": [
+            "her mother considers her friend a bad influence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the first girl",
+          "moves in with",
+          "the housemate"
+        ],
+        "content": "She leaves the fighting household for a shared house with a boy she scarcely knows.",
+        "participants": [
+          "the first girl",
+          "the housemate"
+        ],
+        "location": "a shared house",
+        "pre": {
+          "home_conflict": true,
+          "first_girl_stays_out": true
+        },
+        "post": {
+          "first_girl_left_home": true
+        },
+        "learns": {
+          "reader": [
+            "the first girl has left home for an unstable arrangement"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q2": "why did the first girl leave her family home?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the first girl",
+          "abandons",
+          "school"
+        ],
+        "content": "Counter work, dyed hair and the shared house replace the education she once expected to share with her friend.",
+        "participants": [
+          "the first girl"
+        ],
+        "location": "a shop counter and shared house",
+        "pre": {
+          "first_girl_left_home": true
+        },
+        "post": {
+          "first_girl_left_school": true
+        },
+        "learns": {
+          "reader": [
+            "the first girl leaves formal education"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the second girl",
+          "visits",
+          "the shared house"
+        ],
+        "content": "One glimpse of the household frightens her and confirms how far their circumstances have diverged.",
+        "participants": [
+          "the first girl",
+          "the second girl",
+          "the housemate"
+        ],
+        "location": "the shared house",
+        "pre": {
+          "first_girl_left_home": true
+        },
+        "post": {
+          "second_girl_frightened": true
+        },
+        "learns": {
+          "reader": [
+            "the second girl sees the first girl's new living conditions"
+          ],
+          "the second girl": [
+            "her friend's new home feels unsafe"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what kind of household is the second girl visiting?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the two girls",
+          "end",
+          "their friendship"
+        ],
+        "content": "Accumulated pressure and fear break into a party quarrel after which neither reaches out.",
+        "participants": [
+          "the first girl",
+          "the second girl"
+        ],
+        "location": "a party",
+        "pre": {
+          "friendship_forbidden": true,
+          "second_girl_frightened": true
+        },
+        "post": {
+          "girls_estranged": true
+        },
+        "learns": {
+          "reader": [
+            "the friendship ends in an explicit quarrel"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q4": "what outside pressure helped drive the friends apart?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the second girl",
+          "builds",
+          "a new school life"
+        ],
+        "content": "New friends and a music prize give her a secure identity apart from the old friendship.",
+        "participants": [
+          "the second girl"
+        ],
+        "location": "the selective school",
+        "pre": {
+          "girls_at_separate_schools": true
+        },
+        "post": {
+          "second_girl_settled": true
+        },
+        "learns": {
+          "reader": [
+            "the second girl prospers after the separation"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "how did the second girl enter the school where she now prospers?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the first girl",
+          "visits",
+          "the second girl's door"
+        ],
+        "content": "Months after the quarrel, proximity cannot restore the language the two once shared.",
+        "participants": [
+          "the first girl",
+          "the second girl"
+        ],
+        "location": "the second girl's front door",
+        "pre": {
+          "girls_estranged": true,
+          "second_girl_settled": true
+        },
+        "post": {
+          "reunion_failed": true
+        },
+        "learns": {
+          "reader": [
+            "the former friends meet again but cannot reconnect"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "why can the girls find nothing to say at the door?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12"
+      }
+    ]
+  }
+}

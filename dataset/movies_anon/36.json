@@ -1,0 +1,1067 @@
+{
+  "story_id": "S36",
+  "source_index": 36,
+  "genre": "Crime, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "As boys on the tenement streets, Nix and his friends Pilo, Squint and Nino run errands and petty rackets for the local boss Sallo.",
+    "Duke arrives in the neighbourhood, and after fighting each other the two boys join forces.",
+    "Nix watches Dinah dance alone through a peephole in the back of her father's delicatessen.",
+    "The boys begin rolling drunks and stash the proceeds in a case inside a station locker.",
+    "Sallo shoots Nino dead in the street, Nix knifes Sallo in return, and Nix is sent to prison.",
+    "Released years later, Nix finds Duke running a large bootlegging operation with Pilo and Squint.",
+    "The gang work for the union man Corrigan and the crooked police chief Vasari, whose newborn son they swap in the maternity ward.",
+    "Nix hires a deserted seafront restaurant for a night with Dinah, and rapes her in the car when she tells him she is leaving for the film capital.",
+    "The dry years end, and Duke, unwilling to stop, proposes robbing the federal bank.",
+    "Ruby and Nix agree that the only way to save Duke from himself is to have him arrested on a smaller job.",
+    "Nix telephones the police to tip them off, and is told at the scene that Duke, Pilo and Squint were shot dead and their bodies burned in the street.",
+    "Nix goes to the station locker for the gang's money, finds the suitcase empty, and leaves the city under another name.",
+    "In an opium den, Nix lies back and smiles at the ceiling.",
+    "Decades later Nix receives an invitation to the reinterment of his three friends in a mausoleum he never paid for.",
+    "Nix comes back to the city, finds Bunny still behind the delicatessen counter, and is given the key to the same locker.",
+    "Nix finds the mausoleum with his own name on the plaque and a suitcase of money inside, described as an advance on his next job.",
+    "Nix visits an aged Ruby at a retirement home endowed by Marrick, and she tells him Duke had wanted to die.",
+    "Nix finds Dinah backstage, now the cabinet minister Marrick's mistress, and she tries to send him away without letting him see her son.",
+    "Nix goes to Marrick's house and finds Duke alive, having stolen everything, now asking Nix to kill him.",
+    "Nix refuses to recognise him and walks away, and a garbage truck grinds past behind him as Duke disappears."
+  ],
+  "syuzhet_order": [
+    11,
+    13,
+    12,
+    14,
+    15,
+    1,
+    3,
+    2,
+    4,
+    5,
+    16,
+    6,
+    7,
+    8,
+    9,
+    10,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    19
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "Three eras of one man's life are entered and re-entered as blocks joined by an echoing sound or object, with no era dominant.",
+  "syuzhet_notes": "The film cuts between three eras - boyhood, the bootlegging years and old age - without captions, carrying each jump on a sound or an object: a telephone that will not stop ringing, a thrown disc, a shot through a peephole. It opens in the middle era at told-order bullets 1-3, jumps decades forward at bullet 4, then all the way back at bullet 6, and thereafter alternates, so a childhood scene and an old man's return repeatedly sit side by side.",
+  "fabula_notes": "The late-life frame may be an opium dream the protagonist is having in the middle era - the closing smile invites the reading and the film never settles it - and the ordering here takes the three eras as literally successive. The decades he spends hiding under another name are elided entirely, and his friend's survival is explained only in retrospect.",
+  "story_graph": {
+    "characters": {
+      "Nix": {
+        "archetype": "Hero"
+      },
+      "Duke": {
+        "archetype": "Shadow"
+      },
+      "Dinah": {
+        "archetype": "Ally"
+      },
+      "Pilo": {
+        "archetype": "Ally"
+      },
+      "Squint": {
+        "archetype": "Ally"
+      },
+      "Nino": {
+        "archetype": "Ally"
+      },
+      "Sallo": {
+        "archetype": "Threshold Guardian"
+      },
+      "Bunny": {
+        "archetype": "Ally"
+      },
+      "Ruby": {
+        "archetype": "Shapeshifter"
+      },
+      "Corrigan": {
+        "archetype": "Threshold Guardian"
+      },
+      "Vasari": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Nix and his friends",
+          "run",
+          "errands for Sallo"
+        ],
+        "content": "Four boys on a street of fire escapes and washing lines, carrying things for a man with a fruit stall who owns everything on it.",
+        "participants": [
+          "Nix",
+          "Pilo",
+          "Squint",
+          "Nino",
+          "Sallo"
+        ],
+        "location": "a tenement street",
+        "pre": {},
+        "post": {
+          "boys_on_the_streets": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nix",
+            "intro:Pilo",
+            "intro:Squint",
+            "intro:Nino",
+            "intro:Sallo",
+            "the street, and who owns it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Duke",
+          "joins",
+          "the gang"
+        ],
+        "content": "A new boy with better ideas gets beaten for having them, and then the two of them work out in an alley that between them they have a whole plan.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Pilo",
+          "Squint"
+        ],
+        "location": "a tenement street",
+        "pre": {
+          "boys_on_the_streets": true
+        },
+        "post": {
+          "duke_joined": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Duke",
+            "the partnership the film is a long argument with"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Nix",
+          "watches",
+          "Dinah dance"
+        ],
+        "content": "There is a hole in the wall of the storeroom behind the delicatessen, and on the other side of it a girl in a slip dancing to a gramophone for nobody.",
+        "participants": [
+          "Nix",
+          "Dinah",
+          "Bunny"
+        ],
+        "location": "a delicatessen storeroom",
+        "pre": {
+          "boys_on_the_streets": true
+        },
+        "post": {
+          "dinah_watched": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Dinah",
+            "intro:Bunny",
+            "how he looks at her, established at the start and never changed"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the boys",
+          "stash",
+          "the money"
+        ],
+        "content": "They roll drunks and take a cut of everything on the block, and the proceeds go into a suitcase in a left-luggage locker at the station, which is the only bank any of them trust.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Pilo",
+          "Squint"
+        ],
+        "location": "a railway station",
+        "pre": {
+          "duke_joined": true
+        },
+        "post": {
+          "locker_stash": true
+        },
+        "learns": {
+          "reader": [
+            "the locker, which the film will come back to twice"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Sallo",
+          "kills",
+          "Nino"
+        ],
+        "content": "A shot in the street over nothing, a boy on the cobbles, and a knife going into a man's chest in front of a crowd, and then years of a cell for the one holding it.",
+        "participants": [
+          "Nix",
+          "Sallo",
+          "Nino"
+        ],
+        "location": "a tenement street",
+        "pre": {
+          "locker_stash": true
+        },
+        "post": {
+          "nino_dead": true,
+          "nix_imprisoned": true
+        },
+        "learns": {
+          "reader": [
+            "the childhood ends in one minute, for all of them"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Nix",
+          "finds",
+          "Duke's operation"
+        ],
+        "content": "He comes out to a car waiting for him and a friend who has spent the intervening years turning four boys into a business with trucks, a warehouse and a lawyer.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Pilo",
+          "Squint"
+        ],
+        "location": "the city",
+        "pre": {
+          "nix_imprisoned": true
+        },
+        "post": {
+          "gang_running": true
+        },
+        "learns": {
+          "reader": [
+            "the second era, and who has grown into what"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the gang",
+          "work",
+          "for Corrigan"
+        ],
+        "content": "Union men who need muscle and a police chief who needs a favour, and a favour that consists of swapping the numbered tags on two newborns in a hospital corridor.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Corrigan",
+          "Vasari"
+        ],
+        "location": "a union hall and a maternity ward",
+        "pre": {
+          "gang_running": true
+        },
+        "post": {
+          "union_work": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Corrigan",
+            "intro:Vasari",
+            "the register of the film's humour, and how ugly it is"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Nix",
+          "assaults",
+          "Dinah"
+        ],
+        "content": "He takes an entire seafront restaurant for one evening, with an orchestra and no other customers. She tells him gently that she is leaving for the coast, and in the car afterwards he does what he does.",
+        "participants": [
+          "Nix",
+          "Dinah"
+        ],
+        "location": "a seafront restaurant and a car",
+        "pre": {
+          "dinah_watched": true
+        },
+        "post": {
+          "dinah_assaulted": true
+        },
+        "learns": {
+          "Dinah": [
+            "what he is"
+          ],
+          "reader": [
+            "the film's central act, and that it is not framed as a mistake"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Duke",
+          "proposes",
+          "the federal bank"
+        ],
+        "content": "The dry years end and the business ends with them, and rather than take the profit and stop he puts a plan on the table that nobody at it believes is survivable.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Pilo",
+          "Squint"
+        ],
+        "location": "a warehouse office",
+        "pre": {
+          "union_work": true
+        },
+        "post": {
+          "bank_proposed": true
+        },
+        "learns": {
+          "reader": [
+            "the partner is not interested in living through this"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Nix and Ruby",
+          "agree",
+          "on the tip-off"
+        ],
+        "content": "She says he will get himself killed on that job and nothing will stop him except a cell, and the two of them settle on a smaller job and a telephone call.",
+        "participants": [
+          "Nix",
+          "Ruby",
+          "Duke"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "bank_proposed": true
+        },
+        "post": {
+          "betrayal_agreed": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ruby",
+            "the betrayal is agreed as a rescue"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Nix",
+          "telephones",
+          "the police"
+        ],
+        "content": "He makes the call and goes to the corner to watch it go the way it was supposed to. What he is shown instead is three bodies burning in the street and a sheet with names on it.",
+        "participants": [
+          "Nix",
+          "Duke",
+          "Pilo",
+          "Squint"
+        ],
+        "location": "a street corner",
+        "pre": {
+          "betrayal_agreed": true
+        },
+        "post": {
+          "three_dead": true
+        },
+        "learns": {
+          "Nix": [
+            "he has killed all three of them"
+          ],
+          "reader": [
+            "the film's first scene of consequence, told first"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why would he inform on his own friends?",
+          "q2": "who are these three men to him?",
+          "q10": "is his friend actually dead?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Nix",
+          "finds",
+          "the locker empty"
+        ],
+        "content": "He goes to the station with the key in his hand for money that would let him disappear properly, and the suitcase is there and there is a newspaper in it.",
+        "participants": [
+          "Nix"
+        ],
+        "location": "a railway station",
+        "pre": {
+          "three_dead": true
+        },
+        "post": {
+          "locker_empty": true
+        },
+        "learns": {
+          "reader": [
+            "somebody got there first, and the film will take four decades to say who"
+          ]
+        },
+        "raises": [
+          "q4",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "whose money was in that locker?",
+          "q9": "who took the money?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Nix",
+          "lies",
+          "in the opium den"
+        ],
+        "content": "Bunks, a pipe, a Chinese shadow play through a doorway, and a man on his back looking at the ceiling with an expression nobody has been able to agree about since.",
+        "participants": [
+          "Nix"
+        ],
+        "location": "an opium den",
+        "pre": {
+          "locker_empty": true
+        },
+        "post": {
+          "opium_den": true
+        },
+        "learns": {
+          "reader": [
+            "the image the film may or may not be dreaming from"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q12"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what is he lying there trying not to think about?",
+          "q12": "is any of this happening at all?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Nix",
+          "receives",
+          "the invitation"
+        ],
+        "content": "Decades of another name in another town, and then a card in the post about the reinterment of three men in a mausoleum, paid for by somebody who is not named.",
+        "participants": [
+          "Nix"
+        ],
+        "location": "a small town far from the city",
+        "pre": {
+          "opium_den": true
+        },
+        "post": {
+          "invitation_received": true
+        },
+        "learns": {
+          "reader": [
+            "the summons, which is the third era beginning"
+          ]
+        },
+        "raises": [
+          "q5",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "who are the three men being reburied?",
+          "q7": "who sent the invitation?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Nix",
+          "finds",
+          "Bunny"
+        ],
+        "content": "The delicatessen is still there and so is the man behind the counter, older by forty years, who says nothing useful and hands him the key to the same locker.",
+        "participants": [
+          "Nix",
+          "Bunny"
+        ],
+        "location": "a delicatessen",
+        "pre": {
+          "invitation_received": true
+        },
+        "post": {
+          "key_given": true
+        },
+        "learns": {
+          "reader": [
+            "the same key, the same locker, forty years on"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what was this shop to him?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Nix",
+          "finds",
+          "the mausoleum"
+        ],
+        "content": "Three friends behind marble, and his own name on the plaque beside theirs, and inside the locker a suitcase of money described in a note as an advance on his next job.",
+        "participants": [
+          "Nix"
+        ],
+        "location": "a mausoleum and a railway station",
+        "pre": {
+          "key_given": true
+        },
+        "post": {
+          "mausoleum_found": true
+        },
+        "learns": {
+          "Nix": [
+            "somebody who knows everything is paying him to come and find out"
+          ],
+          "reader": [
+            "the money from the empty locker, returned with interest"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "who is offering him a job forty years late?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Ruby",
+          "tells",
+          "Nix about Duke"
+        ],
+        "content": "In a home for the old, endowed by a politician, a woman he has not seen since before the war tells him that his friend had always meant to die and had picked the day.",
+        "participants": [
+          "Nix",
+          "Ruby",
+          "Duke"
+        ],
+        "location": "a retirement home",
+        "pre": {
+          "mausoleum_found": true
+        },
+        "post": {
+          "ruby_visited": true
+        },
+        "learns": {
+          "reader": [
+            "the first person to tell him something true, and she has been paid too"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Nix",
+          "finds",
+          "Dinah"
+        ],
+        "content": "Backstage after a performance, still beautiful and entirely finished with him, she tells him to go away and not to wait, and a young man comes to the door who has the wrong face.",
+        "participants": [
+          "Nix",
+          "Dinah"
+        ],
+        "location": "a theatre dressing room",
+        "pre": {
+          "ruby_visited": true
+        },
+        "post": {
+          "dinah_found": true
+        },
+        "learns": {
+          "reader": [
+            "she is the politician's, and there is a son, and he is not told whose"
+          ]
+        },
+        "raises": [
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q11": "whose son is the young man at the door?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Nix",
+          "finds",
+          "Duke alive"
+        ],
+        "content": "In a large house in the hills, the politician turns round and is the man he watched burn. He has had the money, the woman and the name for forty years, and he asks to be shot.",
+        "participants": [
+          "Nix",
+          "Duke"
+        ],
+        "location": "a house in the hills",
+        "pre": {
+          "dinah_found": true
+        },
+        "post": {
+          "duke_alive": true
+        },
+        "learns": {
+          "Nix": [
+            "he did not kill anybody, and was robbed of everything"
+          ],
+          "reader": [
+            "the whole withheld structure, delivered in one room"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7",
+          "q8",
+          "q9",
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Nix",
+          "refuses",
+          "to recognise him"
+        ],
+        "content": "He says he must be mistaken, that the man he knew died a long time ago, and he goes out down the drive. A garbage truck grinds past the gate, and afterwards there is nobody behind it.",
+        "participants": [
+          "Nix",
+          "Duke"
+        ],
+        "location": "the drive of a house in the hills",
+        "pre": {
+          "duke_alive": true
+        },
+        "post": {
+          "refusal": true
+        },
+        "learns": {
+          "reader": [
+            "the revenge declined, which is the only thing he has ever chosen"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q11",
+          "q12"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the street, before and after the new boy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3",
+        "on": "the block, its rackets and its delicatessen"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "the partnership and the money it makes"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the last weeks of the boyhood"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the years inside, and what was built during them"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the operation at its height"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "the same woman, watched through a wall and then attacked in a car"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9",
+        "on": "the business, and the end of the trade it lived on"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the job nobody could survive"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the telephone call, agreed and then made"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the night everything is lost"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the empty case and the pipe afterwards"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the man who disappears and the card that finds him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the return to the block"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the key and what it opens"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e16",
+        "on": "the same locker, filled by boys and refilled by an enemy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the money and the woman who explains it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "two women who were there, questioned in turn"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the politician's household"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the room and the drive out of it"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+,tau,exact,adjacent
+"R0  events as written, shuffled",0.7536,0.0634,0.7853
+"R1  events as written, told order",0.8197,0.1576,0.8346
+"R2  de-dated, shuffled",0.7398,0.0723,0.7767
+"R3  de-dated, told order",0.7989,0.1355,0.8219

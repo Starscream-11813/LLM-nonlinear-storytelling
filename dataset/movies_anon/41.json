@@ -1,0 +1,1032 @@
+{
+  "story_id": "S41",
+  "source_index": 41,
+  "genre": "Sci-Fi, Comedy, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "As a young woman, Meilin defies her father Renjie to emigrate overseas with Bao.",
+    "Meilin and Bao open a laundromat, and every other life she might have had closes off one by one.",
+    "Their daughter Junie grows up feeling judged, and Meilin cannot bring herself to accept her girlfriend Robin.",
+    "On the origin branch, a version of Meilin invents branch-jumping and pushes her own daughter's mind across every universe at once until it shatters, making the entity Kavra Nul.",
+    "Kavra Nul builds a black ring, a hole made of everything that ever mattered, and starts hunting for the Meilin who can face her.",
+    "In the laundromat, Meilin prepares for a tax audit while Bao tries and fails to hand her divorce papers.",
+    "Renjie arrives from overseas for the new year party, and Meilin hides Robin from him.",
+    "In the lift to the tax office, the origin-branch Bao takes over her husband's body and gives Meilin an earpiece and a set of instructions.",
+    "Meilin branch-jumps for the first time in a supply closet and fights the security guards with skills borrowed from a film-star version of herself.",
+    "The auditor Beulah Sneed turns berserk, and the tax office becomes a battlefield.",
+    "Meilin is shown the origin branch and told that Kavra Nul is her own daughter.",
+    "Meilin jumps through lives she never lived - film star, opera singer, teppanyaki chef, a world where people have hot dogs for fingers, two rocks on a cliff.",
+    "The origin-branch Bao is killed, and Meilin's mind begins to come apart as she jumps too far.",
+    "Meilin confronts Kavra Nul, who says she does not want to kill her but wants her to see that nothing matters.",
+    "Believing nothing matters, Meilin turns on the people around her and nearly follows her daughter into the ring.",
+    "Bao, in every universe at once, asks her to be kind, and Meilin starts fighting with kindness instead.",
+    "Meilin gives each attacker what they actually need, wins Renjie's acceptance of Robin, and reaches Junie at the edge of the ring.",
+    "Meilin tells Junie that even if nothing matters she would still choose to be here with her, and pulls her back.",
+    "Back at the tax office the family files the return together, and Meilin's attention drifts for a moment across every universe at once."
+  ],
+  "syuzhet_order": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    4,
+    5,
+    12,
+    1,
+    2,
+    13,
+    14,
+    3,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    10,
+    11,
+    12
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The afternoon at the tax office holds 9 of 12 scenes and runs forward, and the emigration, the daughter's childhood and the origin branch all intrude from earlier.",
+  "syuzhet_notes": "The present is one afternoon at a tax office, and everything else arrives as intrusion rather than flashback in the ordinary sense: told-order bullets 7-8 explain an origin in another universe, bullets 10-11 and 14 reach back into the protagonist's own past, and bullet 9 covers lives she never lived at all. From told-order bullet 9 the cutting accelerates until several universes occupy the same second.",
+  "fabula_notes": "Most of the alternate universes are not events on one timeline but branches that never happened to this version of the protagonist, so a strict chronology can place only the ones that bear on her, in the order the film establishes them as causes. The origin-branch history is recounted in dialogue rather than dramatised in sequence.",
+  "story_graph": {
+    "characters": {
+      "Meilin": {
+        "archetype": "Hero"
+      },
+      "Bao": {
+        "archetype": "Ally"
+      },
+      "Junie": {
+        "archetype": "Shadow"
+      },
+      "Robin": {
+        "archetype": "Ally"
+      },
+      "Renjie": {
+        "archetype": "Threshold Guardian"
+      },
+      "Kavra Nul": {
+        "archetype": "Shadow"
+      },
+      "Beulah Sneed": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Meilin",
+          "defies",
+          "her father"
+        ],
+        "content": "She is told that if she gets on the aeroplane with him she is no longer anybody's daughter, and she gets on the aeroplane.",
+        "participants": [
+          "Meilin",
+          "Bao",
+          "Renjie"
+        ],
+        "location": "an airport overseas",
+        "pre": {},
+        "post": {
+          "meilin_emigrated": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Meilin",
+            "intro:Bao",
+            "intro:Renjie",
+            "the choice every other universe branches off"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the couple",
+          "open",
+          "the laundromat"
+        ],
+        "content": "Machines, receipts, a flat above the shop, and one by one the other things she might have been stop being available without anybody announcing it.",
+        "participants": [
+          "Meilin",
+          "Bao"
+        ],
+        "location": "a laundromat",
+        "pre": {
+          "meilin_emigrated": true
+        },
+        "post": {
+          "laundromat_life": true
+        },
+        "learns": {
+          "reader": [
+            "the life, and the exact shape of what it cost"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Junie",
+          "grows up",
+          "judged"
+        ],
+        "content": "A daughter who has never once been told she is enough, and a mother who cannot get the word girlfriend out of her mouth in front of her own father.",
+        "participants": [
+          "Meilin",
+          "Junie",
+          "Robin"
+        ],
+        "location": "the flat above the laundromat",
+        "pre": {
+          "laundromat_life": true
+        },
+        "post": {
+          "junie_estranged": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Junie",
+            "intro:Robin",
+            "the wound the science-fiction is a metaphor for"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "a Meilin",
+          "shatters",
+          "her daughter"
+        ],
+        "content": "On the branch where the jumping was invented, one version pushes her own child's mind through every universe at once to see how far it will go, and it goes all the way and does not come back.",
+        "participants": [
+          "Meilin",
+          "Junie",
+          "Kavra Nul"
+        ],
+        "location": "the origin branch",
+        "pre": {
+          "laundromat_life": true
+        },
+        "post": {
+          "kavra_made": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Kavra Nul",
+            "the antagonist is made by a mother, in an experiment"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4",
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Kavra Nul",
+          "builds",
+          "the ring"
+        ],
+        "content": "Every object and idea that ever mattered to anyone is put in one place until it collapses into a black circle, followed by a search across every branch for the one mother capable of looking at it.",
+        "participants": [
+          "Kavra Nul"
+        ],
+        "location": "the origin branch",
+        "pre": {
+          "kavra_made": true
+        },
+        "post": {
+          "ring_built": true
+        },
+        "learns": {
+          "reader": [
+            "the threat, which is an invitation rather than a weapon"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Meilin",
+          "prepares",
+          "for the audit"
+        ],
+        "content": "Bin bags of receipts, a new year party to cater, a father in a wheelchair arriving from overseas, and a husband trying to get her to look at a document she will not take.",
+        "participants": [
+          "Meilin",
+          "Bao"
+        ],
+        "location": "a laundromat",
+        "pre": {
+          "junie_estranged": true
+        },
+        "post": {
+          "audit_day": true
+        },
+        "learns": {
+          "reader": [
+            "the present tense: an afternoon with too much in it"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "how did anybody end up living this particular life?",
+          "q2": "why is she like this?",
+          "q9": "do they ever actually file the return?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Meilin",
+          "hides",
+          "Robin"
+        ],
+        "content": "The old man comes through the door and the girlfriend is introduced as a friend, and the daughter hears it happen and says nothing about it in front of him.",
+        "participants": [
+          "Meilin",
+          "Junie",
+          "Robin",
+          "Renjie"
+        ],
+        "location": "a laundromat",
+        "pre": {
+          "audit_day": true
+        },
+        "post": {
+          "robin_hidden": true
+        },
+        "learns": {
+          "Junie": [
+            "her mother will not do it"
+          ],
+          "reader": [
+            "the small betrayal the whole cosmology exists to make her undo"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q12"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why can she not simply say it?",
+          "q12": "will the old man ever accept it?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the origin Bao",
+          "gives",
+          "the instructions"
+        ],
+        "content": "In a lift her husband stands differently, speaks differently and puts an earpiece in her hand, and tells her that in about two minutes she will need to do six unrelated absurd things very fast.",
+        "participants": [
+          "Meilin",
+          "Bao"
+        ],
+        "location": "a lift in the tax building",
+        "pre": {
+          "robin_hidden": true
+        },
+        "post": {
+          "instructions_given": true
+        },
+        "learns": {
+          "Meilin": [
+            "there are other versions of both of them"
+          ],
+          "reader": [
+            "the rules, given at speed and mostly ignored"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "who is this, and where is he from?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Meilin",
+          "jumps",
+          "for the first time"
+        ],
+        "content": "In a supply cupboard she does the absurd things, and comes out with the reflexes of a woman who in another life spent thirty years being filmed hitting people.",
+        "participants": [
+          "Meilin"
+        ],
+        "location": "a supply cupboard in the tax building",
+        "pre": {
+          "instructions_given": true
+        },
+        "post": {
+          "first_jump": true
+        },
+        "learns": {
+          "reader": [
+            "the mechanism, demonstrated"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Beulah Sneed",
+          "turns",
+          "berserk"
+        ],
+        "content": "The auditor stands up mid-sentence with somebody else behind her eyes, and a room full of grey partitions becomes the site of a running battle over a stamped form.",
+        "participants": [
+          "Meilin",
+          "Beulah Sneed"
+        ],
+        "location": "a tax office",
+        "pre": {
+          "first_jump": true
+        },
+        "post": {
+          "office_battle": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Beulah Sneed",
+            "the hunt has arrived and does not care about the venue"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what is hunting them?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Meilin",
+          "is told",
+          "who Kavra Nul is"
+        ],
+        "content": "They show her the branch where it started, and the woman running the resistance explains, without softening it, that the thing hunting her is her own daughter.",
+        "participants": [
+          "Meilin",
+          "Kavra Nul",
+          "Junie"
+        ],
+        "location": "the origin branch",
+        "pre": {
+          "office_battle": true
+        },
+        "post": {
+          "daughter_named": true
+        },
+        "learns": {
+          "Meilin": [
+            "the enemy is her child"
+          ],
+          "reader": [
+            "the science-fiction and the family argument turn out to be one thing"
+          ]
+        },
+        "raises": [
+          "q6",
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "how could a daughter become that?",
+          "q10": "can she reach her?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Meilin",
+          "jumps",
+          "through unlived lives"
+        ],
+        "content": "A film star on a rainy fire escape, an opera singer, a chef with a raccoon, a world in which everybody has hot dogs for fingers, and two rocks on a cliff with nothing to say.",
+        "participants": [
+          "Meilin",
+          "Bao",
+          "Junie"
+        ],
+        "location": "many branches",
+        "pre": {
+          "daughter_named": true
+        },
+        "post": {
+          "many_lives_visited": true
+        },
+        "learns": {
+          "Meilin": [
+            "what every version of the choice was worth"
+          ],
+          "reader": [
+            "the lives she gave up, shown rather than described"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "what were the lives she gave up?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the origin Bao",
+          "is killed",
+          "in the tax building"
+        ],
+        "content": "The guide goes down in a corridor with his own wife watching, and after that the jumping starts costing her something she cannot put back.",
+        "participants": [
+          "Meilin",
+          "Bao"
+        ],
+        "location": "the tax building",
+        "pre": {
+          "many_lives_visited": true
+        },
+        "post": {
+          "alpha_bao_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the guide is removed, and the jumping stops being survivable"
+          ]
+        },
+        "raises": [
+          "q13"
+        ],
+        "resolves": [],
+        "questions": {
+          "q13": "how does she hold herself together without him?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Kavra Nul",
+          "explains",
+          "the ring"
+        ],
+        "content": "She says she is not looking for a fight and has no intention of killing her mother; she is looking for somebody who can stand in front of the thing and agree that none of it means anything.",
+        "participants": [
+          "Meilin",
+          "Kavra Nul"
+        ],
+        "location": "the tax building",
+        "pre": {
+          "alpha_bao_dead": true
+        },
+        "post": {
+          "confrontation": true
+        },
+        "learns": {
+          "reader": [
+            "the argument, stated plainly, and it is a good argument"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what did this daughter ever want from her mother?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Meilin",
+          "turns",
+          "on everybody"
+        ],
+        "content": "Persuaded, she starts breaking the people around her for sport, and walks towards the circle with her daughter, and very nearly steps into it.",
+        "participants": [
+          "Meilin",
+          "Junie",
+          "Bao",
+          "Renjie"
+        ],
+        "location": "the tax building",
+        "pre": {
+          "confrontation": true
+        },
+        "post": {
+          "meilin_nihilist": true
+        },
+        "learns": {
+          "reader": [
+            "the film lets its villain win for a while, which is why the ending works"
+          ]
+        },
+        "raises": [
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q11": "what stops her following her daughter in?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Bao",
+          "asks",
+          "her to be kind"
+        ],
+        "content": "In every universe at once the same man says the same thing: that when he does not know what is going on he chooses to be kind, and that this is not weakness but strategy.",
+        "participants": [
+          "Meilin",
+          "Bao"
+        ],
+        "location": "many branches",
+        "pre": {
+          "meilin_nihilist": true
+        },
+        "post": {
+          "kindness_chosen": true
+        },
+        "learns": {
+          "Meilin": [
+            "there is a third option"
+          ],
+          "reader": [
+            "the counter-argument, and it is smaller than the argument"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q11",
+          "q13"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Meilin",
+          "fights",
+          "with kindness"
+        ],
+        "content": "She gives each attacker the one thing they are short of, and then does the harder version of it: she tells her father, in front of everybody, who the young woman is.",
+        "participants": [
+          "Meilin",
+          "Renjie",
+          "Robin",
+          "Junie"
+        ],
+        "location": "the tax building",
+        "pre": {
+          "kindness_chosen": true
+        },
+        "post": {
+          "father_accepts": true
+        },
+        "learns": {
+          "Renjie": [
+            "the girl is his granddaughter's partner"
+          ],
+          "reader": [
+            "the two scales of the film resolved in one gesture"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q12"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Meilin",
+          "pulls",
+          "Junie back"
+        ],
+        "content": "She says that even in a universe where nothing matters she would still want to be here, doing laundry and taxes, with her, and holds on until the pull stops.",
+        "participants": [
+          "Meilin",
+          "Junie"
+        ],
+        "location": "the edge of the ring",
+        "pre": {
+          "father_accepts": true
+        },
+        "post": {
+          "junie_pulled_back": true
+        },
+        "learns": {
+          "reader": [
+            "the answer to the nihilism, which is a preference rather than a proof"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the family",
+          "files",
+          "the return"
+        ],
+        "content": "Three of them in a row of plastic chairs with a folder of receipts, and a woman whose attention comes off the auditor for a second and goes everywhere at once, and comes back.",
+        "participants": [
+          "Meilin",
+          "Bao",
+          "Junie",
+          "Beulah Sneed"
+        ],
+        "location": "a tax office",
+        "pre": {
+          "junie_pulled_back": true
+        },
+        "post": {
+          "return_filed": true
+        },
+        "learns": {
+          "reader": [
+            "the ordinary afternoon, resumed and now chosen"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the emigration and the shop it turns into"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the flat above the laundromat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "the same woman, in this branch and in the one that invented the jumping"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the daughter broken and the ring she builds afterwards"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e6",
+        "on": "the family, on the day the audit lands"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the party and the grandfather at it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the lift out of the laundromat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the instructions and the first jump"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the tax office, becoming a battlefield"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the hunt, and who is behind it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the branches, explained and then travelled"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the jumping, and what it costs"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the loss of the guide and the meeting that follows"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the argument, made and then accepted"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the two answers on offer"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "kindness, proposed and then used"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the two reconciliations, one with a father and one with a daughter"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the afternoon, resumed"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "two people refusing to let go of each other at an airport and at a ring"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1012 @@
+{
+  "story_id": "S30",
+  "source_index": 30,
+  "genre": "Sci-Fi, Drama, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "Years earlier the old woman Ottilie Crane tells Theo that every living creature on this earth dies alone.",
+    "On the second of the month Theo Lund is woken by a voice and sleepwalks out of the house onto a golf course.",
+    "A jet engine falls out of nowhere and destroys Theo's bedroom while he is outside.",
+    "In the restored timeline Theo stays in his bed laughing, and is killed when the engine comes through the roof.",
+    "Theo wakes on the green with a countdown of days, hours, minutes and seconds written on his arm by a figure in a hare costume who calls himself Vex.",
+    "The household is relocated while the roof is rebuilt, and no authority can account for where the engine came from.",
+    "Vex tells Theo the world will end in twenty-eight days.",
+    "Theo meets Marin Alder, a new girl seated next to him in a literature class, and asks her out.",
+    "On Vex's instruction Theo puts an axe through a water main to flood the school and buries the axe in the bronze mascot.",
+    "Theo's therapist Dr. Belding raises his medication and puts him under hypnosis.",
+    "The science teacher Nadeau lends Theo the old woman's book, The Shape of Hours.",
+    "Theo starts seeing liquid spears coming out of people's chests and leading them where they are going.",
+    "Theo humiliates the motivational speaker Vaughn Tice in front of the whole school, and the teacher Miss Hobbs is sacked over her syllabus.",
+    "Tice is exposed as the owner of a child pornography ring after Theo burns his house down.",
+    "Theo and Marin sleep together during a costume party while his parents are away.",
+    "Theo takes Marin to find Ottilie Crane, and the bullies Cutch and Ryle attack them at her house.",
+    "A car driven by Vex in his hare costume runs Marin down and kills her.",
+    "Theo shoots Vex through the eye with his father's revolver.",
+    "Theo carries Marin's body up the hill and watches a vortex open over his house.",
+    "Theo sends the jet engine back through the vortex to the night of the second, closing the tangent universe, and on the thirtieth Marin cycles past the house not knowing who died there."
+  ],
+  "syuzhet_order": [
+    2,
+    3,
+    5,
+    6,
+    8,
+    7,
+    9,
+    10,
+    11,
+    13,
+    12,
+    1,
+    15,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    4
+  ],
+  "event_scenes": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    15,
+    16,
+    16
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The captioned month runs forward, and both insertions are earlier - the old woman's line, and the death the month cancels, withheld until last.",
+  "syuzhet_notes": "The film runs forward through twenty-eight captioned days, so most of its bullets sit in calendar order. The displacement that matters is the last one: told-order bullet 20 shows the boy dying in his bed on the first night of the story, withheld until after the film has shown the entire month that this death cancels. Told-order bullet 12 is a flashback to before the film's opening.",
+  "fabula_notes": "The film's own logic makes a single clean chronology impossible - the engine that falls on the first night is sent there from the last, so an event is its own cause. The ordering here is by calendar date, which puts the death fourth even though the film establishes it last; ordering instead by the tangent universe's internal experience would place it after everything else. The old woman's remark predates the film and is reported rather than staged.",
+  "story_graph": {
+    "characters": {
+      "Theo": {
+        "archetype": "Hero"
+      },
+      "Vex": {
+        "archetype": "Herald"
+      },
+      "Marin": {
+        "archetype": "Ally"
+      },
+      "Ottilie": {
+        "archetype": "Mentor"
+      },
+      "Dr. Belding": {
+        "archetype": "Mentor"
+      },
+      "Nadeau": {
+        "archetype": "Mentor"
+      },
+      "Miss Hobbs": {
+        "archetype": "Ally"
+      },
+      "Vaughn Tice": {
+        "archetype": "Shadow"
+      },
+      "Cutch and Ryle": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Ottilie",
+          "tells",
+          "Theo the line"
+        ],
+        "content": "An old woman who walks to her mailbox and back all day stops him on the verge, puts her mouth near his ear, and says the sentence he will spend the film failing to disprove.",
+        "participants": [
+          "Theo",
+          "Ottilie"
+        ],
+        "location": "a suburban road",
+        "pre": {},
+        "post": {
+          "mantra_given": true
+        },
+        "learns": {
+          "Theo": [
+            "that every living creature dies alone"
+          ],
+          "reader": [
+            "intro:Theo",
+            "intro:Ottilie",
+            "the proposition, planted before the film starts"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Theo",
+          "sleepwalks",
+          "onto the golf course"
+        ],
+        "content": "A voice he cannot place gets him out of bed and down the hill in a dressing gown, and he wakes up on the ninth green with the sprinklers going.",
+        "participants": [
+          "Theo",
+          "Vex"
+        ],
+        "location": "a golf course",
+        "pre": {
+          "mantra_given": true
+        },
+        "post": {
+          "theo_outside": true
+        },
+        "learns": {
+          "reader": [
+            "something takes him out of the house, and is not identified"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what would have happened if nobody had woken him?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "a jet engine",
+          "destroys",
+          "Theo's bedroom"
+        ],
+        "content": "It comes through the roof at two in the morning and takes the bed, the desk and the wall with it, and no aircraft anywhere is missing one.",
+        "participants": [
+          "Theo"
+        ],
+        "location": "the Lund house",
+        "pre": {
+          "theo_outside": true
+        },
+        "post": {
+          "engine_fell": true
+        },
+        "learns": {
+          "reader": [
+            "the event the whole month is an argument with"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "where did the engine come from?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Theo",
+          "dies",
+          "in his bed"
+        ],
+        "content": "In the timeline the film restores at the very end, nobody wakes him. He is lying there laughing at something when the ceiling arrives.",
+        "participants": [
+          "Theo"
+        ],
+        "location": "the Lund house",
+        "pre": {
+          "engine_fell": true
+        },
+        "post": {
+          "theo_dead_restored": true
+        },
+        "learns": {
+          "reader": [
+            "what the whole month was holding off, shown last and placed first"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Vex",
+          "writes",
+          "the countdown"
+        ],
+        "content": "A figure in a mangy hare costume with a face like a skull crouches over him on the green and writes days, hours, minutes and seconds onto his forearm.",
+        "participants": [
+          "Theo",
+          "Vex"
+        ],
+        "location": "a golf course",
+        "pre": {
+          "engine_fell": true
+        },
+        "post": {
+          "countdown_written": true
+        },
+        "learns": {
+          "Theo": [
+            "he has twenty-eight days"
+          ],
+          "reader": [
+            "intro:Vex",
+            "the clock, and the film's first unexplained image"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what is the countdown counting down to?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the household",
+          "is relocated",
+          "while the roof is rebuilt"
+        ],
+        "content": "There is a hotel for a fortnight and a tarpaulin over the house, and a succession of officials who cannot say which aircraft it came off, because no aircraft is missing one.",
+        "participants": [
+          "Theo"
+        ],
+        "location": "a hotel and the Lund house",
+        "pre": {
+          "engine_fell": true
+        },
+        "post": {
+          "household_relocated": true
+        },
+        "learns": {
+          "reader": [
+            "the ordinary consequences of an impossible event"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Vex",
+          "tells",
+          "Theo the deadline"
+        ],
+        "content": "In a bathroom mirror, in a cinema, on a road at night, the same voice keeps supplying the same number, and says that when it runs out the world goes with it.",
+        "participants": [
+          "Theo",
+          "Vex"
+        ],
+        "location": "the Lund house and a cinema",
+        "pre": {
+          "countdown_written": true
+        },
+        "post": {
+          "deadline_known": true
+        },
+        "learns": {
+          "Theo": [
+            "the world ends in twenty-eight days"
+          ],
+          "reader": [
+            "the terms, stated by something that may be a hallucination"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q6": "does the world actually end?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Theo",
+          "meets",
+          "Marin"
+        ],
+        "content": "A new girl is put in the seat next to his because the teacher asks her to sit beside the boy she thinks is cutest, and he asks her out on the walk home.",
+        "participants": [
+          "Theo",
+          "Marin",
+          "Miss Hobbs"
+        ],
+        "location": "a school and a suburban road",
+        "pre": {
+          "household_relocated": true
+        },
+        "post": {
+          "marin_met": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Marin",
+            "intro:Miss Hobbs",
+            "the one thing in the month worth keeping"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Theo",
+          "floods",
+          "the school"
+        ],
+        "content": "On instruction he puts an axe through a water main at three in the morning and buries the blade in the head of the bronze animal on the lawn.",
+        "participants": [
+          "Theo",
+          "Vex"
+        ],
+        "location": "a school",
+        "pre": {
+          "deadline_known": true
+        },
+        "post": {
+          "school_flooded": true
+        },
+        "learns": {
+          "reader": [
+            "he is doing what the figure says, and it keeps turning out well"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "why is he being told to do these things?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Dr. Belding",
+          "increases",
+          "the medication"
+        ],
+        "content": "She raises the dose, then puts him under and asks him what he sees, and what he says frightens her enough that she starts telephoning his parents.",
+        "participants": [
+          "Theo",
+          "Dr. Belding"
+        ],
+        "location": "a consulting room",
+        "pre": {
+          "school_flooded": true
+        },
+        "post": {
+          "medication_raised": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Dr. Belding",
+            "the clinical reading of everything, kept alive alongside the other one"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Nadeau",
+          "lends",
+          "the book"
+        ],
+        "content": "The science teacher hands him a thin volume by a local woman who used to be a nun, and says he could lose his job for having given it to him.",
+        "participants": [
+          "Theo",
+          "Nadeau",
+          "Ottilie"
+        ],
+        "location": "a school laboratory",
+        "pre": {
+          "medication_raised": true
+        },
+        "post": {
+          "book_lent": true
+        },
+        "learns": {
+          "Theo": [
+            "there is a vocabulary for what is happening to him"
+          ],
+          "reader": [
+            "intro:Nadeau",
+            "the rules of the film, written by a character in it"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who is the old woman everybody calls mad?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Theo",
+          "sees",
+          "the spears"
+        ],
+        "content": "Clear liquid ropes come out of people's chests and go where the people are about to go, and he follows his own out of the room and up the stairs to his father's wardrobe.",
+        "participants": [
+          "Theo"
+        ],
+        "location": "the Lund house",
+        "pre": {
+          "book_lent": true
+        },
+        "post": {
+          "spears_seen": true
+        },
+        "learns": {
+          "Theo": [
+            "he can see where people are going before they go"
+          ],
+          "reader": [
+            "the film's mechanism, made visible"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {
+          "q8": "what are the spears showing him?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Theo",
+          "humiliates",
+          "Vaughn Tice"
+        ],
+        "content": "In front of the whole school he stands up and takes the motivational speaker apart in three sentences, and by the end of the week the teacher who set the syllabus has been dismissed.",
+        "participants": [
+          "Theo",
+          "Vaughn Tice",
+          "Miss Hobbs"
+        ],
+        "location": "a school hall",
+        "pre": {
+          "spears_seen": true
+        },
+        "post": {
+          "tice_humiliated": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Vaughn Tice",
+            "the boy is right and is punished for it, and so is the teacher"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what has changed in this boy?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Tice",
+          "is exposed",
+          "as the owner of a ring"
+        ],
+        "content": "The house goes up in the night with a boy watching it from the lawn. What the firemen carry out of the basement puts the speaker on the news in handcuffs by the following evening.",
+        "participants": [
+          "Theo",
+          "Vaughn Tice"
+        ],
+        "location": "the Tice house",
+        "pre": {
+          "tice_humiliated": true
+        },
+        "post": {
+          "tice_exposed": true
+        },
+        "learns": {
+          "reader": [
+            "the second thing the figure tells him to do, and what it uncovers"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Theo and Marin",
+          "sleep",
+          "together"
+        ],
+        "content": "The parents are away, the house is full of people in costume, and the two of them go upstairs while a rabbit and a skeleton argue about beer in the kitchen.",
+        "participants": [
+          "Theo",
+          "Marin"
+        ],
+        "location": "the Lund house",
+        "pre": {
+          "marin_met": true
+        },
+        "post": {
+          "night_together": true
+        },
+        "learns": {
+          "reader": [
+            "the last uncomplicated hour in the film"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Theo and Marin",
+          "go",
+          "to Ottilie's house"
+        ],
+        "content": "They drive out to find the woman who wrote the book, and two boys in masks are already there in the dark with a knife and a great deal to prove.",
+        "participants": [
+          "Theo",
+          "Marin",
+          "Ottilie",
+          "Cutch and Ryle"
+        ],
+        "location": "the old woman's house",
+        "pre": {
+          "night_together": true
+        },
+        "post": {
+          "at_the_old_womans_house": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Cutch and Ryle",
+            "the night turns, and it turns because of people, not physics"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "a car",
+          "kills",
+          "Marin"
+        ],
+        "content": "It comes over the rise too fast and on the wrong side, and the driver who gets out of it afterwards is wearing a hare costume.",
+        "participants": [
+          "Theo",
+          "Marin",
+          "Vex"
+        ],
+        "location": "a road at night",
+        "pre": {
+          "at_the_old_womans_house": true
+        },
+        "post": {
+          "marin_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the figure who has been guiding him is also the thing that kills her"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "who was driving the car?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Theo",
+          "shoots",
+          "Vex"
+        ],
+        "content": "He takes the revolver out of his father's wardrobe, where the spear showed him it would be, and puts a round through the eye of the boy in the costume.",
+        "participants": [
+          "Theo",
+          "Vex"
+        ],
+        "location": "a road at night",
+        "pre": {
+          "marin_dead": true
+        },
+        "post": {
+          "vex_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the guide is a boy, and now a dead one"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Theo",
+          "carries",
+          "Marin up the hill"
+        ],
+        "content": "He puts her in the car and drives to the ridge above the town, and over his own house a hole opens in the cloud and starts turning.",
+        "participants": [
+          "Theo",
+          "Marin"
+        ],
+        "location": "a ridge above the town",
+        "pre": {
+          "vex_dead": true
+        },
+        "post": {
+          "vortex_open": true
+        },
+        "learns": {
+          "reader": [
+            "what the month has been building, arriving as weather"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Theo",
+          "sends",
+          "the engine back"
+        ],
+        "content": "The vortex takes the engine off the aircraft above him and puts it twenty-eight days into the past, into a bedroom, and the month it caused is unmade.",
+        "participants": [
+          "Theo",
+          "Marin"
+        ],
+        "location": "a ridge above the town",
+        "pre": {
+          "vortex_open": true
+        },
+        "post": {
+          "universe_closed": true
+        },
+        "learns": {
+          "reader": [
+            "the loop closes, and the girl who was killed cycles past the house alive"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q6"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e11",
+        "on": "the old woman, met on a verge and then found in a book"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the night of the second, inside the house and outside it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the same bedroom and the same engine, with and without the boy in it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e6",
+        "on": "the wrecked roof"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e7",
+        "on": "the figure in the costume, writing and then speaking"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e8",
+        "on": "the weeks after the engine, at school"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9",
+        "on": "the instructions and the first of them carried out"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the flood and the session that follows it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the two explanations on offer, clinical and cosmological"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the book and what he starts seeing after reading it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the boy who now knows what is coming"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the speaker, humiliated and then arrested"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e15",
+        "on": "the girl, met and then loved"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the night of the party"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the road outside the old woman's house"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the driver and the boy who shoots him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the hill above the town"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the vortex"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e20",
+        "on": "the engine sent back from the ridge to the bedroom: the film's loop, which cannot be a CAUSES edge because it runs backwards through the chronology"
+      }
+    ]
+  }
+}

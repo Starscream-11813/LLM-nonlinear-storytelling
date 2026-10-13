@@ -1,0 +1,971 @@
+{
+  "story_id": "S19",
+  "source_index": 19,
+  "genre": "Drama, Mystery, Sci-Fi",
+  "source": "Film",
+  "events_chronological": [
+    "As young shills, Julian Croft and Silas Roe plant themselves in the audience for the conjuror Prosper, with Julian's wife Vesna performing the water-tank escape.",
+    "Silas ties the wrong knot before the escape and Vesna drowns in front of the audience.",
+    "Julian blames Silas, and their feud costs Silas two fingers when Julian sabotages his bullet catch.",
+    "Silas debuts an illusion he calls The Vanishing Act, stepping into one cabinet and out of another across the stage in an instant.",
+    "Julian hires a drunk lookalike to reproduce the trick, and Silas wrecks the act by taking the double's place beneath the stage.",
+    "Julian sends his assistant Ines to spy on Silas, and she falls in love with him instead.",
+    "Ines brings Julian the coded diary, and Silas supplies the keyword knowing she will pass it on.",
+    "The diary sends Julian across the country to a mountain town to find the reclusive inventor Kessler.",
+    "Kessler builds Julian a machine that does not transport but duplicates, and Julian tests it on his hat and on a cat.",
+    "Kessler is driven out of the town and leaves the machine behind with a written warning to drown it in the sea.",
+    "Julian stages his own version of the illusion, drowning the copy left under the stage at every single performance.",
+    "Silas sneaks beneath the stage on the hundredth night and watches Julian drown in a locked water tank.",
+    "Silas is convicted of Julian's murder, held in gaol reading Julian's diary, and stripped of custody of his daughter.",
+    "A collector calling himself Aylward, who is Julian alive and in disguise, buys Silas's secrets and takes the child.",
+    "Silas is hanged.",
+    "The stage manager Braddock delivers the machine to Aylward's theatre and realises who Aylward really is.",
+    "Silas's twin, who has shared his name and his life all along, shoots Julian in the theatre and takes his daughter back.",
+    "Julian dies on the floor among the tanks holding every copy of himself he has drowned."
+  ],
+  "syuzhet_order": [
+    12,
+    13,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The cell is the narrating present, and the two diaries nested inside it deliver everything else as flashback, one of them two levels deep.",
+  "syuzhet_notes": "The film nests two diaries inside each other. Told-order bullets 1-2 are the present, one magician in his cell; bullets 3, 11 and 12 come out of the rival's mountain-town journal, which he is reading; and bullets 4-10 come out of his own journal, which the rival is reading inside that journal - a flashback two levels deep. Told-order bullet 1 is also a flash-forward relative to almost everything that follows, since the drowning it opens on happens near the end of the story.",
+  "fabula_notes": "That one magician has always been two men sharing a single identity is the withheld premise, so every bullet about him before the last two silently describes whichever twin was on duty that day. Which twin hangs and which survives is left for the audience to work out, and the drowned duplicates accumulate off screen between performances.",
+  "story_graph": {
+    "characters": {
+      "Silas": {
+        "archetype": "Hero"
+      },
+      "Julian": {
+        "archetype": "Shadow"
+      },
+      "Vesna": {
+        "archetype": "Ally"
+      },
+      "Ines": {
+        "archetype": "Shapeshifter"
+      },
+      "Kessler": {
+        "archetype": "Mentor"
+      },
+      "Braddock": {
+        "archetype": "Threshold Guardian"
+      },
+      "Prosper": {
+        "archetype": "Threshold Guardian"
+      },
+      "Aylward": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Julian and Silas",
+          "work",
+          "as shills"
+        ],
+        "content": "Two young men sit in different parts of the house and volunteer at the right moment, and a woman goes into a tank of water in front of them and comes out again to applause.",
+        "participants": [
+          "Julian",
+          "Silas",
+          "Vesna",
+          "Prosper"
+        ],
+        "location": "a theatre",
+        "pre": {},
+        "post": {
+          "three_working_together": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Julian",
+            "intro:Silas",
+            "intro:Vesna",
+            "intro:Prosper",
+            "the three of them began together, backstage"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Vesna",
+          "drowns",
+          "in the tank"
+        ],
+        "content": "He ties the knot he prefers rather than the knot he was told to tie. Underwater she works at it, and then she works at it faster, and the curtain does not come down in time.",
+        "participants": [
+          "Julian",
+          "Silas",
+          "Vesna"
+        ],
+        "location": "a theatre",
+        "pre": {
+          "three_working_together": true
+        },
+        "post": {
+          "vesna_dead": true
+        },
+        "learns": {
+          "Julian": [
+            "his wife is dead because of a knot"
+          ],
+          "reader": [
+            "the injury the rest of it grows out of"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Julian",
+          "sabotages",
+          "the bullet catch"
+        ],
+        "content": "He will not say which knot he tied, and the other man cannot forgive that. A pistol is loaded with something it should not be, and afterwards there are two fingers on the floor.",
+        "participants": [
+          "Julian",
+          "Silas"
+        ],
+        "location": "a music hall",
+        "pre": {
+          "vesna_dead": true
+        },
+        "post": {
+          "feud_open": true,
+          "silas_maimed": true
+        },
+        "learns": {
+          "reader": [
+            "the feud is now physical and neither man will stop"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Silas",
+          "debuts",
+          "The Vanishing Act"
+        ],
+        "content": "He steps into a cabinet on one side of the stage, and a second later he is bowing on the other side, and there is no time in between for anything at all.",
+        "participants": [
+          "Silas",
+          "Julian"
+        ],
+        "location": "a London theatre",
+        "pre": {
+          "feud_open": true
+        },
+        "post": {
+          "vanishing_act_running": true
+        },
+        "learns": {
+          "Julian": [
+            "his rival has something he cannot explain"
+          ],
+          "reader": [
+            "the trick the telling will spend the rest of itself on"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "how is he crossing the stage in an instant?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Julian",
+          "hires",
+          "a double"
+        ],
+        "content": "He finds a drunk who could be his own brother, builds the same cabinets, and plays it for a month. Then his rival takes the double's place under the boards and the act comes apart on stage.",
+        "participants": [
+          "Julian",
+          "Silas"
+        ],
+        "location": "a London theatre",
+        "pre": {
+          "vanishing_act_running": true
+        },
+        "post": {
+          "julian_copy_failed": true
+        },
+        "learns": {
+          "Julian": [
+            "his version is a copy and everyone can tell"
+          ],
+          "reader": [
+            "one man can be replaced by another who looks like him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Julian",
+          "sends",
+          "Ines to spy"
+        ],
+        "content": "He puts his assistant into the other man's theatre to find out how it is done, and she comes back with less every week because she is falling in love with the target.",
+        "participants": [
+          "Julian",
+          "Silas",
+          "Ines"
+        ],
+        "location": "two theatres",
+        "pre": {
+          "julian_copy_failed": true
+        },
+        "post": {
+          "ines_placed": true
+        },
+        "learns": {
+          "Ines": [
+            "she prefers the man she was sent to rob"
+          ],
+          "reader": [
+            "intro:Ines",
+            "the spy is compromised, and both men know it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Silas",
+          "gives",
+          "the keyword"
+        ],
+        "content": "She brings back a locked diary and then, when the pressure is put on her, the word that opens it. He supplies the word himself, knowing exactly whose hands it will reach.",
+        "participants": [
+          "Julian",
+          "Silas",
+          "Ines"
+        ],
+        "location": "a dressing room",
+        "pre": {
+          "ines_placed": true
+        },
+        "post": {
+          "diary_in_julian_hands": true
+        },
+        "learns": {
+          "Julian": [
+            "he can read the diary"
+          ],
+          "reader": [
+            "the diary is bait, offered deliberately"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the diary",
+          "sends",
+          "Julian to the mountains"
+        ],
+        "content": "The pages point west and up, past the last town on the line, to a fenced workshop where a man nobody will discuss is making machines that draw the lightning down.",
+        "participants": [
+          "Julian",
+          "Kessler"
+        ],
+        "location": "a mountain town",
+        "pre": {
+          "diary_in_julian_hands": true
+        },
+        "post": {
+          "kessler_found": true
+        },
+        "learns": {
+          "Julian": [
+            "where the secret is supposed to be"
+          ],
+          "reader": [
+            "intro:Kessler",
+            "the trail out of the diary"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {
+          "q4": "how did the diary come into the other man's hands?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Kessler",
+          "builds",
+          "the machine"
+        ],
+        "content": "It is asked for a device that moves a thing from here to there. What it delivers moves nothing: it makes a second one, standing a hundred feet away, and the first is still on the plate.",
+        "participants": [
+          "Julian",
+          "Kessler"
+        ],
+        "location": "a workshop in the mountains",
+        "pre": {
+          "kessler_found": true
+        },
+        "post": {
+          "machine_built": true
+        },
+        "learns": {
+          "Julian": [
+            "the machine duplicates rather than transports"
+          ],
+          "reader": [
+            "what the box actually does"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Kessler",
+          "abandons",
+          "the machine"
+        ],
+        "content": "The town drives him out with torches and lawyers. He leaves the crate behind with a note on it saying that the only safe thing to do with it is to drop it in the sea.",
+        "participants": [
+          "Julian",
+          "Kessler"
+        ],
+        "location": "a mountain town",
+        "pre": {
+          "machine_built": true
+        },
+        "post": {
+          "machine_abandoned": true
+        },
+        "learns": {
+          "Julian": [
+            "he has been warned, in writing"
+          ],
+          "reader": [
+            "the warning is given and ignored"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Julian",
+          "drowns",
+          "a copy nightly"
+        ],
+        "content": "Every performance he steps onto the plate and a man in a locked tank under the stage, who is also him and who knows it, waits in the dark to find out which one he is tonight.",
+        "participants": [
+          "Julian"
+        ],
+        "location": "a London theatre",
+        "pre": {
+          "machine_abandoned": true
+        },
+        "post": {
+          "julian_act_running": true
+        },
+        "learns": {
+          "reader": [
+            "the cost of the trick, paid a hundred times"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {
+          "q9": "where do all the copies go?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Silas",
+          "watches",
+          "Julian drown"
+        ],
+        "content": "He gets under the stage on the hundredth night to learn how it is done, and what he learns is a man in a tank looking straight at him through the glass, and a padlock.",
+        "participants": [
+          "Silas",
+          "Julian"
+        ],
+        "location": "beneath the stage of a London theatre",
+        "pre": {
+          "julian_act_running": true
+        },
+        "post": {
+          "julian_apparently_dead": true
+        },
+        "learns": {
+          "Silas": [
+            "a man has drowned in front of him"
+          ],
+          "reader": [
+            "the image the telling opens on"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why would a man drown himself in front of an audience?",
+          "q5": "why does one of them hate the other this much?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Silas",
+          "is convicted",
+          "of the murder"
+        ],
+        "content": "He is taken down for it, and in the cell he is given the other man's mountain journal to read, and told that if he sells his secrets his daughter will be looked after.",
+        "participants": [
+          "Silas",
+          "Julian"
+        ],
+        "location": "a prison cell",
+        "pre": {
+          "julian_apparently_dead": true
+        },
+        "post": {
+          "silas_convicted": true
+        },
+        "learns": {
+          "Silas": [
+            "what the other man went to the mountains for"
+          ],
+          "reader": [
+            "the second diary, nested inside the first"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q3",
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what is in the journal he is reading in the cell?",
+          "q3": "what did his rival actually build up in the mountains?",
+          "q8": "what becomes of the man in the cell?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Aylward",
+          "buys",
+          "the secrets"
+        ],
+        "content": "A collector in tinted glasses comes to the cell, pays for the notebooks and signs the papers for the child, and does not take the glasses off.",
+        "participants": [
+          "Silas",
+          "Aylward",
+          "Julian"
+        ],
+        "location": "a prison cell",
+        "pre": {
+          "silas_convicted": true
+        },
+        "post": {
+          "secrets_sold": true,
+          "child_taken": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Aylward",
+            "the buyer is not a stranger"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "who is the collector in the tinted glasses?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the state",
+          "hangs",
+          "Silas"
+        ],
+        "content": "A short walk, a bag, and a drop, and a man who has spent his life getting out of things does not get out of this one.",
+        "participants": [
+          "Silas"
+        ],
+        "location": "a prison yard",
+        "pre": {
+          "secrets_sold": true
+        },
+        "post": {
+          "silas_hanged": true
+        },
+        "learns": {
+          "reader": [
+            "one of them is dead, and the telling has not said which"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Braddock",
+          "recognises",
+          "Aylward"
+        ],
+        "content": "The stage manager wheels the crate into the new theatre, looks the collector in the face when the glasses come off, and understands that he is delivering it to a dead man.",
+        "participants": [
+          "Braddock",
+          "Aylward",
+          "Julian"
+        ],
+        "location": "a theatre",
+        "pre": {
+          "silas_hanged": true
+        },
+        "post": {
+          "braddock_knows": true
+        },
+        "learns": {
+          "Braddock": [
+            "the man who was murdered is alive"
+          ],
+          "reader": [
+            "intro:Braddock",
+            "the fraud is seen from outside"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the twin",
+          "shoots",
+          "Julian"
+        ],
+        "content": "The other one comes out of the dark with a pistol - the brother who has shared a name, a coat and half a life, and who has been the man in the cabinet all along.",
+        "participants": [
+          "Julian",
+          "Silas",
+          "Aylward"
+        ],
+        "location": "a theatre",
+        "pre": {
+          "braddock_knows": true
+        },
+        "post": {
+          "julian_shot": true
+        },
+        "learns": {
+          "Julian": [
+            "there were always two of them"
+          ],
+          "reader": [
+            "the withheld premise, stated at last"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Julian",
+          "dies",
+          "among the tanks"
+        ],
+        "content": "He goes down on the boards of a warehouse full of glass, and in every tank there is a man with his own face who has been there some time.",
+        "participants": [
+          "Julian",
+          "Silas"
+        ],
+        "location": "a warehouse full of water tanks",
+        "pre": {
+          "julian_shot": true
+        },
+        "post": {
+          "julian_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the full price of the rival's version, all of it visible at once"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "one magician buried while the other walks into a theatre under a false name"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e11",
+        "on": "a person left in a tank of water while an audience waits"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11",
+        "on": "the same illusion, performed by two men who solve it differently"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "the trade begun in a theatre and ended in a room full of tanks"
+      }
+    ]
+  }
+}

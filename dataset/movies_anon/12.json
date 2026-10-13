@@ -1,0 +1,908 @@
+{
+  "story_id": "S12",
+  "source_index": 12,
+  "genre": "Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "An insomniac product-recall investigator finds that the only thing that lets him sleep is crying at support groups for diseases he does not have.",
+    "Ada Vey starts attending the same groups, and her obvious faking destroys his release.",
+    "On a business flight the narrator meets soap salesman Rex Marrow and pockets his card.",
+    "The narrator's flat and all his catalogue furniture are destroyed in an explosion, and he calls Rex, who takes him into a derelict house at the edge of the industrial district.",
+    "Outside a bar Rex asks the narrator to hit him as hard as he can, and the two beat each other bloody in the car park.",
+    "What starts as two men brawling hardens into a weekly basement club with its own rules, pulling in more and more members.",
+    "Ada overdoses, Rex brings her back to the derelict house, and the two begin a loud affair the narrator cannot stand.",
+    "Rex renders fat stolen from a cosmetic surgery clinic into soap and sells it back to the department stores at eighty dollars a bar.",
+    "Rex burns the narrator's hand with lye and holds him there, refusing to let him retreat into meditation.",
+    "The narrator blackmails his employer into paying him to stay away, using his own beaten face as the evidence.",
+    "Rex turns the club into an organisation he calls Havoc, filling the house with shaven recruits who take orders and vandalise corporate property.",
+    "Rex steers the car into oncoming traffic, lets it roll, and then disappears.",
+    "A member of Havoc named Ogden is shot dead on an operation, and the narrator starts trying to shut the whole thing down.",
+    "Travelling city to city, the narrator finds identical clubs everywhere and men who greet him as Rex Marrow.",
+    "The narrator works out that he and Rex are the same person, and that Rex has been acting while he sleeps.",
+    "Ada confirms that she has been sleeping with him, not with a separate man.",
+    "The narrator discovers that Havoc has mined the towers of the debt-record companies and tries to defuse the charges.",
+    "Rex beats him down a stairwell in one of the towers, and the narrator puts a gun in his own mouth and shoots himself through the cheek to kill Rex.",
+    "Ada is delivered to the tower by the shaven recruits, and the two hold hands at the window as the buildings come down."
+  ],
+  "syuzhet_order": [
+    18,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "Strictly forward apart from the opening, which is a real later scene - the gun already in the narrator's mouth - that the film catches up with at the end.",
+  "syuzhet_notes": "Told-order bullet 1 is a flash-forward to the climax, with a gun already in the narrator's mouth, and the film catches up with it at told-order bullet 18. Everything between runs strictly forward. The nonlinearity here is not reordering but unreliable narration: at told-order bullet 16 the film replays earlier scenes with the second man edited out, rewriting what the audience has already been shown rather than moving it in time.",
+  "fabula_notes": "Every scene involving the salesman is, in story-world terms, the narrator acting alone, so this chronology records what happens rather than what is depicted. The destruction of the narrator's own flat is revealed only much later to have been his own work.",
+  "story_graph": {
+    "characters": {
+      "the narrator": {
+        "archetype": "Hero"
+      },
+      "Rex": {
+        "archetype": "Shapeshifter"
+      },
+      "Ada": {
+        "archetype": "Ally"
+      },
+      "Ogden": {
+        "archetype": "Ally"
+      },
+      "the narrator's employer": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the narrator",
+          "weeps",
+          "at support groups"
+        ],
+        "content": "A man who has not slept properly in six months discovers by accident that an hour in a church hall listening to the dying, and being held by one of them, buys him a night of unconsciousness. He starts going four evenings a week.",
+        "participants": [
+          "the narrator"
+        ],
+        "location": "church halls",
+        "pre": {},
+        "post": {
+          "narrator_sleeping": true
+        },
+        "learns": {
+          "the narrator": [
+            "grief he has no right to will put him under"
+          ],
+          "reader": [
+            "intro:the narrator",
+            "the cure is entirely fraudulent and entirely effective"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Ada",
+          "ruins",
+          "the groups"
+        ],
+        "content": "Another tourist starts turning up in the same folding chairs, smoking through the meditation, and the moment he can see the lie in her he can see it in himself, and the sleep stops.",
+        "participants": [
+          "the narrator",
+          "Ada"
+        ],
+        "location": "church halls",
+        "pre": {
+          "narrator_sleeping": true
+        },
+        "post": {
+          "narrator_sleeping": false
+        },
+        "learns": {
+          "the narrator": [
+            "he is looking at himself"
+          ],
+          "reader": [
+            "intro:Ada",
+            "the double appears first as an irritation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the narrator",
+          "meets",
+          "Rex"
+        ],
+        "content": "On a night flight he ends up next to a soap salesman with a bad suitcase and better opinions, who talks for forty minutes about how everything either of them owns has been chosen for them. He keeps the card.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "an aeroplane",
+        "pre": {
+          "narrator_sleeping": false
+        },
+        "post": {
+          "rex_met": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rex",
+            "the salesman arrives fully formed and impossibly well matched"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "an explosion",
+          "destroys",
+          "the flat"
+        ],
+        "content": "He comes back from a trip to find his own windows on the pavement and everything in the catalogue gone with them. He stands at a phone box, does not ring the woman, rings the salesman, and is taken to a derelict house with no working plumbing.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "the flat and the derelict house",
+        "pre": {
+          "rex_met": true
+        },
+        "post": {
+          "flat_destroyed": true,
+          "narrator_at_the_house": true
+        },
+        "learns": {
+          "reader": [
+            "the possessions go, and the new life starts the same night"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who blew up the flat?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Rex",
+          "asks",
+          "to be hit"
+        ],
+        "content": "In the car park outside a bar the salesman hands him a beer and asks, quite seriously, to be hit as hard as he can. They go at each other on the tarmac until neither can stand and both are laughing.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "a bar car park",
+        "pre": {
+          "narrator_at_the_house": true
+        },
+        "post": {
+          "fighting_begun": true
+        },
+        "learns": {
+          "the narrator": [
+            "he has never felt anything so clearly"
+          ],
+          "reader": [
+            "the whole movement starts as a favour between two men"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the two men",
+          "found",
+          "the meetings"
+        ],
+        "content": "What was two men in a car park becomes a weekly thing in a cellar with rules read out at the start, and then the cellar is full, and then there is a waiting list of men who want to be hit by strangers.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "a cellar under a bar",
+        "pre": {
+          "fighting_begun": true
+        },
+        "post": {
+          "membership_growing": true
+        },
+        "learns": {
+          "reader": [
+            "a private arrangement becomes an institution with a doctrine"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Ada",
+          "moves",
+          "into the house"
+        ],
+        "content": "She takes too many pills and rings him, and the salesman goes instead, and brings her back to the derelict house, and for weeks the two of them are audible through every floor of it while he lies rigid downstairs.",
+        "participants": [
+          "the narrator",
+          "Rex",
+          "Ada"
+        ],
+        "location": "the derelict house",
+        "pre": {
+          "narrator_at_the_house": true
+        },
+        "post": {
+          "ada_at_the_house": true
+        },
+        "learns": {
+          "reader": [
+            "the woman is now inside the house and attached to the wrong man"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why is this arrangement so unbearable to him?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Rex",
+          "renders",
+          "the soap"
+        ],
+        "content": "Fat lifted in bin bags out of the yard of a cosmetic surgery clinic is boiled down on the kitchen stove of the derelict house, cut, wrapped, and sold back to the shops the women bought their surgery to shop in.",
+        "participants": [
+          "Rex"
+        ],
+        "location": "the derelict house",
+        "pre": {
+          "narrator_at_the_house": true
+        },
+        "post": {
+          "soap_business_running": true
+        },
+        "learns": {
+          "reader": [
+            "the operation now has an income"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Rex",
+          "burns",
+          "the narrator's hand"
+        ],
+        "content": "He holds the wet hand flat on the table, tips lye onto the back of it, and will not let him go into the cave or count breaths or do any of the things that get a man through it. He makes him stay in the minute.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "the derelict house kitchen",
+        "pre": {
+          "fighting_begun": true
+        },
+        "post": {
+          "narrator_scarred": true
+        },
+        "learns": {
+          "the narrator": [
+            "he is not allowed to leave his own body any more"
+          ],
+          "reader": [
+            "the mark that will still be on his hand at the end"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the narrator",
+          "blackmails",
+          "his employer"
+        ],
+        "content": "He walks into the office, says what he wants, and when he is refused he beats his own face into the carpet in front of the man and lets the building's security find the two of them.",
+        "participants": [
+          "the narrator",
+          "the narrator's employer"
+        ],
+        "location": "an office",
+        "pre": {
+          "narrator_scarred": true
+        },
+        "post": {
+          "narrator_paid_off": true
+        },
+        "learns": {
+          "reader": [
+            "he is now paid to stay away, and the operation has a salary as well as an income"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Rex",
+          "founds",
+          "the organisation"
+        ],
+        "content": "The cellar becomes a name and a shaved head and a doctrine, and the derelict house fills with young men who sleep on the floor, will not speak unless spoken to, and go out at night to break things belonging to companies.",
+        "participants": [
+          "Rex",
+          "the narrator"
+        ],
+        "location": "the derelict house",
+        "pre": {
+          "membership_growing": true,
+          "narrator_paid_off": true
+        },
+        "post": {
+          "havoc_formed": true
+        },
+        "learns": {
+          "the narrator": [
+            "it is no longer his and he cannot say when it stopped being"
+          ],
+          "reader": [
+            "the thing has an army now"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what is this organisation actually being built to do?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Rex",
+          "wrecks",
+          "the car"
+        ],
+        "content": "He takes both hands off the wheel on a wet road, asks the men in the back what they wish they had done, and lets it go into the oncoming lane. When the narrator comes round in the ditch the salesman is not there and is not anywhere.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "a wet road",
+        "pre": {
+          "havoc_formed": true
+        },
+        "post": {
+          "rex_vanished": true
+        },
+        "learns": {
+          "reader": [
+            "the other man leaves without leaving"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "where has the salesman gone?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the police",
+          "kill",
+          "Ogden"
+        ],
+        "content": "One of the shaven men is shot in the head coming out of a job with a drill in his hand, and the house recites his name over the body all night, and the narrator starts trying to stop the thing he made.",
+        "participants": [
+          "the narrator",
+          "Ogden"
+        ],
+        "location": "the derelict house",
+        "pre": {
+          "havoc_formed": true
+        },
+        "post": {
+          "ogden_dead": true,
+          "narrator_resisting": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ogden",
+            "the first death turns the founder into an opponent"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "strangers",
+          "greet",
+          "the narrator as Rex"
+        ],
+        "content": "He flies from city to city trying to shut it down and finds the same cellar under every bar, the same rules on the same wall, and barmen and desk clerks who look up, recognise him, and use the other man's name.",
+        "participants": [
+          "the narrator"
+        ],
+        "location": "cities across the country",
+        "pre": {
+          "rex_vanished": true,
+          "narrator_resisting": true
+        },
+        "post": {
+          "narrator_mistaken_for_rex": true
+        },
+        "learns": {
+          "reader": [
+            "everyone he meets already knows him as somebody else"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why does every stranger call him by the other man's name?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the narrator",
+          "realises",
+          "he is Rex"
+        ],
+        "content": "In a motel room with the flight records and the receipts spread over the bed, it goes together: one body, one bank account, one man, awake and asleep, and every conversation between the two of them held in an empty room.",
+        "participants": [
+          "the narrator"
+        ],
+        "location": "a motel room",
+        "pre": {
+          "narrator_mistaken_for_rex": true
+        },
+        "post": {
+          "narrator_knows": true
+        },
+        "learns": {
+          "the narrator": [
+            "there is no other man and there never was"
+          ],
+          "reader": [
+            "every scene with the salesman was one man alone"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q2",
+          "q3",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Ada",
+          "confirms",
+          "it"
+        ],
+        "content": "He gets her on the telephone and asks her, badly, whose bed she has been in. She says his, obviously, and asks what is wrong with him, and the last thing he was holding on to goes.",
+        "participants": [
+          "the narrator",
+          "Ada"
+        ],
+        "location": "a telephone",
+        "pre": {
+          "narrator_knows": true,
+          "ada_at_the_house": true
+        },
+        "post": {
+          "ada_confirms": true
+        },
+        "learns": {
+          "reader": [
+            "the one outside witness closes the question"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the narrator",
+          "finds",
+          "the charges"
+        ],
+        "content": "He works out what the target has been all along and finds the vans in the car parks under the buildings that hold every record of who owes what, wired and timed and waiting.",
+        "participants": [
+          "the narrator"
+        ],
+        "location": "car parks beneath the towers",
+        "pre": {
+          "narrator_knows": true
+        },
+        "post": {
+          "charges_found": true
+        },
+        "learns": {
+          "reader": [
+            "the point of the organisation was one night and one set of buildings"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the narrator",
+          "shoots",
+          "himself"
+        ],
+        "content": "The other man takes him down a service stairwell a flight at a time, and at the bottom of it he understands that the gun in the other man's hand is in his own. He puts it in his mouth, angles it, and fires through his cheek.",
+        "participants": [
+          "the narrator",
+          "Rex"
+        ],
+        "location": "a stairwell in one of the towers",
+        "pre": {
+          "charges_found": true
+        },
+        "post": {
+          "rex_gone": true,
+          "narrator_wounded": true
+        },
+        "learns": {
+          "reader": [
+            "the only way to kill the other man is to be shot yourself"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "how does a man arrive at holding a gun in his own mouth?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the towers",
+          "come",
+          "down"
+        ],
+        "content": "She is brought in by the shaven men, who apologise and leave. The two of them stand at a window holding hands with his face wrapped, and outside the buildings go down one after another in order.",
+        "participants": [
+          "the narrator",
+          "Ada"
+        ],
+        "location": "a high window",
+        "pre": {
+          "rex_gone": true
+        },
+        "post": {
+          "towers_down": true
+        },
+        "learns": {
+          "reader": [
+            "the plan runs anyway, and the two of them watch it from inside"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e13",
+        "on": "the money and the manpower the organisation runs on"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19"
+      }
+    ]
+  }
+}

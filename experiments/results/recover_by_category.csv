@@ -1,0 +1,10 @@
+,exact,exact,tau,tau
+cell,R2_dedated_notext,R3_dedated_told,R2_dedated_notext,R3_dedated_told
+category,,,,
+ACHRONY,0.075,0.125,0.713,0.749
+ANALEPSIS,0.102,0.205,0.804,0.871
+CHRONICLE,0.0,0.0,0.665,0.738
+PROLEPSIS,0.05,0.175,0.721,0.783
+RETROGRADE,0.1,0.075,0.691,0.767
+SYLLEPSIS,0.114,0.159,0.728,0.773
+ZIGZAG,0.025,0.125,0.78,0.828

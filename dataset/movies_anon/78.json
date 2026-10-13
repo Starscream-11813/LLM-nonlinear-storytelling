@@ -1,0 +1,665 @@
+{
+  "story_id": "S78",
+  "source_index": 78,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "A boy with a stammer is treated by a hypnotist on television and speaks one clear sentence for the first time.",
+    "Decades earlier a young mother sits on a fence outside a country house waiting for a husband who never comes.",
+    "A doctor passing along the road stops to talk to her, and the fence collapses under the pair of them.",
+    "A barn burns at dusk while the family stand in the doorway and watch without moving.",
+    "The mother runs through the rain to the printing house certain she has let a fatal misprint through, and finds she has not.",
+    "The father comes home on leave during the war, and the children are shy of him.",
+    "The mother takes her son to sell her earrings to a doctor's wife in a warm house, and cannot make herself do it.",
+    "At a training camp a boy who has lost his entire family refuses an order and lies down on a grenade.",
+    "The grown son's own small boy, alone in the flat, reads a letter aloud to a woman who is not there.",
+    "In the present the son quarrels with his former wife down the telephone about their child.",
+    "He watches his mother, old now, cross a field with two children.",
+    "He lies ill in a darkened room while the doctors agree there is nothing physically wrong with him.",
+    "He remembers a girl at school with a cracked lip whom he could never bring himself to speak to.",
+    "A gust of wind crosses a field of buckwheat towards the house, and nobody indoors remarks on it.",
+    "An elderly woman walks two children over a meadow in the failing light as the camera draws back among the trees."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    10,
+    3,
+    9,
+    4,
+    13,
+    5,
+    6,
+    12,
+    7,
+    14,
+    8,
+    11,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. Three layers - a nineteen-thirties childhood, the war years and the present - are joined by association, weather and repeated faces rather than by any sequence.",
+  "syuzhet_notes": "The telling moves between three periods without a single caption, using one actress for the mother and the wife and one boy for the son and the father's son, so even the period of a shot is often undecidable while you watch it.",
+  "fabula_notes": "The chronology given here is the most defensible reading: the childhood scenes precede the war, which precedes the narrator's illness. The work itself never commits to it, and other orderings of the childhood material are arguable.",
+  "story_graph": {
+    "characters": {
+      "televised boy": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "hypnotist": {
+        "archetype": "Mentor"
+      },
+      "young mother": {
+        "archetype": "Hero"
+      },
+      "absent father": {
+        "archetype": "Shapeshifter"
+      },
+      "travelling doctor": {
+        "archetype": "Herald"
+      },
+      "child narrator": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "narrator's sibling": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "printing colleague": {
+        "archetype": "Threshold Guardian"
+      },
+      "doctor's wife": {
+        "archetype": "Threshold Guardian"
+      },
+      "orphaned trainee": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "grown son": {
+        "archetype": "Hero"
+      },
+      "former wife": {
+        "archetype": "Shapeshifter"
+      },
+      "grown son's child": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "field children": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "physicians": {
+        "archetype": "Threshold Guardian"
+      },
+      "schoolgirl": {
+        "archetype": "Herald"
+      },
+      "elderly mother": {
+        "archetype": "Mentor"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "hypnotist",
+          "releases",
+          "the televised boy's speech"
+        ],
+        "content": "A clinical exercise broadcast on a screen turns a stammer into one clear declaration, opening the work with memory made physically speakable.",
+        "participants": [
+          "televised boy",
+          "hypnotist"
+        ],
+        "location": "a television studio",
+        "pre": {},
+        "post": {
+          "televised_boy_spoke_clearly": true
+        },
+        "learns": {
+          "reader": [
+            "speech can emerge through an altered state before the family memories begin"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "young mother",
+          "waits for",
+          "the absent father"
+        ],
+        "content": "She balances on a fence outside the country house, listening down an empty road and already knowing the expected husband may not return.",
+        "participants": [
+          "young mother"
+        ],
+        "location": "a country house and field",
+        "pre": {},
+        "post": {
+          "father_absent_from_country_house": true
+        },
+        "learns": {
+          "reader": [
+            "the children's mother lives inside prolonged marital absence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "travelling doctor",
+          "pauses beside",
+          "the young mother"
+        ],
+        "content": "A stranger's conversation briefly interrupts her waiting; the collapsing fence makes their uncertain contact comic and precarious.",
+        "participants": [
+          "young mother",
+          "travelling doctor"
+        ],
+        "location": "the road outside the country house",
+        "pre": {
+          "father_absent_from_country_house": true
+        },
+        "post": {
+          "doctor_departed": true
+        },
+        "learns": {
+          "reader": [
+            "an accidental visitor momentarily enters the mother's solitude"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the family",
+          "watches",
+          "the burning barn"
+        ],
+        "content": "At dusk the flames become a silent spectacle reflected in water and faces, with no adult offering the children an explanation.",
+        "participants": [
+          "young mother",
+          "child narrator",
+          "narrator's sibling"
+        ],
+        "location": "the country house yard",
+        "pre": {
+          "father_absent_from_country_house": true
+        },
+        "post": {
+          "barn_burned": true
+        },
+        "learns": {
+          "reader": [
+            "the childhood home is remembered through elemental danger and stillness"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "young mother",
+          "checks",
+          "a feared misprint"
+        ],
+        "content": "She runs through rain to the printing floor, rehearsing professional ruin, only to learn that the fatal error exists in anxiety rather than ink.",
+        "participants": [
+          "young mother",
+          "printing colleague"
+        ],
+        "location": "a newspaper printing house",
+        "pre": {},
+        "post": {
+          "printing_job_preserved": true
+        },
+        "learns": {
+          "young mother": [
+            "the edition contains no fatal misprint"
+          ],
+          "reader": [
+            "the mother's fear exceeds the mistake that actually occurred"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "absent father",
+          "visits",
+          "his wartime family"
+        ],
+        "content": "Uniform and separation make him unfamiliar to the children, so reunion at the country house carries the reserve of meeting a stranger.",
+        "participants": [
+          "absent father",
+          "young mother",
+          "child narrator",
+          "narrator's sibling"
+        ],
+        "location": "the country house during wartime",
+        "pre": {
+          "father_absent_from_country_house": true
+        },
+        "post": {
+          "father_wartime_visit_complete": true
+        },
+        "learns": {
+          "reader": [
+            "the father's return does not repair the family's distance"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "young mother",
+          "tries to sell",
+          "her earrings"
+        ],
+        "content": "Material need takes mother and son to a warm, well-fed household, but humiliation prevents her from completing the transaction.",
+        "participants": [
+          "young mother",
+          "child narrator",
+          "doctor's wife"
+        ],
+        "location": "a doctor's warm house",
+        "pre": {
+          "father_wartime_visit_complete": true
+        },
+        "post": {
+          "earrings_unsold": true
+        },
+        "learns": {
+          "child narrator": [
+            "his mother cannot bring herself to sell the jewellery"
+          ],
+          "reader": [
+            "wartime scarcity is sharpened by another household's comfort"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "orphaned trainee",
+          "lies on",
+          "a grenade"
+        ],
+        "content": "At military training, a bereaved boy turns refusal into an act that may be sacrifice, defiance or both, while authority cannot read him.",
+        "participants": [
+          "orphaned trainee"
+        ],
+        "location": "a wartime training ground",
+        "pre": {},
+        "post": {
+          "trainee_on_grenade": true
+        },
+        "learns": {
+          "reader": [
+            "a separate wartime childhood condenses obedience, trauma and possible death"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "grown son's child",
+          "reads to",
+          "an absent woman"
+        ],
+        "content": "Alone in a modern flat, the boy performs a letter for someone the room cannot confirm is present, echoing the family's unstable absences.",
+        "participants": [
+          "grown son's child"
+        ],
+        "location": "a city flat",
+        "pre": {},
+        "post": {
+          "child_read_letter_alone": true
+        },
+        "learns": {
+          "reader": [
+            "the next generation also addresses people who may not be there"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "grown son",
+          "argues with",
+          "former wife"
+        ],
+        "content": "A telephone carries blame about their child between separated parents, repeating in another generation the distance of the country house.",
+        "participants": [
+          "grown son",
+          "former wife"
+        ],
+        "location": "two homes connected by telephone",
+        "pre": {},
+        "post": {
+          "grown_family_estranged": true
+        },
+        "learns": {
+          "reader": [
+            "the narrator has reproduced a divided family around his own son"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "grown son",
+          "watches",
+          "his elderly mother cross a field"
+        ],
+        "content": "Age and childhood occupy the same landscape as the mother walks with two children whose temporal place remains deliberately unstable.",
+        "participants": [
+          "grown son",
+          "elderly mother",
+          "field children"
+        ],
+        "location": "a field near the country house",
+        "pre": {
+          "grown_family_estranged": true
+        },
+        "post": {
+          "mother_field_vision_seen": true
+        },
+        "learns": {
+          "reader": [
+            "the grown son perceives his aged mother inside a childhood landscape"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "grown son",
+          "lies ill among",
+          "uncertain physicians"
+        ],
+        "content": "In a dark room, doctors find no bodily cause while his voice and memories continue to arrange an illness outside their instruments.",
+        "participants": [
+          "grown son",
+          "physicians"
+        ],
+        "location": "a darkened room",
+        "pre": {
+          "grown_family_estranged": true
+        },
+        "post": {
+          "narrator_ill_without_diagnosis": true
+        },
+        "learns": {
+          "grown son": [
+            "the doctors find no physical explanation"
+          ],
+          "reader": [
+            "the present illness is emotional or spiritual rather than diagnosed disease"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "grown son",
+          "recalls",
+          "the schoolgirl"
+        ],
+        "content": "A cracked lip and an unspoken attraction return with the completeness of an image and the incompleteness of a conversation never attempted.",
+        "participants": [
+          "grown son",
+          "schoolgirl"
+        ],
+        "location": "a remembered schoolyard",
+        "pre": {
+          "narrator_ill_without_diagnosis": true
+        },
+        "post": {
+          "schoolgirl_memory_recalled": true
+        },
+        "learns": {
+          "reader": [
+            "the narrator's past includes another intimacy prevented by silence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "a gust",
+          "crosses",
+          "the buckwheat field"
+        ],
+        "content": "Vegetation bends in a moving line towards the house, an event without witness or explanation that gives the landscape agency of its own.",
+        "participants": [],
+        "location": "a buckwheat field by the country house",
+        "pre": {},
+        "post": {
+          "wind_crossed_field": true
+        },
+        "learns": {
+          "reader": [
+            "the family landscape carries motion and meaning beyond human notice"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "elderly mother",
+          "leads",
+          "two children over the meadow"
+        ],
+        "content": "The figures recede through failing light as age, childhood and the country landscape coexist in one closing image.",
+        "participants": [
+          "elderly mother",
+          "field children"
+        ],
+        "location": "a meadow at dusk",
+        "pre": {
+          "mother_field_vision_seen": true
+        },
+        "post": {
+          "meadow_vision_complete": true
+        },
+        "learns": {
+          "reader": [
+            "the ending joins rather than resolves the family's separated times"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e13",
+        "on": "speech released under hypnosis and speech withheld in memory"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the mother at the roadside while the father is absent"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e11",
+        "on": "the mother in the field as young and old"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e15",
+        "on": "the mother and children in the country landscape"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e14",
+        "on": "unexplained disturbances moving through the field"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e14",
+        "on": "elemental events around the country house"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e7",
+        "on": "the mother's fear and economic vulnerability"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e10",
+        "on": "absent fathers across two generations"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9",
+        "on": "a mother and child negotiating an absent addressee"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e13",
+        "on": "wartime childhood and remembered school years"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the grown son's child inside the parental quarrel"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12",
+        "on": "estrangement and unexplained illness in the present"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e15",
+        "on": "the elderly mother crossing the field with children"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the illness opening into an unspoken childhood memory"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the landscape moving before the closing meadow image"
+      }
+    ]
+  }
+}

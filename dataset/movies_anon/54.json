@@ -1,0 +1,850 @@
+{
+  "story_id": "S54",
+  "source_index": 54,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "At a works outing beside a stream, a young man sits away from the crowd with a girl from the packing line and tells her he intends to take photographs for a living.",
+    "The girl presses a tin of mints into his hand, and he watches a goods train pass with the feeling that everything is about to begin.",
+    "Called up, he is sent with his company to break a rising in a provincial city and takes a bullet through the calf.",
+    "Bleeding and terrified in the dark, he fires at a shape in a doorway and kills a schoolgirl who was trying to get home.",
+    "Years later, as a detective, he beats a student in a cell and finds that the work suits him.",
+    "The girl from the packing line brings him a camera she has saved up for; he refuses it and spends the night with a waitress.",
+    "He tortures an organiser in a country town, then washes his hands and sits down to a bowl of rice.",
+    "He marries a good-humoured woman he does not love and lets his colleagues arrange the whole wedding.",
+    "He runs a small furniture firm, strikes his wife, and learns she is sleeping with the man teaching her to drive.",
+    "He follows her, catches the two of them and beats the man, then returns to a mistress of his own.",
+    "The firm fails, his partner takes what money is left, and his wife walks out.",
+    "He buys a pistol and drives about the city unable to settle on who deserves it.",
+    "The husband of the girl from the packing line brings him to her hospital bed, where she is dying and cannot speak, and returns the camera she once bought.",
+    "He forces his way into a reunion picnic beside the same stream, climbs onto a railway bridge, and stands facing an oncoming train shouting that he wants to go back."
+  ],
+  "syuzhet_order": [
+    14,
+    11,
+    12,
+    13,
+    9,
+    10,
+    7,
+    8,
+    5,
+    6,
+    3,
+    4,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    7,
+    7,
+    8
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. Seven dated episodes run from a suicide back to a factory picnic twenty years earlier, with reversed footage of a railway line between them.",
+  "syuzhet_notes": "Seven dated episodes run in reverse across twenty years, from the suicide to the works outing. Between them the film holds on a railway line shot from a moving train and played backwards, so the landscape itself runs the wrong way.",
+  "fabula_notes": "Chronology is fixed by the caption opening each episode. The death told first is the latest event in the story and the outing told last is the earliest.",
+  "story_graph": {
+    "characters": {
+      "the man": {
+        "archetype": "Hero"
+      },
+      "the packing-line girl": {
+        "archetype": "Herald"
+      },
+      "the schoolgirl": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the student": {
+        "archetype": "Threshold Guardian"
+      },
+      "the organiser": {
+        "archetype": "Threshold Guardian"
+      },
+      "the waitress": {
+        "archetype": "Shapeshifter"
+      },
+      "the wife": {
+        "archetype": "Shapeshifter"
+      },
+      "the driving instructor": {
+        "archetype": "Shapeshifter"
+      },
+      "the mistress": {
+        "archetype": "Shapeshifter"
+      },
+      "the business partner": {
+        "archetype": "Shadow"
+      },
+      "the packing-line girl's husband": {
+        "archetype": "Herald"
+      },
+      "his police colleagues": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the young man",
+          "shares",
+          "his photographic ambition"
+        ],
+        "content": "At a streamside outing he sits apart with a young coworker and imagines a life organised around looking carefully rather than exercising power over anyone.",
+        "participants": [
+          "the man",
+          "the packing-line girl"
+        ],
+        "location": "a stream beside a works outing",
+        "pre": {},
+        "post": {
+          "photography_dream_shared": true
+        },
+        "learns": {
+          "the packing-line girl": [
+            "the man hopes to become a photographer"
+          ],
+          "reader": [
+            "the young man begins with tenderness and an artistic future"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the packing-line girl",
+          "gives",
+          "a tin of mints"
+        ],
+        "content": "Her small gift and the passing goods train fix the outing as a beginning both of them expect to remember happily.",
+        "participants": [
+          "the man",
+          "the packing-line girl"
+        ],
+        "location": "the streamside railway",
+        "pre": {
+          "photography_dream_shared": true
+        },
+        "post": {
+          "mints_given": true,
+          "young_future_open": true
+        },
+        "learns": {
+          "the man": [
+            "the packing-line girl cares about the future he described"
+          ],
+          "reader": [
+            "the mints and train become markers of the life he later wants back"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the army",
+          "sends",
+          "the man to suppress a rising"
+        ],
+        "content": "Conscription replaces the imagined artistic future with a night deployment in a provincial city, where a bullet through his calf leaves him frightened and disoriented.",
+        "participants": [
+          "the man"
+        ],
+        "location": "a provincial city during a rising",
+        "pre": {
+          "young_future_open": true
+        },
+        "post": {
+          "man_wounded": true,
+          "man_in_rising": true
+        },
+        "learns": {
+          "the man": [
+            "the deployment is chaotic and he is wounded"
+          ],
+          "reader": [
+            "state violence abruptly interrupts the streamside future"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "what will the wounded conscript fire at in the darkness?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the man",
+          "shoots",
+          "the schoolgirl"
+        ],
+        "content": "Bleeding in darkness, he fires at a doorway and discovers that the perceived threat was a child trying to reach home.",
+        "participants": [
+          "the man",
+          "the schoolgirl"
+        ],
+        "location": "a dark provincial street",
+        "pre": {
+          "man_wounded": true,
+          "man_in_rising": true
+        },
+        "post": {
+          "schoolgirl_dead": true,
+          "war_trauma_carried": true
+        },
+        "learns": {
+          "the man": [
+            "his frightened shot killed a schoolgirl"
+          ],
+          "reader": [
+            "the formative act of violence is accidental, irreversible and never repaired"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the detective",
+          "beats",
+          "a student prisoner"
+        ],
+        "content": "Years later he performs institutional violence deliberately, discovering in an interrogation cell that authority rewards the hardness learned during the rising.",
+        "participants": [
+          "the man",
+          "the student",
+          "his police colleagues"
+        ],
+        "location": "a police interrogation cell",
+        "pre": {
+          "war_trauma_carried": true
+        },
+        "post": {
+          "man_became_brutal_detective": true
+        },
+        "learns": {
+          "the man": [
+            "his colleagues accept and value his brutality"
+          ],
+          "reader": [
+            "the frightened conscript has become an officer who inflicts fear"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what first joined the man's fear to the violence he later performs deliberately?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the man",
+          "rejects",
+          "the saved camera"
+        ],
+        "content": "The packing-line girl offers the instrument linked to his old ambition, but he refuses both it and the self it represents before spending the night with a waitress.",
+        "participants": [
+          "the man",
+          "the packing-line girl",
+          "the waitress"
+        ],
+        "location": "the city and a hotel room",
+        "pre": {
+          "photography_dream_shared": true,
+          "man_became_brutal_detective": true
+        },
+        "post": {
+          "camera_rejected": true,
+          "packing_line_bond_rejected": true
+        },
+        "learns": {
+          "the packing-line girl": [
+            "the man rejects the camera and their shared past"
+          ],
+          "reader": [
+            "he consciously turns away from his unrealised gentle vocation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the detective",
+          "tortures",
+          "an organiser"
+        ],
+        "content": "He moves from pain in an interrogation room to an ordinary meal without visible transition, showing that cruelty has become routine work.",
+        "participants": [
+          "the man",
+          "the organiser",
+          "his police colleagues"
+        ],
+        "location": "a country-town police post",
+        "pre": {
+          "man_became_brutal_detective": true
+        },
+        "post": {
+          "police_cruelty_routine": true
+        },
+        "learns": {
+          "reader": [
+            "the man can now compartmentalise torture as part of a normal day"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the man",
+          "marries",
+          "a woman he does not love"
+        ],
+        "content": "Colleagues arrange the wedding as another expected institution, and his passive acceptance replaces any personal choice comparable to the streamside promise.",
+        "participants": [
+          "the man",
+          "the wife",
+          "his police colleagues"
+        ],
+        "location": "a wedding hall",
+        "pre": {
+          "police_cruelty_routine": true
+        },
+        "post": {
+          "loveless_marriage_started": true
+        },
+        "learns": {
+          "the wife": [
+            "the man's colleagues have shaped the marriage celebration"
+          ],
+          "reader": [
+            "the man enters marriage without the intimacy he rejected earlier"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the man",
+          "discovers",
+          "his wife's affair"
+        ],
+        "content": "In the failing furniture-business years, his violence reaches home while a driving lesson gives his wife a relationship outside the marriage.",
+        "participants": [
+          "the man",
+          "the wife",
+          "the driving instructor"
+        ],
+        "location": "the family home and furniture firm",
+        "pre": {
+          "loveless_marriage_started": true
+        },
+        "post": {
+          "wife_affair_discovered": true,
+          "man_runs_furniture_firm": true
+        },
+        "learns": {
+          "the man": [
+            "his wife is sleeping with her driving instructor"
+          ],
+          "reader": [
+            "the loveless marriage now contains violence and reciprocal betrayal"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the man",
+          "beats",
+          "the driving instructor"
+        ],
+        "content": "He follows the pair, assaults his rival and then returns to a mistress of his own, demanding fidelity he does not practise.",
+        "participants": [
+          "the man",
+          "the wife",
+          "the driving instructor",
+          "the mistress"
+        ],
+        "location": "a roadside and the mistress's room",
+        "pre": {
+          "wife_affair_discovered": true
+        },
+        "post": {
+          "driving_instructor_beaten": true,
+          "marriage_betrayal_open": true
+        },
+        "learns": {
+          "the wife": [
+            "her husband knows about the affair and answers it violently"
+          ],
+          "reader": [
+            "the man's grievance coexists with his own infidelity"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the business partner and wife",
+          "leave",
+          "the man"
+        ],
+        "content": "Business failure removes his money, partnership and marriage in quick succession, stripping away the adult identities he used in place of his abandoned ambition.",
+        "participants": [
+          "the man",
+          "the wife",
+          "the business partner"
+        ],
+        "location": "the failed furniture firm and family home",
+        "pre": {
+          "man_runs_furniture_firm": true,
+          "marriage_betrayal_open": true
+        },
+        "post": {
+          "firm_failed": true,
+          "wife_left": true,
+          "man_ruined": true
+        },
+        "learns": {
+          "the man": [
+            "his partner took the remaining money and his wife has left"
+          ],
+          "reader": [
+            "the man's business and domestic life collapse together"
+          ]
+        },
+        "raises": [
+          "q5",
+          "q10"
+        ],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {
+          "q5": "what had broken the marriage before the wife finally left?",
+          "q10": "what kind of marriage preceded the wife's departure?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the ruined man",
+          "buys",
+          "a pistol"
+        ],
+        "content": "He circles the city with a weapon but cannot decide whether rage belongs to his partner, wife, rival or himself.",
+        "participants": [
+          "the man"
+        ],
+        "location": "city streets",
+        "pre": {
+          "man_ruined": true
+        },
+        "post": {
+          "man_armed": true,
+          "man_suicidal": true
+        },
+        "learns": {
+          "reader": [
+            "the pistol expresses diffuse despair rather than a settled revenge plan"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the packing-line girl's husband",
+          "returns",
+          "the camera"
+        ],
+        "content": "At the dying woman's bedside, the object once refused comes back to the ruined man while she can no longer speak or answer anything he might say.",
+        "participants": [
+          "the man",
+          "the packing-line girl",
+          "the packing-line girl's husband"
+        ],
+        "location": "a hospital room",
+        "pre": {
+          "camera_rejected": true
+        },
+        "post": {
+          "camera_returned": true,
+          "packing_line_girl_dying": true
+        },
+        "learns": {
+          "the man": [
+            "the packing-line girl kept the camera and is dying"
+          ],
+          "reader": [
+            "the rejected future returns only when it cannot be recovered"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {
+          "q4": "why did the dying woman once buy the camera now being returned?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the man",
+          "faces",
+          "an oncoming train"
+        ],
+        "content": "At the old stream he invades a reunion, climbs onto the railway bridge and asks to return while the train that once marked possibility now closes the story.",
+        "participants": [
+          "the man"
+        ],
+        "location": "the streamside railway bridge",
+        "pre": {
+          "camera_returned": true,
+          "man_suicidal": true
+        },
+        "post": {
+          "man_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the man's demand to go back refers to the innocence, relationship and vocation progressively revealed in reverse"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q6",
+          "q7",
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what earlier self and future is the man asking to recover?",
+          "q2": "why do the stream and passing train carry such force at his death?",
+          "q6": "what immediate collapse brought the man to the bridge?",
+          "q7": "why is the man already moving through the city as if choosing a death?",
+          "q8": "what final encounter makes returning to the past feel urgent?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the streamside beginning"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e6",
+        "on": "the abandoned photography dream"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14",
+        "on": "the first and last visits to the stream"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e14",
+        "on": "the passing train transformed from promise to death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the night of the rising"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "violence carried from soldiering into police work"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e7",
+        "on": "the man's interrogation work"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e13",
+        "on": "the camera bought and returned"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the police colleagues who normalise his adult life"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the loveless marriage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the wife's affair"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11",
+        "on": "the failing firm and marriage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the betrayals preceding separation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the man's ruin"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "the suicidal crisis"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the returned past before the bridge"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1037 @@
+{
+  "story_id": "S38",
+  "source_index": 38,
+  "genre": "Crime, Mystery, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Decades ago Ingrid Ravn disappeared from the family island during a parade, on a day when a crash had blocked the only bridge.",
+    "Every year since, Gustav Ravn has received a pressed flower on his birthday, which he takes as taunting from her killer.",
+    "Journalist Anders Sten loses a libel case against the financier Kolberg and resigns from his magazine.",
+    "Sonja Vik, a ward of the state and a researcher for a security firm, is handed a new guardian, Rask, after her old one has a stroke.",
+    "Sonja compiles the background report on Sten that persuades Gustav Ravn to hire him.",
+    "Gustav brings Sten out to the island to write a family history and, in truth, to find out who killed Ingrid.",
+    "Rask makes Sonja perform oral sex before he will release her own money.",
+    "Rask rapes Sonja at his flat, not knowing she has hidden a camera in her bag.",
+    "Sonja comes back, tasers Rask, marks him permanently as a rapist and blackmails him with the recording.",
+    "Sten works through the family archive, is shot at in the woods, and finds Ingrid's notebook full of names and numbers.",
+    "Sten's daughter Maja points out that the numbers are scripture verses.",
+    "Sten asks the security firm for a research assistant and is given Sonja, who has been reading his hard drive for months.",
+    "Together they match the verses to a series of ritual murders of women across the country going back forty years.",
+    "They trace the killings to Otto Ravn, Ingrid's father, and then to her brother Viktor.",
+    "Viktor catches Sten, chains him in a soundproofed basement and explains what he does down there.",
+    "Sonja arrives, splits Viktor's face with a golf club, and lets him drive away to his death in a crash.",
+    "Sonja nurses Sten back to health and the two become lovers.",
+    "A cousin called Karin, living overseas, turns out to be Ingrid herself, using the cousin's name since fleeing her father and brother.",
+    "Ingrid comes home to Gustav, and Sten has his story.",
+    "Sonja, in disguise, empties Kolberg's accounts at a foreign bank and feeds Sten the story that destroys him, then sees him with his editor Britt and throws away the present she had bought."
+  ],
+  "syuzhet_order": [
+    3,
+    5,
+    6,
+    1,
+    2,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    14,
+    14,
+    15,
+    16,
+    16,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The investigation holds 15 of 17 scenes and runs forward, with the disappearance decades earlier reconstructed as an insertion.",
+  "syuzhet_notes": "The film runs two threads in parallel for its first half - the journalist on the island and the researcher in the city - cutting between them long before they have anything to do with each other, and converging them at told-order bullet 12. Told-order bullets 4-5 are the old disappearance and the years of pressed flowers, reconstructed from photographs and testimony rather than played as present action.",
+  "fabula_notes": "The disappearance and the ritual murders reaching back forty years are pieced together from documents and photographs and never dramatised as they happened, so the ordering of those events is what the investigation establishes rather than what the film shows. The researcher's own history, alluded to only as \"all the evil\", stays off screen.",
+  "story_graph": {
+    "characters": {
+      "Sten": {
+        "archetype": "Hero"
+      },
+      "Sonja": {
+        "archetype": "Hero"
+      },
+      "Gustav": {
+        "archetype": "Mentor"
+      },
+      "Ingrid": {
+        "archetype": "Herald"
+      },
+      "Otto": {
+        "archetype": "Shadow"
+      },
+      "Viktor": {
+        "archetype": "Shadow"
+      },
+      "Rask": {
+        "archetype": "Shadow"
+      },
+      "Kolberg": {
+        "archetype": "Shadow"
+      },
+      "Maja": {
+        "archetype": "Herald"
+      },
+      "Britt": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Ingrid",
+          "disappears",
+          "from the island"
+        ],
+        "content": "A parade in the town, a crash that closes the only bridge for the whole afternoon, and a girl who is in the house at one o'clock and nowhere on the island by five.",
+        "participants": [
+          "Ingrid",
+          "Gustav"
+        ],
+        "location": "a family island",
+        "pre": {},
+        "post": {
+          "ingrid_gone": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ingrid",
+            "intro:Gustav",
+            "a locked-room disappearance the size of an island"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q1",
+          "q3"
+        ],
+        "questions": {
+          "q7": "what happened to the girl?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Gustav",
+          "receives",
+          "the pressed flowers"
+        ],
+        "content": "One every year on his birthday, framed behind glass, each a different species, and forty of them now on the wall of a study belonging to a man who reads them as a signature.",
+        "participants": [
+          "Gustav"
+        ],
+        "location": "a study on the family island",
+        "pre": {
+          "ingrid_gone": true
+        },
+        "post": {
+          "flowers_arriving": true
+        },
+        "learns": {
+          "reader": [
+            "the taunt, which is what has kept the case alive"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {
+          "q8": "who has been sending the flowers?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Sten",
+          "loses",
+          "the libel case"
+        ],
+        "content": "The documents he was given turn out to have been planted, the financier's lawyers take him apart in an afternoon, and he resigns from the magazine to spare it.",
+        "participants": [
+          "Sten",
+          "Kolberg",
+          "Britt"
+        ],
+        "location": "a courtroom and a magazine office",
+        "pre": {
+          "flowers_arriving": true
+        },
+        "post": {
+          "sten_disgraced": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Sten",
+            "intro:Kolberg",
+            "intro:Britt",
+            "he is available, which is the point"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "does he ever get the financier?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Rask",
+          "becomes",
+          "Sonja's guardian"
+        ],
+        "content": "Her old one has a stroke, and the state replaces him with a lawyer who reads her file before he meets her and understands exactly what it entitles him to.",
+        "participants": [
+          "Sonja",
+          "Rask"
+        ],
+        "location": "a guardianship office",
+        "pre": {
+          "sten_disgraced": true
+        },
+        "post": {
+          "sonja_under_rask": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Sonja",
+            "intro:Rask",
+            "the second strand, and the trap it opens with"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Sonja",
+          "compiles",
+          "the report"
+        ],
+        "content": "Two hundred pages on a disgraced journalist assembled from his bank records, his e-mail and his hard drive, ending with the observation that he did not fabricate anything.",
+        "participants": [
+          "Sonja",
+          "Sten",
+          "Gustav"
+        ],
+        "location": "a flat in the city",
+        "pre": {
+          "sten_disgraced": true
+        },
+        "post": {
+          "report_delivered": true
+        },
+        "learns": {
+          "Gustav": [
+            "the man is honest and unemployed"
+          ],
+          "reader": [
+            "she is already inside his life before either of them knows the other exists"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why does an old man want a disgraced journalist?",
+          "q2": "what has he been living with all this time?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Gustav",
+          "brings",
+          "Sten to the island"
+        ],
+        "content": "A cottage, a salary and a commission to write a family history, and then, once the door is shut, the actual job and the wall of framed flowers.",
+        "participants": [
+          "Sten",
+          "Gustav"
+        ],
+        "location": "a family island",
+        "pre": {
+          "report_delivered": true
+        },
+        "post": {
+          "sten_on_the_island": true
+        },
+        "learns": {
+          "Sten": [
+            "what he has actually been hired for"
+          ],
+          "reader": [
+            "the investigation begins, forty years cold"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what is he actually being hired to do?",
+          "q4": "is there anything left on this island to find?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Rask",
+          "coerces",
+          "Sonja"
+        ],
+        "content": "He keeps her own money in his desk and sets a price for releasing it, and she pays it in his office with the door locked and does not change expression.",
+        "participants": [
+          "Sonja",
+          "Rask"
+        ],
+        "location": "a lawyer's office",
+        "pre": {
+          "sonja_under_rask": true
+        },
+        "post": {
+          "rask_coerced_her": true
+        },
+        "learns": {
+          "reader": [
+            "the arrangement, and that the state built it"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q10": "what is she going to do about him?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Rask",
+          "rapes",
+          "Sonja"
+        ],
+        "content": "He tells her to come to the flat and does what he has been working towards, and does not check the bag she puts down by the door.",
+        "participants": [
+          "Sonja",
+          "Rask"
+        ],
+        "location": "the lawyer's flat",
+        "pre": {
+          "rask_coerced_her": true
+        },
+        "post": {
+          "sonja_raped": true
+        },
+        "learns": {
+          "reader": [
+            "the worst of it, and the one detail that will matter afterwards"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Sonja",
+          "blackmails",
+          "Rask"
+        ],
+        "content": "She comes back with a taser and a needle and a plan, marks him where he cannot show anybody, and explains the terms of the recording while he is still on the floor.",
+        "participants": [
+          "Sonja",
+          "Rask"
+        ],
+        "location": "the lawyer's flat",
+        "pre": {
+          "sonja_raped": true
+        },
+        "post": {
+          "rask_blackmailed": true
+        },
+        "learns": {
+          "Rask": [
+            "she owns him"
+          ],
+          "reader": [
+            "what she does with the camera, which is the film's clearest statement about her"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Sten",
+          "finds",
+          "the notebook"
+        ],
+        "content": "Months in a room of boxes, a rifle shot through a window in the woods, and then a girl's diary full of women's first names against five-figure numbers.",
+        "participants": [
+          "Sten",
+          "Ingrid"
+        ],
+        "location": "an archive on the family island",
+        "pre": {
+          "sten_on_the_island": true
+        },
+        "post": {
+          "notebook_found": true
+        },
+        "learns": {
+          "reader": [
+            "the clue, meaningless for another two scenes"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q5": "what are the numbers?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Maja",
+          "identifies",
+          "the verses"
+        ],
+        "content": "His daughter picks the notebook up on a visit, reads two lines of it, and says that the numbers are chapter and verse and asks whether he does not know his own scripture.",
+        "participants": [
+          "Sten",
+          "Maja"
+        ],
+        "location": "a cottage on the family island",
+        "pre": {
+          "notebook_found": true
+        },
+        "post": {
+          "verses_identified": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Maja",
+            "the code breaks in one line, from outside the investigation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Sten",
+          "is given",
+          "Sonja"
+        ],
+        "content": "He asks the security firm for a researcher and is sent the person who has been reading his correspondence for a year, and she arrives knowing more about him than his editor does.",
+        "participants": [
+          "Sten",
+          "Sonja"
+        ],
+        "location": "a cottage on the family island",
+        "pre": {
+          "verses_identified": true
+        },
+        "post": {
+          "sonja_assigned": true
+        },
+        "learns": {
+          "Sten": [
+            "the report on him was hers"
+          ],
+          "reader": [
+            "the two strands meet, halfway through"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the pair",
+          "match",
+          "the murders"
+        ],
+        "content": "Verse by verse and name by name, they lay forty years of unsolved killings of women across the country against the numbers in a schoolgirl's notebook.",
+        "participants": [
+          "Sten",
+          "Sonja"
+        ],
+        "location": "a cottage on the family island",
+        "pre": {
+          "sonja_assigned": true
+        },
+        "post": {
+          "murders_matched": true
+        },
+        "learns": {
+          "reader": [
+            "the case stops being about one girl"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "who did all of these?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the pair",
+          "trace",
+          "the killings to the family"
+        ],
+        "content": "The dates line up with one man's travel for the firm, and then, after he dies, with his son's, and the son still lives on the island.",
+        "participants": [
+          "Sten",
+          "Sonja",
+          "Otto",
+          "Viktor"
+        ],
+        "location": "an archive on the family island",
+        "pre": {
+          "murders_matched": true
+        },
+        "post": {
+          "viktor_identified": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Otto",
+            "intro:Viktor",
+            "father and son, in sequence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Viktor",
+          "chains",
+          "Sten in the basement"
+        ],
+        "content": "He offers him a drink, locks the door, and then explains at length and with real interest what the room is for and why nobody has ever heard anything from it.",
+        "participants": [
+          "Sten",
+          "Viktor"
+        ],
+        "location": "a soundproofed basement",
+        "pre": {
+          "viktor_identified": true
+        },
+        "post": {
+          "sten_captured": true
+        },
+        "learns": {
+          "reader": [
+            "the villain, given his scene, and he uses all of it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Sonja",
+          "splits",
+          "Viktor's face"
+        ],
+        "content": "She comes down the stairs with a golf club and does not stop swinging, and then asks permission before going after the car, and lets it burn where it leaves the road.",
+        "participants": [
+          "Sonja",
+          "Viktor",
+          "Sten"
+        ],
+        "location": "a soundproofed basement and a road",
+        "pre": {
+          "sten_captured": true
+        },
+        "post": {
+          "viktor_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the rescue, and that she asks first"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Sonja",
+          "nurses",
+          "Sten"
+        ],
+        "content": "Broken ribs and a cottage and a great deal of silence, and then one of them gets into the other's bed and neither of them discusses it in the morning.",
+        "participants": [
+          "Sonja",
+          "Sten"
+        ],
+        "location": "a cottage on the family island",
+        "pre": {
+          "viktor_dead": true
+        },
+        "post": {
+          "lovers": true
+        },
+        "learns": {
+          "reader": [
+            "the attachment, formed without a word being said about it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the cousin",
+          "turns out",
+          "to be Ingrid"
+        ],
+        "content": "A woman running a sheep farm on the other side of the world under a cousin's name, who put down the telephone forty years ago and got on a boat and never wrote.",
+        "participants": [
+          "Sten",
+          "Sonja",
+          "Ingrid"
+        ],
+        "location": "a farm overseas",
+        "pre": {
+          "lovers": true
+        },
+        "post": {
+          "ingrid_found": true
+        },
+        "learns": {
+          "reader": [
+            "she was never murdered; she escaped, which nobody thought to check"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Ingrid",
+          "comes",
+          "home"
+        ],
+        "content": "An old man in a doorway on an island, and a woman getting out of a car who is sixty and should be sixteen, and a journalist standing back with a notebook he does not open.",
+        "participants": [
+          "Ingrid",
+          "Gustav",
+          "Sten"
+        ],
+        "location": "a family island",
+        "pre": {
+          "ingrid_found": true
+        },
+        "post": {
+          "gustav_reunited": true
+        },
+        "learns": {
+          "reader": [
+            "the commission discharged, and the story he cannot print"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Sonja",
+          "destroys",
+          "Kolberg"
+        ],
+        "content": "In a wig and someone else's passport she moves the financier's money out of three countries, hands the journalist the story that finishes him, and then sees him arm in arm with his editor and drops a present into a bin.",
+        "participants": [
+          "Sonja",
+          "Sten",
+          "Kolberg",
+          "Britt"
+        ],
+        "location": "a foreign bank and a city street",
+        "pre": {
+          "gustav_reunited": true
+        },
+        "post": {
+          "kolberg_destroyed": true
+        },
+        "learns": {
+          "reader": [
+            "she wins everything except the one thing she went out to get"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the girl, gone and then commemorated"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e6",
+        "on": "the wall of framed flowers, kept and then shown"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5",
+        "on": "the disgraced journalist, in court and in a file"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "two people the institutions have finished with"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the report and the appointment it produces"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7",
+        "on": "the guardian"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the office and the flat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the bag by the door"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e10",
+        "on": "the archive"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the notebook, found and then read"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the code broken and the researcher who arrives to use it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the two of them working"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the list of the dead and the name behind it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the son, identified and then met"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the basement"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the rescue and the weeks after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the search resumed once he can walk"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the woman found and the woman returned"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the two stories, the one he cannot print and the one he can"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e20",
+        "on": "the same woman, taking what is owed with a camera and with a bank transfer"
+      }
+    ]
+  }
+}

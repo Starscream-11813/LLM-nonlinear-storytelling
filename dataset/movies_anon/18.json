@@ -1,0 +1,1018 @@
+{
+  "story_id": "S18",
+  "source_index": 18,
+  "genre": "Sci-Fi, Drama, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "In the age of sail, the lawyer Josiah Vane, crossing an ocean homeward, watches the slave trade at work while the ship's doctor Mowbray quietly poisons him for his gold.",
+    "The stowaway Kesa, whose life Josiah saved, nurses him through the poisoning and exposes Mowbray.",
+    "Josiah reaches port and renounces his father-in-law's slaving fortune to join the abolitionists.",
+    "Between the wars, the penniless composer Rafe Sorrell talks his way into the household of the ailing Delacroix as his amanuensis, writing constantly to his lover Merrick.",
+    "Rafe finds half of Josiah's journal in the estate library and writes the Skywater Suite while Delacroix tries to claim it as his own.",
+    "Rafe finishes the Suite, shoots himself in a hotel bath in an old town, and Merrick arrives too late.",
+    "In the nuclear years, the journalist Nia Sol is trapped in a stalled lift with the elderly Merrick, who tells her about a suppressed safety report on the Havenrock plant.",
+    "Merrick is murdered, Nia inherits Rafe's letters to him, and a hitman called Vole runs her car off a bridge.",
+    "Nia and the engineer Behr's report bring the conspiracy down and she publishes the story.",
+    "In the present day, the publisher Aldous Prynne, hunted by an author's gangster brothers, is tricked by his own brother into signing himself into the Bellmont nursing home.",
+    "Drugged and locked in, Aldous reads Nia's manuscript and organises an escape with three fellow residents.",
+    "The escapees fight their way out through a crowded pub, and Aldous writes his ordeal up as a screenplay.",
+    "Centuries hence, the fabricant server Sena-19 is lifted out of a diner chain by the rebel Jun and shown what the world outside is.",
+    "Sena watches the film of Aldous's escape, learns that spent fabricants are recycled into food for the living, and records a declaration of her rights.",
+    "Sena is captured and executed, and her declaration survives her as scripture.",
+    "After the Collapse, the goatherd Odo, whose tribe worships Sena as a god, guides the technologically advanced traveller Sarai up to a mountain observatory while the Rakka raid his valley.",
+    "Odo ignores the whispering demon Tallow, kills a Rakka warrior, and Sarai sends the signal that will bring a ship.",
+    "Off world, an aged Odo tells his grandchildren the whole story under an alien sky, with Sarai beside him."
+  ],
+  "syuzhet_order": [
+    18,
+    1,
+    4,
+    7,
+    10,
+    13,
+    16,
+    5,
+    2,
+    8,
+    11,
+    14,
+    6,
+    9,
+    12,
+    17,
+    15,
+    3
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "Six self-contained narratives cut into one another on matched gestures and echoes, cycling by story rather than by date.",
+  "syuzhet_notes": "Six stories spread across five centuries are cut into one another continuously, often on a matched gesture or a shared line, so consecutive told-order bullets are usually decades or centuries apart. The film opens on its chronologically last scene (told-order bullet 1) as a framing narration, makes one pass through all six eras in bullets 2-7, then cycles through them twice more, and closes on its earliest era at bullet 18.",
+  "fabula_notes": "The eras are separated by centuries with no continuous causal chain, so the chronology is ordered by date rather than by consequence; what actually links them is a document handed forward - a journal, a bundle of letters, a manuscript, a film, a declaration. The gap between the execution and the goatherd's valley is never specified beyond the collapse of civilisation.",
+  "story_graph": {
+    "characters": {
+      "Josiah": {
+        "archetype": "Hero"
+      },
+      "Kesa": {
+        "archetype": "Ally"
+      },
+      "Mowbray": {
+        "archetype": "Shadow"
+      },
+      "Rafe": {
+        "archetype": "Hero"
+      },
+      "Merrick": {
+        "archetype": "Ally"
+      },
+      "Delacroix": {
+        "archetype": "Shadow"
+      },
+      "Nia": {
+        "archetype": "Hero"
+      },
+      "Behr": {
+        "archetype": "Ally"
+      },
+      "Vole": {
+        "archetype": "Shadow"
+      },
+      "Aldous": {
+        "archetype": "Hero"
+      },
+      "Sena": {
+        "archetype": "Hero"
+      },
+      "Jun": {
+        "archetype": "Mentor"
+      },
+      "Odo": {
+        "archetype": "Hero"
+      },
+      "Sarai": {
+        "archetype": "Mentor"
+      },
+      "Tallow": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Mowbray",
+          "poisons",
+          "Josiah"
+        ],
+        "content": "A lawyer sails home across an ocean with a chest of another man's money, watching men bought and sold on a beach, while the ship's doctor treats him daily for a worm that does not exist.",
+        "participants": [
+          "Josiah",
+          "Mowbray"
+        ],
+        "location": "a sailing ship in the age of sail",
+        "pre": {},
+        "post": {
+          "journal_begun": true
+        },
+        "learns": {
+          "Josiah": [
+            "he is gravely ill"
+          ],
+          "reader": [
+            "intro:Josiah",
+            "intro:Mowbray",
+            "the cure is the disease"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Kesa",
+          "nurses",
+          "Josiah"
+        ],
+        "content": "The stowaway he once spoke for climbs out of the hold, tips the doctor's powders into the sea and sits with him through the shaking, and the doctor is found at the cabin door with a knife.",
+        "participants": [
+          "Josiah",
+          "Kesa",
+          "Mowbray"
+        ],
+        "location": "a cabin below decks",
+        "pre": {
+          "journal_begun": true
+        },
+        "post": {
+          "josiah_saved": true
+        },
+        "learns": {
+          "Josiah": [
+            "the man he saved has saved him"
+          ],
+          "reader": [
+            "intro:Kesa",
+            "he lives, so the journal is finished"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Josiah",
+          "renounces",
+          "the fortune"
+        ],
+        "content": "He comes up the path of a house built on the trade, tells the man who owns it that he will not take a penny of it, and leaves with his wife to work for the other side.",
+        "participants": [
+          "Josiah",
+          "Kesa"
+        ],
+        "location": "a merchant's house at the port",
+        "pre": {
+          "josiah_saved": true
+        },
+        "post": {
+          "journal_exists": true
+        },
+        "learns": {
+          "reader": [
+            "one life spent against the thing that nearly killed him"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Rafe",
+          "enters",
+          "the Delacroix household"
+        ],
+        "content": "A composer with no money and no reputation talks his way into an old man's study as the hand that writes down what the old man can no longer write, and posts a letter about it every night.",
+        "participants": [
+          "Rafe",
+          "Delacroix",
+          "Merrick"
+        ],
+        "location": "a country house between the wars",
+        "pre": {
+          "journal_exists": true
+        },
+        "post": {
+          "letters_begun": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rafe",
+            "intro:Delacroix",
+            "intro:Merrick",
+            "he writes everything down to one reader"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Rafe",
+          "writes",
+          "the Skywater Suite"
+        ],
+        "content": "He finds half a sea journal on a library shelf, breaking off mid-sentence, and works through the nights on something of his own while the old man begins calling it ours.",
+        "participants": [
+          "Rafe",
+          "Delacroix"
+        ],
+        "location": "the library and music room of the estate",
+        "pre": {
+          "letters_begun": true
+        },
+        "post": {
+          "suite_written": true
+        },
+        "learns": {
+          "Rafe": [
+            "what he is capable of"
+          ],
+          "reader": [
+            "the journal reaches him, and it is only half of one"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why does the journal he finds break off halfway?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Rafe",
+          "shoots",
+          "himself"
+        ],
+        "content": "He finishes the last bars in a rented room in an old town, writes that he will be borrowing the pistol, and gets into the bath. The letters arrive after he does.",
+        "participants": [
+          "Rafe",
+          "Merrick"
+        ],
+        "location": "a hotel in an old town",
+        "pre": {
+          "suite_written": true
+        },
+        "post": {
+          "letters_exist": true
+        },
+        "learns": {
+          "Merrick": [
+            "he arrived a day too late"
+          ],
+          "reader": [
+            "the letters are now all there is of him"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q8": "what was in the half-journal that mattered so much to him?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Merrick",
+          "tells",
+          "Nia about the report"
+        ],
+        "content": "A stalled lift, a stranger's bad joke, and an old scientist who says there is a safety assessment on a reactor that nobody was meant to read.",
+        "participants": [
+          "Nia",
+          "Merrick"
+        ],
+        "location": "a stalled lift in an office tower",
+        "pre": {
+          "letters_exist": true
+        },
+        "post": {
+          "report_known": true
+        },
+        "learns": {
+          "Nia": [
+            "there is a suppressed report"
+          ],
+          "reader": [
+            "intro:Nia",
+            "the two eras touch through one man who was in both"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Vole",
+          "runs",
+          "Nia off a bridge"
+        ],
+        "content": "The old man is dead within the week and the letters come to her in a box. Then a car she does not recognise puts hers over the rail and into the water.",
+        "participants": [
+          "Nia",
+          "Merrick",
+          "Vole"
+        ],
+        "location": "a bridge over a bay",
+        "pre": {
+          "report_known": true
+        },
+        "post": {
+          "letters_inherited": true
+        },
+        "learns": {
+          "Nia": [
+            "they will kill to keep it quiet"
+          ],
+          "reader": [
+            "intro:Vole",
+            "the letters pass to a fourth reader"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who wrote these letters, and what became of him?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Nia",
+          "publishes",
+          "the story"
+        ],
+        "content": "She gets the assessment out of an engineer who has been waiting years to be asked, and the plant, the company and the men who hired the driver all come down together.",
+        "participants": [
+          "Nia",
+          "Behr"
+        ],
+        "location": "a newspaper office",
+        "pre": {
+          "letters_inherited": true
+        },
+        "post": {
+          "manuscript_exists": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Behr",
+            "she survives and writes it, which is why anyone reads it later"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Aldous",
+          "is committed",
+          "to Bellmont"
+        ],
+        "content": "Running from an author's brothers, a publisher asks his own brother for help and is driven to a quiet building in the country where the form he signs is not the one he thinks it is.",
+        "participants": [
+          "Aldous"
+        ],
+        "location": "a nursing home in the countryside",
+        "pre": {
+          "manuscript_exists": true
+        },
+        "post": {
+          "aldous_confined": true
+        },
+        "learns": {
+          "Aldous": [
+            "he has committed himself"
+          ],
+          "reader": [
+            "intro:Aldous",
+            "a farce with a locked door in it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Aldous",
+          "plans",
+          "the escape"
+        ],
+        "content": "Sedated at breakfast and locked in at nine, he reads a manuscript about a journalist and a reactor, and starts recruiting three old people with nothing left to lose.",
+        "participants": [
+          "Aldous"
+        ],
+        "location": "a nursing home in the countryside",
+        "pre": {
+          "aldous_confined": true
+        },
+        "post": {
+          "escape_planned": true
+        },
+        "learns": {
+          "Aldous": [
+            "there is a way out if four of them move at once"
+          ],
+          "reader": [
+            "the manuscript reaches its fifth reader"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "did the journalist live long enough to publish?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Aldous",
+          "escapes",
+          "through the pub"
+        ],
+        "content": "Four pensioners, one stolen car and a crowded bar between them and the road. He writes the whole thing up afterwards and somebody films it.",
+        "participants": [
+          "Aldous"
+        ],
+        "location": "a country pub and the road beyond it",
+        "pre": {
+          "escape_planned": true
+        },
+        "post": {
+          "screenplay_exists": true
+        },
+        "learns": {
+          "reader": [
+            "the escape becomes a film, which is how it travels forward"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Jun",
+          "lifts",
+          "Sena out of the diner"
+        ],
+        "content": "Centuries on, a server who has known one room and one script is taken up through the levels of a city by a rebel who wants her to see what is above it.",
+        "participants": [
+          "Sena",
+          "Jun"
+        ],
+        "location": "a vertical city, far in the future",
+        "pre": {
+          "screenplay_exists": true
+        },
+        "post": {
+          "sena_freed": true
+        },
+        "learns": {
+          "Sena": [
+            "there is a world outside the diner"
+          ],
+          "reader": [
+            "intro:Sena",
+            "intro:Jun",
+            "she is property, and has just stopped being it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Sena",
+          "records",
+          "her declaration"
+        ],
+        "content": "She watches an old film about four old people breaking out of a home, learns what happens to servers at the end of their service, and sits down in front of a camera to say what she thinks.",
+        "participants": [
+          "Sena",
+          "Jun"
+        ],
+        "location": "a broadcast room in the city",
+        "pre": {
+          "sena_freed": true
+        },
+        "post": {
+          "declaration_recorded": true
+        },
+        "learns": {
+          "Sena": [
+            "the dead are fed to the living"
+          ],
+          "reader": [
+            "the film reaches its sixth reader, and produces a text"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "did the four of them get out of the home?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the state",
+          "executes",
+          "Sena"
+        ],
+        "content": "They take her within the hour and it is over quickly and off camera. What she recorded is already out of the building and does not stop moving.",
+        "participants": [
+          "Sena"
+        ],
+        "location": "a detention level of the city",
+        "pre": {
+          "declaration_recorded": true
+        },
+        "post": {
+          "declaration_survives": true
+        },
+        "learns": {
+          "reader": [
+            "she dies and the words do not"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Odo",
+          "guides",
+          "Sarai up the mountain"
+        ],
+        "content": "Long after the fall, a goatherd whose people pray to a woman on a recording walks a visitor with impossible equipment up to an observatory, while smoke goes up from his valley behind them.",
+        "participants": [
+          "Odo",
+          "Sarai",
+          "Tallow"
+        ],
+        "location": "a mountain above a ruined valley",
+        "pre": {
+          "declaration_survives": true
+        },
+        "post": {
+          "odo_guides_sarai": true
+        },
+        "learns": {
+          "Odo": [
+            "his valley is being raided while he climbs"
+          ],
+          "reader": [
+            "intro:Odo",
+            "intro:Sarai",
+            "intro:Tallow",
+            "the declaration has become scripture"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "who is the woman these people pray to?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Odo",
+          "kills",
+          "the raider"
+        ],
+        "content": "The voice in his ear tells him to run, as it always does, and he does not listen to it. Afterwards the visitor gets the dish turned and sends the signal she came to send.",
+        "participants": [
+          "Odo",
+          "Sarai",
+          "Tallow"
+        ],
+        "location": "the mountain observatory",
+        "pre": {
+          "odo_guides_sarai": true
+        },
+        "post": {
+          "signal_sent": true
+        },
+        "learns": {
+          "Odo": [
+            "the voice is not the master of him"
+          ],
+          "reader": [
+            "the message goes out"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Odo",
+          "tells",
+          "the whole story"
+        ],
+        "content": "Very old, under a sky with the wrong number of moons in it, he tells children who have never seen the earth what happened in the valley, and who the woman on the recording actually was.",
+        "participants": [
+          "Odo",
+          "Sarai"
+        ],
+        "location": "a settlement on another world",
+        "pre": {
+          "signal_sent": true
+        },
+        "post": {
+          "story_told": true
+        },
+        "learns": {
+          "reader": [
+            "the frame the whole telling has been speaking from"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what is the old man under the strange sky actually telling?",
+          "q7": "how did any of them get off the planet?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e14",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5",
+        "on": "the sea journal, written by one man and read by another a century later"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the same man, young and in love and then old in a lift"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11",
+        "on": "the manuscript about the reactor, written and then read in a locked room"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "the film of the escape, made and then watched centuries later"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the recorded declaration, spoken and then recited as scripture"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "a man telling what he saw, at the beginning and at the end of the chain"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e17",
+        "on": "one person refusing the thing everyone around them accepts"
+      }
+    ]
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "story_id": "S75",
+  "source_index": 75,
+  "genre": "Sci-Fi, War, Drama",
+  "source": "Novel",
+  "events_chronological": [
+    "A boy is born in a small industrial town and grows into a weak, peculiar child.",
+    "His father throws him into the deep end of a pool to teach him to swim, and he sinks to the bottom.",
+    "He is conscripted as a chaplain's assistant and shipped overseas with no training worth the name.",
+    "He is lost behind the lines with a scout who beats him for wanting to be left to die.",
+    "The pair are captured, and the scout dies of gangrene on the prison train, blaming him with his last breath.",
+    "He is held in a camp beside enemy officers who have been drawing double rations for years through a clerical error.",
+    "He is sent on to a great city and housed with other prisoners in a disused abattoir.",
+    "The city is destroyed by fire in one night, and the prisoners in the meat locker come up to find it gone.",
+    "The prisoners are made to dig bodies out of the cellars until one of the diggers dies of the dry heaves.",
+    "A fellow prisoner promises to have him killed one day on the dead scout's account.",
+    "He comes home, collapses, and is hospitalised, where another patient introduces him to a hack science fiction writer.",
+    "He marries the daughter of the man who owns the optometry school and becomes rich.",
+    "He survives an air crash in the mountains, and his wife dies of exhaust fumes driving to the hospital.",
+    "He is taken by aliens and kept in a zoo on their planet with a film actress.",
+    "The aliens explain that every moment exists at once and that free will is an idea peculiar to his own planet.",
+    "He goes on a radio talk show and tries to tell the world about the aliens and the fourth dimension.",
+    "His daughter decides he is senile and takes his affairs out of his hands.",
+    "He is shot dead by a beam weapon after addressing a crowd, exactly as he has always known he would be."
+  ],
+  "syuzhet_order": [
+    3,
+    14,
+    1,
+    7,
+    11,
+    15,
+    4,
+    12,
+    8,
+    17,
+    2,
+    5,
+    16,
+    9,
+    13,
+    6,
+    18,
+    10
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. A man unstuck in time is thrown between his childhood, the war, his optometry practice and an alien zoo with no warning and no pattern.",
+  "syuzhet_notes": "The narration jumps without warning between the war, the marriage, the alien zoo and the death, often mid-paragraph and several times a page. It is not a frame with flashbacks and not two alternating strands; the sequence is associative and says so itself.",
+  "fabula_notes": "The chronology is fully recoverable from ages, ranks and the fixed date of the firestorm, even though the telling refuses to set it out.",
+  "story_graph": {
+    "characters": {
+      "protagonist": {
+        "archetype": "Hero"
+      },
+      "protagonist's father": {
+        "archetype": "Threshold Guardian"
+      },
+      "scout": {
+        "archetype": "Shadow"
+      },
+      "enemy officers": {
+        "archetype": "Shapeshifter"
+      },
+      "fellow prisoners": {
+        "archetype": "Ally"
+      },
+      "body digger": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "avenging prisoner": {
+        "archetype": "Shadow"
+      },
+      "hospital patient": {
+        "archetype": "Mentor"
+      },
+      "spouse": {
+        "archetype": "Ally"
+      },
+      "optometry owner": {
+        "archetype": "Mentor"
+      },
+      "alien guides": {
+        "archetype": "Mentor"
+      },
+      "film actress": {
+        "archetype": "Ally"
+      },
+      "daughter": {
+        "archetype": "Threshold Guardian"
+      },
+      "assassin": {
+        "archetype": "Shadow"
+      },
+      "lecture audience": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "protagonist",
+          "is born in",
+          "an industrial town"
+        ],
+        "content": "A physically slight and inward child grows up already ill-suited to the heroic masculinity his culture will later demand.",
+        "participants": [
+          "protagonist"
+        ],
+        "location": "a small industrial town",
+        "pre": {},
+        "post": {
+          "protagonist_born": true
+        },
+        "learns": {
+          "reader": [
+            "the central figure begins life weak, peculiar and socially exposed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "protagonist's father",
+          "throws",
+          "his son into deep water"
+        ],
+        "content": "An attempted swimming lesson becomes passive near-drowning when the boy sinks and experiences the bottom as a place he need not leave.",
+        "participants": [
+          "protagonist",
+          "protagonist's father"
+        ],
+        "location": "a swimming pool",
+        "pre": {
+          "protagonist_born": true
+        },
+        "post": {
+          "childhood_near_drowning": true
+        },
+        "learns": {
+          "reader": [
+            "the protagonist's passivity before death begins in childhood"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the army",
+          "deploys",
+          "the protagonist"
+        ],
+        "content": "He enters war as a chaplain's assistant with neither combat preparation nor the temperament to imitate a soldier.",
+        "participants": [
+          "protagonist"
+        ],
+        "location": "a military transport overseas",
+        "pre": {
+          "protagonist_born": true
+        },
+        "post": {
+          "protagonist_deployed": true
+        },
+        "learns": {
+          "reader": [
+            "the protagonist reaches the front almost completely unprepared"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "scout",
+          "drags",
+          "the protagonist onward"
+        ],
+        "content": "Lost behind the lines, the protagonist asks to be abandoned while the scout answers his surrender with blows and continued movement.",
+        "participants": [
+          "protagonist",
+          "scout"
+        ],
+        "location": "winter fields behind the lines",
+        "pre": {
+          "protagonist_deployed": true
+        },
+        "post": {
+          "pair_lost_behind_lines": true
+        },
+        "learns": {
+          "scout": [
+            "the protagonist would rather stop than survive"
+          ],
+          "reader": [
+            "the protagonist responds to danger by yielding rather than fighting"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "enemy soldiers",
+          "capture",
+          "the pair"
+        ],
+        "content": "A packed prison train carries them east; infection kills the scout while he fixes responsibility for his death on the man beside him.",
+        "participants": [
+          "protagonist",
+          "scout",
+          "fellow prisoners"
+        ],
+        "location": "a prison train",
+        "pre": {
+          "pair_lost_behind_lines": true
+        },
+        "post": {
+          "protagonist_captured": true,
+          "scout_dead": true
+        },
+        "learns": {
+          "protagonist": [
+            "the scout dies blaming him"
+          ],
+          "reader": [
+            "the capture creates a grievance that will outlive the war"
+          ]
+        },
+        "raises": [
+          "q75_6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_6": "who will carry the scout's final blame beyond his death?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "enemy officers",
+          "receive",
+          "the new prisoners"
+        ],
+        "content": "Long-held officers appear healthy on accidental double rations, an absurd administrative abundance beside the exhausted arrivals.",
+        "participants": [
+          "protagonist",
+          "enemy officers",
+          "fellow prisoners"
+        ],
+        "location": "a prisoner-of-war camp",
+        "pre": {
+          "protagonist_captured": true
+        },
+        "post": {
+          "protagonist_in_camp": true
+        },
+        "learns": {
+          "reader": [
+            "clerical error shapes survival even inside captivity"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q75_1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "enemy guards",
+          "send",
+          "the prisoners to an abattoir"
+        ],
+        "content": "The protagonist's group is transferred into a great city and lodged below ground in a disused meat locker bearing a numbered address.",
+        "participants": [
+          "protagonist",
+          "fellow prisoners"
+        ],
+        "location": "a disused urban abattoir",
+        "pre": {
+          "protagonist_in_camp": true
+        },
+        "post": {
+          "prisoners_in_city": true
+        },
+        "learns": {
+          "reader": [
+            "the meat locker is the prisoners' shelter inside the city"
+          ]
+        },
+        "raises": [
+          "q75_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_1": "where was he held immediately before the transfer to the city abattoir?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the firestorm",
+          "destroys",
+          "the city"
+        ],
+        "content": "One night of incendiaries passes above the refrigerated cellar; morning reveals streets, buildings and inhabitants reduced almost entirely to ash.",
+        "participants": [
+          "protagonist",
+          "fellow prisoners"
+        ],
+        "location": "the abattoir and ruined city",
+        "pre": {
+          "prisoners_in_city": true
+        },
+        "post": {
+          "city_destroyed": true
+        },
+        "learns": {
+          "protagonist": [
+            "the city has been annihilated while the prisoners survived below"
+          ],
+          "reader": [
+            "the central wartime trauma is the destruction outside the meat locker"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q75_2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "captors",
+          "force",
+          "the prisoners to recover bodies"
+        ],
+        "content": "The survivors excavate sealed cellars until death from the dry heaves shows how even those spared by the bombing remain inside its aftermath.",
+        "participants": [
+          "protagonist",
+          "fellow prisoners",
+          "body digger"
+        ],
+        "location": "cellars in the ruined city",
+        "pre": {
+          "city_destroyed": true
+        },
+        "post": {
+          "body_recovery_completed": true
+        },
+        "learns": {
+          "reader": [
+            "survival requires prolonged contact with the firestorm's dead"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "avenging prisoner",
+          "promises",
+          "the protagonist's death"
+        ],
+        "content": "Accepting the dead scout's accusation, another prisoner turns it into a patient pledge that punishment will arrive even years later.",
+        "participants": [
+          "protagonist",
+          "avenging prisoner"
+        ],
+        "location": "the wartime prison system",
+        "pre": {
+          "scout_dead": true
+        },
+        "post": {
+          "future_assassination_promised": true
+        },
+        "learns": {
+          "protagonist": [
+            "someone intends to have him killed for the scout's death"
+          ],
+          "reader": [
+            "the war has planted a threat beyond its own end"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q75_4",
+          "q75_6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "protagonist",
+          "returns home and",
+          "collapses"
+        ],
+        "content": "Back in civilian life, he enters a hospital where another patient supplies strange books by a prolific speculative writer.",
+        "participants": [
+          "protagonist",
+          "hospital patient"
+        ],
+        "location": "a veterans' hospital",
+        "pre": {
+          "body_recovery_completed": true
+        },
+        "post": {
+          "protagonist_hospitalised": true
+        },
+        "learns": {
+          "protagonist": [
+            "the science-fiction books offer a language unlike ordinary war memory"
+          ],
+          "reader": [
+            "his postwar collapse follows the buried experience of the destroyed city"
+          ]
+        },
+        "raises": [
+          "q75_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_2": "what happened overseas to leave him collapsed after returning home?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "protagonist",
+          "marries",
+          "the optometry owner's daughter"
+        ],
+        "content": "Marriage into a prosperous professional family gives him a practice, money and the outward shape of a stable life.",
+        "participants": [
+          "protagonist",
+          "spouse",
+          "optometry owner"
+        ],
+        "location": "an optometry school and family home",
+        "pre": {
+          "protagonist_hospitalised": true
+        },
+        "post": {
+          "protagonist_married_and_wealthy": true
+        },
+        "learns": {
+          "reader": [
+            "the protagonist acquires conventional postwar security"
+          ]
+        },
+        "raises": [
+          "q75_7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_7": "will the protagonist's prosperous domestic life remain intact?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "protagonist",
+          "survives",
+          "an air crash"
+        ],
+        "content": "Rescuers find him alive in mountain wreckage, while his panicked spouse dies from fumes during the drive to reach his hospital.",
+        "participants": [
+          "protagonist",
+          "spouse"
+        ],
+        "location": "mountains and a hospital road",
+        "pre": {
+          "protagonist_married_and_wealthy": true
+        },
+        "post": {
+          "protagonist_survived_air_crash": true,
+          "spouse_dead": true
+        },
+        "learns": {
+          "reader": [
+            "chance again preserves the protagonist while killing someone near him"
+          ]
+        },
+        "raises": [
+          "q75_8"
+        ],
+        "resolves": [
+          "q75_7"
+        ],
+        "questions": {
+          "q75_8": "does surviving the crash allow him to escape the death he foresees?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "alien guides",
+          "take",
+          "the protagonist to a zoo"
+        ],
+        "content": "He describes removal to another planet, where an actress shares a transparent enclosure and their private life becomes an exhibit.",
+        "participants": [
+          "protagonist",
+          "alien guides",
+          "film actress"
+        ],
+        "location": "an alien zoo",
+        "pre": {
+          "protagonist_survived_air_crash": true
+        },
+        "post": {
+          "protagonist_abducted": true
+        },
+        "learns": {
+          "reader": [
+            "the protagonist claims direct experience of an alien world"
+          ]
+        },
+        "raises": [
+          "q75_5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_5": "what do the alien captors want him to understand about time?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "alien guides",
+          "teach",
+          "simultaneous time"
+        ],
+        "content": "They tell him every instant always exists and death is only attention fixed on a bad moment, removing choice from the universe they describe.",
+        "participants": [
+          "protagonist",
+          "alien guides",
+          "film actress"
+        ],
+        "location": "an alien zoo",
+        "pre": {
+          "protagonist_abducted": true
+        },
+        "post": {
+          "timeless_worldview_learned": true
+        },
+        "learns": {
+          "protagonist": [
+            "all moments coexist and free will is a local illusion"
+          ],
+          "reader": [
+            "the novel's disordered chronology is also the protagonist's philosophy of time"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q75_5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "protagonist",
+          "broadcasts",
+          "the alien account"
+        ],
+        "content": "A radio audience hears him present abduction and the fourth dimension as fact, exposing the private cosmology to public judgement.",
+        "participants": [
+          "protagonist"
+        ],
+        "location": "a radio studio",
+        "pre": {
+          "timeless_worldview_learned": true
+        },
+        "post": {
+          "alien_claims_public": true
+        },
+        "learns": {
+          "reader": [
+            "the protagonist no longer keeps the alien explanation private"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q75_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "daughter",
+          "takes control of",
+          "the protagonist's affairs"
+        ],
+        "content": "She interprets his public certainty as senility and removes his practical independence while believing she is protecting him.",
+        "participants": [
+          "protagonist",
+          "daughter"
+        ],
+        "location": "the protagonist's home",
+        "pre": {
+          "alien_claims_public": true
+        },
+        "post": {
+          "daughter_controls_affairs": true
+        },
+        "learns": {
+          "daughter": [
+            "her father is publicly making impossible claims"
+          ],
+          "reader": [
+            "his family reads his temporal faith as incapacity"
+          ]
+        },
+        "raises": [
+          "q75_3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q75_3": "what convinced his daughter that he could no longer manage his own life?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "assassin",
+          "kills",
+          "the protagonist"
+        ],
+        "content": "After he lectures a crowd about the death he has always foreseen, a beam weapon fulfils the old prisoner's promise exactly on schedule.",
+        "participants": [
+          "protagonist",
+          "assassin",
+          "lecture audience"
+        ],
+        "location": "a public lecture hall",
+        "pre": {
+          "future_assassination_promised": true,
+          "daughter_controls_affairs": true
+        },
+        "post": {
+          "protagonist_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the foreknown death completes a revenge planted during captivity"
+          ]
+        },
+        "raises": [
+          "q75_4"
+        ],
+        "resolves": [
+          "q75_8"
+        ],
+        "questions": {
+          "q75_4": "why is the speaker assassinated at the death he predicted?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e15",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the protagonist's early passivity before danger"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "the wish to remain at the bottom and the wish to be left behind"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the untrained assistant entering and becoming lost in war"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the scout and protagonist before and during capture"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e10",
+        "on": "the scout's accusation and the revenge built from it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "successive prisoner compounds"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the meat locker before and after the firestorm"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the destroyed city and recovery of its dead"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11",
+        "on": "the wartime aftermath carried into hospitalisation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e18",
+        "on": "the promised and completed assassination"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e15",
+        "on": "speculative fiction and the later alien philosophy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the protagonist's marriage before its accidental end"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "survival followed by the claimed abduction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the alien zoo and its lesson"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the temporal doctrine learned and publicly repeated"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the broadcast and the daughter's response"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "loss of ordinary agency before the foreknown death"
+      }
+    ]
+  }
+}

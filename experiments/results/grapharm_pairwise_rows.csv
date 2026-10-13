@@ -1,0 +1,253 @@
+model,story_id,category,a,b,winner
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,G0_fabula_only,tie
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,G0_fabula_only,G0_fabula_only
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,G0_fabula_only,tie
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,G0_fabula_only,tie
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,G0_fabula_only,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,G0_fabula_only,G0_fabula_only
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,G0_fabula_only,G0_fabula_only
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,G0_fabula_only,G1_full_graph
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,G2_order_only,tie
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,G2_order_only,tie
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,G2_order_only,tie
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,G2_order_only,G2_order_only
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,G2_order_only,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,G2_order_only,G2_order_only
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,G2_order_only,G1_full_graph
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S02,ZIGZAG,G1_full_graph,G0_fabula_only,G0_fabula_only
+DeepSeek V4 Flash,S03,ZIGZAG,G1_full_graph,G0_fabula_only,G0_fabula_only
+DeepSeek V4 Flash,S05,ANALEPSIS,G1_full_graph,G0_fabula_only,tie
+DeepSeek V4 Flash,S06,ANALEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S07,ACHRONY,G1_full_graph,G0_fabula_only,tie
+DeepSeek V4 Flash,S10,SYLLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S09,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S12,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S13,RETROGRADE,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S27,CHRONICLE,G1_full_graph,G0_fabula_only,G1_full_graph
+DeepSeek V4 Flash,S45,CHRONICLE,G1_full_graph,G0_fabula_only,G0_fabula_only
+DeepSeek V4 Flash,S75,ACHRONY,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,G0_fabula_only,G0_fabula_only
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,G0_fabula_only,tie
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,G0_fabula_only,G0_fabula_only
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,G0_fabula_only,G0_fabula_only
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,G0_fabula_only,G1_full_graph
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,G2_order_only,tie
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,G2_order_only,G2_order_only
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,G2_order_only,G2_order_only
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,G2_order_only,G2_order_only
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,G2_order_only,G2_order_only
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,G2_order_only,tie
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,G2_order_only,G1_full_graph
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,G2_order_only,tie
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,G2_order_only,G2_order_only
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,A1_no_causal,A1_no_causal
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,A1_no_causal,tie
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,A1_no_causal,tie
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,A1_no_causal,tie
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,A1_no_causal,tie
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,A1_no_causal,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,A1_no_causal,A1_no_causal
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,A1_no_causal,A1_no_causal
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,A1_no_causal,G1_full_graph
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,A2_no_state,G1_full_graph
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,A2_no_state,tie
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,A2_no_state,tie
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,A2_no_state,tie
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,A2_no_state,G1_full_graph
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,A2_no_state,A2_no_state
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,A3_no_epistemic,tie
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,A3_no_epistemic,tie
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,A3_no_epistemic,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,A3_no_epistemic,tie
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,A3_no_epistemic,G1_full_graph
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,A4_no_questions,tie
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,A4_no_questions,tie
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,A4_no_questions,A4_no_questions
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,A4_no_questions,A4_no_questions
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,A4_no_questions,tie
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,A4_no_questions,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,A4_no_questions,A4_no_questions
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,A4_no_questions,G1_full_graph
+Claude Sonnet 5,S02,ZIGZAG,G1_full_graph,A5_no_grounding,G1_full_graph
+Claude Sonnet 5,S01,SYLLEPSIS,G1_full_graph,A5_no_grounding,A5_no_grounding
+Claude Sonnet 5,S03,ZIGZAG,G1_full_graph,A5_no_grounding,A5_no_grounding
+Claude Sonnet 5,S05,ANALEPSIS,G1_full_graph,A5_no_grounding,G1_full_graph
+Claude Sonnet 5,S06,ANALEPSIS,G1_full_graph,A5_no_grounding,G1_full_graph
+Claude Sonnet 5,S09,PROLEPSIS,G1_full_graph,A5_no_grounding,G1_full_graph
+Claude Sonnet 5,S07,ACHRONY,G1_full_graph,A5_no_grounding,A5_no_grounding
+Claude Sonnet 5,S12,PROLEPSIS,G1_full_graph,A5_no_grounding,A5_no_grounding
+Claude Sonnet 5,S10,SYLLEPSIS,G1_full_graph,A5_no_grounding,tie
+Claude Sonnet 5,S27,CHRONICLE,G1_full_graph,A5_no_grounding,tie
+Claude Sonnet 5,S13,RETROGRADE,G1_full_graph,A5_no_grounding,tie
+Claude Sonnet 5,S45,CHRONICLE,G1_full_graph,A5_no_grounding,A5_no_grounding
+Claude Sonnet 5,S51,RETROGRADE,G1_full_graph,A5_no_grounding,tie
+Claude Sonnet 5,S75,ACHRONY,G1_full_graph,A5_no_grounding,G1_full_graph
+DeepSeek V4 Flash,S51,RETROGRADE,G1_full_graph,G0_fabula_only,G0_fabula_only
+DeepSeek V4 Flash,S01,SYLLEPSIS,G1_full_graph,G0_fabula_only,G0_fabula_only
+DeepSeek V4 Flash,S01,SYLLEPSIS,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S02,ZIGZAG,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S06,ANALEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S05,ANALEPSIS,G1_full_graph,G2_order_only,tie
+DeepSeek V4 Flash,S03,ZIGZAG,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S07,ACHRONY,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S09,PROLEPSIS,G1_full_graph,G2_order_only,tie
+DeepSeek V4 Flash,S10,SYLLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S12,PROLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S13,RETROGRADE,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S27,CHRONICLE,G1_full_graph,G2_order_only,G1_full_graph
+DeepSeek V4 Flash,S45,CHRONICLE,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S51,RETROGRADE,G1_full_graph,G2_order_only,G2_order_only
+DeepSeek V4 Flash,S75,ACHRONY,G1_full_graph,G2_order_only,G1_full_graph
+GLM-5.2,S01,SYLLEPSIS,G1_full_graph,G0_fabula_only,tie
+GLM-5.2,S02,ZIGZAG,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S03,ZIGZAG,G1_full_graph,G0_fabula_only,tie
+GLM-5.2,S09,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S07,ACHRONY,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S05,ANALEPSIS,G1_full_graph,G0_fabula_only,tie
+GLM-5.2,S06,ANALEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S12,PROLEPSIS,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S10,SYLLEPSIS,G1_full_graph,G0_fabula_only,tie
+GLM-5.2,S13,RETROGRADE,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S27,CHRONICLE,G1_full_graph,G0_fabula_only,G1_full_graph
+GLM-5.2,S75,ACHRONY,G1_full_graph,G0_fabula_only,G0_fabula_only
+GLM-5.2,S45,CHRONICLE,G1_full_graph,G0_fabula_only,G0_fabula_only
+GLM-5.2,S51,RETROGRADE,G1_full_graph,G0_fabula_only,G0_fabula_only
+GLM-5.2,S01,SYLLEPSIS,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S02,ZIGZAG,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S03,ZIGZAG,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S06,ANALEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+GLM-5.2,S05,ANALEPSIS,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S09,PROLEPSIS,G1_full_graph,G2_order_only,G1_full_graph
+GLM-5.2,S07,ACHRONY,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S10,SYLLEPSIS,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S12,PROLEPSIS,G1_full_graph,G2_order_only,tie
+GLM-5.2,S13,RETROGRADE,G1_full_graph,G2_order_only,tie
+GLM-5.2,S45,CHRONICLE,G1_full_graph,G2_order_only,G1_full_graph
+GLM-5.2,S27,CHRONICLE,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S51,RETROGRADE,G1_full_graph,G2_order_only,G2_order_only
+GLM-5.2,S75,ACHRONY,G1_full_graph,G2_order_only,G2_order_only
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,A1_no_causal,G1_full_graph
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,A1_no_causal,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,A1_no_causal,tie
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,A1_no_causal,tie
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,A1_no_causal,G1_full_graph
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,A1_no_causal,A1_no_causal
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,A1_no_causal,tie
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,A2_no_state,A2_no_state
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,A2_no_state,tie
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,A2_no_state,A2_no_state
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,A2_no_state,tie
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,A2_no_state,A2_no_state
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,A2_no_state,A2_no_state
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,A2_no_state,tie
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,A2_no_state,G1_full_graph
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,A3_no_epistemic,A3_no_epistemic
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,A3_no_epistemic,G1_full_graph
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,A4_no_questions,G1_full_graph
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,A4_no_questions,G1_full_graph
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,A4_no_questions,tie
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,A4_no_questions,A4_no_questions
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,A4_no_questions,A4_no_questions
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,A4_no_questions,tie
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,A4_no_questions,G1_full_graph
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,A4_no_questions,A4_no_questions
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,A4_no_questions,A4_no_questions
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,A4_no_questions,A4_no_questions
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,A4_no_questions,tie
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,A4_no_questions,tie
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,A4_no_questions,G1_full_graph
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,A4_no_questions,G1_full_graph
+Gemini 3.6 Flash,S01,SYLLEPSIS,G1_full_graph,A5_no_grounding,tie
+Gemini 3.6 Flash,S03,ZIGZAG,G1_full_graph,A5_no_grounding,tie
+Gemini 3.6 Flash,S02,ZIGZAG,G1_full_graph,A5_no_grounding,A5_no_grounding
+Gemini 3.6 Flash,S05,ANALEPSIS,G1_full_graph,A5_no_grounding,A5_no_grounding
+Gemini 3.6 Flash,S06,ANALEPSIS,G1_full_graph,A5_no_grounding,G1_full_graph
+Gemini 3.6 Flash,S10,SYLLEPSIS,G1_full_graph,A5_no_grounding,G1_full_graph
+Gemini 3.6 Flash,S07,ACHRONY,G1_full_graph,A5_no_grounding,G1_full_graph
+Gemini 3.6 Flash,S12,PROLEPSIS,G1_full_graph,A5_no_grounding,A5_no_grounding
+Gemini 3.6 Flash,S09,PROLEPSIS,G1_full_graph,A5_no_grounding,A5_no_grounding
+Gemini 3.6 Flash,S13,RETROGRADE,G1_full_graph,A5_no_grounding,tie
+Gemini 3.6 Flash,S27,CHRONICLE,G1_full_graph,A5_no_grounding,A5_no_grounding
+Gemini 3.6 Flash,S45,CHRONICLE,G1_full_graph,A5_no_grounding,tie
+Gemini 3.6 Flash,S51,RETROGRADE,G1_full_graph,A5_no_grounding,tie
+Gemini 3.6 Flash,S75,ACHRONY,G1_full_graph,A5_no_grounding,A5_no_grounding

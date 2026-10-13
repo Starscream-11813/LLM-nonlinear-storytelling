@@ -1,0 +1,929 @@
+{
+  "story_id": "S63",
+  "source_index": 63,
+  "genre": "Drama, Literary",
+  "source": "Novel",
+  "events_chronological": [
+    "A divorced woman comes back to her family's house in a river town with her boy and girl twins.",
+    "Her aunt makes it plain that she resents the twins and their mother equally.",
+    "A carpenter from the lowest caste works at the family's pickle works and is the twins' closest friend.",
+    "On the drive to meet a cousin from overseas, a man behind a cinema refreshment counter forces the boy to masturbate him.",
+    "The cousin arrives with her mother and the whole household makes a fuss of her.",
+    "The divorced woman and the carpenter begin meeting after dark on the far bank of the river.",
+    "The carpenter's father tells the family about the affair.",
+    "The woman is locked in her room and shouts through the door that her children are millstones round her neck.",
+    "The twins and their cousin row across the river in the dark, the boat turns over, and the cousin drowns.",
+    "The aunt tells the police that the carpenter took the children and raped their mother.",
+    "The police beat the carpenter almost to death in the ruined house across the river while the twins watch from a doorway.",
+    "The aunt makes the boy say the carpenter took them, and the carpenter dies in a cell.",
+    "The boy is sent away to his father, and his mother dies alone in a lodging house at thirty-one.",
+    "The grown daughter, divorced, returns to the river town and finds the house rotting and her great-aunt watching satellite television all day.",
+    "She finds her brother, sent back years before, walking in the rain and no longer speaking at all.",
+    "She goes to the ruined house across the river, now a heritage hotel where the old stories are performed for guests.",
+    "The twins stand together in the closed pickle works where the vats used to be.",
+    "Alone in the house at night, the twins sleep together."
+  ],
+  "syuzhet_order": [
+    14,
+    1,
+    2,
+    15,
+    3,
+    4,
+    16,
+    5,
+    6,
+    17,
+    7,
+    8,
+    9,
+    10,
+    18,
+    11,
+    12,
+    13
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "Two periods a quarter of a century apart alternate through the book, each moving forward, and every present-day scene is answered by the day in the earlier period that produced it.",
+  "syuzhet_notes": "The telling alternates between the fortnight around the cousin's death and the return a quarter of a century afterwards, drifting between them mid-paragraph. Both strands run forward, and the book closes on the earliest scene of the affair, so the last thing the reader is given is the beginning.",
+  "fabula_notes": "Chronology is recoverable from the ages of the twins and from the cousin's death, which the book dates precisely. The prose withholds the drowning and the killing until late but never places them ambiguously.",
+  "story_graph": {
+    "characters": {
+      "the mother": {
+        "archetype": "Hero",
+        "archetype_detail": "Tragic Hero"
+      },
+      "the boy twin": {
+        "archetype": "Hero",
+        "archetype_detail": "Wounded Hero"
+      },
+      "the girl twin": {
+        "archetype": "Hero",
+        "archetype_detail": "Wounded Hero"
+      },
+      "the resentful aunt": {
+        "archetype": "Shadow"
+      },
+      "the carpenter": {
+        "archetype": "Ally"
+      },
+      "the cousin": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the cousin's mother": {
+        "archetype": "Threshold Guardian"
+      },
+      "the counter attendant": {
+        "archetype": "Shadow"
+      },
+      "the carpenter's father": {
+        "archetype": "Herald"
+      },
+      "the police": {
+        "archetype": "Shadow"
+      },
+      "the twins' father": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Absent Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the mother",
+          "returns",
+          "with the twins"
+        ],
+        "content": "Divorce brings her children back into the river-town household whose rules will constrain all three.",
+        "participants": [
+          "the mother",
+          "the boy twin",
+          "the girl twin",
+          "the resentful aunt"
+        ],
+        "location": "the family house in a river town",
+        "pre": {},
+        "post": {
+          "mother_twins_returned": true
+        },
+        "learns": {
+          "reader": [
+            "the mother and twins live as unwelcome dependants in the family house"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the resentful aunt",
+          "rejects",
+          "the mother and twins"
+        ],
+        "content": "She treats the divorced woman and both children as intrusions rather than family members.",
+        "participants": [
+          "the resentful aunt",
+          "the mother",
+          "the boy twin",
+          "the girl twin"
+        ],
+        "location": "the family house",
+        "pre": {
+          "mother_twins_returned": true
+        },
+        "post": {
+          "aunt_hostile": true
+        },
+        "learns": {
+          "reader": [
+            "the aunt's hostility makes the household unsafe for the twins"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the carpenter",
+          "befriends",
+          "the twins"
+        ],
+        "content": "At the pickle works, his skill and warmth make him the children's trusted adult despite the caste boundary.",
+        "participants": [
+          "the carpenter",
+          "the boy twin",
+          "the girl twin"
+        ],
+        "location": "the family pickle works",
+        "pre": {
+          "mother_twins_returned": true
+        },
+        "post": {
+          "carpenter_trusted": true
+        },
+        "learns": {
+          "reader": [
+            "the carpenter is trusted by the twins before the accusation against him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the counter attendant",
+          "assaults",
+          "the boy twin"
+        ],
+        "content": "During the family outing, an adult exploits the isolated child behind the refreshment counter and leaves him carrying the secret.",
+        "participants": [
+          "the boy twin",
+          "the counter attendant"
+        ],
+        "location": "a cinema refreshment counter",
+        "pre": {
+          "mother_twins_returned": true
+        },
+        "post": {
+          "boy_assaulted": true
+        },
+        "learns": {
+          "reader": [
+            "the boy is sexually traumatised before he is later coerced"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the cousin",
+          "arrives",
+          "at the river-town house"
+        ],
+        "content": "The visiting child receives the celebration and protection withheld from the twins.",
+        "participants": [
+          "the cousin",
+          "the cousin's mother",
+          "the mother",
+          "the boy twin",
+          "the girl twin",
+          "the resentful aunt"
+        ],
+        "location": "the river-town house",
+        "pre": {},
+        "post": {
+          "cousin_arrived": true
+        },
+        "learns": {
+          "reader": [
+            "the cousin's visit intensifies the twins' exclusion"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what happens to the visiting cousin?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the mother",
+          "begins",
+          "the affair with the carpenter"
+        ],
+        "content": "They cross the river at night to meet beyond the household and caste rules that forbid them.",
+        "participants": [
+          "the mother",
+          "the carpenter"
+        ],
+        "location": "the far bank of the river",
+        "pre": {
+          "carpenter_trusted": true
+        },
+        "post": {
+          "affair_active": true
+        },
+        "learns": {
+          "reader": [
+            "the mother and carpenter form the relationship later punished by the family"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "will the forbidden affair remain hidden from the household?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the carpenter's father",
+          "reports",
+          "the affair"
+        ],
+        "content": "Loyalty to the caste order outweighs loyalty to his son, and he brings the secret to the family.",
+        "participants": [
+          "the carpenter's father",
+          "the resentful aunt"
+        ],
+        "location": "the family house",
+        "pre": {
+          "affair_active": true
+        },
+        "post": {
+          "affair_exposed": true
+        },
+        "learns": {
+          "reader": [
+            "the affair is exposed from within the carpenter's own family"
+          ],
+          "the resentful aunt": [
+            "the mother has been meeting the carpenter"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the family",
+          "locks",
+          "the mother in her room"
+        ],
+        "content": "From confinement she lashes out at the children, who hear themselves named as the burden in her life.",
+        "participants": [
+          "the mother",
+          "the boy twin",
+          "the girl twin",
+          "the resentful aunt"
+        ],
+        "location": "the family house",
+        "pre": {
+          "affair_exposed": true,
+          "aunt_hostile": true
+        },
+        "post": {
+          "mother_confined": true,
+          "twins_feel_rejected": true
+        },
+        "learns": {
+          "reader": [
+            "punishment for the affair makes the twins believe their mother rejects them"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "where will the rejected children go in the night?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the overturned boat",
+          "drowns",
+          "the cousin"
+        ],
+        "content": "The three children cross the river at night, but only the twins reach the other bank alive.",
+        "participants": [
+          "the boy twin",
+          "the girl twin",
+          "the cousin"
+        ],
+        "location": "the river",
+        "pre": {
+          "cousin_arrived": true,
+          "twins_feel_rejected": true
+        },
+        "post": {
+          "cousin_dead": true,
+          "twins_at_ruined_house": true
+        },
+        "learns": {
+          "reader": [
+            "the cousin dies during the twins' attempted flight"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q6",
+          "q7"
+        ],
+        "questions": {
+          "q8": "who will be blamed for the cousin's death?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the resentful aunt",
+          "accuses",
+          "the carpenter"
+        ],
+        "content": "She converts the drowning and forbidden affair into a false police story of abduction and rape.",
+        "participants": [
+          "the resentful aunt",
+          "the police"
+        ],
+        "location": "a police station",
+        "pre": {
+          "cousin_dead": true,
+          "affair_exposed": true
+        },
+        "post": {
+          "false_accusation_made": true
+        },
+        "learns": {
+          "reader": [
+            "the aunt redirects blame for the family disaster onto the carpenter"
+          ],
+          "the police": [
+            "the aunt claims the carpenter abducted the children and raped their mother"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {
+          "q9": "what will the police do with the aunt's false accusation?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the police",
+          "beat",
+          "the carpenter"
+        ],
+        "content": "They find him in the ruined house and attack him within sight of the children until survival is unlikely.",
+        "participants": [
+          "the police",
+          "the carpenter",
+          "the boy twin",
+          "the girl twin"
+        ],
+        "location": "the ruined house across the river",
+        "pre": {
+          "false_accusation_made": true,
+          "twins_at_ruined_house": true
+        },
+        "post": {
+          "carpenter_fatally_beaten": true,
+          "twins_witnessed_beating": true
+        },
+        "learns": {
+          "reader": [
+            "the false accusation produces lethal police violence witnessed by the twins"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [
+          "q3",
+          "q9"
+        ],
+        "questions": {
+          "q10": "can the carpenter survive the beating and the accusation?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the resentful aunt",
+          "coerces",
+          "the boy's false statement"
+        ],
+        "content": "She makes the traumatised child confirm the abduction story, after which the injured carpenter dies in custody.",
+        "participants": [
+          "the resentful aunt",
+          "the boy twin",
+          "the carpenter",
+          "the police"
+        ],
+        "location": "a police station and cell",
+        "pre": {
+          "carpenter_fatally_beaten": true
+        },
+        "post": {
+          "boy_coerced": true,
+          "carpenter_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the boy is forced to betray his friend and the carpenter dies"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the family",
+          "separates",
+          "the twins from their mother"
+        ],
+        "content": "The boy is sent to his father, and the mother later dies alone, leaving both children without repair or explanation.",
+        "participants": [
+          "the mother",
+          "the boy twin",
+          "the girl twin",
+          "the twins' father",
+          "the resentful aunt"
+        ],
+        "location": "a railway platform and a lodging house",
+        "pre": {
+          "cousin_dead": true,
+          "carpenter_dead": true,
+          "boy_coerced": true
+        },
+        "post": {
+          "twins_separated": true,
+          "mother_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the catastrophe ends in separation and the mother's early death"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the grown girl twin",
+          "returns",
+          "to the decaying house"
+        ],
+        "content": "After her own divorce she finds the old household physically rotting while the aunt remains installed before the television.",
+        "participants": [
+          "the girl twin",
+          "the resentful aunt"
+        ],
+        "location": "the family house",
+        "pre": {
+          "twins_separated": true,
+          "mother_dead": true
+        },
+        "post": {
+          "girl_twin_returned": true
+        },
+        "learns": {
+          "reader": [
+            "the adult return reopens a family history that the house has not escaped"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the grown girl twin",
+          "finds",
+          "her silent brother"
+        ],
+        "content": "The boy sent away has returned as a man who walks through rain but no longer speaks.",
+        "participants": [
+          "the girl twin",
+          "the boy twin"
+        ],
+        "location": "the river town",
+        "pre": {
+          "girl_twin_returned": true,
+          "boy_coerced": true
+        },
+        "post": {
+          "twins_reunited": true,
+          "boy_silent": true
+        },
+        "learns": {
+          "reader": [
+            "the brother's adult silence is an outcome of childhood coercion and loss"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why has the returned brother stopped speaking?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the grown girl twin",
+          "visits",
+          "the repurposed ruined house"
+        ],
+        "content": "The site of the police beating has become a heritage hotel that packages local suffering as entertainment.",
+        "participants": [
+          "the girl twin"
+        ],
+        "location": "the ruined house across the river",
+        "pre": {
+          "girl_twin_returned": true,
+          "twins_witnessed_beating": true
+        },
+        "post": {
+          "ruined_house_repurposed": true
+        },
+        "learns": {
+          "reader": [
+            "the place of violence survives as a commercialised version of history"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what violence once occurred in the ruined house now sold as heritage?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the twins",
+          "stand",
+          "inside the closed pickle works"
+        ],
+        "content": "The vanished vats leave an empty industrial shell around the two adults who once knew the carpenter there.",
+        "participants": [
+          "the boy twin",
+          "the girl twin"
+        ],
+        "location": "the closed pickle works",
+        "pre": {
+          "twins_reunited": true,
+          "carpenter_dead": true
+        },
+        "post": {
+          "works_revisited": true
+        },
+        "learns": {
+          "reader": [
+            "the closed works connects the adult reunion to their friendship with the carpenter"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the adult twins",
+          "seek",
+          "comfort in each other"
+        ],
+        "content": "Alone in the family house, the separated siblings answer shared damage with an intimate act that cannot undo it.",
+        "participants": [
+          "the boy twin",
+          "the girl twin"
+        ],
+        "location": "the family house at night",
+        "pre": {
+          "twins_reunited": true,
+          "twins_separated": true,
+          "boy_silent": true
+        },
+        "post": {
+          "twins_sleep_together": true
+        },
+        "learns": {
+          "reader": [
+            "the adult intimacy grows from shared trauma and prolonged separation"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why do the adult twins cling to each other after so many years apart?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e16",
+        "on": "the far bank and ruined-house landscape"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e16",
+        "on": "the river crossing and the ruined house beyond it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e17"
+      }
+    ]
+  }
+}

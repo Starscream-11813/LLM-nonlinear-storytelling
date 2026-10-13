@@ -1,0 +1,834 @@
+{
+  "story_id": "S35",
+  "source_index": 35,
+  "genre": "Drama, Romance, War",
+  "source": "Film",
+  "events_chronological": [
+    "On a hot day one summer, thirteen-year-old Junia Thorne finishes a play to be performed for her brother's homecoming.",
+    "Junia watches from an upstairs window as her sister Rosalind strips to her underwear and climbs into the fountain in front of Tom Vasey, the housekeeper's son.",
+    "Tom drafts a letter of apology to Rosalind, sends the obscene version by mistake, and Junia reads it on the way.",
+    "Junia walks in on Tom and Rosalind making love in the library and takes it for an assault.",
+    "The twins run off, and during the search Junia sees their cousin Cissy being raped in the dark and names Tom as the man.",
+    "Tom is arrested and taken away in front of the family, and Rosalind breaks with all of them.",
+    "Five years later Tom is released from prison into the army and is separated from his unit in the retreat across the continent.",
+    "Rosalind, now a nurse in the city, writes to Tom, and the two spend a few hours together on his leave.",
+    "Tom walks to the evacuation beach with two corporals and reaches a shore of burning vehicles, shot horses and thousands of waiting men.",
+    "Tom lies down in a cinema on the seafront and dies of septicaemia the night before the ships come.",
+    "Junia, eighteen, takes a nursing place in the city instead of the university place she was offered, and treats men brought back from the continent.",
+    "Junia learns that Cissy is marrying Neville Frome, the man who actually raped her.",
+    "Junia goes to Rosalind's flat, finds Tom there, and promises to recant her statement and set the truth down in writing.",
+    "Rosalind is killed when a bomb bursts the water main above an underground station.",
+    "Decades later the elderly Junia, dying and giving her last interview, admits that she never went to the flat and that Tom and Rosalind never saw each other again.",
+    "Junia says she gave the two of them in her novel the life they were never allowed, and the film shows them together at a seaside cottage."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    8,
+    11,
+    12,
+    13,
+    10,
+    14,
+    15,
+    16
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    11,
+    12,
+    13,
+    13
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "Forward apart from two earlier insertions: the soldier's leave cut into his walk to the beach, and his death held back behind the sister's nursing years.",
+  "syuzhet_notes": "The summer afternoon is told forward but partly doubled, with the fountain and the library replayed once as the child misreads them and once as they happened. Told-order bullet 9 is a flashback to the soldier's leave, cut into the walk to the beach. The largest displacement comes at bullets 13-16, where the closing interview establishes that bullet 12 never happened at all and that the lovers had already died apart, years before the scene the film has just shown.",
+  "fabula_notes": "Most of the film is the novelist's book rather than the story world, and the ending cancels one scene outright; the chronology here follows what the interview establishes as true, which puts both deaths before the flat scene the film depicts. The seaside cottage is explicitly named as an invention.",
+  "story_graph": {
+    "characters": {
+      "Junia": {
+        "archetype": "Hero"
+      },
+      "Rosalind": {
+        "archetype": "Ally"
+      },
+      "Tom": {
+        "archetype": "Hero"
+      },
+      "Cissy": {
+        "archetype": "Threshold Guardian"
+      },
+      "Neville": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Junia",
+          "finishes",
+          "her play"
+        ],
+        "content": "Thirteen years old, typing at a great rate in a hot upstairs room, with a cast of cousins who have not agreed to be in it and a brother coming home who does not know he is the audience.",
+        "participants": [
+          "Junia"
+        ],
+        "location": "a country house one summer",
+        "pre": {},
+        "post": {
+          "play_finished": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Junia",
+            "a child who arranges other people into stories"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what is this child going to do with all of it?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Junia",
+          "watches",
+          "the fountain"
+        ],
+        "content": "From an upstairs window she sees her sister take off her clothes in front of the housekeeper's son and get into the water, and cannot hear a word of what is actually being said.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "the garden of the country house",
+        "pre": {
+          "play_finished": true
+        },
+        "post": {
+          "fountain_seen": true
+        },
+        "learns": {
+          "Junia": [
+            "that something is happening between them"
+          ],
+          "reader": [
+            "intro:Rosalind",
+            "intro:Tom",
+            "the first misreading, and that it is a misreading"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what is happening between those two?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Tom",
+          "sends",
+          "the wrong letter"
+        ],
+        "content": "He types one version to get the crudity out of his system and writes another by hand, and puts the wrong one in the envelope, and gives it to a child to carry across the garden.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "the country house",
+        "pre": {
+          "fountain_seen": true
+        },
+        "post": {
+          "letter_read": true
+        },
+        "learns": {
+          "Junia": [
+            "a word she has never seen written down"
+          ],
+          "reader": [
+            "the accident that gives the child her evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Junia",
+          "sees",
+          "the library"
+        ],
+        "content": "She opens the door on the two of them against the shelves in the half dark, and what she takes it for is the only thing her reading has equipped her to take it for.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "the library of the country house",
+        "pre": {
+          "letter_read": true
+        },
+        "post": {
+          "library_seen": true
+        },
+        "learns": {
+          "reader": [
+            "the second misreading, and the one she will act on"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Junia",
+          "names",
+          "Tom"
+        ],
+        "content": "The twins run off and the household goes out with torches. In the dark she sees her cousin on the ground with a man over her, and she is asked whether she saw who it was, and she says that she did.",
+        "participants": [
+          "Junia",
+          "Cissy",
+          "Neville",
+          "Tom"
+        ],
+        "location": "the grounds of the country house",
+        "pre": {
+          "library_seen": true
+        },
+        "post": {
+          "tom_named": true
+        },
+        "learns": {
+          "Junia": [
+            "that saying it makes it true for everyone else"
+          ],
+          "reader": [
+            "intro:Cissy",
+            "intro:Neville",
+            "the lie, and how little it cost to tell"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "did she really see what she said she saw?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the police",
+          "take",
+          "Tom away"
+        ],
+        "content": "He is walked out through the hall past the whole family with the twins asleep upstairs, and the older sister says what she thinks of all of them and never comes back.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "the country house",
+        "pre": {
+          "tom_named": true
+        },
+        "post": {
+          "tom_arrested": true
+        },
+        "learns": {
+          "reader": [
+            "the family breaks in the same minute the man does"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "will she ever take it back?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Tom",
+          "is released",
+          "into the army"
+        ],
+        "content": "Five years of prison exchanged for a uniform, and then a retreat across a whole country on foot with the roads full of people going the same way.",
+        "participants": [
+          "Tom"
+        ],
+        "location": "a prison and a continent in retreat",
+        "pre": {
+          "tom_arrested": true
+        },
+        "post": {
+          "tom_in_the_army": true
+        },
+        "learns": {
+          "reader": [
+            "the sentence continues by other means"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Tom and Rosalind",
+          "meet",
+          "on leave"
+        ],
+        "content": "A tea room, a park, an hour and a half. She has left the family and become a nurse, and they agree by letter and then in person to find each other afterwards.",
+        "participants": [
+          "Tom",
+          "Rosalind"
+        ],
+        "location": "a city park and tea room",
+        "pre": {
+          "tom_in_the_army": true
+        },
+        "post": {
+          "leave_taken": true
+        },
+        "learns": {
+          "reader": [
+            "the only time the two of them are together as adults"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Tom",
+          "reaches",
+          "the beach"
+        ],
+        "content": "Days on foot with two corporals who do not like him, and then a shore with burning lorries, a Ferris wheel, horses being shot and thirty thousand men waiting for boats that are not there.",
+        "participants": [
+          "Tom"
+        ],
+        "location": "an evacuation beach",
+        "pre": {
+          "leave_taken": true
+        },
+        "post": {
+          "at_the_beach": true
+        },
+        "learns": {
+          "reader": [
+            "the scale of it, against one man's private business"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what is he walking towards, and for whom?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Tom",
+          "dies",
+          "of septicaemia"
+        ],
+        "content": "He lies down in a seafront cinema with the reel running, says he will not make a sound, and is dead by morning, the night before the ships come.",
+        "participants": [
+          "Tom"
+        ],
+        "location": "a cinema on the seafront",
+        "pre": {
+          "at_the_beach": true
+        },
+        "post": {
+          "tom_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the first of the two deaths the ending will place"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Junia",
+          "takes",
+          "a nursing place"
+        ],
+        "content": "Eighteen, and refusing the university place, she puts herself into a uniform and a discipline and washes men who have been brought back in pieces from the same beach.",
+        "participants": [
+          "Junia"
+        ],
+        "location": "a hospital in the city",
+        "pre": {
+          "tom_arrested": true
+        },
+        "post": {
+          "junia_nursing": true
+        },
+        "learns": {
+          "reader": [
+            "the penance, chosen and insufficient"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Junia",
+          "learns",
+          "who Cissy is marrying"
+        ],
+        "content": "There is a wedding in a city church, and the man at the front of it is the man she saw in the dark, and the bride is the woman he did it to, and nobody in the building says anything.",
+        "participants": [
+          "Junia",
+          "Cissy",
+          "Neville"
+        ],
+        "location": "a church in the city",
+        "pre": {
+          "junia_nursing": true
+        },
+        "post": {
+          "cissy_marrying": true
+        },
+        "learns": {
+          "Junia": [
+            "exactly who she saw"
+          ],
+          "reader": [
+            "the truth is available to everybody and useful to nobody"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "why does nobody in that church say anything?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Junia",
+          "promises",
+          "to recant"
+        ],
+        "content": "She goes to the flat. He is there, in uniform, and will not look at her. She says she will go to a solicitor, tell them the truth and write the whole thing down.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "a flat in the city",
+        "pre": {
+          "cissy_marrying": true
+        },
+        "post": {
+          "flat_scene_depicted": true
+        },
+        "learns": {
+          "reader": [
+            "the scene the film shows, which is the one that did not happen"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q5"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q1": "how can he possibly be standing in that room?",
+          "q5": "did she actually go?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "a bomb",
+          "kills",
+          "Rosalind"
+        ],
+        "content": "A water main above an underground station goes, and the platform where several hundred people are sheltering fills in under a minute.",
+        "participants": [
+          "Rosalind"
+        ],
+        "location": "an underground station",
+        "pre": {
+          "junia_nursing": true
+        },
+        "post": {
+          "rosalind_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the second death, which the flat scene has already contradicted"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Junia",
+          "admits",
+          "the invention"
+        ],
+        "content": "Very old and out of time, giving her last interview, she says that she never went to the flat, that she never had the courage, and that the two of them had already been dead for months.",
+        "participants": [
+          "Junia"
+        ],
+        "location": "a television studio",
+        "pre": {
+          "rosalind_dead": true
+        },
+        "post": {
+          "confession_made": true
+        },
+        "learns": {
+          "reader": [
+            "the reveal, delivered as an old woman answering a polite question"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q5",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Junia",
+          "gives",
+          "them the cottage"
+        ],
+        "content": "She says she could not see the point of leaving readers with nothing, and the film shows the two of them at a house by the sea, together, which is the last thing anybody sees.",
+        "participants": [
+          "Junia",
+          "Rosalind",
+          "Tom"
+        ],
+        "location": "a cottage by the sea",
+        "pre": {
+          "confession_made": true
+        },
+        "post": {
+          "novel_named": true
+        },
+        "learns": {
+          "reader": [
+            "the consolation, offered and simultaneously withdrawn"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the child, writing and then watching"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the two of them, seen from a window and then written to"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the letter and the library"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the two things she sees that evening"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the accusation and the arrest"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the sentence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the soldier, released and then on leave"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the promise and the walk to the beach"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the beach and the cinema on it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e11",
+        "on": "two lives arranged around the same lie"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the city, in a hospital and in a church"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the truth known and the amends imagined"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e14",
+        "on": "the sisters, both in the city and never in the same room"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the death and the account that admits it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e15",
+        "on": "the same scene, shown and then withdrawn"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the confession and the consolation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "two deaths, months apart and both before the scene the film shows"
+      }
+    ]
+  }
+}

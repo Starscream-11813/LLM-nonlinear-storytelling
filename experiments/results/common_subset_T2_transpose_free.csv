@@ -1,0 +1,20 @@
+model,tau,near_chronological
+Claude Haiku 4.5,0.7018,0.3731
+Claude Opus 5,0.5897,0.0746
+Claude Sonnet 5,0.7983,0.3731
+DeepSeek V4 Flash,0.6175,0.1045
+DeepSeek V4 Pro,0.6581,0.0746
+GLM-5.2,0.6912,0.1045
+GPT-5.6 Luna,0.6606,0.2836
+GPT-5.6 Sol,0.625,0.2239
+GPT-5.6 Terra,0.5313,0.0448
+Gemini 3.1 Pro,0.7686,0.5224
+Gemini 3.6 Flash,0.8021,0.4478
+Grok 4.5,0.4352,0.1343
+Kimi K2 0905,0.773,0.3582
+Llama 3.3 70B,0.6108,0.1642
+Llama 4 Maverick,0.4814,0.0149
+Mistral Small 3.2,0.5753,0.2985
+Nemotron 3 Ultra,0.5573,0.1791
+Qwen3-235B-A22B,0.5229,0.209
+gpt-oss-120b,0.5408,0.1642

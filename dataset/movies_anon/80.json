@@ -1,0 +1,737 @@
+{
+  "story_id": "S80",
+  "source_index": 80,
+  "genre": "Documentary, War, Animation",
+  "source": "Film",
+  "events_chronological": [
+    "As a young conscript a soldier lands on the coast with an armoured column.",
+    "His unit fires all night at a car approaching a roadblock and finds a family inside it at first light.",
+    "A comrade swims out to sea from a burning landing craft and lives when the rest of his unit does not.",
+    "Another soldier dances with a machine gun down a boulevard under sniper fire, beneath posters of an assassinated leader.",
+    "The unit shells an orchard and a boy carrying a rocket launcher is killed in front of them.",
+    "The soldier and two others bathe in the sea at night under flares while the city burns behind them.",
+    "Armed irregulars go into the refugee camps while the soldiers outside send up flares to light the sky for them.",
+    "Over two days the militia kill the people in the camps, while the soldiers on the roofs fail to grasp what they are watching.",
+    "The soldier stands at the edge of the camp as the women come out screaming.",
+    "More than twenty years on, a friend tells him over a drink about a recurring dream of twenty-six dogs.",
+    "He realises he remembers nothing whatever of the war and sets out to find the men he served with.",
+    "A psychologist explains to him that memory can be assembled out of what a person needs rather than what occurred.",
+    "A television reporter tells him what he saw in the camps and what he said to the defence minister on the telephone.",
+    "He understands that the flare-lit memory of himself in the sea is a screen he built to stand between himself and the camps."
+  ],
+  "syuzhet_order": [
+    10,
+    11,
+    6,
+    1,
+    12,
+    2,
+    3,
+    13,
+    4,
+    5,
+    7,
+    9,
+    8,
+    14
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. A man with no memory of a war reassembles it out of other men's accounts, so the fragments arrive in the order they are recovered rather than the order they happened.",
+  "syuzhet_notes": "The telling moves between present-day interviews, the war as each man recalls it, and dreams that turn out to be inventions, with nothing distinguishing them. Some scenes are established as false memories only after being shown as fact.",
+  "fabula_notes": "The war chronology is fixed by the campaign's own sequence. The interviews are undated relative to one another, and the sea scene is placed where the work finally establishes it belongs.",
+  "story_graph": {
+    "characters": {
+      "veteran": {
+        "archetype": "Hero"
+      },
+      "dreaming friend": {
+        "archetype": "Herald"
+      },
+      "armoured unit": {
+        "archetype": "Shapeshifter"
+      },
+      "roadblock family": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "swimming comrade": {
+        "archetype": "Ally"
+      },
+      "fallen unit": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "dancing soldier": {
+        "archetype": "Hero"
+      },
+      "boy combatant": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "armed militia": {
+        "archetype": "Shadow"
+      },
+      "camp civilians": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "fellow soldiers": {
+        "archetype": "Shapeshifter"
+      },
+      "psychologist": {
+        "archetype": "Mentor"
+      },
+      "television reporter": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "veteran",
+          "lands with",
+          "an armoured column"
+        ],
+        "content": "As a young conscript he enters the coastal campaign inside a machine whose direction and consequences he does not yet understand.",
+        "participants": [
+          "veteran",
+          "armoured unit",
+          "fellow soldiers"
+        ],
+        "location": "a wartime coast",
+        "pre": {},
+        "post": {
+          "veteran_in_campaign": true
+        },
+        "learns": {
+          "reader": [
+            "the future veteran entered the war as an ordinary conscript"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "armoured unit",
+          "kills",
+          "a roadblock family"
+        ],
+        "content": "Night firing treats an approaching car as a threat until daylight reveals civilians inside, replacing tactical certainty with irreversible recognition.",
+        "participants": [
+          "veteran",
+          "armoured unit",
+          "roadblock family"
+        ],
+        "location": "a wartime roadblock",
+        "pre": {
+          "veteran_in_campaign": true
+        },
+        "post": {
+          "roadblock_family_dead": true
+        },
+        "learns": {
+          "veteran": [
+            "the vehicle his unit destroyed carried a family"
+          ],
+          "reader": [
+            "the campaign's fear produces civilian deaths before the camps"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "swimming comrade",
+          "escapes",
+          "a burning landing craft"
+        ],
+        "content": "He swims into darkness while the rest of his unit dies behind him, and survival becomes an image he must later narrate to someone seeking memory.",
+        "participants": [
+          "swimming comrade",
+          "fallen unit"
+        ],
+        "location": "the sea beside a burning craft",
+        "pre": {},
+        "post": {
+          "swimming_comrade_survived": true
+        },
+        "learns": {
+          "reader": [
+            "one comrade carries a separate survivor memory of the campaign"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "dancing soldier",
+          "fires beneath",
+          "the leader's posters"
+        ],
+        "content": "Pinned by snipers, he turns with the machine gun in the boulevard until combat resembles a dance under the face of a recently killed political leader.",
+        "participants": [
+          "dancing soldier",
+          "fellow soldiers"
+        ],
+        "location": "a city boulevard",
+        "pre": {
+          "veteran_in_campaign": true
+        },
+        "post": {
+          "boulevard_crossed": true
+        },
+        "learns": {
+          "reader": [
+            "the assassination saturates even the soldiers' street fighting"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "armoured unit",
+          "kills",
+          "a boy combatant"
+        ],
+        "content": "Shelling reaches an orchard where a child with a launcher appears, leaving the soldiers to place threat and childhood in the same body.",
+        "participants": [
+          "veteran",
+          "armoured unit",
+          "boy combatant"
+        ],
+        "location": "an orchard",
+        "pre": {
+          "veteran_in_campaign": true
+        },
+        "post": {
+          "boy_combatant_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the unit's violence repeatedly collapses civilian and combatant categories"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "veteran",
+          "bathes beneath",
+          "the flares"
+        ],
+        "content": "Three soldiers rise from a dark sea while the burning city glows behind them, an image that feels remembered before its defensive construction is known.",
+        "participants": [
+          "veteran",
+          "fellow soldiers"
+        ],
+        "location": "the sea outside the city",
+        "pre": {
+          "veteran_in_campaign": true
+        },
+        "post": {
+          "flare_sea_memory_formed": true
+        },
+        "learns": {
+          "reader": [
+            "the veteran possesses one vivid flare-lit image amid general amnesia"
+          ]
+        },
+        "raises": [
+          "q80_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q80_4": "is the flare-lit sea a literal memory, and what does it conceal?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "armed militia",
+          "enters",
+          "the refugee camps"
+        ],
+        "content": "Irregular fighters pass the soldiers' positions while illumination rounds rise overhead, making the army an enabling perimeter around what follows.",
+        "participants": [
+          "armed militia",
+          "veteran",
+          "fellow soldiers",
+          "camp civilians"
+        ],
+        "location": "the entrances to refugee camps",
+        "pre": {
+          "flare_sea_memory_formed": true
+        },
+        "post": {
+          "militia_inside_camps": true
+        },
+        "learns": {
+          "veteran": [
+            "the militia has entered while his unit supplies light"
+          ],
+          "reader": [
+            "the soldiers are materially supporting the militia's night access"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "armed militia",
+          "massacres",
+          "camp civilians"
+        ],
+        "content": "Killing continues across two days as soldiers on roofs observe movements without assembling what the fragments mean.",
+        "participants": [
+          "armed militia",
+          "camp civilians",
+          "veteran",
+          "fellow soldiers"
+        ],
+        "location": "refugee camps and surrounding roofs",
+        "pre": {
+          "militia_inside_camps": true
+        },
+        "post": {
+          "camp_massacre_completed": true
+        },
+        "learns": {
+          "reader": [
+            "the illuminated camp operation is a sustained massacre"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q80_1",
+          "q80_2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "camp survivors",
+          "emerge before",
+          "the veteran"
+        ],
+        "content": "Screaming women come out past the soldiers, giving human form to the event their elevated viewpoints failed to comprehend.",
+        "participants": [
+          "veteran",
+          "fellow soldiers",
+          "camp civilians"
+        ],
+        "location": "the edge of the refugee camps",
+        "pre": {
+          "camp_massacre_completed": true
+        },
+        "post": {
+          "camp_aftermath_witnessed": true
+        },
+        "learns": {
+          "veteran": [
+            "the people leaving the camps are survivors of mass killing"
+          ],
+          "reader": [
+            "the veteran stood directly at the massacre's aftermath"
+          ]
+        },
+        "raises": [
+          "q80_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q80_2": "what happened inside the camps before the women emerged screaming?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "dreaming friend",
+          "describes",
+          "twenty-six pursuing dogs"
+        ],
+        "content": "Decades later, a repeated nightmare shared over a drink makes the veteran notice that his own war has left no accessible images.",
+        "participants": [
+          "veteran",
+          "dreaming friend"
+        ],
+        "location": "a bar in the present",
+        "pre": {},
+        "post": {
+          "dog_dream_described": true
+        },
+        "learns": {
+          "veteran": [
+            "his friend's war memory survives as a recurring dream"
+          ],
+          "reader": [
+            "present testimony will initiate a search for suppressed memory"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "veteran",
+          "searches for",
+          "his missing war"
+        ],
+        "content": "Realising that he cannot recall the campaign, he visits former comrades and treats each account as a possible route back into his own experience.",
+        "participants": [
+          "veteran",
+          "dreaming friend"
+        ],
+        "location": "present-day interview locations",
+        "pre": {
+          "dog_dream_described": true
+        },
+        "post": {
+          "memory_investigation_active": true
+        },
+        "learns": {
+          "reader": [
+            "the interviews are an attempt to reconstruct the veteran's erased role"
+          ]
+        },
+        "raises": [
+          "q80_3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q80_3": "what decisive part of the war has the veteran erased?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "psychologist",
+          "warns",
+          "the veteran about constructed memory"
+        ],
+        "content": "An example of a remembered event assembled from a photograph teaches him that vividness is no guarantee that an image occurred as experienced.",
+        "participants": [
+          "veteran",
+          "psychologist"
+        ],
+        "location": "a psychologist's office",
+        "pre": {
+          "memory_investigation_active": true
+        },
+        "post": {
+          "memory_unreliability_understood": true
+        },
+        "learns": {
+          "veteran": [
+            "a needed memory can be built from borrowed material"
+          ],
+          "reader": [
+            "the flare-lit sea may be psychologically useful without being literal"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "television reporter",
+          "recounts",
+          "the camp operation"
+        ],
+        "content": "The reporter supplies eyewitness detail and recalls warning the defence minister, placing institutional knowledge beside the veteran's blankness.",
+        "participants": [
+          "veteran",
+          "television reporter"
+        ],
+        "location": "a present-day interview",
+        "pre": {
+          "memory_investigation_active": true
+        },
+        "post": {
+          "camp_testimony_received": true
+        },
+        "learns": {
+          "veteran": [
+            "a witness understood and reported what was happening in the camps"
+          ],
+          "reader": [
+            "knowledge of the massacre reached senior authority while it unfolded"
+          ]
+        },
+        "raises": [
+          "q80_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q80_1": "what did the reporter actually witness in the refugee camps?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "veteran",
+          "recognises",
+          "the screen memory"
+        ],
+        "content": "The sea and flares finally separate into a protective image covering his actual position beside the women leaving the camps.",
+        "participants": [
+          "veteran",
+          "fellow soldiers",
+          "camp civilians"
+        ],
+        "location": "the remembered camp edge",
+        "pre": {
+          "memory_unreliability_understood": true,
+          "camp_testimony_received": true
+        },
+        "post": {
+          "suppressed_camp_memory_recovered": true
+        },
+        "learns": {
+          "veteran": [
+            "his sea memory shielded him from his proximity to the camp massacre"
+          ],
+          "reader": [
+            "the investigation ends by replacing animation with direct documentary evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q80_3",
+          "q80_4"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e11",
+        "on": "the conscript's campaign reconstructed by the older veteran"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e8",
+        "on": "civilian killing at roadblock and camps"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11",
+        "on": "the swimming comrade's survivor account given during the investigation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11",
+        "on": "the dancing soldier's recollection inside the interview mosaic"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e8",
+        "on": "young victims within the campaign's violence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the flares over the sea and over the camp perimeter"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e14",
+        "on": "the protective sea image and its final reinterpretation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the militia's entry and two-day massacre"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the killings and the survivors' emergence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e14",
+        "on": "the camp edge first witnessed and finally remembered"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the friend's dream triggering the veteran's investigation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the memory search and warning about reconstruction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13",
+        "on": "successive present-day interviews"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "the theory of constructed memory applied to the sea image"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the reporter's testimony enabling recovered memory"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "story_id": "S46",
+  "source_index": 46,
+  "genre": "Crime, Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Border-city police officers Nuno and Tavo intercept a drug shipment in the desert and have it taken off them by the army commander Obrero's men.",
+    "Obrero recruits Nuno onto his anti-cartel task force, which is in fact a front for the northern cartel.",
+    "Nuno helps capture the coastal cartel's enforcer Paz, who is tortured into naming the hit man Blanco.",
+    "Across the border, federal drug agents Brand and Dell arrest the mid-level dealer Nando Cano and turn him into a witness.",
+    "Cano's testimony brings the arrest of the importer Rafael Solis in front of his pregnant wife Nadia, who knows nothing about the business.",
+    "Judge Warren Bell is appointed the country's drug policy director and briefed in the capital on a war nobody there thinks can be won.",
+    "Bell's sixteen-year-old daughter Simone and her friends free-base at a party, and one of them nearly dies of it.",
+    "Nadia discovers that the family is bankrupt and that the cartel is threatening her son over her husband's debts.",
+    "Nadia goes to Rafael's lawyer Metz and then arranges a meeting with the coastal cartel's brothers herself.",
+    "Simone's habit moves from cocaine to heroin, and she is arrested and thrown out of school.",
+    "Nadia commissions Blanco to kill Cano before he can testify.",
+    "Bell tours the border, meets Obrero, and is told by everyone he talks to that treatment is the only thing that works.",
+    "Simone runs away and starts prostituting herself for drugs in an inner-city motel.",
+    "Blanco's car bomb kills Dell instead of Cano.",
+    "Bell abandons his official duties and searches the motels of his own state for his daughter himself.",
+    "Tavo tries to sell what he knows about Obrero to the agents and is executed in the desert in front of Nuno.",
+    "Blanco poisons Cano in protective custody, and the case against Rafael Solis collapses.",
+    "Nuno gives Obrero up to the agents, and the commander is exposed as the northern cartel's man and arrested.",
+    "Bell resigns at his own press conference, saying he cannot fight a war against his own family.",
+    "Brand plants a bug at the party celebrating Rafael's release, Nadia takes over running the business, and Nuno watches the floodlit baseball game he asked for as his price."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    5,
+    3,
+    12,
+    8,
+    10,
+    9,
+    11,
+    14,
+    13,
+    16,
+    15,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "nonlinear_category": "CHRONICLE",
+  "nonlinear_category_reason": "Three concurrent strands in three cities, told apart by colour; the reordering is lateral between simultaneous events rather than backwards in time.",
+  "syuzhet_notes": "Three strands - the border city, the capital and the inland state, the coastal city - are intercut from the first reel and told apart by colour rather than captions, one bleached yellow and one filtered cold blue. The strands run concurrently, so most of the reordering is lateral, the film moving between cities at roughly the same date; the exceptions are told-order bullets 6, 7 and 11, which drop back behind their neighbours to fill in what a character already knew.",
+  "fabula_notes": "The three strands never fully converge and share almost no scenes, so the ordering across them is inferred from a handful of common markers - the dealer's arrest, his testimony, his death. The importer's business dealings before his arrest are established through testimony and never dramatised.",
+  "story_graph": {
+    "characters": {
+      "Nuno": {
+        "archetype": "Hero"
+      },
+      "Tavo": {
+        "archetype": "Ally"
+      },
+      "Obrero": {
+        "archetype": "Shadow"
+      },
+      "Paz": {
+        "archetype": "Threshold Guardian"
+      },
+      "Blanco": {
+        "archetype": "Shadow"
+      },
+      "Brand": {
+        "archetype": "Hero"
+      },
+      "Dell": {
+        "archetype": "Ally"
+      },
+      "Nando Cano": {
+        "archetype": "Herald"
+      },
+      "Rafael Solis": {
+        "archetype": "Shadow"
+      },
+      "Nadia": {
+        "archetype": "Shapeshifter"
+      },
+      "Judge Warren Bell": {
+        "archetype": "Hero"
+      },
+      "Simone": {
+        "archetype": "Hero"
+      },
+      "Metz": {
+        "archetype": "Threshold Guardian"
+      },
+      "the coastal cartel brothers": {
+        "archetype": "Shadow"
+      },
+      "the federal agents": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Nuno and Tavo",
+          "intercept",
+          "a drug shipment"
+        ],
+        "content": "The officers' apparent success in the desert lasts only until uniformed soldiers arrive and take both prisoners and contraband.",
+        "participants": [
+          "Nuno",
+          "Tavo"
+        ],
+        "location": "desert outside a border city",
+        "pre": {},
+        "post": {
+          "shipment_intercepted": true,
+          "obrero_controls_seizure": true
+        },
+        "learns": {
+          "Nuno": [
+            "Obrero can overrule local police in the desert"
+          ],
+          "reader": [
+            "the army controls the intercepted shipment"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Obrero",
+          "recruits",
+          "Nuno"
+        ],
+        "content": "The commander rewards the officer with a place on an elite task force, concealing that its raids protect one cartel from another.",
+        "participants": [
+          "Nuno",
+          "Obrero"
+        ],
+        "location": "a border-city barracks",
+        "pre": {
+          "obrero_controls_seizure": true
+        },
+        "post": {
+          "nuno_on_task_force": true
+        },
+        "learns": {
+          "Nuno": [
+            "Obrero offers resources and authority"
+          ],
+          "reader": [
+            "the task force secretly serves the northern cartel"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "will Nuno discover whom Obrero's task force really serves?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Nuno",
+          "helps capture",
+          "Paz"
+        ],
+        "content": "A coastal enforcer is isolated, tortured and forced to identify the killer who handles the cartel's most sensitive work.",
+        "participants": [
+          "Nuno",
+          "Obrero",
+          "Paz"
+        ],
+        "location": "a task-force holding site",
+        "pre": {
+          "nuno_on_task_force": true
+        },
+        "post": {
+          "paz_captured": true,
+          "blanco_named": true
+        },
+        "learns": {
+          "Nuno": [
+            "Blanco is the coastal cartel's contract killer"
+          ],
+          "reader": [
+            "the task force uses torture and is targeting the coastal organisation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Brand and Dell",
+          "turn",
+          "Nando Cano"
+        ],
+        "content": "Across the border, two agents offer a mid-level dealer survival in exchange for testimony against the importer above him.",
+        "participants": [
+          "Brand",
+          "Dell",
+          "Nando Cano"
+        ],
+        "location": "a federal interview room",
+        "pre": {},
+        "post": {
+          "cano_cooperating": true
+        },
+        "learns": {
+          "Nando Cano": [
+            "testimony may keep him out of prison"
+          ],
+          "reader": [
+            "Cano can connect the agents to Rafael Solis"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "can Cano survive long enough to testify?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the federal agents",
+          "arrest",
+          "Rafael Solis"
+        ],
+        "content": "Cano's information reaches into a wealthy home, where the importer's surprised wife sees the legitimate surface of her life collapse.",
+        "participants": [
+          "Brand",
+          "Dell",
+          "Rafael Solis",
+          "Nadia"
+        ],
+        "location": "Rafael Solis's home",
+        "pre": {
+          "cano_cooperating": true
+        },
+        "post": {
+          "rafael_arrested": true,
+          "nadia_exposed_to_business": true
+        },
+        "learns": {
+          "Nadia": [
+            "her husband is accused of importing drugs"
+          ],
+          "reader": [
+            "Cano's testimony is the foundation of the case"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Judge Warren Bell",
+          "accepts",
+          "the drug-policy post"
+        ],
+        "content": "Capital briefings give the new director large maps and larger promises, while experienced officials quietly tell him the campaign has no measurable end.",
+        "participants": [
+          "Judge Warren Bell"
+        ],
+        "location": "government offices in the capital",
+        "pre": {},
+        "post": {
+          "bell_director": true
+        },
+        "learns": {
+          "Judge Warren Bell": [
+            "officials do not believe interdiction can end drug use"
+          ],
+          "reader": [
+            "Bell has public authority over a war already regarded as unwinnable"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Simone and her friends",
+          "free-base",
+          "at a party"
+        ],
+        "content": "The director's daughter uses a potent form of cocaine in an affluent bedroom and watches a friend stop responding.",
+        "participants": [
+          "Simone"
+        ],
+        "location": "a suburban party",
+        "pre": {},
+        "post": {
+          "simone_using": true
+        },
+        "learns": {
+          "Simone": [
+            "her social drug use can become immediately dangerous"
+          ],
+          "reader": [
+            "Bell's policy problem exists inside his own household"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "how will Bell respond when the drug crisis reaches his own family?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Nadia",
+          "discovers",
+          "the cartel debt"
+        ],
+        "content": "Frozen accounts and a threat against her son make clear that innocence will not preserve the family she thought she had.",
+        "participants": [
+          "Nadia"
+        ],
+        "location": "Rafael Solis's home",
+        "pre": {
+          "rafael_arrested": true,
+          "nadia_exposed_to_business": true
+        },
+        "post": {
+          "nadia_under_threat": true
+        },
+        "learns": {
+          "Nadia": [
+            "the family is bankrupt and her son is collateral for Rafael's debt"
+          ],
+          "reader": [
+            "Nadia has a coercive reason to enter the trade"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what will Nadia become in order to protect her family?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Nadia",
+          "negotiates with",
+          "the coastal cartel brothers"
+        ],
+        "content": "After the family lawyer offers no rescue, she crosses the line her husband kept hidden and bargains directly with his suppliers.",
+        "participants": [
+          "Nadia",
+          "Metz",
+          "the coastal cartel brothers"
+        ],
+        "location": "a lawyer's office and a cartel meeting place",
+        "pre": {
+          "nadia_under_threat": true
+        },
+        "post": {
+          "nadia_cartel_deal": true
+        },
+        "learns": {
+          "Nadia": [
+            "Cano must be silenced for Rafael to be released"
+          ],
+          "reader": [
+            "Nadia has chosen the business as the means of saving her family"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Simone",
+          "moves to",
+          "heroin"
+        ],
+        "content": "Arrest and expulsion do not interrupt her habit; they remove the remaining routines that had hidden its speed from her parents.",
+        "participants": [
+          "Simone",
+          "Judge Warren Bell"
+        ],
+        "location": "a school and police station",
+        "pre": {
+          "simone_using": true
+        },
+        "post": {
+          "simone_using_heroin": true,
+          "bell_knows_addiction": true
+        },
+        "learns": {
+          "Judge Warren Bell": [
+            "Simone's drug use is severe"
+          ],
+          "reader": [
+            "punishment has accelerated Simone's isolation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Nadia",
+          "hires",
+          "Blanco"
+        ],
+        "content": "Using the name and channels of the organisation, she commissions the death of the witness on whom the federal case depends.",
+        "participants": [
+          "Nadia",
+          "Blanco"
+        ],
+        "location": "a coastal-city meeting place",
+        "pre": {
+          "nadia_cartel_deal": true
+        },
+        "post": {
+          "cano_hit_ordered": true
+        },
+        "learns": {
+          "Blanco": [
+            "Nadia wants Cano dead before he testifies"
+          ],
+          "reader": [
+            "the border investigation and the importer's case now share one killer"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Judge Warren Bell",
+          "tours",
+          "the border"
+        ],
+        "content": "Officials display seizures and commanders, but the people closest to addiction repeatedly tell Bell that treatment accomplishes what enforcement cannot.",
+        "participants": [
+          "Judge Warren Bell",
+          "Obrero",
+          "Nuno"
+        ],
+        "location": "the border region",
+        "pre": {
+          "bell_director": true
+        },
+        "post": {
+          "bell_heard_treatment_case": true
+        },
+        "learns": {
+          "Judge Warren Bell": [
+            "front-line workers regard treatment as the only durable intervention"
+          ],
+          "reader": [
+            "Bell meets the corrupt commander without recognising him"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "will Bell keep directing a policy he no longer believes in?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Simone",
+          "runs away to",
+          "an inner-city motel"
+        ],
+        "content": "Heroin strips away school, friends and home until she exchanges sex for the next dose in a room her father does not know how to search for.",
+        "participants": [
+          "Simone"
+        ],
+        "location": "an inner-city motel",
+        "pre": {
+          "simone_using_heroin": true
+        },
+        "post": {
+          "simone_missing": true
+        },
+        "learns": {
+          "reader": [
+            "Simone's addiction has reached immediate personal danger"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Blanco's bomb",
+          "kills",
+          "Dell"
+        ],
+        "content": "The device intended for the cooperating witness detonates beside an agent instead, leaving Cano alive and making the cost of the case personal for Brand.",
+        "participants": [
+          "Dell",
+          "Brand",
+          "Nando Cano"
+        ],
+        "location": "a protected city street",
+        "pre": {
+          "cano_hit_ordered": true
+        },
+        "post": {
+          "dell_dead": true,
+          "cano_survived_bomb": true
+        },
+        "learns": {
+          "Brand": [
+            "the cartel can reach the witness and has killed his partner"
+          ],
+          "reader": [
+            "the first attempt on Cano failed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Judge Warren Bell",
+          "searches for",
+          "Simone"
+        ],
+        "content": "The national director abandons prepared speeches to work through motel corridors as a frightened father with no institutional shortcut.",
+        "participants": [
+          "Judge Warren Bell"
+        ],
+        "location": "inner-city motels",
+        "pre": {
+          "simone_missing": true,
+          "bell_knows_addiction": true
+        },
+        "post": {
+          "bell_searching": true
+        },
+        "learns": {
+          "Judge Warren Bell": [
+            "his office cannot solve the intimate crisis in his family"
+          ],
+          "reader": [
+            "Bell chooses Simone over his official schedule"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Obrero's men",
+          "execute",
+          "Tavo"
+        ],
+        "content": "Tavo's effort to sell proof of the commander's allegiance ends in the desert, where Nuno is made to watch the price of dissent.",
+        "participants": [
+          "Tavo",
+          "Nuno"
+        ],
+        "location": "the border desert",
+        "pre": {
+          "nuno_on_task_force": true
+        },
+        "post": {
+          "tavo_dead": true,
+          "nuno_knows_obrero_cartel": true
+        },
+        "learns": {
+          "Nuno": [
+            "Obrero serves the northern cartel and will kill his own officers"
+          ],
+          "reader": [
+            "the task force's corruption is now undeniable to Nuno"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Blanco",
+          "poisons",
+          "Nando Cano"
+        ],
+        "content": "A second, quieter attack succeeds inside protection; without its cooperating witness, the prosecution loses the testimony holding Rafael.",
+        "participants": [
+          "Blanco",
+          "Nando Cano",
+          "Brand"
+        ],
+        "location": "protective custody",
+        "pre": {
+          "cano_hit_ordered": true,
+          "cano_survived_bomb": true
+        },
+        "post": {
+          "cano_dead": true,
+          "rafael_case_collapsed": true
+        },
+        "learns": {
+          "Brand": [
+            "the case against Rafael cannot survive Cano's death"
+          ],
+          "reader": [
+            "Nadia's bargain has achieved its immediate aim"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Nuno",
+          "exposes",
+          "Obrero"
+        ],
+        "content": "Rather than accept Tavo's death as a warning, Nuno gives federal agents the commander's link to the northern cartel and watches the task force lose its protector.",
+        "participants": [
+          "Nuno",
+          "Obrero",
+          "the federal agents"
+        ],
+        "location": "the border city",
+        "pre": {
+          "nuno_knows_obrero_cartel": true
+        },
+        "post": {
+          "obrero_arrested": true
+        },
+        "learns": {
+          "the federal agents": [
+            "Obrero's anti-cartel unit protects the northern cartel"
+          ],
+          "reader": [
+            "Nuno converts Tavo's failed disclosure into evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Judge Warren Bell",
+          "resigns",
+          "the drug-policy post"
+        ],
+        "content": "At the press conference meant to announce strategy, Bell rejects the metaphor of war because it would make his daughter an enemy.",
+        "participants": [
+          "Judge Warren Bell"
+        ],
+        "location": "a government press room",
+        "pre": {
+          "bell_searching": true,
+          "bell_heard_treatment_case": true
+        },
+        "post": {
+          "bell_resigned": true
+        },
+        "learns": {
+          "reader": [
+            "Bell has accepted the contradiction between punishment policy and care for his family"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "the three strands",
+          "settle into",
+          "uneasy outcomes"
+        ],
+        "content": "Brand bugs the celebration of Rafael's release, Nadia assumes the business role she entered to save him, and Nuno receives a lit playing field instead of money.",
+        "participants": [
+          "Brand",
+          "Rafael Solis",
+          "Nadia",
+          "Nuno"
+        ],
+        "location": "a release party and a border-city playing field",
+        "pre": {
+          "rafael_case_collapsed": true,
+          "obrero_arrested": true,
+          "bell_resigned": true
+        },
+        "post": {
+          "rafael_released": true,
+          "nadia_runs_business": true,
+          "field_lit": true,
+          "party_bugged": true
+        },
+        "learns": {
+          "Brand": [
+            "surveillance of Rafael's network can continue"
+          ],
+          "reader": [
+            "none of the victories ends the trade, though individual choices change lives"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "Obrero's control of the border seizure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the task force"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e16",
+        "on": "Obrero's command over Nuno and Tavo"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11",
+        "on": "Blanco's identity"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "Cano's cooperation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e14",
+        "on": "the threatened witness"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e8",
+        "on": "Rafael's arrest and its effect on Nadia"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e12",
+        "on": "Bell's official campaign"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e19",
+        "on": "Bell's tenure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e10",
+        "on": "Simone's escalating use"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "Nadia's coercion by the cartel"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11",
+        "on": "the contract on Cano"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e13",
+        "on": "Simone's addiction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e17",
+        "on": "Blanco's assignment"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e16",
+        "on": "the border institutions Bell is shown"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e15",
+        "on": "the motel search"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e17",
+        "on": "two attempts on Cano"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e19",
+        "on": "Bell choosing family over office"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e18",
+        "on": "Tavo's evidence against Obrero"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e20",
+        "on": "Rafael's release"
+      }
+    ]
+  }
+}

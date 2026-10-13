@@ -1,0 +1,835 @@
+{
+  "story_id": "S44",
+  "source_index": 44,
+  "genre": "Thriller, Crime, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Kes phones Mira in a panic: he has left eighty thousand in a bag on the train and has twenty minutes to hand it to his boss Vart.",
+    "Mira runs out of the flat past her mother on the telephone and down the stairwell past a woman with a pram and a growling dog.",
+    "Mira reaches her father's bank and finds him with his mistress Elke, who has just told him she is pregnant.",
+    "Her father denies her the money, tells her he is not her father at all, and has her put out of the building.",
+    "Mira arrives too late; Kes has robbed a supermarket, and in the getaway a policeman shoots Mira dead.",
+    "In the second attempt Mira is tripped on the stairs and reaches the bank a moment later.",
+    "Her father, mid-argument with Elke, slaps her, and Mira takes the security guard's gun and robs the bank herself.",
+    "Mira gets out with the money and finds Kes, who is run over by an ambulance in front of her.",
+    "In the third attempt Mira is a moment earlier on the stairs and misses her father entirely, seeing him drive away with his colleague Vogl.",
+    "Mira walks into a casino, buys a single chip, and screams the roulette ball onto the same number twice to win far more than she needs.",
+    "This time Kes spots the tramp who took his bag and chases him down on foot.",
+    "Kes gets the money back at gunpoint and hands it to Vart with seconds to spare.",
+    "Mira arrives carrying a bag of her own, and Kes asks what is in it.",
+    "Between the attempts, Mira and Kes lie in bed in red light asking each other whether the other really loves them.",
+    "Each attempt rewrites the futures of the strangers Mira passes - the woman with the pram, an office worker called Hanne, a cyclist - shown in bursts of snapshots.",
+    "Her father's fate diverges every time: publicly exposed, robbed by his own daughter, or killed in a crash with Vogl."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    15,
+    3,
+    4,
+    5,
+    14,
+    6,
+    7,
+    8,
+    9,
+    16,
+    10,
+    11,
+    12,
+    13
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "The same twenty minutes is run three times as separate blocks, with the bedroom interludes and the strangers' futures set outside all three.",
+  "syuzhet_notes": "The film plays the same twenty minutes three times over, restarting from the telephone call after each ending, so told-order bullets 8 and 11 are hard resets that put the story back where it stood at bullet 2. The two deaths at told-order bullets 6 and 10 are both undone by the next restart, and bullet 7 is a bedroom scene that belongs to none of the three attempts.",
+  "fabula_notes": "The three attempts are alternatives rather than a sequence, so this ordering lays them out as successive tries instead of one causal chain; nothing carries between them except the protagonist's apparent memory of having done it before. The snapshot futures of the passers-by are flash-forwards decades ahead, and they differ every time.",
+  "story_graph": {
+    "characters": {
+      "Mira": {
+        "archetype": "Hero"
+      },
+      "Kes": {
+        "archetype": "Ally"
+      },
+      "Mira's father": {
+        "archetype": "Threshold Guardian"
+      },
+      "Elke": {
+        "archetype": "Shapeshifter"
+      },
+      "Vart": {
+        "archetype": "Shadow"
+      },
+      "Vogl": {
+        "archetype": "Threshold Guardian"
+      },
+      "the woman with the pram": {
+        "archetype": "Herald"
+      },
+      "Hanne": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Kes",
+          "telephones",
+          "Mira"
+        ],
+        "content": "He has left a bag with eighty thousand in it on a train, the man it belongs to is expecting it in twenty minutes, and he is standing in a call box working out how to rob a supermarket.",
+        "participants": [
+          "Mira",
+          "Kes",
+          "Vart"
+        ],
+        "location": "a call box and a flat",
+        "pre": {},
+        "post": {
+          "money_lost": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Mira",
+            "intro:Kes",
+            "intro:Vart",
+            "the problem, and the clock on it"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "does he get the money there in time?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Mira",
+          "runs",
+          "down the stairwell"
+        ],
+        "content": "Past a mother on the telephone, out of the door, past a woman with a pram and a dog that does not like her, and into a street with twenty minutes in it.",
+        "participants": [
+          "Mira",
+          "the woman with the pram"
+        ],
+        "location": "a stairwell and a street",
+        "pre": {
+          "money_lost": true
+        },
+        "post": {
+          "run_begun": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the woman with the pram",
+            "the route, which the film will run three times"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who can hand her that much in twenty minutes?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Mira",
+          "reaches",
+          "her father's bank"
+        ],
+        "content": "She gets to the glass doors out of breath and is told to wait, and behind a partition her father is being told by a colleague that she is pregnant and that it is his.",
+        "participants": [
+          "Mira",
+          "Mira's father",
+          "Elke"
+        ],
+        "location": "a bank",
+        "pre": {
+          "run_begun": true
+        },
+        "post": {
+          "at_the_bank": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Mira's father",
+            "intro:Elke",
+            "the second crisis, running underneath the first"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q8": "what becomes of her father?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "her father",
+          "denies",
+          "her"
+        ],
+        "content": "He says no to the money, and then, because he is having a worse morning than she is, he says that she is not his and never was, and has her walked out by a guard.",
+        "participants": [
+          "Mira",
+          "Mira's father"
+        ],
+        "location": "a bank",
+        "pre": {
+          "at_the_bank": true
+        },
+        "post": {
+          "refused": true
+        },
+        "learns": {
+          "Mira": [
+            "the man is not her father"
+          ],
+          "reader": [
+            "the refusal, which is what each attempt has to route around"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what does she do when he says no?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "a policeman",
+          "shoots",
+          "Mira"
+        ],
+        "content": "She arrives at the supermarket four seconds after he has gone in, and it ends in the car park with a young officer who has never drawn his weapon before doing so badly.",
+        "participants": [
+          "Mira",
+          "Kes"
+        ],
+        "location": "a supermarket car park",
+        "pre": {
+          "refused": true
+        },
+        "post": {
+          "first_attempt_failed": true
+        },
+        "learns": {
+          "reader": [
+            "the first ending, and that the film does not intend to keep it"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "is that really the end of it?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Mira",
+          "is tripped",
+          "on the stairs"
+        ],
+        "content": "The second time the boys on the landing put a foot out, and she goes down the last flight, and the whole run is a few seconds later than it was.",
+        "participants": [
+          "Mira"
+        ],
+        "location": "a stairwell",
+        "pre": {
+          "first_attempt_failed": true
+        },
+        "post": {
+          "second_run": true
+        },
+        "learns": {
+          "reader": [
+            "the reset, and the size of the difference it makes"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Mira",
+          "robs",
+          "the bank"
+        ],
+        "content": "Her father, mid-argument, hits her across the face. She takes the guard's pistol off him on the way out, turns round, and comes back through the doors with it.",
+        "participants": [
+          "Mira",
+          "Mira's father",
+          "Elke"
+        ],
+        "location": "a bank",
+        "pre": {
+          "second_run": true
+        },
+        "post": {
+          "bank_robbed": true
+        },
+        "learns": {
+          "reader": [
+            "the same room, the same minute, a completely different woman leaving it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "an ambulance",
+          "kills",
+          "Kes"
+        ],
+        "content": "She comes round the corner with the money and he steps backwards off the kerb waving at her, and the vehicle that has been in every version of this morning does not stop in time.",
+        "participants": [
+          "Mira",
+          "Kes"
+        ],
+        "location": "a street",
+        "pre": {
+          "bank_robbed": true
+        },
+        "post": {
+          "second_attempt_failed": true
+        },
+        "learns": {
+          "reader": [
+            "the second ending, which swaps which of them it takes"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "and what if she is a moment earlier?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Mira",
+          "misses",
+          "her father"
+        ],
+        "content": "The third time she is a moment earlier on the stairs, and gets to the bank in time to watch his car pull out with a colleague in the passenger seat.",
+        "participants": [
+          "Mira",
+          "Mira's father",
+          "Vogl"
+        ],
+        "location": "outside a bank",
+        "pre": {
+          "second_attempt_failed": true
+        },
+        "post": {
+          "third_run": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Vogl",
+            "the third reset removes the father from the problem entirely"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {
+          "q9": "where else is she going to get it?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Mira",
+          "wins",
+          "at roulette"
+        ],
+        "content": "She buys one chip with everything in her pocket, puts it on a number, screams the ball onto it, and then does the whole thing again with the winnings while the room goes quiet.",
+        "participants": [
+          "Mira"
+        ],
+        "location": "a casino",
+        "pre": {
+          "third_run": true
+        },
+        "post": {
+          "casino_won": true
+        },
+        "learns": {
+          "reader": [
+            "the solution the film has been withholding: she does not need anybody"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Kes",
+          "chases",
+          "the tramp"
+        ],
+        "content": "He is standing outside the supermarket deciding to go in when he sees a man cycle past with his bag on the handlebars, and he goes after him on foot for eleven blocks.",
+        "participants": [
+          "Kes"
+        ],
+        "location": "the streets",
+        "pre": {
+          "third_run": true
+        },
+        "post": {
+          "bag_recovered": true
+        },
+        "learns": {
+          "reader": [
+            "the other half of the solution, arrived at independently"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Kes",
+          "delivers",
+          "the money"
+        ],
+        "content": "He takes it back at gunpoint in a doorway, gets to the corner with forty seconds left, and puts the bag into the car window without a word.",
+        "participants": [
+          "Kes",
+          "Vart"
+        ],
+        "location": "a street corner",
+        "pre": {
+          "bag_recovered": true
+        },
+        "post": {
+          "money_delivered": true
+        },
+        "learns": {
+          "reader": [
+            "the deadline met, in the version where nobody had to be robbed"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Mira",
+          "arrives",
+          "with a bag of her own"
+        ],
+        "content": "She comes round the corner at a walk for the first time all morning, carrying a plastic bag, and he asks her what is in it, and she does not answer.",
+        "participants": [
+          "Mira",
+          "Kes",
+          "Vart"
+        ],
+        "location": "a street corner",
+        "pre": {
+          "money_delivered": true,
+          "casino_won": true
+        },
+        "post": {
+          "both_ahead": true
+        },
+        "learns": {
+          "reader": [
+            "the third ending, in which they are a hundred thousand ahead and nobody is dead"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the two of them",
+          "lie",
+          "in red light"
+        ],
+        "content": "Between the endings there is a bedroom that belongs to none of the attempts, and two people asking each other what they would do if the other one died, and not liking the answers.",
+        "participants": [
+          "Mira",
+          "Kes"
+        ],
+        "location": "a bedroom",
+        "pre": {
+          "first_attempt_failed": true
+        },
+        "post": {
+          "bedroom_scene": true
+        },
+        "learns": {
+          "reader": [
+            "the only scene in the film that is not running against a clock"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "does either of them actually know the other?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the strangers",
+          "acquire",
+          "futures"
+        ],
+        "content": "Every person she goes past gets a burst of photographs of the rest of their life - a lottery win, a religious conversion, a child taken into care - and the burst is different every time she passes.",
+        "participants": [
+          "Mira",
+          "the woman with the pram",
+          "Hanne"
+        ],
+        "location": "the streets",
+        "pre": {
+          "run_begun": true
+        },
+        "post": {
+          "strangers_futures": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Hanne",
+            "the film's thesis, delivered as a visual joke about bystanders"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "her father",
+          "meets",
+          "three fates"
+        ],
+        "content": "In one version he is exposed in front of the whole branch, in another he is robbed by his own daughter, and in the third he is killed in a car with his colleague beside him.",
+        "participants": [
+          "Mira's father",
+          "Elke",
+          "Vogl"
+        ],
+        "location": "a bank and a road",
+        "pre": {
+          "refused": true
+        },
+        "post": {
+          "father_fates": true
+        },
+        "learns": {
+          "reader": [
+            "the one character the three attempts treat as a variable"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the telephone call and the run it starts"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the route from the flat to the bank"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the bank, in the first attempt"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the refusal and the supermarket that follows it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the reset, from a death to a stairwell"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the bank, in the second attempt"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e7",
+        "on": "the same room and the same minute, twice, with different women in it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the money got and the man lost"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the second reset"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the morning in which the father is not available"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11",
+        "on": "the third attempt, running in two places at once"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the bag, recovered and handed over"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e13",
+        "on": "the winnings and the plastic bag they are in"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the corner, with both of them alive on it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e15",
+        "on": "the passers-by, and what each version does to them"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e16",
+        "on": "the father, refusing and then meeting three different endings"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e14",
+        "on": "a death, and a conversation about what the other would do after one"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e13",
+        "on": "the same twenty minutes, at the start and at the third finish"
+      }
+    ]
+  }
+}

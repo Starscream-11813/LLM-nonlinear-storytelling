@@ -1,0 +1,949 @@
+{
+  "story_id": "S01",
+  "source_index": 1,
+  "genre": "Crime, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Years earlier, a returning prisoner of war delivers to a young boy the gold watch his father kept hidden through years of captivity.",
+    "Hitmen Rollo and Marcus drive across the city debating foreign drug laws and what fast food is called abroad.",
+    "Waiting in the corridor outside their target's flat, the two argue over whether a foot massage is worth killing a man for.",
+    "Marcus recites a passage of scripture and the pair shoot a young man named Tobin for double-crossing their employer, Otis, and recover a briefcase.",
+    "A fourth man hidden in the bathroom empties a revolver at them without hitting either, which Marcus calls divine intervention.",
+    "In the car afterwards Rollo's gun goes off and blows the head off their passenger Del.",
+    "Marcus parks the bloodied car at his friend Warren's house, where a fixer directs the cleanup and gives the men fresh clothes.",
+    "Over breakfast in a coffee shop, two small-time robbers decide on the spot to hold up the diner they are sitting in.",
+    "Marcus talks the robber down mid-holdup, hands over his own wallet, keeps the briefcase and lets the couple walk out.",
+    "The two hitmen deliver the briefcase to Otis at his bar, where Otis is paying the ageing boxer Denny to take a dive in the fifth.",
+    "Rollo buys heroin from his dealer Kip and shoots up before his night out.",
+    "Rollo takes Otis's wife Nadia to a themed diner where they win the dance contest.",
+    "Nadia snorts Rollo's heroin, overdoses, and is revived by an adrenaline shot to the heart on the dealer's living-room floor.",
+    "Denny double-crosses Otis, wins the fight and kills his opponent in the ring, then escapes in a taxi.",
+    "Hiding in a motel with his girlfriend Marielle, Denny discovers she has left his father's watch behind in his flat.",
+    "Denny returns for the watch and shoots Rollo dead with a submachine gun left on the kitchen counter.",
+    "Denny and Otis collide in the street, crash, and are taken prisoner in the basement of a pawnshop.",
+    "Denny breaks free, comes back with a sword from the shop wall while one of their captors is raping Otis, and Otis declares them square on condition Denny leaves town.",
+    "Denny collects Marielle and rides out of the city on a motorcycle taken from the pawnshop."
+  ],
+  "syuzhet_order": [
+    8,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12,
+    13,
+    1,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    5,
+    6,
+    7,
+    9
+  ],
+  "event_scenes": [
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    7,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "Three self-contained criminal episodes told as blocks keyed to their protagonist, with the diner hold-up split into a prologue and an epilogue around them.",
+  "syuzhet_notes": "Told-order bullet 1 is a prologue that is chronologically simultaneous with the final bullet - the same diner robbery, seen before and after. Bullet 9 is a childhood flashback arriving inside a dream. Told-order bullets 16-19 loop back to the morning of bullets 2-4, so the last chapter precedes most of what came before it, and a man killed in bullet 12 walks through it alive.",
+  "fabula_notes": "The gap between the diner robbery and the delivery at the bar is implied only by the two hitmen's change of clothes. The prisoner-of-war monologue is heard inside a dream, so that scene is recalled rather than dramatised as present action.",
+  "story_graph": {
+    "characters": {
+      "Denny": {
+        "archetype": "Hero"
+      },
+      "Marcus": {
+        "archetype": "Mentor"
+      },
+      "Rollo": {
+        "archetype": "Trickster"
+      },
+      "Otis": {
+        "archetype": "Shadow"
+      },
+      "Nadia": {
+        "archetype": "Shapeshifter"
+      },
+      "Marielle": {
+        "archetype": "Ally"
+      },
+      "Kip": {
+        "archetype": "Ally"
+      },
+      "Del": {
+        "archetype": "Ally"
+      },
+      "Warren": {
+        "archetype": "Ally"
+      },
+      "Tobin": {
+        "archetype": "Shadow"
+      },
+      "the veteran": {
+        "archetype": "Herald"
+      },
+      "the fixer": {
+        "archetype": "Mentor"
+      },
+      "the fourth man": {
+        "archetype": "Threshold Guardian"
+      },
+      "the robbers": {
+        "archetype": "Trickster"
+      },
+      "the captors": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the veteran",
+          "delivers",
+          "the gold watch"
+        ],
+        "content": "In a bare front room a returning prisoner of war sits a small boy down and puts into his hands the gold watch his father carried through years of captivity and kept hidden to the end.",
+        "participants": [
+          "the veteran",
+          "Denny"
+        ],
+        "location": "a front room",
+        "pre": {},
+        "post": {
+          "denny_has_watch": true
+        },
+        "learns": {
+          "Denny": [
+            "his father died in captivity",
+            "the watch was kept hidden for him at cost"
+          ],
+          "reader": [
+            "intro:Denny",
+            "intro:the veteran",
+            "the watch is the one object Denny will not lose"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Rollo",
+          "drives",
+          "across the city"
+        ],
+        "content": "Two hitmen in dark suits work their way across town in a battered car, arguing about drug laws abroad and what a hamburger is called there. Neither of them mentions the job.",
+        "participants": [
+          "Rollo",
+          "Marcus"
+        ],
+        "location": "a car crossing the city",
+        "pre": {},
+        "post": {
+          "hitmen_en_route": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rollo",
+            "intro:Marcus",
+            "the two are on their way to a job"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Marcus",
+          "argues",
+          "the value of a foot massage"
+        ],
+        "content": "Waiting in the corridor with the guns still in the bag, the pair work through whether touching another man's wife's feet is worth being thrown off a balcony for. The door they have come for is a few feet away.",
+        "participants": [
+          "Rollo",
+          "Marcus"
+        ],
+        "location": "the corridor outside a flat",
+        "pre": {
+          "hitmen_en_route": true
+        },
+        "post": {
+          "hitmen_at_door": true
+        },
+        "learns": {
+          "reader": [
+            "the two treat killing as ordinary working conversation"
+          ],
+          "Rollo": [
+            "Marcus draws lines he will not cross"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Marcus",
+          "shoots",
+          "Tobin"
+        ],
+        "content": "Marcus recites a passage of scripture at a terrified young man, then he and Rollo shoot him for skimming from the man who employs them. They take the briefcase they came for.",
+        "participants": [
+          "Rollo",
+          "Marcus",
+          "Tobin"
+        ],
+        "location": "a rented flat",
+        "pre": {
+          "hitmen_at_door": true
+        },
+        "post": {
+          "tobin_dead": true,
+          "briefcase_recovered": true,
+          "hitmen_at_door": false
+        },
+        "learns": {
+          "reader": [
+            "intro:Tobin",
+            "the pair kill on the orders of a man called Otis",
+            "a briefcase is the object of the job"
+          ],
+          "Marcus": [
+            "Tobin had nobody left to protect him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the fourth man",
+          "fires",
+          "a revolver"
+        ],
+        "content": "A man nobody thought to search for bursts out of the bathroom and empties a revolver at the two of them from six feet away. Every round misses. Marcus stands in front of the pattern of holes in the wall behind him and calls it divine intervention.",
+        "participants": [
+          "Rollo",
+          "Marcus",
+          "the fourth man"
+        ],
+        "location": "a rented flat",
+        "pre": {
+          "tobin_dead": true
+        },
+        "post": {
+          "marcus_believes_in_miracle": true
+        },
+        "learns": {
+          "Marcus": [
+            "he was spared by something he cannot explain",
+            "he means to stop doing this work"
+          ],
+          "Rollo": [
+            "Marcus has decided the escape was a miracle"
+          ],
+          "reader": [
+            "Marcus now believes he has been given a warning"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Rollo",
+          "kills",
+          "Del"
+        ],
+        "content": "In the car afterwards the gun in Rollo's hand goes off over a bump in the conversation and takes the head off the man in the back seat. The interior is unusable in a second.",
+        "participants": [
+          "Rollo",
+          "Marcus",
+          "Del"
+        ],
+        "location": "a car",
+        "pre": {
+          "briefcase_recovered": true
+        },
+        "post": {
+          "del_dead": true,
+          "car_bloodied": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Del",
+            "the pair now have a body and a ruined car in broad daylight"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the fixer",
+          "directs",
+          "the cleanup"
+        ],
+        "content": "Marcus pulls the car into a friend's garage in a quiet suburb, where a soft-spoken man arrives, times the work to the minute, and has the two of them hosed down in the yard and dressed in borrowed shorts and T-shirts.",
+        "participants": [
+          "Rollo",
+          "Marcus",
+          "Warren",
+          "the fixer"
+        ],
+        "location": "a suburban garage",
+        "pre": {
+          "car_bloodied": true
+        },
+        "post": {
+          "car_bloodied": false,
+          "hitmen_in_borrowed_clothes": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Warren",
+            "intro:the fixer",
+            "the suits are gone and the two are dressed like students"
+          ],
+          "Marcus": [
+            "the morning can still be made to disappear"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the robbers",
+          "decide",
+          "to hold up the diner"
+        ],
+        "content": "Over coffee and eggs a couple work out that liquor stores have got dangerous and that nobody ever robs a restaurant. They are up on the booth seats with the pistol out before the plates are cleared.",
+        "participants": [
+          "the robbers"
+        ],
+        "location": "a coffee shop",
+        "pre": {},
+        "post": {
+          "holdup_underway": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the robbers",
+            "a hold-up is starting in a room full of people"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "how does the hold-up that has just started actually end?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Marcus",
+          "releases",
+          "the robbers"
+        ],
+        "content": "Marcus lets the pistol be held on him, hands over his own wallet, recites the passage again and explains what he has decided it means. Then he keeps the briefcase and lets the two of them walk out of the door.",
+        "participants": [
+          "Marcus",
+          "Rollo",
+          "the robbers"
+        ],
+        "location": "a coffee shop",
+        "pre": {
+          "holdup_underway": true,
+          "marcus_believes_in_miracle": true,
+          "briefcase_recovered": true
+        },
+        "post": {
+          "holdup_underway": false,
+          "robbers_released": true
+        },
+        "learns": {
+          "the robbers": [
+            "they have been spared by a choice rather than by luck"
+          ],
+          "reader": [
+            "Marcus has acted on the change the morning made in him"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Rollo",
+          "delivers",
+          "the briefcase"
+        ],
+        "content": "The two hitmen carry the briefcase into a near-empty bar in shorts and T-shirts. At the counter the man who employs them is counting notes into the hand of an ageing boxer and telling him which round to go down in.",
+        "participants": [
+          "Rollo",
+          "Marcus",
+          "Otis",
+          "Denny"
+        ],
+        "location": "Otis's bar",
+        "pre": {
+          "briefcase_recovered": true,
+          "hitmen_in_borrowed_clothes": true
+        },
+        "post": {
+          "briefcase_delivered": true,
+          "denny_paid_to_dive": true
+        },
+        "learns": {
+          "Denny": [
+            "he is being paid to lose in the fifth"
+          ],
+          "reader": [
+            "intro:Otis",
+            "Denny fights for money",
+            "the fight is fixed"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Rollo",
+          "buys",
+          "heroin"
+        ],
+        "content": "Rollo drives out to a dealer's house, pays for a bag of unusually pure heroin, and shoots up at the kitchen table before going back to the car.",
+        "participants": [
+          "Rollo",
+          "Kip"
+        ],
+        "location": "Kip's house",
+        "pre": {},
+        "post": {
+          "rollo_carrying_heroin": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Kip",
+            "Rollo is carrying pure heroin in his coat pocket"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Rollo",
+          "escorts",
+          "Nadia"
+        ],
+        "content": "Rollo takes his employer's wife to a themed restaurant where the waiters play at being stars of an earlier decade. The two of them take their shoes off and win the dance contest.",
+        "participants": [
+          "Rollo",
+          "Nadia"
+        ],
+        "location": "a themed restaurant",
+        "pre": {
+          "rollo_carrying_heroin": true
+        },
+        "post": {
+          "rollo_and_nadia_out_together": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nadia",
+            "Rollo is out for the evening with the wife of the man who employs him"
+          ],
+          "Nadia": [
+            "Rollo will not touch her"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Nadia",
+          "overdoses",
+          "on heroin"
+        ],
+        "content": "Back at the flat Nadia finds the bag in Rollo's coat, takes it for cocaine and snorts a line of it. She goes blue on the carpet and is brought back by a needle of adrenaline driven into her chest on the dealer's living-room floor.",
+        "participants": [
+          "Rollo",
+          "Nadia",
+          "Kip"
+        ],
+        "location": "Kip's living room",
+        "pre": {
+          "rollo_carrying_heroin": true,
+          "rollo_and_nadia_out_together": true
+        },
+        "post": {
+          "nadia_revived": true,
+          "rollo_carrying_heroin": false
+        },
+        "learns": {
+          "Nadia": [
+            "she nearly died on a mistake"
+          ],
+          "Rollo": [
+            "what he was carrying almost killed his employer's wife"
+          ],
+          "reader": [
+            "the evening was survivable only by accident"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Denny",
+          "kills",
+          "his opponent"
+        ],
+        "content": "Denny does not go down in the fifth. He wins, and hits the other man hard enough that he never gets up, and is out of the arena and into a passing taxi before the crowd has understood what it watched.",
+        "participants": [
+          "Denny"
+        ],
+        "location": "a boxing arena",
+        "pre": {
+          "denny_paid_to_dive": true
+        },
+        "post": {
+          "denny_double_crossed_otis": true,
+          "denny_in_flight": true
+        },
+        "learns": {
+          "Otis": [
+            "the fight was not thrown and his money is gone"
+          ],
+          "reader": [
+            "Denny has made an enemy of a man who employs killers"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Denny",
+          "discovers",
+          "the watch is missing"
+        ],
+        "content": "In a motel room on the edge of town Denny asks his girlfriend whether she packed the watch. She has not. It is still on the bedside table in a flat that is certainly being watched.",
+        "participants": [
+          "Denny",
+          "Marielle"
+        ],
+        "location": "a motel room",
+        "pre": {
+          "denny_in_flight": true,
+          "denny_has_watch": true
+        },
+        "post": {
+          "watch_left_in_flat": true
+        },
+        "learns": {
+          "Denny": [
+            "the one thing he cannot replace is in the one place he cannot go"
+          ],
+          "Marielle": [
+            "the watch mattered more than she understood"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Denny",
+          "shoots",
+          "Rollo"
+        ],
+        "content": "Denny lets himself into his own flat and finds the watch exactly where it was left. He is at the kitchen counter when a hitman comes out of the bathroom, and the submachine gun lying on the counter is nearer to Denny than the man is to his own.",
+        "participants": [
+          "Denny",
+          "Rollo"
+        ],
+        "location": "Denny's flat",
+        "pre": {
+          "watch_left_in_flat": true
+        },
+        "post": {
+          "rollo_dead": true,
+          "denny_has_watch": true,
+          "watch_left_in_flat": false
+        },
+        "learns": {
+          "Denny": [
+            "his employer's men were already inside waiting for him"
+          ],
+          "reader": [
+            "one of the two hitmen is dead in a stranger's bathroom doorway"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Denny",
+          "collides",
+          "with Otis"
+        ],
+        "content": "Driving away, Denny stops at a light and finds the man hunting him crossing the road in front of the bonnet with a paper bag in his arms. He puts the car through him; both of them wreck; both are dragged down into the basement of a pawnshop by the men who own it.",
+        "participants": [
+          "Denny",
+          "Otis",
+          "the captors"
+        ],
+        "location": "a street and a pawnshop basement",
+        "pre": {
+          "rollo_dead": true,
+          "denny_double_crossed_otis": true
+        },
+        "post": {
+          "denny_and_otis_captive": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the captors",
+            "the hunter and the hunted are in the same cellar"
+          ],
+          "Otis": [
+            "Denny is still in the city and armed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Denny",
+          "rescues",
+          "Otis"
+        ],
+        "content": "Denny gets out of his restraints and is at the street door when he stops, takes a sword down off the shop wall, and goes back down for the man who was hunting him. Afterwards his employer tells him they are square, on the condition that he never comes back.",
+        "participants": [
+          "Denny",
+          "Otis",
+          "the captors"
+        ],
+        "location": "a pawnshop",
+        "pre": {
+          "denny_and_otis_captive": true
+        },
+        "post": {
+          "denny_and_otis_captive": false,
+          "otis_declares_them_square": true
+        },
+        "learns": {
+          "Otis": [
+            "Denny came back for him when he did not have to"
+          ],
+          "Denny": [
+            "the debt is cancelled and the city is closed to him"
+          ],
+          "reader": [
+            "the double-cross is settled by a second choice rather than by a killing"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Denny",
+          "leaves",
+          "the city"
+        ],
+        "content": "Denny collects his girlfriend from the motel, puts her on the back of a motorcycle taken from the pawnshop, and rides out with the watch back on his wrist.",
+        "participants": [
+          "Denny",
+          "Marielle"
+        ],
+        "location": "the road out of the city",
+        "pre": {
+          "otis_declares_them_square": true
+        },
+        "post": {
+          "denny_out_of_the_city": true
+        },
+        "learns": {
+          "Marielle": [
+            "they are leaving for good"
+          ],
+          "reader": [
+            "Denny gets out alive with the one thing he went back for"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e8",
+        "on": "a meal eaten at a counter that turns into the business of the day"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19"
+      }
+    ]
+  }
+}

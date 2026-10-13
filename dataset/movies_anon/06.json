@@ -1,0 +1,854 @@
+{
+  "story_id": "S06",
+  "source_index": 6,
+  "genre": "Crime, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Undercover officer Danny Roarke rehearses a fabricated anecdote about a drug bust in a public toilet with his handler Pruitt until he can tell it like a memory.",
+    "Danny performs the anecdote for the boss Bram, his son Cal and Mr. Ash, and is taken onto the crew as Mr. Elm.",
+    "Ren Vasco walks out of prison and reports to Bram and Cal, who owe him for the years he kept his mouth shut.",
+    "Over breakfast the crew argue about what a pop song is really about and whether waitresses deserve a tip.",
+    "Bram hands out the tree aliases and Mr. Birch objects to being Mr. Birch.",
+    "The robbery collapses within a minute, and Mr. Ash shoots his way clear of the police from the getaway car with Mr. Elm beside him.",
+    "Fleeing on foot, Mr. Elm hijacks a car and is shot in the stomach by the terrified driver, whom he shoots dead.",
+    "Mr. Ash drives the screaming Elm to the warehouse rendezvous, cradles him and swears he is not going to die.",
+    "Mr. Birch arrives, argues that the job was a setup with an informer inside it, and hides the diamonds outside the building.",
+    "Mr. Cedar strolls in and produces a kidnapped patrolman, Doyle, from the boot of his car.",
+    "Left alone with the bound officer, Mr. Cedar dances to a radio oldie, cuts off his ear and douses him in petrol.",
+    "Mr. Elm shoots Mr. Cedar dead from the floor and tells Doyle that he is a cop and that the police are waiting outside for Bram.",
+    "Cal returns, listens to Elm's account of Cedar, and shoots Doyle dead himself.",
+    "Bram arrives, names Mr. Elm as the informer, and Mr. Ash refuses to believe him and turns his gun on Bram.",
+    "The three-way standoff leaves Bram, Cal and Ash all shot, with only Ash and Elm still breathing.",
+    "Elm confesses that he is a police officer, Ash shoots him as the police storm the warehouse, and Ash is cut down."
+  ],
+  "syuzhet_order": [
+    4,
+    8,
+    9,
+    5,
+    10,
+    3,
+    11,
+    12,
+    1,
+    2,
+    6,
+    7,
+    13,
+    14,
+    15,
+    16
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    10,
+    10
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The warehouse is the present the film keeps returning to, and every other scene is an earlier insertion triggered by whoever has just walked into it.",
+  "syuzhet_notes": "The present tense is the warehouse. Told-order bullets 4, 6 and 9-12 are flashbacks, each announced by a title card naming whichever man has just walked into the room, which hands the audience his backstory at that moment. The film opens on the breakfast and cuts straight from it to the bleeding aftermath.",
+  "fabula_notes": "The interior of the robbery, including the shooting of the staff, is described in dialogue but never dramatised, so it is not listed as an event; only the escape from it is shown. The weeks between the informer's recruitment and the job are elided entirely.",
+  "story_graph": {
+    "characters": {
+      "Danny": {
+        "archetype": "Hero"
+      },
+      "Pruitt": {
+        "archetype": "Mentor"
+      },
+      "Bram": {
+        "archetype": "Shadow"
+      },
+      "Cal": {
+        "archetype": "Shadow"
+      },
+      "Ash": {
+        "archetype": "Ally"
+      },
+      "Ren": {
+        "archetype": "Trickster"
+      },
+      "Birch": {
+        "archetype": "Ally"
+      },
+      "Doyle": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Pruitt",
+          "coaches",
+          "Danny"
+        ],
+        "content": "In an empty room a handler takes an officer through an invented story about a bag of drugs and four dogs in a public lavatory, over and over, until he stops reciting it and starts remembering it.",
+        "participants": [
+          "Danny",
+          "Pruitt"
+        ],
+        "location": "a police safe room",
+        "pre": {},
+        "post": {
+          "danny_coached": true
+        },
+        "learns": {
+          "Danny": [
+            "the story has to be lived in, not learned"
+          ],
+          "reader": [
+            "intro:Danny",
+            "intro:Pruitt",
+            "the anecdote that gets him inside is a fabrication"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Danny",
+          "performs",
+          "the anecdote"
+        ],
+        "content": "He tells it to a room of men who have heard every kind of liar, gets the laugh in the right place, and walks out of the bar with a job and a colour-free name he did not pick.",
+        "participants": [
+          "Danny",
+          "Bram",
+          "Cal",
+          "Ash"
+        ],
+        "location": "a bar",
+        "pre": {
+          "danny_coached": true
+        },
+        "post": {
+          "danny_inside_the_crew": true
+        },
+        "learns": {
+          "Bram": [
+            "the new man has done time and can be used"
+          ],
+          "reader": [
+            "intro:Bram",
+            "intro:Cal",
+            "intro:Ash",
+            "the officer is inside"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Ren",
+          "reports",
+          "to Bram"
+        ],
+        "content": "A man comes off a long sentence he could have shortened by talking, walks straight into the office, and is handed an envelope and a place on the job by way of thanks.",
+        "participants": [
+          "Ren",
+          "Bram",
+          "Cal"
+        ],
+        "location": "Bram's office",
+        "pre": {},
+        "post": {
+          "ren_released": true
+        },
+        "learns": {
+          "Cal": [
+            "the debt to this man is now being paid in work"
+          ],
+          "reader": [
+            "intro:Ren",
+            "one of the crew is owed something the others are not"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the crew",
+          "argue",
+          "over breakfast"
+        ],
+        "content": "Eight men in black suits sit round a diner table pulling apart what a pop song is really about and whether a woman who brings coffee has earned anything extra for it. Nobody uses a real name.",
+        "participants": [
+          "Bram",
+          "Cal",
+          "Danny",
+          "Ash",
+          "Ren",
+          "Birch"
+        ],
+        "location": "a diner",
+        "pre": {
+          "danny_inside_the_crew": true,
+          "ren_released": true
+        },
+        "post": {
+          "crew_assembled": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Birch",
+            "the crew exists and is about to do something together"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "who are these men and what are they for?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Bram",
+          "assigns",
+          "the aliases"
+        ],
+        "content": "The boss deals out tree names off a list so that no man in the room can give up another, and one of them spends a minute arguing that his is the worst of them.",
+        "participants": [
+          "Bram",
+          "Cal",
+          "Danny",
+          "Ash",
+          "Ren",
+          "Birch"
+        ],
+        "location": "Bram's office",
+        "pre": {
+          "crew_assembled": true
+        },
+        "post": {
+          "aliases_assigned": true
+        },
+        "learns": {
+          "reader": [
+            "nobody in the crew can identify anybody else"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Ash",
+          "shoots",
+          "his way clear"
+        ],
+        "content": "It goes wrong inside a minute. The alarm is already running when they come out, and one of them fires through the windscreen and out of both side windows while the car goes down the wrong street.",
+        "participants": [
+          "Ash",
+          "Danny"
+        ],
+        "location": "the street outside the job",
+        "pre": {
+          "aliases_assigned": true
+        },
+        "post": {
+          "robbery_failed": true,
+          "crew_scattered": true
+        },
+        "learns": {
+          "reader": [
+            "the job collapsed before it began"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "a driver",
+          "shoots",
+          "Danny"
+        ],
+        "content": "On foot and out of options he drags a woman out of her own car, and she has a pistol in the door pocket and puts one into his stomach before he can get the door shut. He shoots her and drives away bleeding.",
+        "participants": [
+          "Danny"
+        ],
+        "location": "a residential street",
+        "pre": {
+          "crew_scattered": true
+        },
+        "post": {
+          "danny_shot": true
+        },
+        "learns": {
+          "Danny": [
+            "he is not going to be able to hide this"
+          ],
+          "reader": [
+            "the officer has killed a civilian and is dying"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Ash",
+          "carries",
+          "Danny"
+        ],
+        "content": "He gets to the rendezvous with the man screaming in the back and carries him in, lays him down on the ramp in the blood he is already losing, holds his head and tells him nobody dies here today.",
+        "participants": [
+          "Ash",
+          "Danny"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "danny_shot": true
+        },
+        "post": {
+          "danny_at_the_warehouse": true
+        },
+        "learns": {
+          "Ash": [
+            "this man is his"
+          ],
+          "reader": [
+            "one man is dying on the floor and one is refusing to let him"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what happened out there, and how did he get like this?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Birch",
+          "argues",
+          "that it was a setup"
+        ],
+        "content": "Another of them arrives clean and furious, walks the room through the timings, and says the police were on the pavement before the first alarm. Then he goes out and puts the stones somewhere nobody watching him can see.",
+        "participants": [
+          "Birch",
+          "Ash",
+          "Danny"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "robbery_failed": true
+        },
+        "post": {
+          "setup_suspected": true,
+          "diamonds_hidden": true
+        },
+        "learns": {
+          "Birch": [
+            "one of the men in this room called it in"
+          ],
+          "reader": [
+            "the crew now knows it was betrayed and does not know by whom"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "which of these men is the informer?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Ren",
+          "produces",
+          "a hostage"
+        ],
+        "content": "He arrives late and unhurried, complains about the shouting, and then opens the boot of his car and drags out a young officer in uniform with his hands behind him.",
+        "participants": [
+          "Ren",
+          "Danny",
+          "Ash",
+          "Doyle"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "danny_at_the_warehouse": true
+        },
+        "post": {
+          "doyle_captive": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Doyle",
+            "one of the crew has been taking prisoners for his own reasons"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what sort of man brings a kidnapped officer to a hiding place?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Ren",
+          "mutilates",
+          "Doyle"
+        ],
+        "content": "Left alone with him he finds a station playing something from twenty years ago, turns it up, dances a few steps, takes the man's ear off with a razor and talks into it, then empties a can of petrol over him.",
+        "participants": [
+          "Ren",
+          "Doyle"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "doyle_captive": true
+        },
+        "post": {
+          "doyle_mutilated": true
+        },
+        "learns": {
+          "Doyle": [
+            "nobody is coming"
+          ],
+          "reader": [
+            "the man is being tortured for the pleasure of it"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "is anyone going to stop him?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Danny",
+          "shoots",
+          "Ren"
+        ],
+        "content": "From the floor, with nothing left, the dying man empties his gun into the one holding the lighter. Then he tells the officer on the chair what he is, and that there are cars in the street waiting for the boss to arrive.",
+        "participants": [
+          "Danny",
+          "Ren",
+          "Doyle"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "doyle_mutilated": true,
+          "danny_shot": true
+        },
+        "post": {
+          "ren_dead": true,
+          "doyle_knows_danny_is_police": true
+        },
+        "learns": {
+          "Doyle": [
+            "the bleeding man is a police officer"
+          ],
+          "reader": [
+            "the informer has given himself away to save a life"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q4": "how long has this man been lying to every person in the building?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Cal",
+          "kills",
+          "Doyle"
+        ],
+        "content": "The boss's son comes back to a body and a story, listens to the version he is given, decides it holds, and then puts three rounds into the officer on the chair himself to close the matter.",
+        "participants": [
+          "Cal",
+          "Danny",
+          "Doyle"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "ren_dead": true
+        },
+        "post": {
+          "doyle_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the only witness who could have confirmed the story is dead"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Bram",
+          "names",
+          "Danny"
+        ],
+        "content": "The boss walks in, looks at the man on the floor for a long moment, and says flatly that this is the one. The man who carried him in puts his gun on the boss instead and will not be told otherwise.",
+        "participants": [
+          "Bram",
+          "Cal",
+          "Danny",
+          "Ash"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "setup_suspected": true,
+          "doyle_dead": true
+        },
+        "post": {
+          "danny_named_as_informer": true
+        },
+        "learns": {
+          "Ash": [
+            "he is being asked to shoot the man he carried"
+          ],
+          "reader": [
+            "the boss is right and the only man who trusts the informer will not have it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the crew",
+          "shoot",
+          "each other"
+        ],
+        "content": "Three guns come up at once in a room the size of a garage and all three go off. When it stops, two of the four men on the floor are still making a noise.",
+        "participants": [
+          "Bram",
+          "Cal",
+          "Danny",
+          "Ash"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "danny_named_as_informer": true
+        },
+        "post": {
+          "bram_dead": true,
+          "cal_dead": true,
+          "ash_wounded": true
+        },
+        "learns": {
+          "reader": [
+            "loyalty to the informer has killed the men who were right about him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Danny",
+          "confesses",
+          "to Ash"
+        ],
+        "content": "Bleeding out beside him the officer says it plainly, because the man has earned it. The other drags himself up, puts the gun to his head, and the doors come in as he fires and he is cut down where he kneels.",
+        "participants": [
+          "Danny",
+          "Ash"
+        ],
+        "location": "the warehouse",
+        "pre": {
+          "ash_wounded": true
+        },
+        "post": {
+          "danny_dead": true,
+          "ash_dead": true
+        },
+        "learns": {
+          "Ash": [
+            "everything he refused to believe"
+          ],
+          "reader": [
+            "the confession is made to the one man it destroys"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e11",
+        "on": "a performance staged for an audience that must not see through it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      }
+    ]
+  }
+}

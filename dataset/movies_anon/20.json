@@ -1,0 +1,959 @@
+{
+  "story_id": "S20",
+  "source_index": 20,
+  "genre": "Crime, Drama, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "A travelling priest passes the soldier Davin and his veiled wife Sela on the forest road.",
+    "The bandit Korrin, dozing under a tree, watches them go by and glimpses Sela's face when the breeze lifts her veil.",
+    "Korrin lures Davin off the path with a story of buried swords and ties him to a tree.",
+    "Korrin brings Sela to the clearing and forces himself on her while her bound husband watches.",
+    "Sela demands that the two men fight to decide which of them she belongs to.",
+    "Korrin cuts Davin's bonds and the two fight clumsily and in open terror.",
+    "Davin is killed and Sela runs from the thicket.",
+    "Korrin takes the soldier's sword and horse and leaves.",
+    "A woodcutter stumbles on the body in the undergrowth, runs off to report it, and quietly takes the costly dagger with him.",
+    "A constable captures Korrin by the river after the stolen horse throws him.",
+    "At the court Korrin boasts that he killed the soldier in a magnificent duel of nineteen strokes.",
+    "At a temple Sela testifies that after the rape her husband looked at her with contempt, and that she fainted holding her dagger and woke to find it in his chest.",
+    "Speaking through a medium, the dead Davin says his wife asked the bandit to kill him, and that he took his own life with the dagger in his shame.",
+    "Sheltering from the rain under a ruined gate, the woodcutter and the priest tell a passing stranger that they cannot make sense of what they heard.",
+    "The woodcutter admits he saw the whole thing and describes a squalid, cowardly fight in which both men begged and the soldier died almost by accident.",
+    "The stranger points out that the woodcutter stole the dagger, which is why he lied to the court.",
+    "An abandoned baby is found under the gate and the stranger strips it of its clothes.",
+    "The woodcutter carries the baby home to raise with his own six, and the priest's faith in people comes back."
+  ],
+  "syuzhet_order": [
+    14,
+    9,
+    1,
+    10,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    10,
+    11,
+    11
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The ruined gate is the present the film opens on and returns to, and the testimony and the killing inside it are flashbacks nested two deep.",
+  "syuzhet_notes": "The present is the ruined gate in the rain, which the film opens on at told-order bullet 1 and returns to for bullets 15-18. Everything between is flashback, much of it flashback inside flashback: the courtyard testimony is recalled at the gate, and the killing in the thicket is dramatised inside that testimony. Told-order bullets 5-11 are staged four separate times across the runtime, once per witness, with the facts changing every time; they are counted once here.",
+  "fabula_notes": "The film refuses to settle which account is true, so any single chronology is a choice. This one follows the woodcutter's final version, generally taken as the least self-serving, and treats the four tellings of the killing as one event set. Whether the husband was killed by the bandit, by his wife or by his own hand is never resolved.",
+  "story_graph": {
+    "characters": {
+      "the woodcutter": {
+        "archetype": "Hero"
+      },
+      "the priest": {
+        "archetype": "Mentor"
+      },
+      "the stranger": {
+        "archetype": "Trickster"
+      },
+      "Korrin": {
+        "archetype": "Shadow"
+      },
+      "Davin": {
+        "archetype": "Threshold Guardian"
+      },
+      "Sela": {
+        "archetype": "Shapeshifter"
+      },
+      "the constable": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the priest",
+          "passes",
+          "Davin and Sela"
+        ],
+        "content": "A hot road under trees. A soldier leads a horse with a veiled woman on it, and a priest going the other way remembers them afterwards because they looked like people with somewhere to be.",
+        "participants": [
+          "the priest",
+          "Davin",
+          "Sela"
+        ],
+        "location": "a forest road",
+        "pre": {},
+        "post": {
+          "travellers_on_the_road": true
+        },
+        "learns": {
+          "the priest": [
+            "he has seen them alive"
+          ],
+          "reader": [
+            "intro:the priest",
+            "intro:Davin",
+            "intro:Sela",
+            "the two of them were on the road together"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Korrin",
+          "glimpses",
+          "Sela's face"
+        ],
+        "content": "A bandit asleep under a tree with his mouth open, and a breeze that lifts a veil for about as long as it takes to decide something.",
+        "participants": [
+          "Korrin",
+          "Davin",
+          "Sela"
+        ],
+        "location": "under a tree beside the road",
+        "pre": {
+          "travellers_on_the_road": true
+        },
+        "post": {
+          "korrin_has_seen_sela": true
+        },
+        "learns": {
+          "Korrin": [
+            "what she looks like"
+          ],
+          "reader": [
+            "intro:Korrin",
+            "the whole cause, and how small it is"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Korrin",
+          "binds",
+          "Davin"
+        ],
+        "content": "He tells a story about old swords buried in a grove, walks the husband off the path with it, and has him roped to a tree before the man has understood the sentence.",
+        "participants": [
+          "Korrin",
+          "Davin"
+        ],
+        "location": "a grove off the forest path",
+        "pre": {
+          "korrin_has_seen_sela": true
+        },
+        "post": {
+          "davin_bound": true
+        },
+        "learns": {
+          "Davin": [
+            "he has been taken by a story"
+          ],
+          "reader": [
+            "the trap, and that it cost nothing to set"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Korrin",
+          "assaults",
+          "Sela"
+        ],
+        "content": "He brings her up the slope to where her husband is tied and does what he came to do in front of him, and the tied man watches all of it.",
+        "participants": [
+          "Korrin",
+          "Sela",
+          "Davin"
+        ],
+        "location": "a clearing in the thicket",
+        "pre": {
+          "davin_bound": true
+        },
+        "post": {
+          "sela_assaulted": true
+        },
+        "learns": {
+          "reader": [
+            "the act every later account will describe differently"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Sela",
+          "demands",
+          "a fight"
+        ],
+        "content": "She will not be handed between them like a parcel. She says that one of them has to die, because she cannot be looked at by two men who both know.",
+        "participants": [
+          "Sela",
+          "Korrin",
+          "Davin"
+        ],
+        "location": "a clearing in the thicket",
+        "pre": {
+          "sela_assaulted": true
+        },
+        "post": {
+          "duel_demanded": true
+        },
+        "learns": {
+          "Korrin": [
+            "she will not simply come with him"
+          ],
+          "reader": [
+            "she forces the fight, in this version"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Korrin",
+          "cuts",
+          "the bonds"
+        ],
+        "content": "He saws through the rope and steps back, and the two of them circle each other on bad ground, breathing hard, holding their swords like men who have never really used them.",
+        "participants": [
+          "Korrin",
+          "Davin",
+          "Sela"
+        ],
+        "location": "a clearing in the thicket",
+        "pre": {
+          "duel_demanded": true
+        },
+        "post": {
+          "bonds_cut": true
+        },
+        "learns": {
+          "reader": [
+            "neither man is any good at this"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Davin",
+          "is killed",
+          "in the thicket"
+        ],
+        "content": "It ends badly and almost by accident, with one of them on the ground crawling and the other standing over him surprised at himself, and she is already running.",
+        "participants": [
+          "Korrin",
+          "Davin",
+          "Sela"
+        ],
+        "location": "a clearing in the thicket",
+        "pre": {
+          "bonds_cut": true
+        },
+        "post": {
+          "davin_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the death, in the version the telling settles on"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Korrin",
+          "takes",
+          "the sword and horse"
+        ],
+        "content": "He picks up what is worth carrying, the good sword and the animal, and goes down the hill with both.",
+        "participants": [
+          "Korrin"
+        ],
+        "location": "the forest path",
+        "pre": {
+          "davin_dead": true
+        },
+        "post": {
+          "horse_and_sword_taken": true
+        },
+        "learns": {
+          "reader": [
+            "what leaves the wood, and with whom"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the woodcutter",
+          "finds",
+          "the body"
+        ],
+        "content": "He comes through the undergrowth with an axe on his shoulder, sees a hand, drops the axe and runs. He does not run before picking up what is lying beside the hand.",
+        "participants": [
+          "the woodcutter",
+          "Davin"
+        ],
+        "location": "the thicket",
+        "pre": {
+          "davin_dead": true
+        },
+        "post": {
+          "body_found": true,
+          "dagger_taken": true
+        },
+        "learns": {
+          "the woodcutter": [
+            "there is a dead man and an expensive knife"
+          ],
+          "reader": [
+            "intro:the woodcutter",
+            "he takes the dagger, which nobody is told"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who killed this man, and how?",
+          "q6": "why does the man who found the body keep changing his story?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the constable",
+          "captures",
+          "Korrin"
+        ],
+        "content": "The stolen horse throws its new owner into a riverbed and stands over him, and a constable finds him there face down and sick, with the good sword a few feet away.",
+        "participants": [
+          "Korrin",
+          "the constable"
+        ],
+        "location": "a riverbank",
+        "pre": {
+          "horse_and_sword_taken": true
+        },
+        "post": {
+          "korrin_captured": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the constable",
+            "he is caught by the horse rather than by anyone's skill"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "where did he get the horse he was thrown from?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Korrin",
+          "testifies",
+          "to a duel"
+        ],
+        "content": "In the courtyard he laughs and tells them he killed the man properly, blade to blade, nineteen strokes, the finest fight anyone there had ever had against him.",
+        "participants": [
+          "Korrin"
+        ],
+        "location": "a prison courtyard",
+        "pre": {
+          "korrin_captured": true
+        },
+        "post": {
+          "bandit_testified": true
+        },
+        "learns": {
+          "reader": [
+            "the first account, and what it is designed to protect"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q7": "was it really a duel of nineteen strokes?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Sela",
+          "testifies",
+          "to a fainting"
+        ],
+        "content": "She says that afterwards her husband looked at her with a contempt she could not survive, that she went towards him with the knife, and that she woke with it already in him.",
+        "participants": [
+          "Sela",
+          "Davin"
+        ],
+        "location": "a temple",
+        "pre": {
+          "bandit_testified": true
+        },
+        "post": {
+          "wife_testified": true
+        },
+        "learns": {
+          "reader": [
+            "the second account, and what it is designed to protect"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Davin",
+          "testifies",
+          "through a medium"
+        ],
+        "content": "The dead man speaks through a shaking woman in a courtyard and says his wife asked the bandit to kill him, and that he took the knife up himself out of shame.",
+        "participants": [
+          "Davin",
+          "Sela",
+          "Korrin"
+        ],
+        "location": "a prison courtyard",
+        "pre": {
+          "wife_testified": true
+        },
+        "post": {
+          "husband_testified": true
+        },
+        "learns": {
+          "reader": [
+            "the third account, and what it is designed to protect"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "which of these accounts is the true one?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the woodcutter",
+          "says",
+          "he cannot understand it"
+        ],
+        "content": "Rain off the edge of a broken gate. Two men who were at the hearing tell a third that they have heard three accounts of one afternoon and that none of them will fit the others.",
+        "participants": [
+          "the woodcutter",
+          "the priest",
+          "the stranger"
+        ],
+        "location": "under a ruined gate in the rain",
+        "pre": {
+          "husband_testified": true
+        },
+        "post": {
+          "gate_conversation": true
+        },
+        "learns": {
+          "the stranger": [
+            "there was a killing and three stories about it"
+          ],
+          "reader": [
+            "intro:the stranger",
+            "the present tense of the telling"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what did these two hear that they cannot reconcile?",
+          "q4": "what was done in the thicket that afternoon?",
+          "q5": "what did the dead man's wife say happened?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the woodcutter",
+          "admits",
+          "he saw it"
+        ],
+        "content": "Pressed, he says he watched the whole thing from the bushes: no duel, no dignity, two frightened men begging and flailing and a woman goading them, and a death nobody quite intended.",
+        "participants": [
+          "the woodcutter",
+          "Korrin",
+          "Davin",
+          "Sela"
+        ],
+        "location": "under a ruined gate in the rain",
+        "pre": {
+          "gate_conversation": true
+        },
+        "post": {
+          "fourth_account_given": true
+        },
+        "learns": {
+          "the priest": [
+            "the fight was squalid, not heroic"
+          ],
+          "reader": [
+            "the fourth account, which the telling treats as the least self-serving"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7",
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the stranger",
+          "names",
+          "the theft"
+        ],
+        "content": "He asks the obvious question that nobody at the hearing asked: where the costly knife went. The answer is why a man who saw everything told the court he saw nothing.",
+        "participants": [
+          "the woodcutter",
+          "the stranger"
+        ],
+        "location": "under a ruined gate in the rain",
+        "pre": {
+          "fourth_account_given": true
+        },
+        "post": {
+          "theft_exposed": true
+        },
+        "learns": {
+          "the stranger": [
+            "the witness is a thief"
+          ],
+          "reader": [
+            "even the account offered as honest had a reason to be shaped"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the stranger",
+          "strips",
+          "the baby"
+        ],
+        "content": "A child is crying somewhere in the ruin. He gets to it first, takes the good clothes off it, and explains on his way out that somebody was going to.",
+        "participants": [
+          "the stranger",
+          "the priest",
+          "the woodcutter"
+        ],
+        "location": "under a ruined gate in the rain",
+        "pre": {
+          "theft_exposed": true
+        },
+        "post": {
+          "baby_found": true
+        },
+        "learns": {
+          "the priest": [
+            "people are as bad as the accounts suggest"
+          ],
+          "reader": [
+            "the argument taken to its worst conclusion"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "is there anything in people worth believing in?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the woodcutter",
+          "takes",
+          "the baby home"
+        ],
+        "content": "He puts his hands out for the child and says that six and one more is not a difference anyone will notice. The rain stops, and the priest hands it over.",
+        "participants": [
+          "the woodcutter",
+          "the priest"
+        ],
+        "location": "under a ruined gate",
+        "pre": {
+          "baby_found": true
+        },
+        "post": {
+          "faith_restored": true
+        },
+        "learns": {
+          "the priest": [
+            "he can go on believing in people after all"
+          ],
+          "reader": [
+            "the answer the telling offers to its own question"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e14",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "two accounts of the same afternoon, given to the same court"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e10",
+        "on": "the stolen horse, ridden away and then bolting"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e14",
+        "on": "the same witness, running from the body and then sheltering from the rain"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the hearing, given and then recounted"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e15",
+        "on": "one afternoon in the thicket, dramatised and then contradicted"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "a priest at the start of the road and at the end of the argument"
+      }
+    ]
+  }
+}

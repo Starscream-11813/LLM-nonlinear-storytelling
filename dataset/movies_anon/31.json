@@ -1,0 +1,874 @@
+{
+  "story_id": "S31",
+  "source_index": 31,
+  "genre": "Sci-Fi, Action, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Time travel exists in the future, is outlawed, and is used only by syndicates to send victims thirty years back to closers waiting in prairie cornfields.",
+    "Wilder kills the hooded men sent to him, collects his silver, takes eyedrop narcotics and banks half his pay for a new life in the old capital.",
+    "Wilder's handler Sarn tells him to learn the eastern language and go east instead.",
+    "Wilder's friend Roan lets his own older self run, and Sarn's men carve messages into young Roan until the old one is drawn back and killed.",
+    "Wilder gives up Roan's hiding place to Sarn to get his silver back.",
+    "Wilder's older self arrives in the cornfield without a hood, knocks him out and escapes, leaving the loop unclosed.",
+    "In the thirty years between, Wilder survives the east, becomes an enforcer, meets a woman and gives up the drugs for her.",
+    "The Reaper's men come for Wilder, kill his wife in the raid, and send him back to be closed.",
+    "Sarn's men take Wilder's silver and hunt both versions of him across the city.",
+    "The older Wilder wipes out a squad of gunmen in a diner ambush and tells his younger self he means to kill the child who will grow up to be the Reaper.",
+    "Wilder takes the map of three candidate children and drives out to the prairie farm of Tessa and her son Nim.",
+    "Nim, a telekinetic child, kills a farmhand in a rage, and Tessa admits she is his mother and left him for years.",
+    "The older Wilder hunts down and kills the first two children on his list.",
+    "The enforcer Skid and Sarn's men trace Wilder to the farm and are torn apart by Nim.",
+    "The older Wilder reaches the farm to kill Nim and shoots Tessa instead.",
+    "Wilder sees that Nim will become the Reaper if he watches his mother die, and shoots himself in the chest, erasing his older self.",
+    "Tessa lives, and holds her son in the road."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    13
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "Forward apart from one earlier insertion: the montage of the thirty years the older man lived between the two ends of his own loop.",
+  "syuzhet_notes": "The film runs mostly forward, and its one large displacement is told-order bullets 9-10: a montage of the thirty years the older man lived between the two ends of his own loop, dropped into the middle of the runtime to explain why he is running. Before that, the film also plays one version of the cornfield meeting in which the loop is closed and those years are lived out, then rewinds and plays the version in which it is not.",
+  "fabula_notes": "Time travel makes a strict chronology ambiguous here - the older man's memories change as his younger self acts, and the thirty years in bullets 7-8 are erased outright by bullet 16 - so the ordering follows each character's personal timeline rather than a single world clock. The discarded branch is folded into bullets 7-8.",
+  "story_graph": {
+    "characters": {
+      "Wilder": {
+        "archetype": "Hero"
+      },
+      "Sarn": {
+        "archetype": "Threshold Guardian"
+      },
+      "Roan": {
+        "archetype": "Ally"
+      },
+      "Tessa": {
+        "archetype": "Ally"
+      },
+      "Nim": {
+        "archetype": "Shadow"
+      },
+      "Skid": {
+        "archetype": "Shadow"
+      },
+      "Wilder's wife": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the syndicates",
+          "use",
+          "time travel"
+        ],
+        "content": "It is invented, outlawed within a year, and then used by exactly one kind of customer: people who need a body to have never existed, sent thirty years back to a field where somebody is waiting.",
+        "participants": [
+          "Sarn"
+        ],
+        "location": "the future, and a prairie field",
+        "pre": {},
+        "post": {
+          "time_travel_exists": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Sarn",
+            "the machinery, and the job it creates"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what does it take to close a loop?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Wilder",
+          "closes",
+          "his loops"
+        ],
+        "content": "A tarpaulin, a blunderbuss, a hooded man appearing on the cloth at the appointed second, and bars of silver strapped to the back. Half goes to a bank, the rest goes up his nose.",
+        "participants": [
+          "Wilder"
+        ],
+        "location": "a prairie cornfield",
+        "pre": {
+          "time_travel_exists": true
+        },
+        "post": {
+          "wilder_closing": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Wilder",
+            "the work, and what he is saving for"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Sarn",
+          "tells",
+          "Wilder to go east"
+        ],
+        "content": "The handler looks at the language books on the table and says the wrong continent, and that if he wants a life afterwards he should be learning the other alphabet.",
+        "participants": [
+          "Wilder",
+          "Sarn"
+        ],
+        "location": "a city apartment",
+        "pre": {
+          "wilder_closing": true
+        },
+        "post": {
+          "told_to_go_east": true
+        },
+        "learns": {
+          "reader": [
+            "the advice, which the ending turns out to have depended on"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Roan",
+          "lets",
+          "his older self run"
+        ],
+        "content": "He cannot pull the trigger on his own face. His employers do not kill him for it; they take the younger one into a room and start writing on him until the older one walks back in on his own.",
+        "participants": [
+          "Wilder",
+          "Roan",
+          "Sarn"
+        ],
+        "location": "a warehouse in the city",
+        "pre": {
+          "wilder_closing": true
+        },
+        "post": {
+          "roan_let_his_self_run": true
+        },
+        "learns": {
+          "Wilder": [
+            "what happens to a closer who fails"
+          ],
+          "reader": [
+            "intro:Roan",
+            "the rule, demonstrated on somebody else first"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "what happens to a closer who lets his older self go?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Wilder",
+          "gives up",
+          "Roan"
+        ],
+        "content": "They have his silver and he wants it back, so he says the address out loud in a room full of people who will use it, and does not stay to watch.",
+        "participants": [
+          "Wilder",
+          "Roan",
+          "Sarn"
+        ],
+        "location": "a warehouse in the city",
+        "pre": {
+          "roan_let_his_self_run": true
+        },
+        "post": {
+          "wilder_informed": true
+        },
+        "learns": {
+          "reader": [
+            "what he is, established before the film asks us to want him to win"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the older Wilder",
+          "escapes",
+          "the field"
+        ],
+        "content": "The man on the tarpaulin has no hood and no ties, and he is looking straight at the barrel and moving before it comes up. The younger one wakes with his loop wide open.",
+        "participants": [
+          "Wilder"
+        ],
+        "location": "a prairie cornfield",
+        "pre": {
+          "wilder_informed": true
+        },
+        "post": {
+          "loop_left_open": true
+        },
+        "learns": {
+          "reader": [
+            "the failure the whole film runs on"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why did the old man run?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Wilder",
+          "lives",
+          "thirty years"
+        ],
+        "content": "The east, and surviving it. Then work of a kind that does not have a name, and then a woman in a doorway who takes the drops out of his hand and throws them away, and years of being clean.",
+        "participants": [
+          "Wilder",
+          "Wilder's wife"
+        ],
+        "location": "the east, over thirty years",
+        "pre": {
+          "told_to_go_east": true
+        },
+        "post": {
+          "thirty_years_lived": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Wilder's wife",
+            "what the man he becomes has to lose"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the Reaper's men",
+          "kill",
+          "Wilder's wife"
+        ],
+        "content": "They come through the house for him and she is in the way of it. He kills four of them with her on the floor behind him, and they put the hood on him anyway.",
+        "participants": [
+          "Wilder",
+          "Wilder's wife"
+        ],
+        "location": "a house in the east",
+        "pre": {
+          "thirty_years_lived": true
+        },
+        "post": {
+          "wife_dead": true,
+          "old_wilder_sent_back": true
+        },
+        "learns": {
+          "Wilder": [
+            "a name, and a reason to be sent back on purpose"
+          ],
+          "reader": [
+            "the motive for everything he does after the cornfield"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Sarn's men",
+          "hunt",
+          "both Wilders"
+        ],
+        "content": "The silver goes out of the floor safe and the apartment door goes off its hinges, and after that there are two versions of one man being looked for by the same people in the same city.",
+        "participants": [
+          "Wilder",
+          "Sarn",
+          "Skid"
+        ],
+        "location": "the city",
+        "pre": {
+          "loop_left_open": true
+        },
+        "post": {
+          "both_hunted": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Skid",
+            "the chase, with the quarry doubled"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the older Wilder",
+          "states",
+          "his intention"
+        ],
+        "content": "He kills a room of gunmen in a diner and sits down opposite himself with the coffee going cold, and says that somewhere in this city there is a child who will grow up to run everything.",
+        "participants": [
+          "Wilder"
+        ],
+        "location": "a roadside diner",
+        "pre": {
+          "both_hunted": true
+        },
+        "post": {
+          "intention_stated": true
+        },
+        "learns": {
+          "reader": [
+            "what the old man wants, and how little the young one cares"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q1": "why would a man want to kill a child?",
+          "q2": "why did he not simply take the silver and go quietly?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Wilder",
+          "drives",
+          "to the farm"
+        ],
+        "content": "Three dates of birth on a map, three addresses, and he takes the middle one because it is furthest out, and finds a cane field, a shotgun and a woman who will not let him past the porch.",
+        "participants": [
+          "Wilder",
+          "Tessa",
+          "Nim"
+        ],
+        "location": "a prairie farm",
+        "pre": {
+          "intention_stated": true
+        },
+        "post": {
+          "at_the_farm": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Tessa",
+            "intro:Nim",
+            "the third strand of the film opens"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "which of the three is the one he is looking for?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Nim",
+          "kills",
+          "a farmhand"
+        ],
+        "content": "The boy has a tantrum and a man comes apart in the air above the yard. Afterwards his mother says the word she has been avoiding, which is that she is his mother and that she was not there for years.",
+        "participants": [
+          "Tessa",
+          "Nim"
+        ],
+        "location": "a prairie farm",
+        "pre": {
+          "at_the_farm": true
+        },
+        "post": {
+          "nim_revealed": true
+        },
+        "learns": {
+          "Wilder": [
+            "the child is the one"
+          ],
+          "reader": [
+            "the boy's power, and the wound underneath it"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q6": "what turns the boy into what he becomes?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the older Wilder",
+          "kills",
+          "two children"
+        ],
+        "content": "He works the list in order. Two front doors, two mothers, two small bodies, and a man crossing names off a page in a car afterwards.",
+        "participants": [
+          "Wilder"
+        ],
+        "location": "two houses in the city",
+        "pre": {
+          "intention_stated": true
+        },
+        "post": {
+          "two_children_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the cost of the old man's certainty, paid by other people"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "will he reach the third child?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Skid",
+          "reaches",
+          "the farm"
+        ],
+        "content": "The enforcer comes up the track with men behind him, and the boy comes out onto the porch, and afterwards there is very little left of any of them.",
+        "participants": [
+          "Wilder",
+          "Tessa",
+          "Nim",
+          "Skid"
+        ],
+        "location": "a prairie farm",
+        "pre": {
+          "nim_revealed": true
+        },
+        "post": {
+          "skid_dead": true
+        },
+        "learns": {
+          "reader": [
+            "what the child does when he is frightened"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the older Wilder",
+          "shoots",
+          "Tessa"
+        ],
+        "content": "He gets to the last address on the list with the boy in the open. She puts herself between them, as she was always going to, and he fires anyway.",
+        "participants": [
+          "Wilder",
+          "Tessa",
+          "Nim"
+        ],
+        "location": "a prairie farm",
+        "pre": {
+          "two_children_dead": true
+        },
+        "post": {
+          "tessa_shot": true
+        },
+        "learns": {
+          "reader": [
+            "the old man does the thing that makes the future he came to prevent"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Wilder",
+          "shoots",
+          "himself"
+        ],
+        "content": "He watches the boy watch his mother die and sees the whole thirty years arrive in one second, and puts the barrel against his own chest, which removes the old man from the road.",
+        "participants": [
+          "Wilder",
+          "Tessa",
+          "Nim"
+        ],
+        "location": "a prairie farm",
+        "pre": {
+          "tessa_shot": true
+        },
+        "post": {
+          "wilder_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the loop closed by the only person who could close it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4",
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Tessa",
+          "holds",
+          "her son"
+        ],
+        "content": "She is on her knees in the dirt of the road with the boy's face in her shoulder, and both of them are alive, which is the whole of what was won.",
+        "participants": [
+          "Tessa",
+          "Nim"
+        ],
+        "location": "a prairie road",
+        "pre": {
+          "wilder_dead": true
+        },
+        "post": {
+          "tessa_alive": true
+        },
+        "learns": {
+          "reader": [
+            "the outcome, stated without triumph"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the field where the bodies arrive"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the closer and the man who handles him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4",
+        "on": "two closers, one of whom cannot do it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the friend given up"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the silver, taken back and then lost again"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e7",
+        "on": "the advice about the east and the thirty years spent there"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the wife, found and then killed"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e9",
+        "on": "the open loop and the hunt it starts"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the two versions of one man, hunted and then talking"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e13",
+        "on": "the list of three children"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the map, stated and then driven"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the farm and what is on it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "the boy's power, shown twice"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e15",
+        "on": "the list, worked to the end"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the mother between the gun and the child"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the road afterwards"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e16",
+        "on": "one wife killed in the future and one mother saved in the past"
+      }
+    ]
+  }
+}

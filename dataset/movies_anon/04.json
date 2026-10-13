@@ -1,0 +1,1029 @@
+{
+  "story_id": "S04",
+  "source_index": 4,
+  "genre": "Crime, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "In a hill village in the old country, the local strongman Peppino has Emilio Nardi's father and brother killed and sends his men after the nine-year-old boy.",
+    "Emilio's mother is shot dead bargaining for his life, and the boy is smuggled overseas and renamed Emilio Rocca at the immigration station.",
+    "Grown up in the immigrant quarter, Emilio loses his grocery job when the extortionist Serafino forces the owner to hire his nephew instead.",
+    "Bruno draws Emilio into hiding a cache of guns and then into stealing a rug, beginning their partnership.",
+    "Serafino demands a cut of the young men's take, and Emilio persuades Bruno and Aldo to let him handle it his own way.",
+    "During the neighbourhood festival Emilio shoots Serafino dead on his own staircase and quietly assumes his place as the local protector.",
+    "Emilio builds an olive oil importing company and settles neighbourhood grievances, forcing an old widow's landlord to back down.",
+    "Emilio sails back to the old country and guts the aged Peppino with a knife, closing the vendetta.",
+    "The family gathers to surprise Emilio on his birthday, and his youngest son Dante announces he has enlisted in the infantry.",
+    "At the lake house decades later, Dante conducts business through his son's first communion party while his sister Rosa asks leave to marry a man named Wynn.",
+    "Franco Ventresca complains that the Fossi brothers, protected by Aaron Held, are taking his city territory.",
+    "Gunmen fire into Dante and Claire's bedroom, and Dante concludes the order came from inside his own house.",
+    "Dante tells Held in the south and Ventresca in the city that he blames the other, setting the two men against each other.",
+    "The Fossis garrotte Ventresca in a bar and flee when a policeman walks in, leaving him alive.",
+    "In the island capital, Dante watches Held's partners carve up the country and has Held's man Nico Ferra strangled in his hotel room.",
+    "Dante's brother Sandro lets slip that he already knew Ferra, and Dante kisses him and disowns him as the island's government collapses around them.",
+    "Home again, Dante learns Claire has lost the baby and that Ventresca survived and is talking to federal agents.",
+    "At the legislative hearing Ventresca recants his testimony when Dante seats his brother from the old country in the gallery behind him.",
+    "Claire tells Dante the miscarriage was an abortion and that she is leaving; he strikes her and keeps the children.",
+    "After their mother's funeral Dante has Held shot at an airport, Ventresca persuaded to open his veins, and Sandro shot on the lake."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    10,
+    11,
+    12,
+    3,
+    4,
+    13,
+    14,
+    5,
+    6,
+    7,
+    15,
+    16,
+    17,
+    18,
+    19,
+    8,
+    20,
+    9
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "The father's rise and the son's decline alternate on a regular beat, both progressing forward, paired throughout by contrast.",
+  "syuzhet_notes": "The film braids two threads. Told-order bullets 1, 2, 6, 7, 10, 11, 12 and 18 belong to the father's story and are flashbacks relative to the son's present, which the rest occupy. The final told-order bullet is a further flashback, to a birthday decades before the present, placed after the chronologically latest scene in the film so that the son's isolation is the last image.",
+  "fabula_notes": "The father's rise between the killing of the extortionist and the founding of the import company is compressed rather than dramatised, as is the long gap between his revenge in the old country and the birthday gathering. Who ordered the bedroom shooting is inferred by the son rather than shown.",
+  "story_graph": {
+    "characters": {
+      "Dante": {
+        "archetype": "Hero"
+      },
+      "Emilio": {
+        "archetype": "Mentor"
+      },
+      "Peppino": {
+        "archetype": "Shadow"
+      },
+      "Serafino": {
+        "archetype": "Shadow"
+      },
+      "Bruno": {
+        "archetype": "Ally"
+      },
+      "Aldo": {
+        "archetype": "Ally"
+      },
+      "Emilio's mother": {
+        "archetype": "Herald"
+      },
+      "Claire": {
+        "archetype": "Ally"
+      },
+      "Rosa": {
+        "archetype": "Ally"
+      },
+      "Wynn": {
+        "archetype": "Ally"
+      },
+      "Ventresca": {
+        "archetype": "Shapeshifter"
+      },
+      "Held": {
+        "archetype": "Shadow"
+      },
+      "Ferra": {
+        "archetype": "Threshold Guardian"
+      },
+      "Sandro": {
+        "archetype": "Shapeshifter"
+      },
+      "the Fossi brothers": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Peppino",
+          "kills",
+          "Emilio's family"
+        ],
+        "content": "In a stone village on a dry hillside the man who owns the district has a father and an older son shot for an insult nobody can now name, and sends word that the nine-year-old is to be found as well.",
+        "participants": [
+          "Peppino",
+          "Emilio"
+        ],
+        "location": "a hill village in the old country",
+        "pre": {},
+        "post": {
+          "emilios_father_and_brother_dead": true,
+          "boy_hunted": true
+        },
+        "learns": {
+          "Emilio": [
+            "his father and brother are dead"
+          ],
+          "reader": [
+            "intro:Peppino",
+            "intro:Emilio",
+            "a child is left owing a debt he cannot pay"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Emilio's mother",
+          "dies",
+          "for her son"
+        ],
+        "content": "She walks up to the man's house to bargain and is shot on his own steps. Neighbours put the boy in the bottom of a cart, and at the immigration hall a clerk writes down the name of his village as his surname.",
+        "participants": [
+          "Emilio",
+          "Emilio's mother"
+        ],
+        "location": "a hill village and an immigration station",
+        "pre": {
+          "boy_hunted": true
+        },
+        "post": {
+          "emilios_mother_dead": true,
+          "emilio_overseas": true,
+          "emilio_renamed": true
+        },
+        "learns": {
+          "Emilio": [
+            "there is nobody left behind him"
+          ],
+          "reader": [
+            "the boy arrives in a new country under a name that is not his"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Serafino",
+          "takes",
+          "Emilio's job"
+        ],
+        "content": "The man who takes a cut of every business on the street tells the grocer his nephew needs work. The grocer apologises to the young man who has swept his floor for six years and lets him go.",
+        "participants": [
+          "Emilio",
+          "Serafino"
+        ],
+        "location": "a grocery in the immigrant quarter",
+        "pre": {
+          "emilio_overseas": true
+        },
+        "post": {
+          "emilio_jobless": true
+        },
+        "learns": {
+          "Emilio": [
+            "the street belongs to a man who has never worked on it"
+          ],
+          "reader": [
+            "intro:Serafino",
+            "protection here is a tax, not a service"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Bruno",
+          "recruits",
+          "Emilio"
+        ],
+        "content": "A neighbour asks him to keep a bundle under his floor for a night and does not say what is in it. A week later the two of them are carrying a rolled carpet down a fire escape.",
+        "participants": [
+          "Emilio",
+          "Bruno"
+        ],
+        "location": "a tenement in the immigrant quarter",
+        "pre": {
+          "emilio_jobless": true
+        },
+        "post": {
+          "emilio_and_bruno_partnered": true
+        },
+        "learns": {
+          "Emilio": [
+            "there is money in the space the law does not reach"
+          ],
+          "reader": [
+            "intro:Bruno",
+            "the partnership starts small and casual"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Serafino",
+          "demands",
+          "a cut"
+        ],
+        "content": "The same man comes to the three of them and names a share. Emilio tells his partners to give him the money and let him take it round personally, and to ask no questions about how it goes.",
+        "participants": [
+          "Emilio",
+          "Serafino",
+          "Bruno",
+          "Aldo"
+        ],
+        "location": "a street in the immigrant quarter",
+        "pre": {
+          "emilio_and_bruno_partnered": true
+        },
+        "post": {
+          "serafino_demanding_a_cut": true
+        },
+        "learns": {
+          "Bruno": [
+            "Emilio intends something other than paying"
+          ],
+          "reader": [
+            "intro:Aldo",
+            "Emilio prefers to be underestimated and to act alone"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Emilio",
+          "kills",
+          "Serafino"
+        ],
+        "content": "While the street is full of candles and a band, Emilio goes over the rooftops, waits on the landing, and shoots the man twice as he comes up his own stairs. By the following week people are bringing Emilio their problems.",
+        "participants": [
+          "Emilio",
+          "Serafino"
+        ],
+        "location": "a tenement staircase",
+        "pre": {
+          "serafino_demanding_a_cut": true
+        },
+        "post": {
+          "serafino_dead": true,
+          "emilio_is_the_protector": true
+        },
+        "learns": {
+          "Emilio": [
+            "a position is taken, not asked for"
+          ],
+          "reader": [
+            "the quarter now has a new man to go to"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Emilio",
+          "builds",
+          "the company"
+        ],
+        "content": "The olive oil business grows out of the favours. He talks a landlord out of evicting an old woman without raising his voice, and the story of it does more for him than the oil.",
+        "participants": [
+          "Emilio"
+        ],
+        "location": "the immigrant quarter",
+        "pre": {
+          "emilio_is_the_protector": true
+        },
+        "post": {
+          "import_company_built": true
+        },
+        "learns": {
+          "reader": [
+            "the family's money and its authority are built together, out of grievances"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Emilio",
+          "kills",
+          "Peppino"
+        ],
+        "content": "He goes back across the water as a prosperous importer, is taken to see a very old man in a wheelchair, gives his own name and his father's, and opens him from the hip to the ribs with a knife.",
+        "participants": [
+          "Emilio",
+          "Peppino"
+        ],
+        "location": "a hill village in the old country",
+        "pre": {
+          "emilios_father_and_brother_dead": true,
+          "import_company_built": true
+        },
+        "post": {
+          "peppino_dead": true,
+          "vendetta_closed": true
+        },
+        "learns": {
+          "Peppino": [
+            "who the visitor is"
+          ],
+          "reader": [
+            "the debt opened in the first scene is closed by hand"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Dante",
+          "enlists",
+          "in the infantry"
+        ],
+        "content": "The whole family is behind the door waiting to surprise the old man when he comes in. Before he arrives, his youngest son mentions to the table that he has signed up, and the room goes quiet.",
+        "participants": [
+          "Dante",
+          "Emilio",
+          "Sandro"
+        ],
+        "location": "the family dining room",
+        "pre": {
+          "import_company_built": true
+        },
+        "post": {
+          "dante_enlisted": true
+        },
+        "learns": {
+          "Emilio": [
+            "his youngest has refused the life he built"
+          ],
+          "reader": [
+            "intro:Dante",
+            "intro:Sandro",
+            "the son chose out before he chose in"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Dante",
+          "conducts",
+          "business at the party"
+        ],
+        "content": "Decades later, at a lake house with a marquee on the lawn, the son takes petitioners one at a time in a dark study while a child's first communion goes on outside, and his sister asks his permission to marry.",
+        "participants": [
+          "Dante",
+          "Rosa",
+          "Wynn"
+        ],
+        "location": "the lake house",
+        "pre": {
+          "import_company_built": true,
+          "dante_enlisted": true
+        },
+        "post": {
+          "dante_heads_the_family": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rosa",
+            "intro:Wynn",
+            "the son now runs what the father built"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "how did this family come to own a lake and a marquee?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Ventresca",
+          "complains",
+          "about the Fossis"
+        ],
+        "content": "A heavy old man from the city stands in the study saying that two brothers are eating his blocks one at a time and that they are being held over him by somebody in the south, and asks to be allowed to answer them.",
+        "participants": [
+          "Dante",
+          "Ventresca"
+        ],
+        "location": "the lake house study",
+        "pre": {
+          "dante_heads_the_family": true
+        },
+        "post": {
+          "ventresca_aggrieved": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ventresca",
+            "intro:Held",
+            "intro:the Fossi brothers",
+            "the city organisation is being squeezed with outside protection"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why does a man of his age have to ask this family's permission at all?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "gunmen",
+          "fire",
+          "into the bedroom"
+        ],
+        "content": "The curtains come apart at two in the morning and the wall behind the bed opens up. Nobody outside could have known which window, or that the shutters would be unlocked.",
+        "participants": [
+          "Dante",
+          "Claire"
+        ],
+        "location": "the lake house bedroom",
+        "pre": {
+          "dante_heads_the_family": true
+        },
+        "post": {
+          "dante_suspects_his_own_house": true
+        },
+        "learns": {
+          "Dante": [
+            "somebody inside the house opened it"
+          ],
+          "reader": [
+            "intro:Claire",
+            "the danger is domestic"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "which member of the household let them in?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Dante",
+          "sets",
+          "his enemies against each other"
+        ],
+        "content": "He tells the old man in the city that the order came from the south, and tells the man in the south that the old man is unreliable, and then sits still and lets each of them act on what he has been given.",
+        "participants": [
+          "Dante",
+          "Ventresca",
+          "Held"
+        ],
+        "location": "the city and the south",
+        "pre": {
+          "dante_suspects_his_own_house": true,
+          "ventresca_aggrieved": true
+        },
+        "post": {
+          "held_and_ventresca_set_against_each_other": true
+        },
+        "learns": {
+          "reader": [
+            "the son fights by arranging other people's certainties"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "where does a man learn to fight a war by telling two men the same lie backwards?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the Fossi brothers",
+          "garrotte",
+          "Ventresca"
+        ],
+        "content": "They get the wire round him in the back of a bar with the shutters down, and are still pulling when a uniform walks in off the street for cigarettes. They go out of the back and leave him on the floor breathing.",
+        "participants": [
+          "Ventresca",
+          "the Fossi brothers"
+        ],
+        "location": "a bar in the city",
+        "pre": {
+          "held_and_ventresca_set_against_each_other": true
+        },
+        "post": {
+          "ventresca_alive_and_afraid": true
+        },
+        "learns": {
+          "Ventresca": [
+            "the family he trusted sold him"
+          ],
+          "reader": [
+            "the intended corpse survives, believing he was betrayed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Dante",
+          "kills",
+          "Ferra"
+        ],
+        "content": "In a hot capital where the government is being auctioned by the slice, the son watches his partner's men take their cut and has the partner's fixer held down on a hotel bed with a pillow over his face.",
+        "participants": [
+          "Dante",
+          "Ferra",
+          "Held"
+        ],
+        "location": "the island capital",
+        "pre": {
+          "held_and_ventresca_set_against_each_other": true
+        },
+        "post": {
+          "ferra_dead": true
+        },
+        "learns": {
+          "Held": [
+            "the arrangement is finished"
+          ],
+          "reader": [
+            "intro:Ferra",
+            "the alliance in the south is over"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Sandro",
+          "betrays",
+          "Dante"
+        ],
+        "content": "In a nightclub full of people who do not know the city is falling, the brother says he knows the dead fixer, and how, and cannot take it back. The son puts both hands on his face, kisses him, and tells him what he is now.",
+        "participants": [
+          "Dante",
+          "Sandro"
+        ],
+        "location": "the island capital",
+        "pre": {
+          "ferra_dead": true
+        },
+        "post": {
+          "sandro_disowned": true,
+          "dante_suspects_his_own_house": false
+        },
+        "learns": {
+          "Dante": [
+            "his own brother opened the shutters"
+          ],
+          "reader": [
+            "the domestic traitor is named"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Dante",
+          "learns",
+          "of the miscarriage"
+        ],
+        "content": "He comes home to two pieces of news in the same hour: there is no child, and the old man from the city did not die and has been sitting in a federal office for a fortnight.",
+        "participants": [
+          "Dante",
+          "Claire"
+        ],
+        "location": "the lake house",
+        "pre": {
+          "ventresca_alive_and_afraid": true
+        },
+        "post": {
+          "claire_lost_the_baby": true,
+          "ventresca_talking_to_agents": true
+        },
+        "learns": {
+          "Dante": [
+            "the pregnancy ended and the witness lived"
+          ],
+          "reader": [
+            "both of the son's houses are failing at once"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what actually happened to the child?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Ventresca",
+          "recants",
+          "his testimony"
+        ],
+        "content": "At the hearing the witness looks up at the gallery and finds his own brother sitting there in a bad suit, brought over for the occasion. He tells the committee he read the whole story in a newspaper.",
+        "participants": [
+          "Dante",
+          "Ventresca"
+        ],
+        "location": "the legislative hearing",
+        "pre": {
+          "ventresca_talking_to_agents": true
+        },
+        "post": {
+          "ventresca_recanted": true
+        },
+        "learns": {
+          "reader": [
+            "the case collapses without a word being spoken to the witness"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Claire",
+          "leaves",
+          "Dante"
+        ],
+        "content": "She tells him there was no miscarriage, that she had it taken out to stop anything else of his coming into the world, and that she is going. He hits her, and keeps the children.",
+        "participants": [
+          "Dante",
+          "Claire"
+        ],
+        "location": "the lake house",
+        "pre": {
+          "claire_lost_the_baby": true
+        },
+        "post": {
+          "claire_gone": true
+        },
+        "learns": {
+          "Dante": [
+            "the pregnancy was ended deliberately"
+          ],
+          "reader": [
+            "the marriage ends in the same room the business is run from"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Dante",
+          "kills",
+          "his enemies"
+        ],
+        "content": "Their mother is buried on a grey morning, and after it the man in the south is shot walking through an airport, the witness is talked into a warm bath, and the brother goes out on the lake in a boat with somebody else at the oars.",
+        "participants": [
+          "Dante",
+          "Held",
+          "Ventresca",
+          "Sandro"
+        ],
+        "location": "an airport, a cell and the lake",
+        "pre": {
+          "sandro_disowned": true,
+          "ventresca_recanted": true
+        },
+        "post": {
+          "held_dead": true,
+          "ventresca_dead": true,
+          "sandro_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the son settles every account and has nobody left"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11",
+        "on": "a man losing his living to somebody with better protection"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e20"
+      }
+    ]
+  }
+}

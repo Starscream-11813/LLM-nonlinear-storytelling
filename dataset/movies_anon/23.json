@@ -1,0 +1,1031 @@
+{
+  "story_id": "S23",
+  "source_index": 23,
+  "genre": "Drama, Fantasy, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "In the year the great war ended, the blind clockmaker Ferrier builds a station clock that runs backwards, in memory of the son it took from him.",
+    "On the night the war ends, the manufacturer Ellis Wray's wife dies in childbirth and he abandons the baby - an infant with the body of an old man - on the steps of a nursing home.",
+    "Odessa, who runs the home, takes Amos in and raises him among the elderly residents.",
+    "Amos, apparently in his eighties, gets out of his wheelchair and walks.",
+    "Amos meets six-year-old Clara, the granddaughter of a resident, and the two become inseparable.",
+    "Amos takes work on a tugboat skippered by a man called Rook and leaves the river city for the first time.",
+    "Wintering in a northern port, Amos has an affair with Eleanor Trask, the wife of a trade official.",
+    "The tug is drafted into the next war and Rook and most of the crew are killed ramming a submarine.",
+    "Amos comes home, and Ellis Wray reveals himself as his father and leaves him the fastener factory.",
+    "Clara, now a dancer in the capital, visits, and Amos turns her down as too young for him.",
+    "Clara's leg is shattered by a car abroad and she refuses Amos's help.",
+    "Her dancing over, Clara comes back to the river city, and she and Amos finally meet in the middle of their lives.",
+    "Odessa dies, and Amos and Clara sell up and live together on a boat and then in a house of their own.",
+    "Their daughter Josie is born, and Amos, visibly younger every year, decides she cannot have a father who will become her brother.",
+    "Amos signs everything over to Clara and leaves.",
+    "Clara marries again and raises Josie, while Amos travels the world alone and sends postcards.",
+    "Amos comes back once, in his twenties, and spends a night with Clara before leaving again.",
+    "Decades later Clara is called to collect a boy found in a derelict building with Amos's diary, and cares for him as he forgets everything.",
+    "Amos dies in Clara's arms as an infant.",
+    "With a hurricane bearing down on the coast, Josie finishes reading the diary to her dying mother and learns who her father was, while the backwards clock sits in a flooding storage room."
+  ],
+  "syuzhet_order": [
+    20,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    14,
+    15,
+    16,
+    16,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The hospital room is the narrating frame, and the entire life after it is a diary read aloud in chronological order.",
+  "syuzhet_notes": "This is a frame narrative rather than a shuffled one: told-order bullet 1 is the hospital room in the present, and everything after it is the contents of a diary read aloud in chronological order. The frame is not confined to the opening - it interrupts the diary repeatedly across the runtime, so the present-day material recurs where a single ordering can place it only once. What runs backwards in this film is the protagonist's body, not the telling.",
+  "fabula_notes": "The protagonist ages in reverse, so his apparent age and his actual age move in opposite directions throughout; the ordering here follows chronological time rather than how old he looks. The years covered by the postcards are a montage, and the daughter's discovery of her parentage belongs to the frame's own present rather than to the diary.",
+  "story_graph": {
+    "characters": {
+      "Amos": {
+        "archetype": "Hero"
+      },
+      "Clara": {
+        "archetype": "Ally"
+      },
+      "Odessa": {
+        "archetype": "Mentor"
+      },
+      "Josie": {
+        "archetype": "Herald"
+      },
+      "Ellis": {
+        "archetype": "Shadow"
+      },
+      "Rook": {
+        "archetype": "Mentor"
+      },
+      "Eleanor": {
+        "archetype": "Shapeshifter"
+      },
+      "Ferrier": {
+        "archetype": "Mentor"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Ferrier",
+          "builds",
+          "a backwards clock"
+        ],
+        "content": "A blind man hangs a station clock that runs the wrong way and tells the assembled dignitaries that he made it so, in the hope that the boys who did not come home might walk back off the boats.",
+        "participants": [
+          "Ferrier"
+        ],
+        "location": "a railway station in the river city",
+        "pre": {},
+        "post": {
+          "clock_built": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ferrier",
+            "a wish to run time backwards, stated in the first minute"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Ellis",
+          "abandons",
+          "the baby"
+        ],
+        "content": "His wife dies getting it out of her. What is in the blanket has the face and the hands of a man of eighty, and he carries it through the celebrating streets and puts it down on the back steps of a home for the old.",
+        "participants": [
+          "Ellis",
+          "Amos"
+        ],
+        "location": "the streets of the river city",
+        "pre": {
+          "clock_built": true
+        },
+        "post": {
+          "amos_abandoned": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ellis",
+            "intro:Amos",
+            "the premise, delivered without explanation"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "who left him on the steps, and why?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Odessa",
+          "raises",
+          "Amos"
+        ],
+        "content": "She looks at what is on the step and takes it inside without asking anyone. He grows up in a building where nobody is surprised by an old face and everybody is used to people leaving.",
+        "participants": [
+          "Odessa",
+          "Amos"
+        ],
+        "location": "a nursing home in the river city",
+        "pre": {
+          "amos_abandoned": true
+        },
+        "post": {
+          "amos_raised": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Odessa",
+            "he is raised among people who are going the other way"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Amos",
+          "walks",
+          "out of the chair"
+        ],
+        "content": "At a revival meeting in a tent a preacher tells him to get up, and to everyone's surprise including his own he does, and he does not sit down again for sixty years.",
+        "participants": [
+          "Amos",
+          "Odessa"
+        ],
+        "location": "a revival tent",
+        "pre": {
+          "amos_raised": true
+        },
+        "post": {
+          "amos_walking": true
+        },
+        "learns": {
+          "Amos": [
+            "his body is going the wrong way"
+          ],
+          "reader": [
+            "the rule of the film, demonstrated"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "will the two of them ever be the same age?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Amos",
+          "meets",
+          "Clara"
+        ],
+        "content": "A girl of six with red hair is visiting her grandmother and finds an old man under the table who talks to her like an equal, which he is.",
+        "participants": [
+          "Amos",
+          "Clara"
+        ],
+        "location": "a nursing home in the river city",
+        "pre": {
+          "amos_walking": true
+        },
+        "post": {
+          "clara_met": true
+        },
+        "learns": {
+          "Clara": [
+            "there is something wrong and wonderful about him"
+          ],
+          "reader": [
+            "intro:Clara",
+            "the two of them start at opposite ends"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what becomes of the girl with the red hair?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Amos",
+          "goes",
+          "to sea"
+        ],
+        "content": "A tug captain with tattoos and opinions takes him on, and he leaves the river city for the first time on a boat that hauls other boats.",
+        "participants": [
+          "Amos",
+          "Rook"
+        ],
+        "location": "a tugboat and the open sea",
+        "pre": {
+          "clara_met": true
+        },
+        "post": {
+          "amos_at_sea": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rook",
+            "he goes out into the world in the wrong body"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Amos",
+          "and Eleanor",
+          "have an affair"
+        ],
+        "content": "Iced-in for a winter in a northern port, he meets a diplomat's wife in a hotel kitchen at two in the morning, and neither of them mentions it in daylight.",
+        "participants": [
+          "Amos",
+          "Eleanor"
+        ],
+        "location": "a hotel in a northern port",
+        "pre": {
+          "amos_at_sea": true
+        },
+        "post": {
+          "affair_had": true
+        },
+        "learns": {
+          "Amos": [
+            "what it is to be wanted by someone who leaves"
+          ],
+          "reader": [
+            "intro:Eleanor",
+            "his first adult attachment, and it is temporary by design"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the tug",
+          "rams",
+          "the submarine"
+        ],
+        "content": "The boat is painted grey and given a gun it cannot really use. It ends with the captain full of holes and singing, and a hull going down, and one man in the water.",
+        "participants": [
+          "Amos",
+          "Rook"
+        ],
+        "location": "the north Atlantic",
+        "pre": {
+          "amos_at_sea": true
+        },
+        "post": {
+          "crew_dead": true
+        },
+        "learns": {
+          "Amos": [
+            "everyone he has worked beside is gone"
+          ],
+          "reader": [
+            "the war takes the crew and returns him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Ellis",
+          "reveals",
+          "himself"
+        ],
+        "content": "An old man who has been buying him drinks for a month says the word father, and hands over a house, a factory that makes buttons and fasteners, and no explanation worth the name.",
+        "participants": [
+          "Amos",
+          "Ellis"
+        ],
+        "location": "the river city",
+        "pre": {
+          "crew_dead": true
+        },
+        "post": {
+          "father_known": true
+        },
+        "learns": {
+          "Amos": [
+            "who left him on the step"
+          ],
+          "reader": [
+            "the abandonment, answered late and thinly"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Amos",
+          "turns",
+          "Clara down"
+        ],
+        "content": "She is a dancer in the capital now and comes back full of it, and offers herself to him in a restaurant, and he says she is too young, which is true in one direction only.",
+        "participants": [
+          "Amos",
+          "Clara"
+        ],
+        "location": "a restaurant in the river city",
+        "pre": {
+          "father_known": true
+        },
+        "post": {
+          "clara_refused": true
+        },
+        "learns": {
+          "Clara": [
+            "he will not have her"
+          ],
+          "reader": [
+            "they keep missing because they are moving in opposite directions"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "a car",
+          "shatters",
+          "Clara's leg"
+        ],
+        "content": "A street abroad, a taxi, a delivery van, and a dancer's leg in eight pieces. He gets on a plane and she will not see him, because she will not be looked at like that.",
+        "participants": [
+          "Amos",
+          "Clara"
+        ],
+        "location": "a hospital abroad",
+        "pre": {
+          "clara_refused": true
+        },
+        "post": {
+          "clara_injured": true
+        },
+        "learns": {
+          "reader": [
+            "her career ends, which is what makes the meeting possible"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Amos and Clara",
+          "meet",
+          "in the middle"
+        ],
+        "content": "She comes home, and for the first time they are the same age at the same moment, and they both know it will not last, and they take it anyway.",
+        "participants": [
+          "Amos",
+          "Clara"
+        ],
+        "location": "the river city",
+        "pre": {
+          "clara_injured": true
+        },
+        "post": {
+          "they_are_together": true
+        },
+        "learns": {
+          "reader": [
+            "the crossing point, arrived at halfway through the film"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Odessa",
+          "dies",
+          "in the home"
+        ],
+        "content": "The woman who picked him up off the step goes the ordinary way, in the ordinary building, and he sells what he owns and buys a boat and then a house with a porch.",
+        "participants": [
+          "Amos",
+          "Clara",
+          "Odessa"
+        ],
+        "location": "a nursing home and a house by the water",
+        "pre": {
+          "they_are_together": true
+        },
+        "post": {
+          "odessa_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the last person from the beginning is gone"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Josie",
+          "is born",
+          "to Amos and Clara"
+        ],
+        "content": "A daughter, and a father who checks her against himself every morning and finds the gap closing from both ends. He works out what he will be when she is twelve, and what she would have to do about it.",
+        "participants": [
+          "Amos",
+          "Clara",
+          "Josie"
+        ],
+        "location": "a house by the water",
+        "pre": {
+          "odessa_dead": true
+        },
+        "post": {
+          "josie_born": true
+        },
+        "learns": {
+          "Amos": [
+            "he will be a boy before she is a woman"
+          ],
+          "reader": [
+            "intro:Josie",
+            "the arithmetic that ends the marriage"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q7": "what will he do about the child?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Amos",
+          "signs",
+          "everything over"
+        ],
+        "content": "He puts the house and the money in her name, packs one bag, and goes while it is still possible for a child to remember him as a father rather than as a brother.",
+        "participants": [
+          "Amos",
+          "Clara",
+          "Josie"
+        ],
+        "location": "a house by the water",
+        "pre": {
+          "josie_born": true
+        },
+        "post": {
+          "amos_gone": true
+        },
+        "learns": {
+          "Clara": [
+            "he is leaving, and why"
+          ],
+          "reader": [
+            "the decision the whole condition was building towards"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Clara",
+          "raises",
+          "Josie alone"
+        ],
+        "content": "She marries a kind man, opens a dance studio, and brings the girl up on postcards from places whose stamps get stranger as the handwriting gets rounder.",
+        "participants": [
+          "Clara",
+          "Josie",
+          "Amos"
+        ],
+        "location": "the river city, and everywhere else",
+        "pre": {
+          "amos_gone": true
+        },
+        "post": {
+          "clara_remarried": true
+        },
+        "learns": {
+          "reader": [
+            "two lives running in opposite directions, kept in touch by postcard"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "where does he end up?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Amos",
+          "comes back",
+          "once"
+        ],
+        "content": "A young man on a motorcycle outside a dance studio, twenty years old and forty years past it. One night, and both of them agree in the morning that it cannot be repeated.",
+        "participants": [
+          "Amos",
+          "Clara"
+        ],
+        "location": "the river city",
+        "pre": {
+          "clara_remarried": true
+        },
+        "post": {
+          "one_last_night": true
+        },
+        "learns": {
+          "reader": [
+            "the last time they are able to meet as adults"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Clara",
+          "collects",
+          "the boy"
+        ],
+        "content": "A telephone call about a child found in a derelict building with a diary and no name. She takes him home, and over a few years he forgets his words, and then her, and then everything.",
+        "participants": [
+          "Clara",
+          "Amos"
+        ],
+        "location": "a derelict building and a nursing home",
+        "pre": {
+          "one_last_night": true
+        },
+        "post": {
+          "amos_found_again": true
+        },
+        "learns": {
+          "Clara": [
+            "she will bury him as a child"
+          ],
+          "reader": [
+            "the condition's end, which is not romantic"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Amos",
+          "dies",
+          "in Clara's arms"
+        ],
+        "content": "He is an infant in a blanket, and he looks up at a very old woman with his own eyes for a moment, and then he does not.",
+        "participants": [
+          "Clara",
+          "Amos"
+        ],
+        "location": "a nursing home in the river city",
+        "pre": {
+          "amos_found_again": true
+        },
+        "post": {
+          "amos_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the last image of him, which is also the first"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Josie",
+          "finishes",
+          "the diary"
+        ],
+        "content": "The wind is taking the windows out of the ward. She reads the last page aloud to a woman who can no longer answer, and finds out whose daughter she is, while below the city a clock nobody has wound in years sits in a flooding storeroom.",
+        "participants": [
+          "Josie",
+          "Clara"
+        ],
+        "location": "a hospital in the river city",
+        "pre": {
+          "amos_dead": true
+        },
+        "post": {
+          "josie_knows": true
+        },
+        "learns": {
+          "Josie": [
+            "who her father was"
+          ],
+          "reader": [
+            "the frame closes, and the clock is still going backwards"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what is the clock that runs backwards?",
+          "q2": "how does the diary end?",
+          "q3": "whose daughter is the woman reading?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e14",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the night the war ended, in a station and in a bedroom"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the child on the step"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the home, and a body that will not behave"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the boy in the old man's body, and the girl who talks to him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e10",
+        "on": "the same two people, missing each other from opposite directions"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the winter the boat could not sail"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e8",
+        "on": "the tug, in peace and in war"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "coming home from the water to a father"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the inheritance and the refusal"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "a dancer, before and after the accident"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the injury that lets them meet"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the years they had"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the house by the water"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the daughter, arrived at and left"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the departure and the years of postcards"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the one visit inside the years apart"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "a young man, and then a boy with no words"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the end of the condition"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the death, and the reading of it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e20",
+        "on": "the backwards clock, hung and then drowned"
+      }
+    ]
+  }
+}

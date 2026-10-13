@@ -1,0 +1,977 @@
+{
+  "story_id": "S15",
+  "source_index": 15,
+  "genre": "Sci-Fi, Drama, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "Twelve alien vessels appear at points around the planet and the world's militaries mobilise.",
+    "An officer named Braid recruits linguist Marion Ashe to translate the visitors' language at the northern plains site.",
+    "Marion and physicist Cole Reddick enter the shell and make contact through the barrier with the two creatures they nickname Pike and Perch.",
+    "Marion takes off her hazmat suit to show the visitors a human face, and the two sides begin building a vocabulary out of circular written marks.",
+    "As Marion learns the circular language she starts having vivid, unplaceable visions of a daughter.",
+    "The twelve sites share their findings until one government's translation of the phrase \"offer weapon\" fractures the coalition and the exchanges stop.",
+    "Rogue soldiers plant a bomb inside the shell while Marion and Cole are working in it.",
+    "Pike shields the two humans from the blast and is fatally injured, and the shell withdraws out of reach.",
+    "Governments pull out one by one, an ultimatum is issued, and the camp is ordered to evacuate.",
+    "Marion is lifted alone into the shell, where Perch explains that the weapon is the language itself and that the visitors have come because in three thousand years they will need humanity's help.",
+    "Marion understands that learning the language has unmoored her from linear time and that her visions are memories of a future.",
+    "In one such vision Marion sees herself at an international gala being thanked in private by a commander named Wen.",
+    "Using what the vision showed her, Marion phones Wen's private number in the present and recites his dying wife's words, and he stands down his fleet.",
+    "The other governments follow, the coalition re-forms, and the twelve shells rise and vanish.",
+    "Cole tells Marion he is amazed by her, and she chooses to have the child with him knowing exactly how it will end.",
+    "Marion and Cole's daughter Nella is born and grows up, and Marion plays with her and teaches her words.",
+    "Nella is diagnosed with an incurable illness, and Marion tells her that her father walked out after she told him something he could not accept.",
+    "Nella dies in hospital with Marion holding her."
+  ],
+  "syuzhet_order": [
+    16,
+    18,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    17,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "One forward timeline holds 13 of 16 scenes, and the daughter's life is inserted into it from later, though the film presents it as memory.",
+  "syuzhet_notes": "Told-order bullets 1, 2 and 12 are presented as flashbacks to a dead child and a broken marriage, and the film's central move is to establish at told-order bullets 14-15 that they are flash-forwards - memories of a future the protagonist has not yet lived. Told-order bullet 15 is a vision of an event that lies ahead of bullet 16, so the phone call that saves the situation is caused by its own consequence.",
+  "fabula_notes": "Placing the daughter's birth, illness and death after the arrival is the reading the ending establishes; on a first viewing they are framed as the past. The father's eventual departure is stated to the child rather than shown, and the years between the shells leaving and her death are compressed.",
+  "story_graph": {
+    "characters": {
+      "Marion": {
+        "archetype": "Hero"
+      },
+      "Cole": {
+        "archetype": "Ally"
+      },
+      "Braid": {
+        "archetype": "Herald"
+      },
+      "Wen": {
+        "archetype": "Threshold Guardian"
+      },
+      "Nella": {
+        "archetype": "Ally"
+      },
+      "Pike": {
+        "archetype": "Mentor"
+      },
+      "Perch": {
+        "archetype": "Mentor"
+      },
+      "the rogue soldiers": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "twelve vessels",
+          "appear",
+          "around the planet"
+        ],
+        "content": "They do not land and they do not signal. They hang a few metres above ground at twelve unremarkable places, and within a day every army on earth is arranged underneath them.",
+        "participants": [
+          "Braid"
+        ],
+        "location": "twelve sites around the world",
+        "pre": {},
+        "post": {
+          "ships_arrived": true
+        },
+        "learns": {
+          "reader": [
+            "twelve craft have arrived and nobody knows why"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why have they come, and what do they want?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Braid",
+          "recruits",
+          "Marion"
+        ],
+        "content": "He plays her thirty seconds of recorded sound in her own office and asks what it means. She tells him nobody can answer that from a recording, which is how she gets the job.",
+        "participants": [
+          "Marion",
+          "Braid"
+        ],
+        "location": "a university office and a military convoy",
+        "pre": {
+          "ships_arrived": true
+        },
+        "post": {
+          "team_recruited": true
+        },
+        "learns": {
+          "Marion": [
+            "she is being taken to one of the sites"
+          ],
+          "reader": [
+            "intro:Marion",
+            "intro:Braid",
+            "she is a translator, not a soldier"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Marion",
+          "makes",
+          "contact"
+        ],
+        "content": "A lift up through the floor of the shell, gravity turning over, and behind a wall of haze two shapes settle and wait. Somebody names them after fish, and the names stick.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Pike",
+          "Perch"
+        ],
+        "location": "inside the shell at the northern plains site",
+        "pre": {
+          "team_recruited": true
+        },
+        "post": {
+          "contact_made": true
+        },
+        "learns": {
+          "Marion": [
+            "they respond to being addressed"
+          ],
+          "reader": [
+            "intro:Cole",
+            "intro:Pike",
+            "intro:Perch",
+            "contact is possible"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Marion",
+          "removes",
+          "her suit"
+        ],
+        "content": "Against every protocol she takes the helmet off and stands in front of the barrier with her face bare, and writes a word on a board. From there a vocabulary starts to accumulate, mark by circular mark.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Pike",
+          "Perch"
+        ],
+        "location": "inside the shell",
+        "pre": {
+          "contact_made": true
+        },
+        "post": {
+          "vocabulary_building": true
+        },
+        "learns": {
+          "Pike": [
+            "what a human being looks like"
+          ],
+          "Marion": [
+            "their writing is circular and has no beginning"
+          ],
+          "reader": [
+            "the language is written in closed loops, with no first or last stroke"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Marion",
+          "sees",
+          "a daughter"
+        ],
+        "content": "The images arrive without warning and out of sequence: a small girl on a hillside, a hospital corridor, a name she has never chosen. She takes them for grief and does not say so.",
+        "participants": [
+          "Marion",
+          "Nella"
+        ],
+        "location": "the camp, and somewhere else",
+        "pre": {
+          "vocabulary_building": true
+        },
+        "post": {
+          "marion_has_visions": true
+        },
+        "learns": {
+          "Marion": [
+            "she is seeing a child she does not have"
+          ],
+          "reader": [
+            "intro:Nella",
+            "she is having visions she reads as memories"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what are these images of a child she does not have?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "one site",
+          "translates",
+          "offer weapon"
+        ],
+        "content": "Twelve teams have been pooling everything. Then one of them renders a phrase as an offer of a weapon, and within hours the channels go quiet one after another.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Braid",
+          "Wen"
+        ],
+        "location": "the camp, and eleven other sites",
+        "pre": {
+          "vocabulary_building": true
+        },
+        "post": {
+          "coalition_fractured": true
+        },
+        "learns": {
+          "Marion": [
+            "a word she cannot yet pin down has broken the coalition"
+          ],
+          "reader": [
+            "intro:Wen",
+            "the crisis is a translation problem, not an invasion"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what does the disputed phrase actually mean?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the rogue soldiers",
+          "plant",
+          "a bomb"
+        ],
+        "content": "Four men who have been watching too much broadcast news carry a charge up into the shell and set it while the two scientists are working a few metres away.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "the rogue soldiers"
+        ],
+        "location": "inside the shell",
+        "pre": {
+          "coalition_fractured": true
+        },
+        "post": {
+          "bomb_planted": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the rogue soldiers",
+            "there is a device in the room and the humans do not know"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Pike",
+          "shields",
+          "the humans"
+        ],
+        "content": "The barrier flares and pushes the two of them clear an instant before the blast. Afterwards the shell lifts out of reach and one of the two shapes does not come back to the glass.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Pike",
+          "Perch"
+        ],
+        "location": "inside the shell",
+        "pre": {
+          "bomb_planted": true
+        },
+        "post": {
+          "pike_dying": true,
+          "shell_withdrawn": true
+        },
+        "learns": {
+          "Marion": [
+            "it protected them at its own cost"
+          ],
+          "reader": [
+            "the visitors are not hostile, and one of them is dying"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "will the visitors answer the attack?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the governments",
+          "withdraw",
+          "from the coalition"
+        ],
+        "content": "One nation issues an ultimatum and the rest go dark behind it. The camp is told to pack, and the order is not open to discussion.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Braid",
+          "Wen"
+        ],
+        "location": "the camp",
+        "pre": {
+          "shell_withdrawn": true
+        },
+        "post": {
+          "evacuation_ordered": true
+        },
+        "learns": {
+          "Marion": [
+            "she has hours, not weeks"
+          ],
+          "reader": [
+            "the humans are about to attack out of a mistranslation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Perch",
+          "explains",
+          "the weapon"
+        ],
+        "content": "Alone, lifted up into the shell, she is told what the word meant: the language is the gift, and they have brought it because in three thousand years they will need something only humanity can give them.",
+        "participants": [
+          "Marion",
+          "Perch"
+        ],
+        "location": "inside the shell",
+        "pre": {
+          "evacuation_ordered": true
+        },
+        "post": {
+          "purpose_explained": true
+        },
+        "learns": {
+          "Marion": [
+            "the weapon is the language",
+            "they will need help in three thousand years"
+          ],
+          "reader": [
+            "why they came, and what the disputed word actually meant"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4",
+          "q6",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Marion",
+          "understands",
+          "her visions"
+        ],
+        "content": "The grammar has been rebuilding her as she learned it. The images are not behind her. She is remembering forwards, and has been for weeks.",
+        "participants": [
+          "Marion"
+        ],
+        "location": "inside the shell",
+        "pre": {
+          "purpose_explained": true
+        },
+        "post": {
+          "marion_unmoored": true
+        },
+        "learns": {
+          "Marion": [
+            "she perceives her whole life at once"
+          ],
+          "reader": [
+            "the child is ahead of her, not behind her"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Marion",
+          "sees",
+          "a gala"
+        ],
+        "content": "In one of the images she is at an international reception, and an old soldier takes her aside to thank her privately and to tell her what she once said to him.",
+        "participants": [
+          "Marion",
+          "Wen"
+        ],
+        "location": "a reception hall, seen from the future",
+        "pre": {
+          "marion_unmoored": true
+        },
+        "post": {
+          "gala_vision_seen": true
+        },
+        "learns": {
+          "Marion": [
+            "a private number, and a dying woman's words"
+          ],
+          "reader": [
+            "she is being handed the means to fix the present from the future"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what is she supposed to do with what the vision showed her?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Marion",
+          "telephones",
+          "Wen"
+        ],
+        "content": "She takes a satellite phone out of a tent, dials a number she has no way of knowing, and says the sentence in a language she does not speak. On the other end, a fleet stands down.",
+        "participants": [
+          "Marion",
+          "Wen"
+        ],
+        "location": "the camp",
+        "pre": {
+          "gala_vision_seen": true
+        },
+        "post": {
+          "wen_stood_down": true
+        },
+        "learns": {
+          "Wen": [
+            "a stranger knows his wife's last words"
+          ],
+          "reader": [
+            "the call is caused by its own consequence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the shells",
+          "depart",
+          "the twelve sites"
+        ],
+        "content": "The others follow within the hour, the channels reopen, and then the twelve craft go up through the cloud layer and are simply not there any more.",
+        "participants": [
+          "Marion",
+          "Cole",
+          "Braid"
+        ],
+        "location": "the camp",
+        "pre": {
+          "wen_stood_down": true
+        },
+        "post": {
+          "shells_departed": true
+        },
+        "learns": {
+          "reader": [
+            "the crisis ends, and the visitors leave"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Marion",
+          "chooses",
+          "the child"
+        ],
+        "content": "He says she has amazed him and asks whether she wants to make a baby. She already knows the hospital corridor and the closed door and the years afterwards, and she says yes.",
+        "participants": [
+          "Marion",
+          "Cole"
+        ],
+        "location": "outside the camp",
+        "pre": {
+          "shells_departed": true
+        },
+        "post": {
+          "marion_chose_the_child": true
+        },
+        "learns": {
+          "Cole": [
+            "she wants a life with him"
+          ],
+          "reader": [
+            "she consents to the whole of it, ending included"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Nella",
+          "is born",
+          "and grows up"
+        ],
+        "content": "A hospital, a house, a hillside. She learns to walk, then to argue, then to name things, and her mother teaches her the word for a deal where both sides win.",
+        "participants": [
+          "Marion",
+          "Nella",
+          "Cole"
+        ],
+        "location": "a house by the water",
+        "pre": {
+          "marion_chose_the_child": true
+        },
+        "post": {
+          "nella_born": true
+        },
+        "learns": {
+          "Nella": [
+            "words for the world"
+          ],
+          "reader": [
+            "a childhood, played as though it had already happened"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "where in this woman's life are we standing?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Nella",
+          "falls ill",
+          "beyond treatment"
+        ],
+        "content": "There is a rare word for what she has and nothing to be done about it. Asked why her father is not there, her mother says he left after she told him something he could not accept.",
+        "participants": [
+          "Marion",
+          "Nella"
+        ],
+        "location": "a hospital",
+        "pre": {
+          "nella_born": true
+        },
+        "post": {
+          "nella_ill": true
+        },
+        "learns": {
+          "Nella": [
+            "her father went away because of something her mother said"
+          ],
+          "reader": [
+            "the marriage ends over the knowledge, not over the child"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {
+          "q3": "why did the girl's father leave?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Nella",
+          "dies",
+          "in hospital"
+        ],
+        "content": "Her mother is holding her when it happens, in a room with the blinds half down, exactly as she has been seeing it since before the girl was conceived.",
+        "participants": [
+          "Marion",
+          "Nella"
+        ],
+        "location": "a hospital",
+        "pre": {
+          "nella_ill": true
+        },
+        "post": {
+          "nella_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the image the telling opened with, now placed"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why is the child dying?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e17",
+        "on": "the hospital corridor, seen as a vision and then lived"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e10",
+        "on": "the same two visitors, first as strangers and then as the explanation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e13",
+        "on": "the phrase that breaks the coalition and the sentence that repairs it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "the aftermath of the arrival, seen from ahead of itself"
+      }
+    ]
+  }
+}

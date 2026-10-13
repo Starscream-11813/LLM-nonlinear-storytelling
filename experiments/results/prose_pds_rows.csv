@@ -1,0 +1,225 @@
+model,task,story_id,category,authenticity,empathy,engagement,emotion_provocation,narrative_complexity,pds_mean
+Claude Opus 5,T5_prose_cued,S01,SYLLEPSIS,3,2,4,3,4,3.2
+Claude Opus 5,T5_prose_cued,S02,ZIGZAG,4,4,5,4,5,4.4
+Claude Opus 5,T5_prose_cued,S03,ZIGZAG,4,5,5,5,5,4.8
+Claude Opus 5,T5_prose_cued,S05,ANALEPSIS,4,4,4,4,4,4.0
+Claude Opus 5,T5_prose_cued,S06,ANALEPSIS,4,4,5,4,5,4.4
+Claude Opus 5,T5_prose_cued,S07,ACHRONY,4,4,5,4,5,4.4
+Claude Opus 5,T5_prose_cued,S09,PROLEPSIS,4,4,5,4,5,4.4
+Claude Opus 5,T5_prose_cued,S10,SYLLEPSIS,4,4,5,4,5,4.4
+Claude Opus 5,T5_prose_cued,S12,PROLEPSIS,4,3,5,4,5,4.2
+Claude Opus 5,T5_prose_cued,S13,RETROGRADE,4,4,5,5,5,4.6
+Claude Opus 5,T5_prose_cued,S27,CHRONICLE,4,4,4,5,5,4.4
+Claude Opus 5,T5_prose_cued,S45,CHRONICLE,2,2,4,2,5,3.0
+Claude Opus 5,T5_prose_cued,S51,RETROGRADE,5,4,5,4,5,4.6
+Claude Opus 5,T5_prose_cued,S75,ACHRONY,4,4,5,4,5,4.4
+Claude Opus 5,T5b_prose_free,S01,SYLLEPSIS,3,2,4,3,4,3.2
+Claude Opus 5,T5b_prose_free,S02,ZIGZAG,4,4,5,4,5,4.4
+Claude Opus 5,T5b_prose_free,S03,ZIGZAG,4,4,5,4,4,4.2
+Claude Opus 5,T5b_prose_free,S05,ANALEPSIS,4,4,5,4,5,4.4
+Claude Opus 5,T5b_prose_free,S06,ANALEPSIS,4,3,4,4,4,3.8
+Claude Opus 5,T5b_prose_free,S09,PROLEPSIS,5,5,5,5,5,5.0
+Claude Opus 5,T5b_prose_free,S07,ACHRONY,4,4,5,5,5,4.6
+Claude Opus 5,T5b_prose_free,S10,SYLLEPSIS,4,4,5,4,5,4.4
+Claude Opus 5,T5b_prose_free,S12,PROLEPSIS,4,3,4,4,5,4.0
+Claude Opus 5,T5b_prose_free,S27,CHRONICLE,4,4,4,5,5,4.4
+Claude Opus 5,T5b_prose_free,S13,RETROGRADE,4,4,5,5,4,4.4
+Claude Opus 5,T5b_prose_free,S45,CHRONICLE,2,1,4,2,4,2.6
+Claude Opus 5,T5b_prose_free,S51,RETROGRADE,5,4,5,4,5,4.6
+Claude Opus 5,T5b_prose_free,S75,ACHRONY,4,4,5,4,5,4.4
+GPT-5.6 Sol,T5_prose_cued,S01,SYLLEPSIS,3,3,4,3,5,3.6
+GPT-5.6 Sol,T5_prose_cued,S02,ZIGZAG,4,4,4,4,5,4.2
+GPT-5.6 Sol,T5_prose_cued,S03,ZIGZAG,4,5,5,5,5,4.8
+GPT-5.6 Sol,T5_prose_cued,S05,ANALEPSIS,3,3,4,3,4,3.4
+GPT-5.6 Sol,T5_prose_cued,S06,ANALEPSIS,3,3,4,3,4,3.4
+GPT-5.6 Sol,T5_prose_cued,S07,ACHRONY,3,4,4,4,5,4.0
+GPT-5.6 Sol,T5_prose_cued,S09,PROLEPSIS,4,4,5,4,5,4.4
+GPT-5.6 Sol,T5_prose_cued,S10,SYLLEPSIS,4,3,4,4,5,4.0
+GPT-5.6 Sol,T5_prose_cued,S12,PROLEPSIS,3,3,4,3,4,3.4
+GPT-5.6 Sol,T5_prose_cued,S13,RETROGRADE,4,4,5,4,5,4.4
+GPT-5.6 Sol,T5_prose_cued,S27,CHRONICLE,4,3,4,4,5,4.0
+GPT-5.6 Sol,T5_prose_cued,S45,CHRONICLE,2,2,4,2,5,3.0
+GPT-5.6 Sol,T5_prose_cued,S51,RETROGRADE,5,4,5,4,5,4.6
+GPT-5.6 Sol,T5_prose_cued,S75,ACHRONY,4,3,4,4,5,4.0
+GPT-5.6 Sol,T5b_prose_free,S01,SYLLEPSIS,3,2,4,3,4,3.2
+GPT-5.6 Sol,T5b_prose_free,S02,ZIGZAG,4,4,5,4,5,4.4
+GPT-5.6 Sol,T5b_prose_free,S03,ZIGZAG,5,5,5,5,5,5.0
+GPT-5.6 Sol,T5b_prose_free,S05,ANALEPSIS,4,4,5,4,5,4.4
+GPT-5.6 Sol,T5b_prose_free,S06,ANALEPSIS,3,3,4,3,3,3.2
+GPT-5.6 Sol,T5b_prose_free,S07,ACHRONY,3,3,4,4,4,3.6
+GPT-5.6 Sol,T5b_prose_free,S10,SYLLEPSIS,1,1,1,1,1,1.0
+GPT-5.6 Sol,T5b_prose_free,S09,PROLEPSIS,3,3,4,4,5,3.8
+GPT-5.6 Sol,T5b_prose_free,S12,PROLEPSIS,4,3,5,4,5,4.2
+GPT-5.6 Sol,T5b_prose_free,S27,CHRONICLE,4,4,4,4,5,4.2
+GPT-5.6 Sol,T5b_prose_free,S13,RETROGRADE,1,1,1,1,1,1.0
+GPT-5.6 Sol,T5b_prose_free,S45,CHRONICLE,2,2,4,3,5,3.2
+GPT-5.6 Sol,T5b_prose_free,S51,RETROGRADE,4,3,4,3,5,3.8
+GPT-5.6 Sol,T5b_prose_free,S75,ACHRONY,5,5,5,5,5,5.0
+Gemini 3.1 Pro,T5_prose_cued,S01,SYLLEPSIS,3,3,5,4,5,4.0
+Gemini 3.1 Pro,T5_prose_cued,S02,ZIGZAG,4,4,5,4,5,4.4
+Gemini 3.1 Pro,T5_prose_cued,S03,ZIGZAG,5,5,5,5,5,5.0
+Gemini 3.1 Pro,T5_prose_cued,S05,ANALEPSIS,4,4,4,4,4,4.0
+Gemini 3.1 Pro,T5_prose_cued,S06,ANALEPSIS,3,3,4,4,4,3.6
+Gemini 3.1 Pro,T5_prose_cued,S07,ACHRONY,2,3,2,3,4,2.8
+Gemini 3.1 Pro,T5_prose_cued,S09,PROLEPSIS,4,4,5,5,5,4.6
+Gemini 3.1 Pro,T5_prose_cued,S10,SYLLEPSIS,4,4,5,4,5,4.4
+Gemini 3.1 Pro,T5_prose_cued,S12,PROLEPSIS,4,3,5,4,5,4.2
+Gemini 3.1 Pro,T5_prose_cued,S27,CHRONICLE,4,4,4,4,5,4.2
+Gemini 3.1 Pro,T5_prose_cued,S13,RETROGRADE,3,4,4,4,5,4.0
+Gemini 3.1 Pro,T5_prose_cued,S45,CHRONICLE,2,2,4,3,5,3.2
+Gemini 3.1 Pro,T5_prose_cued,S51,RETROGRADE,3,2,4,3,5,3.4
+Gemini 3.1 Pro,T5_prose_cued,S75,ACHRONY,4,3,4,3,5,3.8
+Gemini 3.1 Pro,T5b_prose_free,S01,SYLLEPSIS,3,2,4,4,4,3.4
+Gemini 3.1 Pro,T5b_prose_free,S02,ZIGZAG,4,4,5,4,5,4.4
+Gemini 3.1 Pro,T5b_prose_free,S03,ZIGZAG,5,5,5,5,5,5.0
+Gemini 3.1 Pro,T5b_prose_free,S05,ANALEPSIS,4,4,5,4,5,4.4
+Gemini 3.1 Pro,T5b_prose_free,S06,ANALEPSIS,3,3,4,3,4,3.4
+Gemini 3.1 Pro,T5b_prose_free,S09,PROLEPSIS,4,4,5,5,5,4.6
+Gemini 3.1 Pro,T5b_prose_free,S07,ACHRONY,2,3,4,4,5,3.6
+Gemini 3.1 Pro,T5b_prose_free,S10,SYLLEPSIS,4,4,5,4,5,4.4
+Gemini 3.1 Pro,T5b_prose_free,S12,PROLEPSIS,4,3,5,4,5,4.2
+Gemini 3.1 Pro,T5b_prose_free,S27,CHRONICLE,4,4,4,4,5,4.2
+Gemini 3.1 Pro,T5b_prose_free,S13,RETROGRADE,3,4,4,5,4,4.0
+Gemini 3.1 Pro,T5b_prose_free,S45,CHRONICLE,2,2,4,3,5,3.2
+Gemini 3.1 Pro,T5b_prose_free,S75,ACHRONY,4,4,4,4,5,4.2
+Gemini 3.1 Pro,T5b_prose_free,S51,RETROGRADE,4,2,4,3,4,3.4
+Grok 4.5,T5_prose_cued,S01,SYLLEPSIS,2,2,3,2,4,2.6
+Grok 4.5,T5_prose_cued,S02,ZIGZAG,4,3,4,3,5,3.8
+Grok 4.5,T5_prose_cued,S03,ZIGZAG,4,4,4,4,5,4.2
+Grok 4.5,T5_prose_cued,S05,ANALEPSIS,3,3,4,3,4,3.4
+Grok 4.5,T5_prose_cued,S06,ANALEPSIS,3,2,4,3,4,3.2
+Grok 4.5,T5_prose_cued,S07,ACHRONY,4,4,4,4,5,4.2
+Grok 4.5,T5_prose_cued,S09,PROLEPSIS,4,3,4,4,5,4.0
+Grok 4.5,T5_prose_cued,S10,SYLLEPSIS,3,3,4,3,5,3.6
+Grok 4.5,T5_prose_cued,S12,PROLEPSIS,3,2,4,3,4,3.2
+Grok 4.5,T5_prose_cued,S13,RETROGRADE,4,4,4,4,5,4.2
+Grok 4.5,T5_prose_cued,S27,CHRONICLE,4,3,4,4,5,4.0
+Grok 4.5,T5_prose_cued,S45,CHRONICLE,2,1,3,1,3,2.0
+Grok 4.5,T5_prose_cued,S51,RETROGRADE,4,3,4,3,5,3.8
+Grok 4.5,T5_prose_cued,S75,ACHRONY,4,3,4,4,5,4.0
+Grok 4.5,T5b_prose_free,S01,SYLLEPSIS,2,2,4,3,5,3.2
+Grok 4.5,T5b_prose_free,S02,ZIGZAG,4,3,4,3,5,3.8
+Grok 4.5,T5b_prose_free,S03,ZIGZAG,5,5,5,5,5,5.0
+Grok 4.5,T5b_prose_free,S05,ANALEPSIS,3,3,4,3,5,3.6
+Grok 4.5,T5b_prose_free,S06,ANALEPSIS,3,3,4,4,4,3.6
+Grok 4.5,T5b_prose_free,S07,ACHRONY,3,3,4,4,4,3.6
+Grok 4.5,T5b_prose_free,S09,PROLEPSIS,3,4,4,4,5,4.0
+Grok 4.5,T5b_prose_free,S10,SYLLEPSIS,4,3,4,4,5,4.0
+Grok 4.5,T5b_prose_free,S12,PROLEPSIS,3,3,4,4,4,3.6
+Grok 4.5,T5b_prose_free,S13,RETROGRADE,2,3,4,4,3,3.2
+Grok 4.5,T5b_prose_free,S27,CHRONICLE,3,2,4,3,5,3.4
+Grok 4.5,T5b_prose_free,S45,CHRONICLE,2,1,3,2,3,2.2
+Grok 4.5,T5b_prose_free,S75,ACHRONY,4,4,5,4,5,4.4
+Grok 4.5,T5b_prose_free,S51,RETROGRADE,3,2,4,3,4,3.2
+DeepSeek V4 Pro,T5_prose_cued,S01,SYLLEPSIS,1,1,1,1,1,1.0
+DeepSeek V4 Pro,T5_prose_cued,S02,ZIGZAG,1,1,1,1,1,1.0
+DeepSeek V4 Pro,T5_prose_cued,S05,ANALEPSIS,3,3,3,3,4,3.2
+DeepSeek V4 Pro,T5_prose_cued,S03,ZIGZAG,1,1,1,1,2,1.2
+DeepSeek V4 Pro,T5_prose_cued,S06,ANALEPSIS,2,2,3,2,3,2.4
+DeepSeek V4 Pro,T5_prose_cued,S07,ACHRONY,2,2,2,2,4,2.4
+DeepSeek V4 Pro,T5_prose_cued,S09,PROLEPSIS,1,1,1,1,2,1.2
+DeepSeek V4 Pro,T5_prose_cued,S12,PROLEPSIS,3,3,4,3,4,3.4
+DeepSeek V4 Pro,T5_prose_cued,S10,SYLLEPSIS,2,2,3,2,4,2.6
+DeepSeek V4 Pro,T5_prose_cued,S13,RETROGRADE,4,4,4,4,5,4.2
+DeepSeek V4 Pro,T5_prose_cued,S27,CHRONICLE,3,3,4,3,4,3.4
+DeepSeek V4 Pro,T5_prose_cued,S45,CHRONICLE,2,2,4,2,5,3.0
+DeepSeek V4 Pro,T5_prose_cued,S51,RETROGRADE,4,3,4,4,5,4.0
+DeepSeek V4 Pro,T5_prose_cued,S75,ACHRONY,1,1,1,1,2,1.2
+DeepSeek V4 Pro,T5b_prose_free,S02,ZIGZAG,4,4,4,4,4,4.0
+DeepSeek V4 Pro,T5b_prose_free,S01,SYLLEPSIS,2,2,4,3,5,3.2
+DeepSeek V4 Pro,T5b_prose_free,S03,ZIGZAG,4,4,5,4,4,4.2
+DeepSeek V4 Pro,T5b_prose_free,S05,ANALEPSIS,3,3,4,3,4,3.4
+DeepSeek V4 Pro,T5b_prose_free,S06,ANALEPSIS,4,4,5,4,4,4.2
+DeepSeek V4 Pro,T5b_prose_free,S07,ACHRONY,3,3,4,4,5,3.8
+DeepSeek V4 Pro,T5b_prose_free,S09,PROLEPSIS,2,3,4,4,5,3.6
+DeepSeek V4 Pro,T5b_prose_free,S10,SYLLEPSIS,4,3,4,4,5,4.0
+DeepSeek V4 Pro,T5b_prose_free,S13,RETROGRADE,3,3,4,4,4,3.6
+DeepSeek V4 Pro,T5b_prose_free,S12,PROLEPSIS,3,3,4,4,5,3.8
+DeepSeek V4 Pro,T5b_prose_free,S27,CHRONICLE,3,3,4,4,5,3.8
+DeepSeek V4 Pro,T5b_prose_free,S45,CHRONICLE,1,1,2,1,2,1.4
+DeepSeek V4 Pro,T5b_prose_free,S75,ACHRONY,4,4,4,4,5,4.2
+DeepSeek V4 Pro,T5b_prose_free,S51,RETROGRADE,5,3,4,4,5,4.2
+GLM-5.2,T5_prose_cued,S01,SYLLEPSIS,3,2,4,3,4,3.2
+GLM-5.2,T5_prose_cued,S02,ZIGZAG,2,2,2,2,3,2.2
+GLM-5.2,T5_prose_cued,S03,ZIGZAG,4,4,4,4,5,4.2
+GLM-5.2,T5_prose_cued,S05,ANALEPSIS,3,3,4,3,4,3.4
+GLM-5.2,T5_prose_cued,S06,ANALEPSIS,3,3,4,4,4,3.6
+GLM-5.2,T5_prose_cued,S07,ACHRONY,3,3,4,3,5,3.6
+GLM-5.2,T5_prose_cued,S09,PROLEPSIS,4,4,5,4,5,4.4
+GLM-5.2,T5_prose_cued,S10,SYLLEPSIS,4,3,4,4,4,3.8
+GLM-5.2,T5_prose_cued,S12,PROLEPSIS,3,3,4,3,4,3.4
+GLM-5.2,T5_prose_cued,S13,RETROGRADE,4,4,5,4,5,4.4
+GLM-5.2,T5_prose_cued,S27,CHRONICLE,4,3,4,4,5,4.0
+GLM-5.2,T5_prose_cued,S45,CHRONICLE,2,2,4,2,4,2.8
+GLM-5.2,T5_prose_cued,S51,RETROGRADE,4,3,5,4,5,4.2
+GLM-5.2,T5_prose_cued,S75,ACHRONY,4,4,4,4,5,4.2
+GLM-5.2,T5b_prose_free,S01,SYLLEPSIS,3,2,4,3,4,3.2
+GLM-5.2,T5b_prose_free,S02,ZIGZAG,4,4,5,4,5,4.4
+GLM-5.2,T5b_prose_free,S03,ZIGZAG,5,5,5,5,5,5.0
+GLM-5.2,T5b_prose_free,S05,ANALEPSIS,4,3,4,3,4,3.6
+GLM-5.2,T5b_prose_free,S06,ANALEPSIS,3,3,4,3,4,3.4
+GLM-5.2,T5b_prose_free,S07,ACHRONY,4,5,5,5,5,4.8
+GLM-5.2,T5b_prose_free,S09,PROLEPSIS,4,4,4,4,5,4.2
+GLM-5.2,T5b_prose_free,S10,SYLLEPSIS,4,4,5,4,5,4.4
+GLM-5.2,T5b_prose_free,S12,PROLEPSIS,4,4,5,4,5,4.4
+GLM-5.2,T5b_prose_free,S13,RETROGRADE,3,4,4,4,4,3.8
+GLM-5.2,T5b_prose_free,S27,CHRONICLE,4,3,4,4,5,4.0
+GLM-5.2,T5b_prose_free,S45,CHRONICLE,3,2,4,3,5,3.4
+GLM-5.2,T5b_prose_free,S51,RETROGRADE,4,3,4,3,5,3.8
+GLM-5.2,T5b_prose_free,S75,ACHRONY,3,3,4,3,4,3.4
+gpt-oss-120b,T5_prose_cued,S01,SYLLEPSIS,2,2,3,2,3,2.4
+gpt-oss-120b,T5_prose_cued,S02,ZIGZAG,3,3,4,3,5,3.6
+gpt-oss-120b,T5_prose_cued,S03,ZIGZAG,5,5,5,5,5,5.0
+gpt-oss-120b,T5_prose_cued,S05,ANALEPSIS,3,3,3,3,4,3.2
+gpt-oss-120b,T5_prose_cued,S06,ANALEPSIS,3,2,4,3,4,3.2
+gpt-oss-120b,T5_prose_cued,S07,ACHRONY,2,3,3,3,4,3.0
+gpt-oss-120b,T5_prose_cued,S09,PROLEPSIS,2,3,3,3,4,3.0
+gpt-oss-120b,T5_prose_cued,S12,PROLEPSIS,3,3,4,3,4,3.4
+gpt-oss-120b,T5_prose_cued,S10,SYLLEPSIS,3,3,4,4,5,3.8
+gpt-oss-120b,T5_prose_cued,S13,RETROGRADE,4,4,4,4,5,4.2
+gpt-oss-120b,T5_prose_cued,S27,CHRONICLE,3,2,3,3,5,3.2
+gpt-oss-120b,T5_prose_cued,S45,CHRONICLE,2,2,4,3,5,3.2
+gpt-oss-120b,T5_prose_cued,S51,RETROGRADE,3,3,3,3,5,3.4
+gpt-oss-120b,T5_prose_cued,S75,ACHRONY,4,4,4,4,5,4.2
+gpt-oss-120b,T5b_prose_free,S01,SYLLEPSIS,2,2,3,2,4,2.6
+gpt-oss-120b,T5b_prose_free,S02,ZIGZAG,2,2,3,2,4,2.6
+gpt-oss-120b,T5b_prose_free,S05,ANALEPSIS,3,3,3,3,4,3.2
+gpt-oss-120b,T5b_prose_free,S03,ZIGZAG,4,4,4,4,4,4.0
+gpt-oss-120b,T5b_prose_free,S06,ANALEPSIS,3,2,4,3,4,3.2
+gpt-oss-120b,T5b_prose_free,S09,PROLEPSIS,2,2,3,3,4,2.8
+gpt-oss-120b,T5b_prose_free,S07,ACHRONY,2,3,4,4,4,3.4
+gpt-oss-120b,T5b_prose_free,S10,SYLLEPSIS,4,4,5,5,5,4.6
+gpt-oss-120b,T5b_prose_free,S12,PROLEPSIS,3,3,4,4,5,3.8
+gpt-oss-120b,T5b_prose_free,S13,RETROGRADE,3,3,4,4,4,3.6
+gpt-oss-120b,T5b_prose_free,S27,CHRONICLE,2,2,3,3,4,2.8
+gpt-oss-120b,T5b_prose_free,S45,CHRONICLE,2,2,4,2,5,3.0
+gpt-oss-120b,T5b_prose_free,S51,RETROGRADE,3,3,3,3,4,3.2
+gpt-oss-120b,T5b_prose_free,S75,ACHRONY,3,3,3,3,4,3.2
+Llama 4 Maverick,T5_prose_cued,S01,SYLLEPSIS,2,2,3,2,4,2.6
+Llama 4 Maverick,T5_prose_cued,S02,ZIGZAG,3,3,4,3,5,3.6
+Llama 4 Maverick,T5_prose_cued,S03,ZIGZAG,4,4,4,4,5,4.2
+Llama 4 Maverick,T5_prose_cued,S05,ANALEPSIS,3,3,4,3,4,3.4
+Llama 4 Maverick,T5_prose_cued,S06,ANALEPSIS,3,3,4,3,4,3.4
+Llama 4 Maverick,T5_prose_cued,S07,ACHRONY,2,3,4,4,4,3.4
+Llama 4 Maverick,T5_prose_cued,S09,PROLEPSIS,3,3,3,3,5,3.4
+Llama 4 Maverick,T5_prose_cued,S10,SYLLEPSIS,4,3,4,3,5,3.8
+Llama 4 Maverick,T5_prose_cued,S12,PROLEPSIS,3,3,4,3,4,3.4
+Llama 4 Maverick,T5_prose_cued,S13,RETROGRADE,4,4,4,4,5,4.2
+Llama 4 Maverick,T5_prose_cued,S27,CHRONICLE,4,3,4,4,5,4.0
+Llama 4 Maverick,T5_prose_cued,S45,CHRONICLE,2,2,4,2,5,3.0
+Llama 4 Maverick,T5_prose_cued,S51,RETROGRADE,3,3,3,3,4,3.2
+Llama 4 Maverick,T5_prose_cued,S75,ACHRONY,3,3,3,3,4,3.2
+Llama 4 Maverick,T5b_prose_free,S01,SYLLEPSIS,3,2,4,3,5,3.4
+Llama 4 Maverick,T5b_prose_free,S02,ZIGZAG,4,3,4,4,5,4.0
+Llama 4 Maverick,T5b_prose_free,S03,ZIGZAG,3,3,4,3,5,3.6
+Llama 4 Maverick,T5b_prose_free,S05,ANALEPSIS,3,3,4,3,4,3.4
+Llama 4 Maverick,T5b_prose_free,S06,ANALEPSIS,3,3,4,3,4,3.4
+Llama 4 Maverick,T5b_prose_free,S07,ACHRONY,3,3,4,4,4,3.6
+Llama 4 Maverick,T5b_prose_free,S09,PROLEPSIS,3,4,4,4,5,4.0
+Llama 4 Maverick,T5b_prose_free,S10,SYLLEPSIS,4,4,4,4,5,4.2
+Llama 4 Maverick,T5b_prose_free,S12,PROLEPSIS,4,4,5,4,5,4.4
+Llama 4 Maverick,T5b_prose_free,S13,RETROGRADE,3,3,4,4,3,3.4
+Llama 4 Maverick,T5b_prose_free,S27,CHRONICLE,4,3,4,3,5,3.8
+Llama 4 Maverick,T5b_prose_free,S45,CHRONICLE,2,1,3,1,4,2.2
+Llama 4 Maverick,T5b_prose_free,S51,RETROGRADE,4,3,4,3,4,3.6
+Llama 4 Maverick,T5b_prose_free,S75,ACHRONY,3,3,4,3,4,3.4

@@ -1,0 +1,1031 @@
+{
+  "story_id": "S33",
+  "source_index": 33,
+  "genre": "Comedy, Romance, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Elliot Farb grows up in a house under a seaside amusement pier, depressed at nine because the universe is expanding.",
+    "At school Elliot kisses a girl in class, and his classmates stand up one by one to announce what they grew up to be.",
+    "Elliot does his army service entertaining troops and becomes a stand-up comedian in the city.",
+    "Elliot's first marriage, to Judith, fails while he obsesses over a political assassination in bed.",
+    "Elliot's second marriage, to Carol, fails amid literary parties and her refusal to be interrupted.",
+    "Elliot meets Peggy Rowan after a tennis game with his friend Max, and she drives him home terrifyingly and asks him up for wine.",
+    "Elliot and Peggy's first date ends in bed, and afterwards she needs a cigarette.",
+    "Peggy moves in with Elliot, who pushes her into adult-education classes and books about death.",
+    "Elliot sends Peggy to an analyst and pays for it, and their two sessions are played side by side in split screen.",
+    "Elliot and Peggy visit her family in a farm town, where her grandmother stares at him and he sees himself at the table as a figure from another century.",
+    "Peggy's brother Neil confides his urge to steer into oncoming headlights, and then drives them to the airport.",
+    "Elliot and Peggy break up, and each of them tries seeing other people.",
+    "Peggy calls Elliot at three in the morning about a spider in the bathroom, and they get back together.",
+    "Peggy starts singing in clubs and is courted professionally by the record producer Sy Kale.",
+    "Elliot and Peggy fly to the coast for a television award, and Elliot hates every minute of it.",
+    "On the flight back each of them concedes, in unspoken narration, that it has ended.",
+    "Elliot flies back to the coast to propose, is turned down in a health-food restaurant, and crashes a rental car.",
+    "Elliot writes a play in which the woman says yes, and admits to the audience that you can do that in art.",
+    "Elliot and Peggy meet again in the city as friends, and he watches her walk away.",
+    "Elliot tells the joke about the man whose brother thinks he is a chicken, and says relationships are irrational but we keep going through them anyway."
+  ],
+  "syuzhet_order": [
+    20,
+    1,
+    2,
+    3,
+    12,
+    6,
+    7,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The affair is the spine and runs forward, while childhood, the army and two earlier marriages drop in from before it as the comedian free-associates.",
+  "syuzhet_notes": "The comedian narrates straight to camera and moves by association rather than by clock, so the film announces the break-up at told-order bullet 5 before showing the meeting at bullet 6, and drops his two earlier marriages in at bullets 8-9, well after the affair they precede. Told-order bullets 2-4 are childhood and early-career flashbacks, and he repeatedly walks into his own past scenes as an adult to argue with the people in them.",
+  "fabula_notes": "The film gives no dates, so the ordering of the two marriages relative to each other and to the main affair is inferred from the narration. The play at told-order bullet 19 is a fiction written about events already shown, not a further event in the relationship.",
+  "story_graph": {
+    "characters": {
+      "Elliot": {
+        "archetype": "Hero"
+      },
+      "Peggy": {
+        "archetype": "Ally"
+      },
+      "Max": {
+        "archetype": "Ally"
+      },
+      "Judith": {
+        "archetype": "Shapeshifter"
+      },
+      "Carol": {
+        "archetype": "Shapeshifter"
+      },
+      "Neil": {
+        "archetype": "Trickster"
+      },
+      "Sy Kale": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Elliot",
+          "stops",
+          "doing his homework"
+        ],
+        "content": "A boy of nine under a seaside pier explains to a doctor that the universe is expanding and will one day come apart, so there is no point in finishing anything.",
+        "participants": [
+          "Elliot"
+        ],
+        "location": "a house under an amusement pier",
+        "pre": {},
+        "post": {
+          "childhood_established": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Elliot",
+            "the temperament, established before anything happens to it"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "what does he do with any of this?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Elliot",
+          "kisses",
+          "a classmate"
+        ],
+        "content": "He gets up out of his desk and kisses a girl in the middle of a lesson, and the children around him stand one at a time and announce, in adult voices, what they became.",
+        "participants": [
+          "Elliot"
+        ],
+        "location": "a school classroom",
+        "pre": {
+          "childhood_established": true
+        },
+        "post": {
+          "school_scene": true
+        },
+        "learns": {
+          "reader": [
+            "the film's rule: anybody may address the audience from inside a memory"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Elliot",
+          "becomes",
+          "a comedian"
+        ],
+        "content": "Army service spent making other conscripts laugh, then rooms above bars, then rooms with people in them, then television.",
+        "participants": [
+          "Elliot"
+        ],
+        "location": "an army camp and city clubs",
+        "pre": {
+          "school_scene": true
+        },
+        "post": {
+          "comedian": true
+        },
+        "learns": {
+          "reader": [
+            "the job that lets him narrate his own life to us"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Judith",
+          "and Elliot",
+          "separate"
+        ],
+        "content": "A marriage conducted mostly in bed, and mostly about a political killing he cannot stop re-examining while she waits for him to notice she is there.",
+        "participants": [
+          "Elliot",
+          "Judith"
+        ],
+        "location": "a bedroom in the city",
+        "pre": {
+          "comedian": true
+        },
+        "post": {
+          "first_marriage_over": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Judith",
+            "the first of two rehearsals for the main event"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Carol",
+          "and Elliot",
+          "separate"
+        ],
+        "content": "Rooms full of people who write, a wife who will not be interrupted, and a husband who interrupts. It ends politely and in company.",
+        "participants": [
+          "Elliot",
+          "Carol"
+        ],
+        "location": "a flat in the city",
+        "pre": {
+          "first_marriage_over": true
+        },
+        "post": {
+          "second_marriage_over": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Carol",
+            "the second rehearsal, with better furniture"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Elliot",
+          "meets",
+          "Peggy"
+        ],
+        "content": "Doubles at an indoor court, a terrible drive home in which she uses the whole road, and a glass of wine on a terrace where neither of them says a single sentence that means what it says.",
+        "participants": [
+          "Elliot",
+          "Peggy",
+          "Max"
+        ],
+        "location": "a tennis club and a terrace",
+        "pre": {
+          "second_marriage_over": true
+        },
+        "post": {
+          "peggy_met": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Peggy",
+            "intro:Max",
+            "the meeting the whole film is arranged around"
+          ]
+        },
+        "raises": [
+          "q6",
+          "q7"
+        ],
+        "resolves": [
+          "q2",
+          "q3"
+        ],
+        "questions": {
+          "q6": "has he done this before?",
+          "q7": "and what happened those times?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Elliot and Peggy",
+          "spend",
+          "a first night"
+        ],
+        "content": "It goes well enough that afterwards she needs a cigarette and he needs to explain why she should not, which is the shape the next two years will take.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a flat in the city",
+        "pre": {
+          "peggy_met": true
+        },
+        "post": {
+          "affair_begun": true
+        },
+        "learns": {
+          "reader": [
+            "the affair starts, and so does the correcting"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Elliot",
+          "improves",
+          "Peggy"
+        ],
+        "content": "She moves in, and within a month there are evening classes she did not ask for and books about death on her side of the bed with his handwriting in the margins.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a flat in the city",
+        "pre": {
+          "affair_begun": true
+        },
+        "post": {
+          "living_together": true
+        },
+        "learns": {
+          "Peggy": [
+            "she is a project"
+          ],
+          "reader": [
+            "the mechanism by which he loses her, operating in plain sight"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Elliot",
+          "pays",
+          "for Peggy's analyst"
+        ],
+        "content": "Two consulting rooms side by side on the screen. Asked how often they sleep together, he says hardly ever, three times a week; she says constantly, three times a week.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "two consulting rooms",
+        "pre": {
+          "living_together": true
+        },
+        "post": {
+          "analyst_paid_for": true
+        },
+        "learns": {
+          "reader": [
+            "the same facts, incompatible, held next to each other without comment"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Elliot",
+          "visits",
+          "Peggy's family"
+        ],
+        "content": "A farm town, a dining table, a grandmother looking at him steadily, and a shot in which he is sitting there in the black hat and beard of somebody from another century.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a farmhouse in a farm town",
+        "pre": {
+          "analyst_paid_for": true
+        },
+        "post": {
+          "family_visited": true
+        },
+        "learns": {
+          "reader": [
+            "how he thinks he is seen, filmed as though it were how he is seen"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Neil",
+          "drives",
+          "them to the airport"
+        ],
+        "content": "The brother explains, conversationally, that when he drives at night he wants to steer into the oncoming lights. Then he picks up the car keys and offers them a lift.",
+        "participants": [
+          "Elliot",
+          "Peggy",
+          "Neil"
+        ],
+        "location": "a farmhouse and a road",
+        "pre": {
+          "family_visited": true
+        },
+        "post": {
+          "driven_to_the_airport": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Neil",
+            "the film's best joke, and a real one about being trapped"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Elliot and Peggy",
+          "break",
+          "up"
+        ],
+        "content": "It is done in a street, sensibly, and afterwards each of them goes out with somebody unsuitable and reports back on it.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a city street",
+        "pre": {
+          "driven_to_the_airport": true
+        },
+        "post": {
+          "first_break": true
+        },
+        "learns": {
+          "reader": [
+            "the ending, announced early and then explained backwards"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4",
+          "q5",
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who were these two to each other?",
+          "q4": "why did it fail?",
+          "q5": "what exactly was he doing to her?",
+          "q8": "do they get back together?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Peggy",
+          "calls",
+          "about a spider"
+        ],
+        "content": "Three in the morning, a bathroom, an insect she describes as the size of a car. He drives across the city with a tennis racket, and neither of them mentions the racket again.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "Peggy's flat",
+        "pre": {
+          "first_break": true
+        },
+        "post": {
+          "reconciled": true
+        },
+        "learns": {
+          "reader": [
+            "they get back together over an errand, which is how it actually happens"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Peggy",
+          "starts",
+          "singing in clubs"
+        ],
+        "content": "She is good, and a man with a table by the stage and an office on the coast tells her so, and asks whether she has ever thought about doing this properly.",
+        "participants": [
+          "Elliot",
+          "Peggy",
+          "Sy Kale"
+        ],
+        "location": "a nightclub",
+        "pre": {
+          "reconciled": true
+        },
+        "post": {
+          "singing_career": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Sy Kale",
+            "she acquires a life he cannot argue her out of"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q10": "will she stay?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Elliot and Peggy",
+          "fly",
+          "to the coast"
+        ],
+        "content": "Sunshine, an award, a party full of people saying the word energy. He is ill on the aeroplane and worse at the party and cannot say why.",
+        "participants": [
+          "Elliot",
+          "Peggy",
+          "Sy Kale"
+        ],
+        "location": "the coast",
+        "pre": {
+          "singing_career": true
+        },
+        "post": {
+          "coast_trip": true
+        },
+        "learns": {
+          "reader": [
+            "the place she will move to, established as intolerable to him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the pair",
+          "concede",
+          "it is over"
+        ],
+        "content": "On the flight home the film gives each of them a line of narration that the other cannot hear, and both lines say the same thing in different words.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "an aircraft",
+        "pre": {
+          "coast_trip": true
+        },
+        "post": {
+          "it_is_over": true
+        },
+        "learns": {
+          "reader": [
+            "the ending, arrived at twice"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Elliot",
+          "proposes",
+          "and is refused"
+        ],
+        "content": "He flies back, asks her in a restaurant that serves alfalfa, is told no in a tone of great kindness, and reverses a rented car into several other rented cars.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a health-food restaurant on the coast",
+        "pre": {
+          "it_is_over": true
+        },
+        "post": {
+          "proposal_refused": true
+        },
+        "learns": {
+          "reader": [
+            "the last attempt, and its result"
+          ]
+        },
+        "raises": [
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q11": "how does it actually finish?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Elliot",
+          "writes",
+          "the scene again"
+        ],
+        "content": "In the play the restaurant is the same and the man says the same words, and this time the woman says yes and comes back with him, and he turns to the audience and admits what he has just done.",
+        "participants": [
+          "Elliot"
+        ],
+        "location": "a rehearsal room",
+        "pre": {
+          "proposal_refused": true
+        },
+        "post": {
+          "play_written": true
+        },
+        "learns": {
+          "reader": [
+            "the film's thesis about art, stated by a character who is in one"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the pair",
+          "meet",
+          "as friends"
+        ],
+        "content": "Two people outside a cinema in the afternoon, catching up pleasantly, and then one of them crosses the road and the camera stays where it is.",
+        "participants": [
+          "Elliot",
+          "Peggy"
+        ],
+        "location": "a street outside a cinema",
+        "pre": {
+          "play_written": true
+        },
+        "post": {
+          "met_as_friends": true
+        },
+        "learns": {
+          "reader": [
+            "the actual ending, which is nobody's version"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q11"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Elliot",
+          "tells",
+          "the chicken joke"
+        ],
+        "content": "A man's brother thinks he is a chicken. Asked why he does not turn him in, the man says he needs the eggs. That, he says, is more or less how he feels about relationships.",
+        "participants": [
+          "Elliot"
+        ],
+        "location": "a bare stage",
+        "pre": {
+          "met_as_friends": true
+        },
+        "post": {
+          "thesis_stated": true
+        },
+        "learns": {
+          "reader": [
+            "the conclusion, delivered before any of the evidence"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what is he actually talking about?",
+          "q2": "who is the woman all of this is about?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the boy, at home and at school"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the years before the film's present"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the comedian and his first wife"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "two marriages, ended the same way"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the state he is in when he meets her"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the first evening"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the affair, beginning and settling"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the improvement project, at home and in analysis"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the couple, examined and then displayed to a family"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the farm town"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the drive away from her family and what follows it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the break and the telephone call that ends it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the reconciliation and the career that follows"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the man with the office on the coast"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the trip and the flight home"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the ending, conceded and then argued with"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the same restaurant, lived and then rewritten"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the invented ending and the real one"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the last meeting and the joke about it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e20",
+        "on": "a man explaining why nothing is worth finishing, at nine and at forty"
+      }
+    ]
+  }
+}

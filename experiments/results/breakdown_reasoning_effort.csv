@@ -1,0 +1,17 @@
+model,task,metric,n,low_effort,high_effort,delta
+Claude Opus 5,T1_transpose_cued,band_hit,14,0.4286,0.3571,-0.0714
+Claude Opus 5,T1_transpose_cued,tau,14,0.4058,0.3199,-0.0859
+Claude Opus 5,T3_reconstruct,tau_rec,14,0.8703,0.8951,0.0248
+Claude Opus 5,T3_reconstruct,exact,14,0.1429,0.1429,0.0
+GPT-5.6 Sol,T1_transpose_cued,band_hit,14,0.2857,0.4286,0.1429
+GPT-5.6 Sol,T1_transpose_cued,tau,14,0.2974,0.2722,-0.0252
+GPT-5.6 Sol,T3_reconstruct,tau_rec,8,0.8981,0.9009,0.0028
+GPT-5.6 Sol,T3_reconstruct,exact,8,0.375,0.5,0.125
+Gemini 3.1 Pro,T1_transpose_cued,band_hit,14,0.4286,0.3571,-0.0714
+Gemini 3.1 Pro,T1_transpose_cued,tau,14,0.3267,0.3665,0.0398
+Gemini 3.1 Pro,T3_reconstruct,tau_rec,14,0.9112,0.9077,-0.0035
+Gemini 3.1 Pro,T3_reconstruct,exact,14,0.3571,0.2857,-0.0714
+DeepSeek V4 Pro,T1_transpose_cued,band_hit,14,0.2857,0.2857,0.0
+DeepSeek V4 Pro,T1_transpose_cued,tau,14,0.4399,0.4685,0.0287
+DeepSeek V4 Pro,T3_reconstruct,tau_rec,14,0.5015,0.5016,0.0002
+DeepSeek V4 Pro,T3_reconstruct,exact,14,0.0714,0.0714,0.0

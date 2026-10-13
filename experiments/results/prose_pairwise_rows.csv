@@ -1,0 +1,112 @@
+model,story_id,category,winner
+Claude Opus 5,S01,SYLLEPSIS,cued
+Claude Opus 5,S03,ZIGZAG,free
+Claude Opus 5,S05,ANALEPSIS,free
+Claude Opus 5,S07,ACHRONY,free
+Claude Opus 5,S06,ANALEPSIS,tie
+Claude Opus 5,S02,ZIGZAG,tie
+Claude Opus 5,S09,PROLEPSIS,tie
+Claude Opus 5,S27,CHRONICLE,free
+Claude Opus 5,S10,SYLLEPSIS,free
+Claude Opus 5,S12,PROLEPSIS,tie
+Claude Opus 5,S45,CHRONICLE,free
+Claude Opus 5,S13,RETROGRADE,cued
+Claude Opus 5,S75,ACHRONY,cued
+Claude Opus 5,S51,RETROGRADE,tie
+GPT-5.6 Sol,S02,ZIGZAG,free
+GPT-5.6 Sol,S01,SYLLEPSIS,tie
+GPT-5.6 Sol,S07,ACHRONY,free
+GPT-5.6 Sol,S05,ANALEPSIS,cued
+GPT-5.6 Sol,S03,ZIGZAG,free
+GPT-5.6 Sol,S06,ANALEPSIS,tie
+GPT-5.6 Sol,S09,PROLEPSIS,free
+GPT-5.6 Sol,S12,PROLEPSIS,free
+GPT-5.6 Sol,S10,SYLLEPSIS,cued
+GPT-5.6 Sol,S13,RETROGRADE,cued
+GPT-5.6 Sol,S27,CHRONICLE,free
+GPT-5.6 Sol,S45,CHRONICLE,tie
+GPT-5.6 Sol,S51,RETROGRADE,free
+GPT-5.6 Sol,S75,ACHRONY,cued
+Gemini 3.1 Pro,S02,ZIGZAG,free
+Gemini 3.1 Pro,S01,SYLLEPSIS,free
+Gemini 3.1 Pro,S06,ANALEPSIS,cued
+Gemini 3.1 Pro,S03,ZIGZAG,tie
+Gemini 3.1 Pro,S05,ANALEPSIS,free
+Gemini 3.1 Pro,S09,PROLEPSIS,free
+Gemini 3.1 Pro,S07,ACHRONY,free
+Gemini 3.1 Pro,S13,RETROGRADE,free
+Gemini 3.1 Pro,S10,SYLLEPSIS,cued
+Gemini 3.1 Pro,S12,PROLEPSIS,cued
+Gemini 3.1 Pro,S27,CHRONICLE,free
+Gemini 3.1 Pro,S45,CHRONICLE,free
+Gemini 3.1 Pro,S51,RETROGRADE,free
+Gemini 3.1 Pro,S75,ACHRONY,free
+Grok 4.5,S07,ACHRONY,free
+Grok 4.5,S05,ANALEPSIS,cued
+Grok 4.5,S03,ZIGZAG,free
+Grok 4.5,S02,ZIGZAG,free
+Grok 4.5,S06,ANALEPSIS,free
+Grok 4.5,S01,SYLLEPSIS,tie
+Grok 4.5,S09,PROLEPSIS,tie
+Grok 4.5,S12,PROLEPSIS,free
+Grok 4.5,S13,RETROGRADE,free
+Grok 4.5,S27,CHRONICLE,free
+Grok 4.5,S45,CHRONICLE,tie
+Grok 4.5,S10,SYLLEPSIS,free
+Grok 4.5,S51,RETROGRADE,free
+Grok 4.5,S75,ACHRONY,free
+DeepSeek V4 Pro,S03,ZIGZAG,free
+DeepSeek V4 Pro,S01,SYLLEPSIS,free
+DeepSeek V4 Pro,S02,ZIGZAG,free
+DeepSeek V4 Pro,S05,ANALEPSIS,free
+DeepSeek V4 Pro,S06,ANALEPSIS,free
+DeepSeek V4 Pro,S07,ACHRONY,free
+DeepSeek V4 Pro,S09,PROLEPSIS,free
+DeepSeek V4 Pro,S10,SYLLEPSIS,tie
+DeepSeek V4 Pro,S12,PROLEPSIS,free
+DeepSeek V4 Pro,S27,CHRONICLE,free
+DeepSeek V4 Pro,S13,RETROGRADE,tie
+DeepSeek V4 Pro,S45,CHRONICLE,cued
+DeepSeek V4 Pro,S75,ACHRONY,free
+DeepSeek V4 Pro,S51,RETROGRADE,tie
+GLM-5.2,S01,SYLLEPSIS,free
+GLM-5.2,S02,ZIGZAG,free
+GLM-5.2,S03,ZIGZAG,free
+GLM-5.2,S07,ACHRONY,free
+GLM-5.2,S06,ANALEPSIS,cued
+GLM-5.2,S05,ANALEPSIS,free
+GLM-5.2,S09,PROLEPSIS,free
+GLM-5.2,S10,SYLLEPSIS,tie
+GLM-5.2,S12,PROLEPSIS,tie
+GLM-5.2,S27,CHRONICLE,cued
+GLM-5.2,S13,RETROGRADE,cued
+GLM-5.2,S45,CHRONICLE,tie
+GLM-5.2,S51,RETROGRADE,free
+GLM-5.2,S75,ACHRONY,cued
+gpt-oss-120b,S01,SYLLEPSIS,free
+gpt-oss-120b,S02,ZIGZAG,free
+gpt-oss-120b,S03,ZIGZAG,free
+gpt-oss-120b,S05,ANALEPSIS,free
+gpt-oss-120b,S07,ACHRONY,free
+gpt-oss-120b,S06,ANALEPSIS,tie
+gpt-oss-120b,S09,PROLEPSIS,free
+gpt-oss-120b,S10,SYLLEPSIS,free
+gpt-oss-120b,S13,RETROGRADE,free
+gpt-oss-120b,S12,PROLEPSIS,tie
+gpt-oss-120b,S27,CHRONICLE,free
+gpt-oss-120b,S45,CHRONICLE,cued
+gpt-oss-120b,S51,RETROGRADE,free
+gpt-oss-120b,S75,ACHRONY,cued
+Llama 4 Maverick,S02,ZIGZAG,free
+Llama 4 Maverick,S01,SYLLEPSIS,free
+Llama 4 Maverick,S03,ZIGZAG,free
+Llama 4 Maverick,S06,ANALEPSIS,free
+Llama 4 Maverick,S05,ANALEPSIS,free
+Llama 4 Maverick,S07,ACHRONY,free
+Llama 4 Maverick,S09,PROLEPSIS,tie
+Llama 4 Maverick,S12,PROLEPSIS,tie
+Llama 4 Maverick,S10,SYLLEPSIS,free
+Llama 4 Maverick,S45,CHRONICLE,tie
+Llama 4 Maverick,S13,RETROGRADE,free
+Llama 4 Maverick,S27,CHRONICLE,tie
+Llama 4 Maverick,S75,ACHRONY,cued

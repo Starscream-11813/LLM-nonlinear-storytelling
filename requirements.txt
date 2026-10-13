@@ -1,0 +1,3 @@
+# The corpus scripts and the API scripts use only the Python standard library.
+# pandas is needed to score the stored replies into experiments/results/.
+pandas>=2.0

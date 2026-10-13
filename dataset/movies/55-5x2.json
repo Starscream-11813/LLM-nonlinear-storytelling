@@ -1,0 +1,50 @@
+{
+  "title": "5x2",
+  "release_year": 2004,
+  "genre": "Drama, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "On a beach in Sardinia, Marion notices Gilles, who is on holiday there with his girlfriend Valerie.",
+    "Valerie flies home after a quarrel, and Gilles knocks at Marion's hotel door that evening.",
+    "Marion and Gilles walk out into the sea together at sunset.",
+    "At their wedding in a country hotel, Marion's separated parents sit at opposite ends of the table and the speeches are cold.",
+    "Gilles falls asleep drunk on the wedding night, and Marion lets a stranger from the corridor into the room.",
+    "Their son is delivered by emergency caesarean while Gilles sits in the car park unable to make himself come in.",
+    "Gilles reaches the ward hours afterwards and admits where he has been.",
+    "At a dinner for Gilles's brother and his boyfriend, Gilles describes watching strangers have sex at a club.",
+    "Marion says at the same table that she was there and watched as well, and the evening curdles.",
+    "Marion and Gilles start sleeping in separate rooms, and Gilles takes a lover at his office.",
+    "A clerk in a solicitor's office reads out the terms of their divorce and the two of them sign.",
+    "They take a hotel room afterwards, have sex once more, and Gilles dresses and leaves Marion lying on the bed."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    8,
+    9,
+    10,
+    6,
+    7,
+    4,
+    5,
+    1,
+    2,
+    3
+  ],
+  "event_scenes": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5
+  ],
+  "syuzhet_notes": "Five self-contained episodes play in reverse order, each opening after the previous one has already been undone: the divorce first, the first meeting last. Nothing in the telling ever moves forward between episodes.",
+  "fabula_notes": "Each episode is one continuous stretch, so its own bullets play in order; the reversal is entirely at the level of the five episodes."
+}

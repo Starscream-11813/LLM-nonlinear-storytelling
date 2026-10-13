@@ -1,0 +1,718 @@
+{
+  "story_id": "S51",
+  "source_index": 51,
+  "genre": "Drama, Romance",
+  "source": "Play",
+  "events_chronological": [
+    "During a party at the house of his closest friend, a book agent named Wilder leads Odile to an upstairs room and tells her how lovely she is while the other guests drink downstairs.",
+    "Wilder and Odile rent rooms in a quiet district and fill them with linen and plates, giving the affair a household of its own.",
+    "Odile says she is carrying her husband's child, and the pair decide the rented rooms will go on exactly as before.",
+    "In a hotel abroad, her husband Emlyn asks about a letter held for her at the desk, addressed in a hand he recognises.",
+    "Odile confesses, and Emlyn remarks that he has always been fonder of his friend than of his wife.",
+    "Odile goes back to the rented rooms and says nothing whatever about the trip, and the afternoon passes exactly as the others have.",
+    "Emlyn drinks through a long restaurant lunch with Wilder, baiting him about contemporary fiction and never once mentioning what he has learned.",
+    "Over dinner at the married couple's house the two men discuss racquet games and schoolboy sport until Odile has no part in the talk at all.",
+    "Wilder and Odile decide the rented rooms have become a chore, split the crockery and surrender the lease.",
+    "In a bar two years afterwards, Odile tells Wilder her marriage is over and that she spent the previous night confessing everything to her husband.",
+    "Odile lets slip that Emlyn has been publishing a writer whom Wilder represents and whom the two men both quietly detest.",
+    "Wilder rings Emlyn in a state and Emlyn comes to his house the same evening.",
+    "Emlyn says he has known for four years, that his wife told him on the trip abroad, and that he never thought much of his friend's letters either."
+  ],
+  "syuzhet_order": [
+    10,
+    11,
+    12,
+    13,
+    9,
+    8,
+    4,
+    5,
+    6,
+    7,
+    2,
+    3,
+    1
+  ],
+  "event_scenes": [
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    9
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. The only forward motion is inside the 1973 block and the closing pair, which play in order because each is one continuous scene.",
+  "syuzhet_notes": "The nine scenes move from the last year of the story back to the first. The opening pair is the latest material and the closing bullet the earliest, so every revelation arrives ahead of whatever caused it.",
+  "fabula_notes": "The chronology is fixed by dates printed above each scene. Three scenes from one middle year play in order among themselves, since each is a single continuous stretch.",
+  "story_graph": {
+    "characters": {
+      "Wilder": {
+        "archetype": "Hero"
+      },
+      "Odile": {
+        "archetype": "Shapeshifter"
+      },
+      "Emlyn": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Wilder",
+          "declares",
+          "his attraction to Odile"
+        ],
+        "content": "Upstairs from a crowded party in his closest friend's house, the book agent crosses from private admiration into a proposal of betrayal.",
+        "participants": [
+          "Wilder",
+          "Odile",
+          "Emlyn"
+        ],
+        "location": "Emlyn and Odile's house",
+        "pre": {},
+        "post": {
+          "attraction_declared": true
+        },
+        "learns": {
+          "Odile": [
+            "Wilder wants an affair with her"
+          ],
+          "reader": [
+            "the betrayal begins inside Emlyn's home and friendship"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Wilder and Odile",
+          "establish",
+          "rented rooms"
+        ],
+        "content": "Linen, crockery and regular afternoons give the affair a second household whose ordinary objects make secrecy feel sustainable.",
+        "participants": [
+          "Wilder",
+          "Odile"
+        ],
+        "location": "rented rooms in a quiet district",
+        "pre": {
+          "attraction_declared": true
+        },
+        "post": {
+          "affair_household_created": true
+        },
+        "learns": {
+          "Wilder": [
+            "Odile will maintain a separate domestic space with him"
+          ],
+          "reader": [
+            "the affair has become a durable parallel household"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Odile",
+          "announces",
+          "her pregnancy"
+        ],
+        "content": "She identifies the expected child as her husband's, and both lovers decide that parenthood will alter the marriage but not their rooms.",
+        "participants": [
+          "Wilder",
+          "Odile"
+        ],
+        "location": "the rented rooms",
+        "pre": {
+          "affair_household_created": true
+        },
+        "post": {
+          "odile_pregnant": true,
+          "affair_continues": true
+        },
+        "learns": {
+          "Wilder": [
+            "Odile is carrying Emlyn's child and intends to continue the affair"
+          ],
+          "reader": [
+            "the lovers choose continuity over a reckoning"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Emlyn",
+          "questions",
+          "a recognisable letter"
+        ],
+        "content": "At a hotel abroad, a message held under Odile's name carries Wilder's familiar hand into the marriage's shared space.",
+        "participants": [
+          "Emlyn",
+          "Odile"
+        ],
+        "location": "a hotel abroad",
+        "pre": {
+          "affair_continues": true
+        },
+        "post": {
+          "emlyn_saw_letter": true
+        },
+        "learns": {
+          "Emlyn": [
+            "Wilder has sent Odile a private letter at the hotel"
+          ],
+          "Odile": [
+            "the affair can no longer remain wholly deniable"
+          ],
+          "reader": [
+            "the physical letter forces the secret into conversation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Odile",
+          "confesses",
+          "the affair"
+        ],
+        "content": "Her admission receives an unnervingly controlled response: Emlyn says his attachment to Wilder has always exceeded his attachment to his wife.",
+        "participants": [
+          "Odile",
+          "Emlyn"
+        ],
+        "location": "a hotel abroad",
+        "pre": {
+          "emlyn_saw_letter": true
+        },
+        "post": {
+          "emlyn_knows_affair": true
+        },
+        "learns": {
+          "Emlyn": [
+            "Odile and Wilder are lovers"
+          ],
+          "Odile": [
+            "Emlyn values his friendship with Wilder more than the marriage"
+          ],
+          "reader": [
+            "the betrayed husband absorbs the secret without exposing it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Odile",
+          "returns to",
+          "the unchanged affair"
+        ],
+        "content": "Back in the rented rooms, she withholds the fact of confession from Wilder and lets habit preserve a false version of their danger.",
+        "participants": [
+          "Odile",
+          "Wilder"
+        ],
+        "location": "the rented rooms",
+        "pre": {
+          "emlyn_knows_affair": true
+        },
+        "post": {
+          "wilder_kept_ignorant": true
+        },
+        "learns": {
+          "reader": [
+            "Odile now keeps a second secret inside the original secret"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Emlyn",
+          "conceals",
+          "his knowledge from Wilder"
+        ],
+        "content": "During a long, drunken lunch he attacks his friend's literary taste but never names the betrayal both the audience and Odile know he knows.",
+        "participants": [
+          "Emlyn",
+          "Wilder"
+        ],
+        "location": "a restaurant",
+        "pre": {
+          "emlyn_knows_affair": true,
+          "wilder_kept_ignorant": true
+        },
+        "post": {
+          "emlyn_silence_maintained": true
+        },
+        "learns": {
+          "Wilder": [
+            "Emlyn is hostile about his literary work for reasons Wilder cannot identify"
+          ],
+          "reader": [
+            "Emlyn chooses sustained ambiguity over confrontation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Emlyn and Wilder",
+          "exclude",
+          "Odile from dinner talk"
+        ],
+        "content": "At the married couple's table the men retreat into school sport and shared history, staging a friendship whose intimacy makes Odile peripheral in her own home.",
+        "participants": [
+          "Emlyn",
+          "Wilder",
+          "Odile"
+        ],
+        "location": "Emlyn and Odile's dining room",
+        "pre": {
+          "emlyn_silence_maintained": true
+        },
+        "post": {
+          "triangle_stalemate": true
+        },
+        "learns": {
+          "Odile": [
+            "the men's shared past remains inaccessible to her"
+          ],
+          "reader": [
+            "friendship, marriage and affair cannot be arranged as a simple rivalry"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Wilder and Odile",
+          "close",
+          "the rented rooms"
+        ],
+        "content": "The domestic objects are divided and the lease surrendered not through discovery but because the parallel household has become another obligation.",
+        "participants": [
+          "Wilder",
+          "Odile"
+        ],
+        "location": "the rented rooms",
+        "pre": {
+          "triangle_stalemate": true,
+          "affair_household_created": true
+        },
+        "post": {
+          "affair_rooms_closed": true
+        },
+        "learns": {
+          "Wilder": [
+            "the rooms no longer make the affair feel alive"
+          ],
+          "Odile": [
+            "ending the lease does not itself end the history"
+          ],
+          "reader": [
+            "the affair's material life ends through fatigue rather than exposure"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Odile",
+          "confesses",
+          "the whole affair again"
+        ],
+        "content": "Two years after the rooms close, she tells Wilder that her marriage has ended and that she finally gave Emlyn what she believes is the first complete account.",
+        "participants": [
+          "Odile",
+          "Wilder"
+        ],
+        "location": "a bar",
+        "pre": {
+          "affair_rooms_closed": true
+        },
+        "post": {
+          "marriage_ending": true,
+          "wilder_thinks_recent_confession": true
+        },
+        "learns": {
+          "Wilder": [
+            "Odile says the marriage is ending and Emlyn now knows about the affair"
+          ],
+          "reader": [
+            "the latest confession rests on a false assumption about when Emlyn learned"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q5",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "how did the affair now being confessed begin?",
+          "q2": "what private life did Wilder and Odile build together?",
+          "q5": "why had the lovers already given up their rooms before the marriage ended?",
+          "q6": "does Emlyn truly learn of the affair only from last night's confession?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Odile",
+          "reveals",
+          "Emlyn's publishing link"
+        ],
+        "content": "A stray detail about a mutually disliked writer shows that husband and lover have continued a professional relationship outside her version of their lives.",
+        "participants": [
+          "Odile",
+          "Wilder"
+        ],
+        "location": "a bar",
+        "pre": {
+          "wilder_thinks_recent_confession": true
+        },
+        "post": {
+          "publishing_link_revealed": true
+        },
+        "learns": {
+          "Wilder": [
+            "Emlyn has been publishing a writer Wilder represents"
+          ],
+          "reader": [
+            "the two men have maintained another concealed connection"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "what else have the two men concealed from one another?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Wilder",
+          "summons",
+          "Emlyn"
+        ],
+        "content": "Alarmed by the confession and the publishing detail, he telephones the friend he betrayed and asks for the direct conversation avoided across the affair.",
+        "participants": [
+          "Wilder",
+          "Emlyn"
+        ],
+        "location": "Wilder's house",
+        "pre": {
+          "publishing_link_revealed": true
+        },
+        "post": {
+          "emlyn_summoned": true
+        },
+        "learns": {
+          "Emlyn": [
+            "Wilder wants to discuss what Odile has disclosed"
+          ],
+          "reader": [
+            "the two men will finally compare what each knows"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Emlyn",
+          "discloses",
+          "four years of knowledge"
+        ],
+        "content": "He says Odile confessed during the trip abroad and adds that he also read Wilder's letters, collapsing the lover's belief that secrecy lasted until yesterday.",
+        "participants": [
+          "Emlyn",
+          "Wilder"
+        ],
+        "location": "Wilder's house",
+        "pre": {
+          "emlyn_summoned": true,
+          "emlyn_knows_affair": true
+        },
+        "post": {
+          "wilder_knows_emlyn_knew": true
+        },
+        "learns": {
+          "Wilder": [
+            "Emlyn knew about the affair for four years and read the letters"
+          ],
+          "reader": [
+            "the latest revelation confirms how long every conversation rested on unequal knowledge"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4"
+        ],
+        "resolves": [
+          "q6",
+          "q7"
+        ],
+        "questions": {
+          "q3": "what first prompted Emlyn to confront Odile on the trip abroad?",
+          "q4": "how did Emlyn respond when Odile first confessed?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e8",
+        "on": "Wilder's intimacy with both spouses inside their home"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e10",
+        "on": "the beginning and retrospective confession of the affair"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e6",
+        "on": "the rented rooms"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e9",
+        "on": "the creation and closure of the affair household"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e10",
+        "on": "Odile's marriage continuing alongside the affair"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the hotel discovery and confession"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e13",
+        "on": "the trip abroad as the actual moment of disclosure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e7",
+        "on": "Emlyn's knowledge and silence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the secret kept from Wilder"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e9",
+        "on": "Odile's later returns to the rooms"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e13",
+        "on": "Emlyn speaking around and then directly about the affair"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e11",
+        "on": "the men's relationship outside Odile's understanding"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the end of the rooms before the end of the marriage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "Odile's disclosures in the bar"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the publishing detail that prompts the call"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the meeting between the two men"
+      }
+    ]
+  }
+}

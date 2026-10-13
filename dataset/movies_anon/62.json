@@ -1,0 +1,839 @@
+{
+  "story_id": "S62",
+  "source_index": 62,
+  "genre": "Drama, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "Four sisters put on the eldest girl's play in the attic at Christmas and then carry their own breakfast down the road to a starving family.",
+    "The writer of the play meets the boy next door at a dance while hiding a scorch mark in the back of her dress.",
+    "The youngest sister is caned in front of her class over a jar of sweets and is withdrawn from the school.",
+    "The youngest burns her sister's manuscript, and is told she will never be forgiven as long as she lives.",
+    "The youngest goes through the ice on the river, and the sister who nearly let her drown forgives her.",
+    "The shy sister is given a dead child's piano by the old man next door.",
+    "A telegram reports their father wounded, and the eldest sells her hair to pay for their mother's journey to him.",
+    "The shy sister catches scarlet fever from the family they have been feeding and very nearly dies.",
+    "The second sister marries a poor tutor in the garden with almost no money and is glad of it.",
+    "The boy next door proposes and is refused, on the grounds that the two of them would destroy each other.",
+    "The writer sells lurid stories to a city paper under an invented name while a foreign professor at her lodging house tells her frankly that they are bad.",
+    "The youngest studies painting abroad under a rich aunt's eye and meets the boy next door again, drunk and aimless.",
+    "The married sister, poor now, buys dress silk she cannot afford and confesses it to her husband.",
+    "Word arrives that the shy sister is dying, and the writer goes home to nurse her beside the sea.",
+    "The shy sister dies, and the writer shuts herself in the attic and starts writing the story of the four of them.",
+    "The youngest and the boy next door marry abroad and come home together, and a letter offering herself to him arrives too late.",
+    "The writer argues the ending and the copyright out of her publisher, and the book goes to press."
+  ],
+  "syuzhet_order": [
+    11,
+    1,
+    12,
+    2,
+    13,
+    3,
+    4,
+    14,
+    5,
+    6,
+    15,
+    7,
+    8,
+    16,
+    9,
+    10,
+    17
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "Two periods seven years apart alternate on a regular beat, each running forward, and the film pairs them by echo and contrast - two Christmases, two illnesses, two scenes in the same attic.",
+  "syuzhet_notes": "The telling cuts between the childhood years and the present on a regular beat, matching each pair: the two Christmases, the two bedside scenes, the two attics. The beat loosens in the last third as the past catches up with the present.",
+  "fabula_notes": "The childhood strand runs seven years earlier throughout, distinguished by warmer light and by which sisters are in the house. The negotiation with the publisher is the latest event in the story.",
+  "story_graph": {
+    "characters": {
+      "the writer sister": {
+        "archetype": "Hero"
+      },
+      "the married sister": {
+        "archetype": "Ally"
+      },
+      "the shy sister": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the youngest sister": {
+        "archetype": "Shapeshifter"
+      },
+      "the boy next door": {
+        "archetype": "Ally"
+      },
+      "their mother": {
+        "archetype": "Mentor"
+      },
+      "the old neighbour": {
+        "archetype": "Mentor"
+      },
+      "the poor tutor": {
+        "archetype": "Ally"
+      },
+      "the rich aunt": {
+        "archetype": "Threshold Guardian"
+      },
+      "the foreign professor": {
+        "archetype": "Mentor"
+      },
+      "the publisher": {
+        "archetype": "Threshold Guardian"
+      },
+      "the schoolmaster": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the four sisters",
+          "stage",
+          "a Christmas play and act of charity"
+        ],
+        "content": "Their attic performance gives way to carrying breakfast to a family with less than they have.",
+        "participants": [
+          "the writer sister",
+          "the married sister",
+          "the shy sister",
+          "the youngest sister",
+          "their mother"
+        ],
+        "location": "the family attic and a neighbour's home",
+        "pre": {},
+        "post": {
+          "sisters_bonded": true,
+          "poor_family_aided": true
+        },
+        "learns": {
+          "reader": [
+            "the sisters' childhood is organised around imagination, scarcity and mutual care"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the writer sister",
+          "meets",
+          "the boy next door"
+        ],
+        "content": "A scorched dress hidden at a dance becomes the occasion for an easy first confidence between them.",
+        "participants": [
+          "the writer sister",
+          "the boy next door"
+        ],
+        "location": "a dance",
+        "pre": {
+          "sisters_bonded": true
+        },
+        "post": {
+          "neighbour_friendship": true
+        },
+        "learns": {
+          "reader": [
+            "the writer and neighbour begin a formative friendship"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the schoolmaster",
+          "canes",
+          "the youngest sister"
+        ],
+        "content": "Public punishment over the sweets jar leads the family to remove her from the school.",
+        "participants": [
+          "the youngest sister",
+          "the schoolmaster",
+          "their mother"
+        ],
+        "location": "a classroom",
+        "pre": {},
+        "post": {
+          "youngest_withdrawn_from_school": true
+        },
+        "learns": {
+          "reader": [
+            "the youngest sister's formal schooling ends after humiliation"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the youngest sister",
+          "burns",
+          "the writer's manuscript"
+        ],
+        "content": "Retaliation destroys work that cannot be restored, and the writer answers with a vow never to forgive.",
+        "participants": [
+          "the youngest sister",
+          "the writer sister"
+        ],
+        "location": "the family home",
+        "pre": {
+          "sisters_bonded": true
+        },
+        "post": {
+          "manuscript_burned": true,
+          "sisters_quarrelling": true
+        },
+        "learns": {
+          "reader": [
+            "the sisters' deepest childhood quarrel centres on destroyed writing"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "can the sisters repair the damage caused by the burned manuscript?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the writer sister",
+          "forgives",
+          "the youngest sister"
+        ],
+        "content": "An accident on the river forces her to choose rescue over grievance and restores the bond.",
+        "participants": [
+          "the writer sister",
+          "the youngest sister",
+          "the boy next door"
+        ],
+        "location": "a frozen river",
+        "pre": {
+          "sisters_quarrelling": true
+        },
+        "post": {
+          "youngest_rescued": true,
+          "sisters_reconciled": true
+        },
+        "learns": {
+          "reader": [
+            "the near drowning ends the manuscript quarrel"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the old neighbour",
+          "gives",
+          "the shy sister a piano"
+        ],
+        "content": "Her quiet visits are rewarded with the instrument once owned by a child he lost.",
+        "participants": [
+          "the shy sister",
+          "the old neighbour"
+        ],
+        "location": "the neighbour's house",
+        "pre": {},
+        "post": {
+          "piano_given": true
+        },
+        "learns": {
+          "reader": [
+            "the shy sister's kindness earns a treasured piano"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the writer sister",
+          "sells",
+          "her hair for the journey"
+        ],
+        "content": "When news says their father is wounded, she converts a personal possession into the fare their mother needs.",
+        "participants": [
+          "the writer sister",
+          "their mother"
+        ],
+        "location": "the family home",
+        "pre": {},
+        "post": {
+          "father_wounded": true,
+          "mother_departed": true
+        },
+        "learns": {
+          "reader": [
+            "the father's wound sends the mother away and deepens the household sacrifice"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the shy sister",
+          "contracts",
+          "scarlet fever"
+        ],
+        "content": "Contact with the family the sisters aided leaves her dangerously ill while their mother is away.",
+        "participants": [
+          "the shy sister",
+          "the writer sister"
+        ],
+        "location": "the family home",
+        "pre": {
+          "poor_family_aided": true,
+          "mother_departed": true
+        },
+        "post": {
+          "shy_sister_fever": true,
+          "shy_sister_fragile": true
+        },
+        "learns": {
+          "reader": [
+            "the childhood illness establishes the shy sister's lasting fragility"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the married sister",
+          "marries",
+          "the poor tutor"
+        ],
+        "content": "A garden ceremony accepts affection and limited means as enough for a household.",
+        "participants": [
+          "the married sister",
+          "the poor tutor",
+          "the writer sister",
+          "the shy sister",
+          "the youngest sister"
+        ],
+        "location": "the family garden",
+        "pre": {},
+        "post": {
+          "sister_married": true
+        },
+        "learns": {
+          "reader": [
+            "one sister deliberately chooses a loving but poor marriage"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the writer sister",
+          "refuses",
+          "the boy's proposal"
+        ],
+        "content": "She believes their resemblance would make marriage destructive despite the depth of their friendship.",
+        "participants": [
+          "the writer sister",
+          "the boy next door"
+        ],
+        "location": "the family home",
+        "pre": {
+          "neighbour_friendship": true
+        },
+        "post": {
+          "proposal_refused": true
+        },
+        "learns": {
+          "reader": [
+            "the writer rejects the childhood friend's marriage proposal"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the foreign professor",
+          "criticises",
+          "the writer's lurid stories"
+        ],
+        "content": "In the city she sells sensational work under another name until a candid reader tells her it is beneath her.",
+        "participants": [
+          "the writer sister",
+          "the foreign professor"
+        ],
+        "location": "a city lodging house",
+        "pre": {},
+        "post": {
+          "lurid_stories_sold": true,
+          "writing_challenged": true
+        },
+        "learns": {
+          "reader": [
+            "the writer earns money from formulaic stories but is challenged to write honestly"
+          ],
+          "the writer sister": [
+            "the professor considers her current stories bad"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "will the writer find a truer subject and gain control of her work?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the youngest sister",
+          "meets",
+          "the boy abroad"
+        ],
+        "content": "Under the rich aunt's supervision, she finds the former neighbour drinking and without purpose.",
+        "participants": [
+          "the youngest sister",
+          "the boy next door",
+          "the rich aunt"
+        ],
+        "location": "a European city",
+        "pre": {
+          "proposal_refused": true
+        },
+        "post": {
+          "youngest_boy_reunited": true
+        },
+        "learns": {
+          "reader": [
+            "the youngest sister and the rejected neighbour meet again as adults"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why is the boy next door drunk and aimless when the youngest sister meets him abroad?",
+          "q7": "what future follows the youngest sister's reunion with the boy?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the married sister",
+          "confesses",
+          "the unaffordable silk"
+        ],
+        "content": "Poverty turns a dress purchase into a breach of trust she chooses to admit to her husband.",
+        "participants": [
+          "the married sister",
+          "the poor tutor"
+        ],
+        "location": "the married sister's home",
+        "pre": {
+          "sister_married": true
+        },
+        "post": {
+          "silk_confessed": true
+        },
+        "learns": {
+          "reader": [
+            "the loving marriage still carries material strain"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "how did the poor household in which the sister now struggles begin?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the writer sister",
+          "returns",
+          "to the dying shy sister"
+        ],
+        "content": "News of the decline draws her home to nurse her sister beside the sea.",
+        "participants": [
+          "the writer sister",
+          "the shy sister"
+        ],
+        "location": "a house by the sea",
+        "pre": {
+          "shy_sister_fragile": true
+        },
+        "post": {
+          "writer_home_to_nurse": true
+        },
+        "learns": {
+          "reader": [
+            "the shy sister's earlier fragility has become a terminal illness"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what earlier illness helps explain the shy sister's fatal decline?",
+          "q8": "will the shy sister survive this decline?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the writer sister",
+          "writes",
+          "the sisters' story"
+        ],
+        "content": "After the shy sister dies, grief sends the writer back to the attic and toward truthful family material.",
+        "participants": [
+          "the writer sister",
+          "the shy sister"
+        ],
+        "location": "the family attic",
+        "pre": {
+          "writer_home_to_nurse": true,
+          "writing_challenged": true
+        },
+        "post": {
+          "shy_sister_dead": true,
+          "family_manuscript_written": true
+        },
+        "learns": {
+          "reader": [
+            "bereavement and criticism produce the manuscript based on the sisters"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {
+          "q9": "will the family manuscript become a published book?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the youngest sister",
+          "marries",
+          "the boy next door"
+        ],
+        "content": "Their marriage abroad is already complete when the writer's belated offer reaches him.",
+        "participants": [
+          "the youngest sister",
+          "the boy next door"
+        ],
+        "location": "abroad and the family home",
+        "pre": {
+          "youngest_boy_reunited": true,
+          "proposal_refused": true
+        },
+        "post": {
+          "youngest_boy_married": true,
+          "writer_letter_late": true
+        },
+        "learns": {
+          "reader": [
+            "the boy forms a future with the youngest sister after the writer's refusal"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {
+          "q4": "why did the boy next door ultimately marry a different sister?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the writer sister",
+          "secures",
+          "the book and its copyright"
+        ],
+        "content": "She bargains over both the romantic ending and ownership until the family story goes to press on her terms.",
+        "participants": [
+          "the writer sister",
+          "the publisher"
+        ],
+        "location": "a publisher's office and printing house",
+        "pre": {
+          "family_manuscript_written": true
+        },
+        "post": {
+          "family_book_published": true,
+          "writer_owns_copyright": true
+        },
+        "learns": {
+          "reader": [
+            "the writer turns the family manuscript into a controlled published work"
+          ],
+          "the writer sister": [
+            "she can retain ownership by negotiating firmly"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5",
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e15",
+        "on": "the same attic as a childhood stage and adult writing room"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      }
+    ]
+  }
+}

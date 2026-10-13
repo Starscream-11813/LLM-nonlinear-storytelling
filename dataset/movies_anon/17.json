@@ -1,0 +1,968 @@
+{
+  "story_id": "S17",
+  "source_index": 17,
+  "genre": "Drama, Mystery, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Child psychologist Aubrey Lang and his wife Frida celebrate a civic award for his work with children.",
+    "A former patient named Emory breaks into their bathroom, accuses Aubrey of having failed him, shoots him in the stomach and then kills himself.",
+    "Aubrey bleeds to death on the bedroom floor with Frida beside him.",
+    "The following autumn Aubrey takes on nine-year-old Toby Salter, a withdrawn boy whose case reminds him of Emory's.",
+    "Toby's mother Dana keeps finding cupboards standing open, drawers pulled out and marks on her son's body that she cannot explain.",
+    "Toby is shut in a cupboard at a birthday party and comes out hysterical and bruised.",
+    "Aubrey arrives late for his wedding anniversary dinner and Frida leaves the restaurant without speaking to him.",
+    "Toby finally tells Aubrey that he sees dead people walking around who do not know that they are dead.",
+    "Aubrey almost drops the case, then replays the old tape of Emory and hears a terrified voice in another language behind his own.",
+    "Aubrey tells Toby to stop running from the ghosts and to listen to what they want from him.",
+    "Bree Marlow, a girl who has just died, appears in Toby's tent and hands him a videotape.",
+    "At Bree's wake Toby gives her father the tape, which shows her stepmother poisoning her food.",
+    "Toby tells his mother about the ghosts and repeats what his dead grandmother heard her say at the graveside, and Dana believes him.",
+    "No longer terrified, Toby is cast in the school play and is happy in it.",
+    "Aubrey tells Toby that he has helped him and that the two of them will not need to see each other again.",
+    "Aubrey goes home, watches his and Frida's wedding video, and sees that she is asleep and has been talking to no one.",
+    "Frida's hand opens and Aubrey's wedding ring falls out, and he finds the bullet wound in his own back.",
+    "Aubrey tells his sleeping wife that he loves her and lets go."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    3,
+    18
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    14,
+    15,
+    16
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "Almost strictly forward, with one suppressed earlier scene - the shooting - withheld until the closing minutes.",
+  "syuzhet_notes": "The film runs almost strictly forward, and its single displacement is the one that matters: told-order bullet 17 is a flashback to the night of the shooting, suppressed for the whole runtime and released only in the closing montage, which also replays earlier scenes to show that nobody but the boy has spoken to the psychologist since. The nonlinearity here is one withheld event rather than a shuffled timeline.",
+  "fabula_notes": "The psychologist's death is elided by a caption naming the following season, so the months between the shooting and the new case are inferred rather than shown. That every scene between the psychologist and his wife is a man talking to a woman who cannot hear him is established retroactively and never played as such at the time.",
+  "story_graph": {
+    "characters": {
+      "Aubrey": {
+        "archetype": "Hero"
+      },
+      "Frida": {
+        "archetype": "Ally"
+      },
+      "Emory": {
+        "archetype": "Herald"
+      },
+      "Toby": {
+        "archetype": "Herald"
+      },
+      "Dana": {
+        "archetype": "Ally"
+      },
+      "Bree": {
+        "archetype": "Herald"
+      },
+      "Bree's father": {
+        "archetype": "Threshold Guardian"
+      },
+      "Bree's stepmother": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the city",
+          "honours",
+          "Aubrey"
+        ],
+        "content": "A framed citation, a glass of wine on the stairs, a wife reading the inscription out loud. He is being told, formally, that he is good at his work.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "the couple's house",
+        "pre": {},
+        "post": {
+          "award_given": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Aubrey",
+            "intro:Frida",
+            "he is praised for the children he has helped"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Emory",
+          "shoots",
+          "Aubrey"
+        ],
+        "content": "A grown man is standing in their bathroom in his underwear, shaking, saying that he was not helped. Then there is a pistol, and two shots, and only one of them is for Aubrey.",
+        "participants": [
+          "Aubrey",
+          "Frida",
+          "Emory"
+        ],
+        "location": "the bathroom of the couple's house",
+        "pre": {
+          "award_given": true
+        },
+        "post": {
+          "aubrey_shot": true,
+          "emory_dead": true
+        },
+        "learns": {
+          "Aubrey": [
+            "a child he treated grew up unhelped"
+          ],
+          "reader": [
+            "intro:Emory",
+            "the man he failed came back with a gun"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what was actually wrong with the man who shot him?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Aubrey",
+          "dies",
+          "on the bedroom floor"
+        ],
+        "content": "She gets him as far as the bed and no further. It takes a while, and she is holding on to him the whole time, and then it is finished.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "the couple's bedroom",
+        "pre": {
+          "aubrey_shot": true
+        },
+        "post": {
+          "aubrey_dead": true
+        },
+        "learns": {
+          "Frida": [
+            "her husband is dead"
+          ],
+          "reader": [
+            "he did not survive the night"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q2",
+          "q3",
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Aubrey",
+          "takes on",
+          "Toby"
+        ],
+        "content": "The next autumn there is a small boy on a church pew with a file that reads almost word for word like the one he got wrong, and he decides that this time he will not.",
+        "participants": [
+          "Aubrey",
+          "Toby"
+        ],
+        "location": "a church and a city street",
+        "pre": {
+          "aubrey_dead": true
+        },
+        "post": {
+          "case_taken": true
+        },
+        "learns": {
+          "Aubrey": [
+            "this case is the earlier one repeating"
+          ],
+          "reader": [
+            "intro:Toby",
+            "he is trying to correct an old failure"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why does this one case matter so much to him?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Dana",
+          "finds",
+          "the cupboards open"
+        ],
+        "content": "Every drawer in the kitchen pulled out, every cupboard standing wide, and her son at the table saying nothing. Later there are marks on his arms that no one will explain.",
+        "participants": [
+          "Toby",
+          "Dana"
+        ],
+        "location": "the Salter flat",
+        "pre": {
+          "case_taken": true
+        },
+        "post": {
+          "mother_alarmed": true
+        },
+        "learns": {
+          "Dana": [
+            "something is happening to him that she cannot see"
+          ],
+          "reader": [
+            "intro:Dana",
+            "there is physical evidence, and no cause for it"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what is happening to this boy?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Toby",
+          "is shut",
+          "in a cupboard"
+        ],
+        "content": "Two boys turn the key on him at a party as a joke. What comes out when the door is opened is not a boy who has been shut in a cupboard for four minutes.",
+        "participants": [
+          "Toby"
+        ],
+        "location": "a house where a birthday party is being held",
+        "pre": {
+          "mother_alarmed": true
+        },
+        "post": {
+          "toby_injured_at_party": true
+        },
+        "learns": {
+          "reader": [
+            "whatever frightens him is worst in a closed room"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "why is a closed room the worst of it?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Aubrey",
+          "misses",
+          "the anniversary"
+        ],
+        "content": "He gets to the restaurant late, sits down, and talks. She signs the bill, says the one word she says all evening, and leaves him at the table.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "a restaurant",
+        "pre": {
+          "aubrey_dead": true
+        },
+        "post": {
+          "marriage_silent": true
+        },
+        "learns": {
+          "Aubrey": [
+            "his marriage is failing and he cannot reach her"
+          ],
+          "reader": [
+            "she does not speak to him, and it is played as coldness"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why will she not speak to him?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Toby",
+          "tells",
+          "his secret"
+        ],
+        "content": "In the back of a car, in traffic, with his eyes shut, he says it in one breath: that he sees dead people, walking around like ordinary people, and that they do not know they are dead.",
+        "participants": [
+          "Aubrey",
+          "Toby"
+        ],
+        "location": "a car in city traffic",
+        "pre": {
+          "case_taken": true
+        },
+        "post": {
+          "secret_told": true
+        },
+        "learns": {
+          "Aubrey": [
+            "what the boy has been carrying"
+          ],
+          "reader": [
+            "the rule the whole telling is built on, stated plainly and then set aside"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Aubrey",
+          "replays",
+          "the old tape"
+        ],
+        "content": "About to give the case up, he puts on a reel from years ago and turns the level up through a long silence, and finds another voice underneath his own, terrified, in a language he does not speak.",
+        "participants": [
+          "Aubrey",
+          "Emory"
+        ],
+        "location": "Aubrey's study",
+        "pre": {
+          "secret_told": true
+        },
+        "post": {
+          "tape_reheard": true
+        },
+        "learns": {
+          "Aubrey": [
+            "the boy is telling the truth",
+            "he misread the first case completely"
+          ],
+          "reader": [
+            "what was wrong with the man who shot him"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Aubrey",
+          "advises",
+          "Toby"
+        ],
+        "content": "He tells him to stop running from them, because they may only be trying to be heard, and that the way out of it is to turn round and ask what they want.",
+        "participants": [
+          "Aubrey",
+          "Toby"
+        ],
+        "location": "a hospital corridor",
+        "pre": {
+          "tape_reheard": true
+        },
+        "post": {
+          "advice_given": true
+        },
+        "learns": {
+          "Toby": [
+            "there may be a use for what happens to him"
+          ],
+          "reader": [
+            "the treatment is to listen rather than to cure"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Bree",
+          "brings",
+          "a videotape"
+        ],
+        "content": "A girl in a nightdress is standing inside his tent being sick on the groundsheet, and she has a box with a tape in it, and she wants him to take it somewhere.",
+        "participants": [
+          "Toby",
+          "Bree"
+        ],
+        "location": "Toby's bedroom",
+        "pre": {
+          "advice_given": true
+        },
+        "post": {
+          "bree_appeared": true
+        },
+        "learns": {
+          "Toby": [
+            "they want things done, not just witnessed"
+          ],
+          "reader": [
+            "intro:Bree",
+            "the advice works immediately"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what is on the tape the dead girl brought?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Toby",
+          "gives",
+          "the tape to Bree's father"
+        ],
+        "content": "In a house full of mourners he puts the box into a man's hands. The tape shows a bedroom, a bowl of soup, and a woman putting something into it that is not soup.",
+        "participants": [
+          "Toby",
+          "Bree's father",
+          "Bree's stepmother"
+        ],
+        "location": "the Marlow house during a wake",
+        "pre": {
+          "bree_appeared": true
+        },
+        "post": {
+          "poisoning_exposed": true
+        },
+        "learns": {
+          "Bree's father": [
+            "his wife has been poisoning his children"
+          ],
+          "reader": [
+            "intro:Bree's father",
+            "intro:Bree's stepmother",
+            "the dead can be given justice through him"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Toby",
+          "tells",
+          "his mother"
+        ],
+        "content": "In a stopped car he says his grandmother comes to see him, and then repeats a sentence she heard at a graveside that nobody living could have carried, and the argument ends.",
+        "participants": [
+          "Toby",
+          "Dana"
+        ],
+        "location": "a car in stopped traffic",
+        "pre": {
+          "poisoning_exposed": true
+        },
+        "post": {
+          "mother_believes": true
+        },
+        "learns": {
+          "Dana": [
+            "her son is not ill, and her mother heard her"
+          ],
+          "reader": [
+            "the one relationship that needed repairing is repaired"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Toby",
+          "is cast",
+          "in the school play"
+        ],
+        "content": "A stable, a paper crown, a line to say. He is not frightened of the wings any more, and he is very good.",
+        "participants": [
+          "Toby",
+          "Dana",
+          "Aubrey"
+        ],
+        "location": "a school hall",
+        "pre": {
+          "mother_believes": true
+        },
+        "post": {
+          "toby_at_ease": true
+        },
+        "learns": {
+          "reader": [
+            "the boy is well"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Aubrey",
+          "ends",
+          "the treatment"
+        ],
+        "content": "He tells the boy he has done what he came to do and that they will not need to meet again, and the boy lets him go without argument.",
+        "participants": [
+          "Aubrey",
+          "Toby"
+        ],
+        "location": "a school hall",
+        "pre": {
+          "toby_at_ease": true
+        },
+        "post": {
+          "therapy_ended": true
+        },
+        "learns": {
+          "Toby": [
+            "he does not need him any more"
+          ],
+          "reader": [
+            "the case is closed, so the telling can turn round"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Aubrey",
+          "watches",
+          "the wedding video"
+        ],
+        "content": "He comes home to find her asleep in front of the television with their wedding on it, and the room is very cold, and he starts talking to her and she does not stop sleeping.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "the couple's living room",
+        "pre": {
+          "therapy_ended": true
+        },
+        "post": {
+          "video_watched": true
+        },
+        "learns": {
+          "reader": [
+            "she has not been ignoring him"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "who has she been talking to all this time?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Frida",
+          "drops",
+          "the ring"
+        ],
+        "content": "Her hand opens in her sleep and a wedding ring runs across the boards. His own hand is bare. He turns and looks for the hole in his back, and it is there.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "the couple's living room",
+        "pre": {
+          "video_watched": true
+        },
+        "post": {
+          "aubrey_knows": true
+        },
+        "learns": {
+          "Aubrey": [
+            "he has been dead since the night of the shooting"
+          ],
+          "reader": [
+            "the withheld event, placed at last"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why is there a wound in his back?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Aubrey",
+          "lets go",
+          "of Frida"
+        ],
+        "content": "He tells her he loves her, and that she was never second to the work, and that she can sleep now. Then the room lets him out of it.",
+        "participants": [
+          "Aubrey",
+          "Frida"
+        ],
+        "location": "the couple's living room",
+        "pre": {
+          "aubrey_knows": true
+        },
+        "post": {
+          "aubrey_released": true
+        },
+        "learns": {
+          "Frida": [
+            "something she will remember as a dream"
+          ],
+          "reader": [
+            "what the whole detour was for"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e15",
+        "on": "the same treatment, taken on and handed back"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "the same house, before the shooting and after the knowledge"
+      }
+    ]
+  }
+}

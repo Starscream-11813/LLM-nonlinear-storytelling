@@ -1,0 +1,1059 @@
+{
+  "story_id": "S26",
+  "source_index": 26,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "An opening sequence relates three improbable coincidences, the last of them a boy who leaps from a rooftop and is shot on the way down by his own mother.",
+    "Television producer Ward Halbrook walked out on his dying wife and their son, who reinvented himself as the seduction guru Dean Royce.",
+    "Hal Slade, host of a long-running children's quiz show, abused his daughter Nadine, who has not spoken to him in years.",
+    "Bertie Sloan was a famous quiz-show child star whose parents kept every cent of his winnings.",
+    "Ward Halbrook, dying of cancer, is nursed at home by a male nurse called Pell while his young wife Rhoda comes apart.",
+    "Hal Slade learns he has months to live and tells his wife Beth that he cannot go on.",
+    "The quiz kid Milo is driven to another taping by a father living off him.",
+    "Nadine takes cocaine alone with the stereo at full volume, and a neighbour calls the police.",
+    "Officer Tam answers the call, is charmed by Nadine and asks her out, then loses his gun on a later call and spends the day hunting for it.",
+    "Dean Royce works a hall of men through his seminar Conquer and Discard and is then ambushed in an interview about the father he claims is dead.",
+    "Rhoda goes from lawyer to pharmacy in a rage, trying to have Ward's will changed so that she gets nothing.",
+    "Pell tracks Dean down by telephone and begs him to come and see his dying father.",
+    "Bertie, in love with a bartender, decides to steal from the office that has just sacked him.",
+    "Milo wets himself on air and refuses to answer another question, and the show collapses live.",
+    "Hal breaks down on camera and afterwards admits to Beth that he did what Nadine says he did.",
+    "Rhoda swallows her pills in the car and is found by a neighbourhood boy who takes her money before calling for help.",
+    "Dean arrives at his father's bedside and screams at the unconscious man, then weeps over him.",
+    "Hal raises a gun to his own head just as frogs begin falling out of the sky over the valley.",
+    "The rain of frogs wrecks cars across the valley and knocks Bertie off the pole he is climbing, and Tam picks him up and lets him put the money back.",
+    "Ward dies, Rhoda is taken to hospital, Milo tells his father to be nicer to him, and Nadine turns to Tam and smiles."
+  ],
+  "syuzhet_order": [
+    1,
+    5,
+    7,
+    4,
+    6,
+    8,
+    9,
+    10,
+    2,
+    11,
+    12,
+    13,
+    14,
+    3,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    17,
+    18
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "One day holds 15 of 18 scenes and runs forward, with the prologue and two buried histories inserted from years earlier.",
+  "syuzhet_notes": "Told-order bullet 1 is a self-contained prologue set decades earlier, and everything after it covers a single day, cut between nine storylines almost continuously. The nonlinearity is less a shuffled timeline than the late release of buried history: told-order bullets 4, 9 and 14 reach years behind the day the film is otherwise living in, and each arrives at the moment it does most damage.",
+  "fabula_notes": "The nine strands run simultaneously through one day, so a single chronology has to impose an order on scenes the film shows as concurrent. The producer's abandonment of his first family and the host's abuse of his daughter are established through confession and archive footage rather than dramatised as they happened.",
+  "story_graph": {
+    "characters": {
+      "Ward": {
+        "archetype": "Shadow"
+      },
+      "Dean": {
+        "archetype": "Hero"
+      },
+      "Pell": {
+        "archetype": "Ally"
+      },
+      "Rhoda": {
+        "archetype": "Ally"
+      },
+      "Hal": {
+        "archetype": "Shadow"
+      },
+      "Nadine": {
+        "archetype": "Hero"
+      },
+      "Beth": {
+        "archetype": "Ally"
+      },
+      "Tam": {
+        "archetype": "Hero"
+      },
+      "Bertie": {
+        "archetype": "Hero"
+      },
+      "Milo": {
+        "archetype": "Herald"
+      },
+      "the boy on the roof": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the prologue",
+          "relates",
+          "three coincidences"
+        ],
+        "content": "A narrator lays out three impossible stories and finishes with a boy who steps off a roof and is shot on the way down by a gun his own mother is firing at his father.",
+        "participants": [
+          "the boy on the roof"
+        ],
+        "location": "a city, decades earlier",
+        "pre": {},
+        "post": {
+          "coincidence_stated": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the boy on the roof",
+            "the film's terms: this sort of thing does happen"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "can a thing that improbable really happen?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Ward",
+          "walks out",
+          "on his first family"
+        ],
+        "content": "A woman is dying in a back bedroom and there is a boy of fourteen doing the nursing, and one morning the father is simply not in the house any more.",
+        "participants": [
+          "Ward",
+          "Dean"
+        ],
+        "location": "a suburban house, years earlier",
+        "pre": {
+          "coincidence_stated": true
+        },
+        "post": {
+          "ward_abandoned_family": true
+        },
+        "learns": {
+          "Dean": [
+            "he is on his own with it"
+          ],
+          "reader": [
+            "intro:Ward",
+            "intro:Dean",
+            "the injury the guru is built on top of"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Hal",
+          "abuses",
+          "Nadine"
+        ],
+        "content": "The host of the most wholesome programme on television goes into his daughter's room at night for years, and she leaves at sixteen and does not come back.",
+        "participants": [
+          "Hal",
+          "Nadine"
+        ],
+        "location": "a suburban house, years earlier",
+        "pre": {
+          "ward_abandoned_family": true
+        },
+        "post": {
+          "hal_abused_nadine": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Hal",
+            "intro:Nadine",
+            "the second buried fact, and the film's worst"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Bertie's parents",
+          "keep",
+          "his winnings"
+        ],
+        "content": "The cleverest child in the country wins more money than his father earns in ten years, and by the time he is old enough to ask for it there is none of it left.",
+        "participants": [
+          "Bertie"
+        ],
+        "location": "a television studio and a family house, years earlier",
+        "pre": {
+          "hal_abused_nadine": true
+        },
+        "post": {
+          "bertie_ruined": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Bertie",
+            "what the show does to the children who win it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Pell",
+          "nurses",
+          "Ward"
+        ],
+        "content": "A hospital bed in a good living room, a morphine chart, and a male nurse who talks to a man who mostly cannot answer, while a much younger wife shouts at people on the telephone in the next room.",
+        "participants": [
+          "Ward",
+          "Pell",
+          "Rhoda"
+        ],
+        "location": "the Halbrook house",
+        "pre": {
+          "bertie_ruined": true
+        },
+        "post": {
+          "ward_dying": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Pell",
+            "intro:Rhoda",
+            "the day begins with a man who has hours left"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who is this man, and what did he do to deserve being alone?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Hal",
+          "learns",
+          "he is dying"
+        ],
+        "content": "A scan, a number of months, and a man telling his wife in a kitchen that he cannot go on with it - and meaning something other than the illness.",
+        "participants": [
+          "Hal",
+          "Beth"
+        ],
+        "location": "the Slade house",
+        "pre": {
+          "ward_dying": true
+        },
+        "post": {
+          "hal_dying": true
+        },
+        "learns": {
+          "Beth": [
+            "there is something he has not said"
+          ],
+          "reader": [
+            "intro:Beth",
+            "the second dying man, and the first hint of what he is carrying"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what is it that he cannot go on with?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Milo",
+          "is driven",
+          "to another taping"
+        ],
+        "content": "A boy in the back seat being told what he owes, by a man who has not worked since his son started winning.",
+        "participants": [
+          "Milo"
+        ],
+        "location": "a car in the city",
+        "pre": {
+          "hal_dying": true
+        },
+        "post": {
+          "milo_on_the_show": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Milo",
+            "the same machine, running on a new child"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what becomes of a child who is used like this?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Nadine",
+          "takes",
+          "cocaine alone"
+        ],
+        "content": "Every window open, the stereo at a volume that shakes the glass, and a woman on the floor of a flat she cannot afford, until somebody upstairs telephones the police.",
+        "participants": [
+          "Nadine"
+        ],
+        "location": "Nadine's flat",
+        "pre": {
+          "hal_abused_nadine": true
+        },
+        "post": {
+          "police_called": true
+        },
+        "learns": {
+          "reader": [
+            "what her father's house did, twenty years later"
+          ]
+        },
+        "raises": [
+          "q4",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what happened to this woman?",
+          "q7": "is what she says about her father true?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Tam",
+          "answers",
+          "the call"
+        ],
+        "content": "A patrol officer who wants to be good at this knocks on the door, is charmed and frightened in equal measure, and asks her to dinner. Later, on another call, he puts his gun down and cannot find it.",
+        "participants": [
+          "Tam",
+          "Nadine"
+        ],
+        "location": "Nadine's flat and a city street",
+        "pre": {
+          "police_called": true
+        },
+        "post": {
+          "tam_met_nadine": true,
+          "gun_lost": true
+        },
+        "learns": {
+          "Tam": [
+            "he has met someone he cannot help professionally"
+          ],
+          "reader": [
+            "intro:Tam",
+            "the one uncomplicated decency in the film"
+          ]
+        },
+        "raises": [
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q11": "does he find his gun?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Dean",
+          "works",
+          "the seminar"
+        ],
+        "content": "Four hundred men in a hotel ballroom being told how to take what they want, by a man in a leather waistcoat who then sits down for an interview and is asked, quietly, about his father.",
+        "participants": [
+          "Dean",
+          "Ward"
+        ],
+        "location": "a hotel ballroom",
+        "pre": {
+          "ward_abandoned_family": true
+        },
+        "post": {
+          "dean_exposed": true
+        },
+        "learns": {
+          "Dean": [
+            "the biography he sells has been checked"
+          ],
+          "reader": [
+            "the act, and the crack in it, in the same scene"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "who is the father he says is dead?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Rhoda",
+          "tries",
+          "to be cut out"
+        ],
+        "content": "She goes from the lawyer to the pharmacy and back, screaming that she married him for the money and does not want it now, which is the only apology available to her.",
+        "participants": [
+          "Rhoda",
+          "Ward"
+        ],
+        "location": "a lawyer's office and a pharmacy",
+        "pre": {
+          "ward_dying": true
+        },
+        "post": {
+          "rhoda_desperate": true
+        },
+        "learns": {
+          "reader": [
+            "her grief comes out as a demand to be punished"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what will she do when she cannot give the money back?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Pell",
+          "telephones",
+          "Dean"
+        ],
+        "content": "A nurse with a dying man's last request works his way down a list of numbers to a switchboard, an assistant and finally a man who says he has no father.",
+        "participants": [
+          "Pell",
+          "Dean",
+          "Ward"
+        ],
+        "location": "the Halbrook house",
+        "pre": {
+          "dean_exposed": true
+        },
+        "post": {
+          "dean_summoned": true
+        },
+        "learns": {
+          "Dean": [
+            "the man is asking for him"
+          ],
+          "reader": [
+            "the two strands are pulled together by one telephone"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "will the son come?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Bertie",
+          "decides",
+          "to steal"
+        ],
+        "content": "Sacked from a shop for being strange at customers, in love with a barman who does not know it, he works out that the office safe is a way of paying for the teeth that will make him lovable.",
+        "participants": [
+          "Bertie"
+        ],
+        "location": "an office and a bar",
+        "pre": {
+          "bertie_ruined": true
+        },
+        "post": {
+          "bertie_plans_theft": true
+        },
+        "learns": {
+          "reader": [
+            "the former prodigy, planning badly"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q10": "does he go through with the theft?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Milo",
+          "refuses",
+          "to answer"
+        ],
+        "content": "He asks to go to the lavatory and is told to wait, and then he wets himself under the lights, and then he stops answering, live, in front of the country.",
+        "participants": [
+          "Milo",
+          "Hal"
+        ],
+        "location": "a television studio",
+        "pre": {
+          "milo_on_the_show": true
+        },
+        "post": {
+          "show_collapsed": true
+        },
+        "learns": {
+          "reader": [
+            "the machine seizes on air"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Hal",
+          "admits",
+          "what he did"
+        ],
+        "content": "He comes apart at the desk mid-question, and afterwards, in a kitchen, his wife asks him straight out and he says that he does not know, which is the same as yes.",
+        "participants": [
+          "Hal",
+          "Beth",
+          "Nadine"
+        ],
+        "location": "a television studio and the Slade house",
+        "pre": {
+          "hal_dying": true
+        },
+        "post": {
+          "hal_confessed": true
+        },
+        "learns": {
+          "Beth": [
+            "her daughter was telling the truth"
+          ],
+          "reader": [
+            "the buried fact, confirmed by the man who buried it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Rhoda",
+          "swallows",
+          "the pills"
+        ],
+        "content": "She takes the bottle in the car outside the pharmacy. A boy who has been following her about all day gets to the door first, takes the money out of her bag, and then calls for help.",
+        "participants": [
+          "Rhoda"
+        ],
+        "location": "a car outside a pharmacy",
+        "pre": {
+          "rhoda_desperate": true
+        },
+        "post": {
+          "rhoda_overdosed": true
+        },
+        "learns": {
+          "reader": [
+            "even the rescue is compromised, and it is still a rescue"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Dean",
+          "shouts",
+          "at his father"
+        ],
+        "content": "He gets to the bed and calls the unconscious man every name he has been rehearsing for twenty years, and then he stops, and puts his head down on the blanket.",
+        "participants": [
+          "Dean",
+          "Ward",
+          "Pell"
+        ],
+        "location": "the Halbrook house",
+        "pre": {
+          "dean_summoned": true
+        },
+        "post": {
+          "dean_at_bedside": true
+        },
+        "learns": {
+          "reader": [
+            "the confrontation, which the dying man cannot hear"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Hal",
+          "raises",
+          "the gun"
+        ],
+        "content": "He sits down with it against his temple in a house he has ruined, and the first frog comes through the skylight.",
+        "participants": [
+          "Hal"
+        ],
+        "location": "the Slade house",
+        "pre": {
+          "hal_confessed": true
+        },
+        "post": {
+          "frogs_falling": true
+        },
+        "learns": {
+          "reader": [
+            "the intervention, arriving as weather"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the frogs",
+          "fall",
+          "across the valley"
+        ],
+        "content": "Windscreens go in, roofs come down, and a man halfway up a pole with a bag of somebody else's money is knocked off it into the arms of the policeman who has been looking for his gun.",
+        "participants": [
+          "Bertie",
+          "Tam"
+        ],
+        "location": "the valley",
+        "pre": {
+          "frogs_falling": true
+        },
+        "post": {
+          "bertie_saved": true
+        },
+        "learns": {
+          "Tam": [
+            "he can decide what to do about this himself"
+          ],
+          "reader": [
+            "the impossible thing the prologue promised"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6",
+          "q10",
+          "q11"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "the day",
+          "ends",
+          "in the valley"
+        ],
+        "content": "One man dies, one woman is carried into an ambulance, a boy tells his father to be nicer to him, and a woman on a bed turns to the man who came back and lets her face do something new.",
+        "participants": [
+          "Ward",
+          "Rhoda",
+          "Milo",
+          "Nadine",
+          "Tam",
+          "Dean",
+          "Pell"
+        ],
+        "location": "the valley",
+        "pre": {
+          "bertie_saved": true
+        },
+        "post": {
+          "day_ends": true
+        },
+        "learns": {
+          "reader": [
+            "what survives the day, per strand"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e19",
+        "on": "an impossible coincidence, promised and then delivered"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10",
+        "on": "the father walked out on and the biography built to replace him"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e12",
+        "on": "the same abandonment, from the bed and from the telephone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "what was done in that house and what it produced twenty years later"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e15",
+        "on": "the abuse, committed and then half-admitted"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e13",
+        "on": "the quiz-show child, winning and then broke"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7",
+        "on": "two children on the same programme, a generation apart"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e11",
+        "on": "the dying man's house, from the bedside and from the telephone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e17",
+        "on": "the bed, tended and then shouted at"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e15",
+        "on": "the diagnosis and the confession it forces"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e14",
+        "on": "the boy, driven to the studio and breaking down in it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the flat, and the call that brings someone decent to the door"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e20",
+        "on": "the officer and the woman, at the beginning and end of the day"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12",
+        "on": "the guru, on stage and on the telephone"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e16",
+        "on": "the pharmacy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e17",
+        "on": "the summons and the arrival"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e19",
+        "on": "the pole, climbed and fallen off"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the frogs, beginning and general"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the valley after the weather"
+      }
+    ]
+  }
+}

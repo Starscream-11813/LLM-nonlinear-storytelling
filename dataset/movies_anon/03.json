@@ -1,0 +1,979 @@
+{
+  "story_id": "S03",
+  "source_index": 3,
+  "genre": "Romance, Sci-Fi, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Tobias and Ivy meet at a beach party in a seaside town at the end of the rail line and break into an empty house on the shore.",
+    "Over two years they fall in love - the ice on the frozen river, the noodle house, the drive-in.",
+    "The relationship curdles into recrimination over Ivy's drinking and Tobias's withholding.",
+    "Ivy comes home drunk having dented Tobias's car, and the fight ends with her walking out for good.",
+    "Ivy hires a memory-erasure clinic to remove every trace of Tobias from her mind.",
+    "Tobias visits the bookshop and finds Ivy treating him as a stranger and flirting with a young man named Peck.",
+    "Nina and Grady show Tobias the form letter from the clinic, and he goes to its director, Dr. Hallam, demanding the same procedure.",
+    "Tobias boxes up every object connected with Ivy so that the clinic can map the memories attached to them.",
+    "The technicians Dell and Peck run the overnight erasure in Tobias's flat, and Peck pockets the mementos to use on Ivy.",
+    "Inside his own head Tobias watches the most recent and ugliest memories dissolve around him one by one.",
+    "Reaching the memories he loves, Tobias changes his mind and tries to smuggle Ivy into memories she was never part of.",
+    "Dell and the receptionist Rosa get high on Tobias's bed and lose track of the procedure as his map goes off the rails.",
+    "Dr. Hallam arrives to re-map the erasure, and Rosa kisses him - only for his wife to reveal that Rosa's own affair with him was erased.",
+    "In the last surviving memory, the empty house on the shore, Tobias and Ivy say goodbye and she tells him to meet her at the beach.",
+    "The erasure completes and Tobias wakes the next morning with no memory that Ivy ever existed.",
+    "Tobias skips work on an impulse he cannot account for, takes the train to the coast and meets Ivy on the frozen sand.",
+    "They drive back to the city together and she invites him up to her flat.",
+    "Rosa quits the clinic and mails the files and session tapes back to every patient on the books.",
+    "Tobias and Ivy listen to their own recorded voices tearing each other apart; she runs, comes back, and they agree to try anyway."
+  ],
+  "syuzhet_order": [
+    16,
+    17,
+    6,
+    5,
+    7,
+    8,
+    9,
+    10,
+    4,
+    3,
+    12,
+    11,
+    2,
+    13,
+    1,
+    14,
+    15,
+    18,
+    19
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "The night of the erasure runs forward while the memories it consumes run backward, alternating, each procedure beat paired with the memory it is deleting.",
+  "syuzhet_notes": "Told-order bullets 1-2 are a false opening: they are chronologically the penultimate act, and only the closing scenes reveal that the couple have met before. Everything from told-order bullet 6 to bullet 17 takes place during the single night of the erasure, with the memories replayed in reverse chronological order - told-order bullets 9, 10, 13 and 15 are the memories themselves, running backwards from the break-up to the first meeting.",
+  "fabula_notes": "The woman's own visit to the clinic is never dramatised; it is inferred from the form letter the friends produce. The two-year arc of the relationship exists only as the memories revisited during the procedure, so its internal chronology is reconstructed from the order in which the machine deletes them.",
+  "story_graph": {
+    "characters": {
+      "Tobias": {
+        "archetype": "Hero"
+      },
+      "Ivy": {
+        "archetype": "Shapeshifter"
+      },
+      "Peck": {
+        "archetype": "Trickster"
+      },
+      "Dell": {
+        "archetype": "Ally"
+      },
+      "Rosa": {
+        "archetype": "Ally"
+      },
+      "Dr. Hallam": {
+        "archetype": "Mentor"
+      },
+      "Hallam's wife": {
+        "archetype": "Threshold Guardian"
+      },
+      "Nina": {
+        "archetype": "Ally"
+      },
+      "Grady": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Tobias",
+          "meets",
+          "Ivy"
+        ],
+        "content": "At the end of the rail line, on a cold beach full of strangers, a man with nothing to say to anyone ends up talking to a woman with dyed hair. They break a window of a shuttered house on the shore and sleep on the boards.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "an empty house on the shore",
+        "pre": {},
+        "post": {
+          "tobias_and_ivy_met": true
+        },
+        "learns": {
+          "Tobias": [
+            "she is the first person he has not bored"
+          ],
+          "reader": [
+            "intro:Tobias",
+            "intro:Ivy",
+            "the two began at the coast, in an empty house"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Tobias",
+          "loves",
+          "Ivy"
+        ],
+        "content": "Two years pass in small rooms and cold weather: lying out on the ice of the frozen river, steam on the windows of a noodle house, the back seat at a drive-in with the sound turned down.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "the city over two years",
+        "pre": {
+          "tobias_and_ivy_met": true
+        },
+        "post": {
+          "relationship_established": true
+        },
+        "learns": {
+          "Tobias": [
+            "he is happy in a way he cannot describe to anyone"
+          ],
+          "Ivy": [
+            "he is somewhere she can stop moving"
+          ],
+          "reader": [
+            "the relationship had a long good middle"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q6": "how did these two ever begin?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Ivy",
+          "resents",
+          "Tobias"
+        ],
+        "content": "The same rooms turn against them. She drinks and he counts it; he says nothing and she calls it contempt. Each of them has learned exactly which sentence does the most damage.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "the flat they share",
+        "pre": {
+          "relationship_established": true
+        },
+        "post": {
+          "relationship_souring": true
+        },
+        "learns": {
+          "Tobias": [
+            "he has become a man who withholds"
+          ],
+          "Ivy": [
+            "he thinks she is something that happened to him"
+          ],
+          "reader": [
+            "the good middle had already curdled"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q5": "what were these two before they started doing this to each other?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Ivy",
+          "leaves",
+          "Tobias"
+        ],
+        "content": "She comes in at two in the morning having put his car into something on the way, and the row that starts over the dent finishes somewhere neither of them can come back from. She takes a bag and goes.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "the flat they share",
+        "pre": {
+          "relationship_souring": true
+        },
+        "post": {
+          "ivy_gone": true
+        },
+        "learns": {
+          "Ivy": [
+            "she is not coming back this time"
+          ],
+          "reader": [
+            "the relationship ended in an ordinary bad night"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what had these two done to each other to get here?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Ivy",
+          "erases",
+          "Tobias"
+        ],
+        "content": "She takes herself to a clinic in a shabby office building and pays to have a man taken out of her head - every room, every argument, every good afternoon - as though he had never been in it.",
+        "participants": [
+          "Ivy"
+        ],
+        "location": "the clinic",
+        "pre": {
+          "ivy_gone": true
+        },
+        "post": {
+          "ivy_erased_tobias": true
+        },
+        "learns": {
+          "Ivy": [
+            "it can be paid for and it can be finished"
+          ],
+          "reader": [
+            "a procedure exists that removes one person from another's memory"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Tobias",
+          "finds",
+          "Ivy a stranger"
+        ],
+        "content": "He goes to the bookshop to make it up with her and she looks at him the way you look at a customer. There is a young man behind the counter with her, and she is laughing at everything he says.",
+        "participants": [
+          "Tobias",
+          "Ivy",
+          "Peck"
+        ],
+        "location": "a bookshop",
+        "pre": {
+          "ivy_erased_tobias": true
+        },
+        "post": {
+          "tobias_knows_she_forgot_him": true
+        },
+        "learns": {
+          "Tobias": [
+            "she does not know who he is"
+          ],
+          "reader": [
+            "intro:Peck",
+            "the woman has genuinely forgotten him"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why does she look straight through him?",
+          "q7": "who is the young man she is with?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Tobias",
+          "demands",
+          "the procedure"
+        ],
+        "content": "Two friends hand him the form letter the clinic sent to everyone she knew. He takes it straight to the director's office and asks to be given the same thing, that afternoon if possible.",
+        "participants": [
+          "Tobias",
+          "Nina",
+          "Grady",
+          "Dr. Hallam"
+        ],
+        "location": "the clinic",
+        "pre": {
+          "tobias_knows_she_forgot_him": true
+        },
+        "post": {
+          "tobias_booked_for_erasure": true
+        },
+        "learns": {
+          "Tobias": [
+            "he can have it done to him too"
+          ],
+          "reader": [
+            "intro:Nina",
+            "intro:Grady",
+            "intro:Dr. Hallam"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Tobias",
+          "surrenders",
+          "the objects"
+        ],
+        "content": "He fills two carrier bags with everything that has her in it - a hairslide, a mug, a page torn out of something - so that the machine can find the memories they are pinned to.",
+        "participants": [
+          "Tobias",
+          "Dr. Hallam"
+        ],
+        "location": "the clinic",
+        "pre": {
+          "tobias_booked_for_erasure": true
+        },
+        "post": {
+          "mementos_collected": true
+        },
+        "learns": {
+          "Dr. Hallam": [
+            "where in the man's head to cut"
+          ],
+          "reader": [
+            "the erasure is mapped from objects, one memory at a time"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Dell",
+          "runs",
+          "the erasure"
+        ],
+        "content": "Two technicians let themselves into his flat at night, put the cap on him while he sleeps and work through the map room by room. One of them quietly puts the bagged keepsakes into his own coat.",
+        "participants": [
+          "Dell",
+          "Peck",
+          "Tobias"
+        ],
+        "location": "Tobias's flat",
+        "pre": {
+          "mementos_collected": true
+        },
+        "post": {
+          "erasure_underway": true,
+          "peck_holds_mementos": true
+        },
+        "learns": {
+          "Peck": [
+            "he now holds everything that made her love somebody"
+          ],
+          "reader": [
+            "intro:Dell",
+            "the man who works the machine has taken the keepsakes for himself"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Tobias",
+          "watches",
+          "his memories dissolve"
+        ],
+        "content": "Inside his own head he stands in the worst of it - the shouting, the silences, the door - and watches each room lose its walls while he is still in it.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "inside Tobias's memory",
+        "pre": {
+          "erasure_underway": true
+        },
+        "post": {
+          "recent_memories_gone": true
+        },
+        "learns": {
+          "Tobias": [
+            "the ugly part is going first"
+          ],
+          "reader": [
+            "the deletion runs backwards from the most recent"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Tobias",
+          "hides",
+          "Ivy"
+        ],
+        "content": "When the machine reaches the ones he wants to keep he starts to run, carrying her out of her own memories and into places she was never in - a childhood kitchen, under a table, somewhere the map does not go.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "inside Tobias's memory",
+        "pre": {
+          "recent_memories_gone": true
+        },
+        "post": {
+          "tobias_resisting": true
+        },
+        "learns": {
+          "Tobias": [
+            "he has changed his mind and cannot say so"
+          ],
+          "Ivy": [
+            "he is trying to keep her"
+          ],
+          "reader": [
+            "the patient is fighting the procedure from inside"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Dell",
+          "loses",
+          "the procedure"
+        ],
+        "content": "The two on the outside are drinking his beer and dancing on his bed in their underwear when the map on the screen stops corresponding to anything, and neither of them notices for a long time.",
+        "participants": [
+          "Dell",
+          "Rosa"
+        ],
+        "location": "Tobias's flat",
+        "pre": {
+          "erasure_underway": true,
+          "tobias_resisting": true
+        },
+        "post": {
+          "procedure_off_map": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rosa",
+            "nobody competent is watching the machine"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Dr. Hallam",
+          "remaps",
+          "the erasure"
+        ],
+        "content": "The director is called out at three in the morning to put the thing back on the rails. The receptionist kisses him in the hallway, and his wife, arriving behind him, tells her exactly why she has always felt that way about him and cannot remember why.",
+        "participants": [
+          "Dr. Hallam",
+          "Rosa",
+          "Hallam's wife",
+          "Dell"
+        ],
+        "location": "Tobias's flat",
+        "pre": {
+          "procedure_off_map": true
+        },
+        "post": {
+          "hallam_remapping": true,
+          "rosa_erasure_exposed": true
+        },
+        "learns": {
+          "Rosa": [
+            "her own affair with him was taken out of her"
+          ],
+          "reader": [
+            "intro:Hallam's wife",
+            "the clinic has used the procedure to bury its own conduct"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Ivy",
+          "tells",
+          "Tobias to meet her"
+        ],
+        "content": "The last thing left is the shore house on the night they met. In the doorway of a room that is already going she tells him to walk out, and then to come and find her at the coast.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "an empty house on the shore",
+        "pre": {
+          "hallam_remapping": true
+        },
+        "post": {
+          "last_memory_reached": true
+        },
+        "learns": {
+          "Tobias": [
+            "he is to go back to the beach"
+          ],
+          "reader": [
+            "an instruction survives inside the last memory to be deleted"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Tobias",
+          "wakes",
+          "empty"
+        ],
+        "content": "The machine finishes some time before dawn. He wakes late with a headache and a strange flatness, and there is nobody in his head who was not there two years ago.",
+        "participants": [
+          "Tobias"
+        ],
+        "location": "Tobias's flat",
+        "pre": {
+          "last_memory_reached": true
+        },
+        "post": {
+          "erasure_complete": true,
+          "erasure_underway": false
+        },
+        "learns": {
+          "Tobias": [
+            "nothing",
+            "he has lost a day"
+          ],
+          "reader": [
+            "the erasure worked"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Tobias",
+          "returns",
+          "to the coast"
+        ],
+        "content": "He gets to the platform for work and gets on the other train instead, and cannot say why. He walks out onto frozen sand and finds a woman with dyed hair already standing on it.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "the beach at the end of the line",
+        "pre": {
+          "erasure_complete": true
+        },
+        "post": {
+          "tobias_and_ivy_met_again": true
+        },
+        "learns": {
+          "Tobias": [
+            "he wanted to be somewhere and could not say where"
+          ],
+          "reader": [
+            "the two have found each other again with nothing to go on"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "why does a man who never does anything on impulse get on this train?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Ivy",
+          "invites",
+          "Tobias up"
+        ],
+        "content": "They drive back into the city talking too easily for strangers, and outside her building she asks him in for a drink as though it were the second time.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "Ivy's flat",
+        "pre": {
+          "tobias_and_ivy_met_again": true
+        },
+        "post": {
+          "second_relationship_begun": true
+        },
+        "learns": {
+          "reader": [
+            "the two behave like people who already know each other"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why are these two so easy with each other on a first meeting?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Rosa",
+          "mails",
+          "the tapes"
+        ],
+        "content": "The receptionist empties the filing cabinets on her way out of the job and posts every patient their own file: the forms, the object lists, and the tape of the session where they explained what they wanted removed.",
+        "participants": [
+          "Rosa"
+        ],
+        "location": "the clinic",
+        "pre": {
+          "rosa_erasure_exposed": true
+        },
+        "post": {
+          "tapes_mailed": true
+        },
+        "learns": {
+          "reader": [
+            "every erased patient is about to be handed the evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Tobias",
+          "hears",
+          "the tape"
+        ],
+        "content": "Two envelopes arrive on the same morning. They sit in a stairwell listening to their own voices give the reasons, and she runs, and comes back up, and they decide to do it anyway.",
+        "participants": [
+          "Tobias",
+          "Ivy"
+        ],
+        "location": "Ivy's stairwell",
+        "pre": {
+          "tapes_mailed": true,
+          "second_relationship_begun": true
+        },
+        "post": {
+          "they_choose_to_continue": true
+        },
+        "learns": {
+          "Tobias": [
+            "exactly how it ended last time"
+          ],
+          "Ivy": [
+            "exactly what he came to think of her"
+          ],
+          "reader": [
+            "the two go on with full knowledge of how it goes"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e14",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e9",
+        "on": "the clinic's overnight erasure procedure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      }
+    ]
+  }
+}

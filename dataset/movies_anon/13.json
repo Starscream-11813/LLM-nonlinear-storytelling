@@ -1,0 +1,776 @@
+{
+  "story_id": "S13",
+  "source_index": 13,
+  "genre": "Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Lise lies in bed with Cort describing a recurring dream of a red tunnel while the two tease each other about her ex-boyfriend Jonah.",
+    "Alone in the flat, Lise takes a pregnancy test and finds that it is positive.",
+    "Lise reads in a park among sprinklers and playing children, one hand resting on her stomach.",
+    "Lise, Cort and Jonah ride the underground to a party, arguing cheerfully about sex and about Cort's drinking.",
+    "At the party Cort gets steadily drunk and high and starts pursuing other women, and a disgusted Lise leaves on her own.",
+    "Rather than cross a busy road Lise takes a pedestrian underpass and walks in on a pimp known as the Adder beating a transsexual woman.",
+    "The Adder rapes Lise and beats her head against the concrete while a passer-by glimpses them and backs away.",
+    "Cort and Jonah come out of the party to find Lise being loaded into an ambulance.",
+    "Two men in the street offer to sell Cort the rapist's name and steer him and Jonah towards a club called the Pit.",
+    "Cort hunts through the club, seizes the wrong man and has his arm snapped.",
+    "Jonah beats that man's face in with a fire extinguisher while the real Adder watches from a few feet away.",
+    "Police handcuff Cort and Jonah and carry the pair out of the club into the street.",
+    "In a flat overlooking that street, an old man is explaining to a younger one that nothing survives time."
+  ],
+  "syuzhet_order": [
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    1,
+    2,
+    3
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs last to first throughout with no present-day level to return to; only the two earliest scenes play forward, as a closing coda.",
+  "syuzhet_notes": "The film runs in strict reverse chronological order for its first ten told-order bullets, each long take beginning at the point where the previous one started, so the audience sees the revenge before the crime and the crime before the evening that led to it. The last three told-order bullets are the exception: the morning scenes play forward, so the film closes on its earliest and gentlest images.",
+  "fabula_notes": "Nothing here is inferred - the reverse structure shows every event directly - but the film gives no clock times or captions, so the ordering within the day rests on causal links and on the reversal itself. The revenge in told-order bullets 3-4 is aimed at the wrong man, which the chronology makes plain and the telling does not.",
+  "story_graph": {
+    "characters": {
+      "Lise": {
+        "archetype": "Hero"
+      },
+      "Cort": {
+        "archetype": "Shapeshifter"
+      },
+      "Jonah": {
+        "archetype": "Ally"
+      },
+      "the Adder": {
+        "archetype": "Shadow"
+      },
+      "the beaten woman": {
+        "archetype": "Threshold Guardian"
+      },
+      "the man in the club": {
+        "archetype": "Threshold Guardian"
+      },
+      "the touts": {
+        "archetype": "Herald"
+      },
+      "the old man upstairs": {
+        "archetype": "Mentor"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Lise",
+          "describes",
+          "a recurring dream"
+        ],
+        "content": "Morning light through thin curtains. She tells him about a red tunnel she keeps walking into, and the two of them trade lazy insults about the man she used to live with, who is now only a friend.",
+        "participants": [
+          "Lise",
+          "Cort",
+          "Jonah"
+        ],
+        "location": "the bedroom of the flat",
+        "pre": {},
+        "post": {
+          "couple_at_ease": true
+        },
+        "learns": {
+          "Cort": [
+            "she dreams of a tunnel that frightens her"
+          ],
+          "reader": [
+            "intro:Lise",
+            "intro:Cort",
+            "intro:Jonah",
+            "the three of them are close and easy with one another"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Lise",
+          "finds",
+          "a positive test"
+        ],
+        "content": "She sits on the edge of the bath with the stick held in both hands, alone in the flat, and lets herself smile at it before she has told anyone at all.",
+        "participants": [
+          "Lise"
+        ],
+        "location": "the bathroom of the flat",
+        "pre": {
+          "couple_at_ease": true
+        },
+        "post": {
+          "lise_pregnant": true
+        },
+        "learns": {
+          "Lise": [
+            "she is pregnant"
+          ],
+          "reader": [
+            "she is pregnant and has told nobody"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Lise",
+          "reads",
+          "in a park"
+        ],
+        "content": "Sprinklers turn over cut grass and children run through the spray. She lies on her side with a book she is not really reading, one hand resting flat on her stomach.",
+        "participants": [
+          "Lise"
+        ],
+        "location": "a public park",
+        "pre": {
+          "lise_pregnant": true
+        },
+        "post": {
+          "day_unspoiled": true
+        },
+        "learns": {
+          "reader": [
+            "the day began in complete safety"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Lise",
+          "rides",
+          "to a party"
+        ],
+        "content": "The three of them stand swaying in the carriage, arguing cheerfully about sex and about how much he has already had to drink - the argument of people who expect to be arguing again tomorrow.",
+        "participants": [
+          "Lise",
+          "Cort",
+          "Jonah"
+        ],
+        "location": "an underground train",
+        "pre": {
+          "day_unspoiled": true
+        },
+        "post": {
+          "three_together": true
+        },
+        "learns": {
+          "reader": [
+            "they went to the party together and in good humour"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Cort",
+          "pursues",
+          "other women"
+        ],
+        "content": "He drinks past the point of being any fun and starts working the room. She watches him for a while, says nothing, collects her coat and goes out alone.",
+        "participants": [
+          "Lise",
+          "Cort",
+          "Jonah"
+        ],
+        "location": "a crowded flat party",
+        "pre": {
+          "three_together": true
+        },
+        "post": {
+          "lise_alone": true,
+          "cort_drunk": true
+        },
+        "learns": {
+          "Lise": [
+            "he will not stop tonight"
+          ],
+          "reader": [
+            "she left the party by herself, and why"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {
+          "q4": "why were the three of them at this party at all?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Lise",
+          "enters",
+          "the underpass"
+        ],
+        "content": "The road is four lanes of headlights, so she takes the stairs instead. Halfway along the tiled tunnel a man has a woman by the hair and is explaining something to her with his fist.",
+        "participants": [
+          "Lise",
+          "the Adder",
+          "the beaten woman"
+        ],
+        "location": "a pedestrian underpass",
+        "pre": {
+          "lise_alone": true
+        },
+        "post": {
+          "lise_in_tunnel": true
+        },
+        "learns": {
+          "the Adder": [
+            "someone has seen him"
+          ],
+          "reader": [
+            "intro:the Adder",
+            "she walked in on him mid-assault"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {
+          "q5": "why is she walking home alone at night?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the Adder",
+          "attacks",
+          "Lise"
+        ],
+        "content": "He turns the violence onto her without hurrying, and when it is over he goes on hitting her head against the floor. A man at the far end of the tunnel looks, hesitates, and leaves.",
+        "participants": [
+          "Lise",
+          "the Adder"
+        ],
+        "location": "a pedestrian underpass",
+        "pre": {
+          "lise_in_tunnel": true
+        },
+        "post": {
+          "lise_beaten": true
+        },
+        "learns": {
+          "reader": [
+            "the assault in full, and that nobody intervened"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {
+          "q6": "how did she come to be standing in front of this man?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Cort",
+          "finds",
+          "the ambulance"
+        ],
+        "content": "The two of them come out into the street still half-laughing, and stop. There is a trolley, and a blanket, and a face on it that they both know.",
+        "participants": [
+          "Lise",
+          "Cort",
+          "Jonah"
+        ],
+        "location": "the street outside the party",
+        "pre": {
+          "lise_beaten": true
+        },
+        "post": {
+          "men_know": true
+        },
+        "learns": {
+          "Cort": [
+            "she was attacked while he was inside drinking"
+          ],
+          "Jonah": [
+            "she was attacked"
+          ],
+          "reader": [
+            "the two men learn what happened, hours after it did"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {
+          "q7": "what happened to her while the two of them were inside?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the touts",
+          "sell",
+          "a name"
+        ],
+        "content": "Two men detach themselves from a doorway and offer, for money, to say who did it and where he drinks. They point down the street towards a basement club.",
+        "participants": [
+          "Cort",
+          "Jonah",
+          "the touts"
+        ],
+        "location": "a side street",
+        "pre": {
+          "men_know": true
+        },
+        "post": {
+          "they_have_a_name": true
+        },
+        "learns": {
+          "Cort": [
+            "a name, and a place to look for it"
+          ],
+          "reader": [
+            "intro:the touts",
+            "the hunt is being steered by strangers who are paid for it"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {
+          "q8": "why are these two men buying a name in the street?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Cort",
+          "seizes",
+          "the wrong man"
+        ],
+        "content": "He goes through the club pulling faces out of the dark until he picks one. The man he has picked takes his arm at the elbow and turns it until it comes apart.",
+        "participants": [
+          "Cort",
+          "Jonah",
+          "the man in the club"
+        ],
+        "location": "a basement club",
+        "pre": {
+          "they_have_a_name": true
+        },
+        "post": {
+          "cort_arm_broken": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the man in the club",
+            "the man they cornered fought back and won"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {
+          "q9": "how did they know to come to this club?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Jonah",
+          "kills",
+          "the wrong man"
+        ],
+        "content": "He takes the extinguisher off the wall and goes on swinging it long after the man has stopped moving. A few feet away, watching with everyone else, stands the man they came for.",
+        "participants": [
+          "Jonah",
+          "the man in the club",
+          "the Adder"
+        ],
+        "location": "a basement club",
+        "pre": {
+          "cort_arm_broken": true
+        },
+        "post": {
+          "wrong_man_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the revenge landed on the wrong man, and the right one watched it happen"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [
+          "q11"
+        ],
+        "questions": {
+          "q10": "why is he beating this particular man to death?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the police",
+          "arrest",
+          "Cort and Jonah"
+        ],
+        "content": "They are carried out through the crowd with their hands behind them, one shouting, one silent, into a street full of blue light.",
+        "participants": [
+          "Cort",
+          "Jonah"
+        ],
+        "location": "the street outside the club",
+        "pre": {
+          "wrong_man_dead": true
+        },
+        "post": {
+          "men_arrested": true
+        },
+        "learns": {
+          "reader": [
+            "the two men are taken away"
+          ]
+        },
+        "raises": [
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q11": "why are the two of them being arrested?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the old man upstairs",
+          "says",
+          "that time destroys everything"
+        ],
+        "content": "Above the noise, at an open window, an old man is telling a younger one that nothing anybody does survives - and that this is not a complaint but a fact.",
+        "participants": [
+          "the old man upstairs"
+        ],
+        "location": "a flat above the street",
+        "pre": {
+          "men_arrested": true
+        },
+        "post": {
+          "thesis_stated": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the old man upstairs",
+            "the telling states its proposition before it demonstrates it"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who are these people to one another?",
+          "q2": "what did this day look like before it went wrong?",
+          "q3": "what exactly was destroyed here?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e11",
+        "on": "the Adder, present both at the assault and at the revenge taken on the wrong man"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e13",
+        "on": "an untouched afternoon set against the claim that nothing survives"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the same street in the same minutes, from the pavement and from a window above it"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1070 @@
+{
+  "story_id": "S28",
+  "source_index": 28,
+  "genre": "Mystery, Thriller, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Dana Reeve wins a dance contest in a small northern town and comes to the film capital on her dead aunt's money.",
+    "Dana meets the actress Vivien Loy on the set of a picture called The Undertow, loses the lead to her, and becomes her lover.",
+    "Vivien gets Dana bit parts out of pity while her own career takes off.",
+    "Vivien ends the affair, and Dana keeps calling her.",
+    "Vivien drives Dana up the canyon road to a party at the director Gil Barron's house.",
+    "At the party Vivien kisses another actress and she and Gil announce their engagement while Dana sits humiliated at the table.",
+    "In a coffee shop Dana pays a hitman to kill Vivien, and he tells her she will find a blue key when it is done.",
+    "Dana wakes on her sofa, finds the blue key on the table, and begins to come apart.",
+    "In her dream Dana recasts herself as the fresh-faced Elise, arriving in the film capital to stay in her aunt's flat.",
+    "A woman survives a staged crash on the canyon road, walks down into the city with no memory, and hides in that same flat, calling herself Zora after a poster.",
+    "Elise and Zora find a handbag stuffed with cash and a blue key, and set out to discover who Zora is.",
+    "A contract killer's straightforward job collapses into farce and leaves three corpses.",
+    "Gil Barron is forced by the mob and by a man in a wide hat to cast an unknown blonde named Vivien Loy in his film.",
+    "A man in the coffee shop describes a nightmare about a figure behind the building and drops dead of fright when he sees it.",
+    "Elise auditions brilliantly and is taken to Gil's set, where their eyes meet across the sound stage.",
+    "Elise and Zora find a rotting corpse in Dana Reeve's flat and flee.",
+    "Elise and Zora become lovers, and Zora takes them at two in the morning to a theatre called the Vellum where everything turns out to be a recording.",
+    "Elise finds a blue box in her handbag, Zora opens it with the blue key, and both women vanish out of the dream.",
+    "Awake and ruined, Dana hallucinates her miniature parents shrieking at her heels and shoots herself on her bed.",
+    "The man in the wide hat looks in at the door, the old couple crawl under it, and a woman in the balcony of the Vellum says \"silence\"."
+  ],
+  "syuzhet_order": [
+    1,
+    10,
+    9,
+    14,
+    11,
+    13,
+    12,
+    15,
+    16,
+    17,
+    18,
+    8,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "The blocks are grouped by level of reality: the fantasy is shown whole, then the waking fragments it was assembled from.",
+  "syuzhet_notes": "The first two-thirds - told-order bullets 2-11 - are a dream, and the audience is never told so at the time; the last third, bullets 12-18, is the waking life the dream was assembled from, delivered as a rush of fragments rather than a straight account. Told-order bullet 1 is a memory image with no fixed place in either, and the film shows the fantasy in full before showing anything it was made out of.",
+  "fabula_notes": "The dream reading is the standard one but not the only one available; the film never states which parts are real, so this chronology is an interpretation rather than a transcription. Where the dream itself belongs in real time is also uncertain - it is placed here as a single night's sleep between the murder being commissioned and the suicide. The actress's death is never shown.",
+  "story_graph": {
+    "characters": {
+      "Dana": {
+        "archetype": "Hero"
+      },
+      "Vivien": {
+        "archetype": "Shapeshifter"
+      },
+      "Gil": {
+        "archetype": "Threshold Guardian"
+      },
+      "the hitman": {
+        "archetype": "Shadow"
+      },
+      "Elise": {
+        "archetype": "Hero"
+      },
+      "Zora": {
+        "archetype": "Shapeshifter"
+      },
+      "the man in the wide hat": {
+        "archetype": "Shadow"
+      },
+      "the man in the coffee shop": {
+        "archetype": "Herald"
+      },
+      "the old couple": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Dana",
+          "wins",
+          "the dance contest"
+        ],
+        "content": "A hall in a small northern town, a trophy, an aunt's money, and two very old people waving her onto the aeroplane as though they were seeing off a ship.",
+        "participants": [
+          "Dana",
+          "the old couple"
+        ],
+        "location": "a small northern town",
+        "pre": {},
+        "post": {
+          "dana_arrived": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Dana",
+            "intro:the old couple",
+            "the one image both halves of the film agree on"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q10": "what became of the girl who won the contest?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Dana",
+          "loses",
+          "the part to Vivien"
+        ],
+        "content": "She reads well and is told she read well. The part goes to the other one, and by the end of the month the other one is also in her bed.",
+        "participants": [
+          "Dana",
+          "Vivien"
+        ],
+        "location": "a sound stage",
+        "pre": {
+          "dana_arrived": true
+        },
+        "post": {
+          "dana_and_vivien": true,
+          "part_lost": true
+        },
+        "learns": {
+          "Dana": [
+            "she is the second choice, professionally and otherwise"
+          ],
+          "reader": [
+            "intro:Vivien",
+            "the wound the fantasy will be built to dress"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Vivien",
+          "gets",
+          "Dana bit parts"
+        ],
+        "content": "A line here, a day's work there, arranged by telephone with a hand over the receiver, while the person arranging it becomes someone whose name is on posters.",
+        "participants": [
+          "Dana",
+          "Vivien"
+        ],
+        "location": "the film capital",
+        "pre": {
+          "dana_and_vivien": true
+        },
+        "post": {
+          "dana_dependent": true
+        },
+        "learns": {
+          "Dana": [
+            "she is being kept"
+          ],
+          "reader": [
+            "charity is the worst thing that can happen between these two"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Vivien",
+          "ends",
+          "the affair"
+        ],
+        "content": "It is done in a kitchen with the tap running, and afterwards there are telephone calls that are not returned, and then telephone calls that are answered by other people.",
+        "participants": [
+          "Dana",
+          "Vivien"
+        ],
+        "location": "a flat in the film capital",
+        "pre": {
+          "dana_dependent": true
+        },
+        "post": {
+          "affair_over": true
+        },
+        "learns": {
+          "reader": [
+            "the ending, and that only one of them accepts it"
+          ]
+        },
+        "raises": [
+          "q13"
+        ],
+        "resolves": [],
+        "questions": {
+          "q13": "what will she do when she cannot let go?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Vivien",
+          "drives",
+          "Dana up the canyon"
+        ],
+        "content": "A limousine on a dark curve, an invitation delivered as a summons, and the car stopping in a place where there is nothing except a private road going up.",
+        "participants": [
+          "Dana",
+          "Vivien"
+        ],
+        "location": "the canyon road",
+        "pre": {
+          "affair_over": true
+        },
+        "post": {
+          "dana_at_the_party": true
+        },
+        "learns": {
+          "reader": [
+            "the drive the dream will steal and reuse"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Vivien",
+          "announces",
+          "the engagement"
+        ],
+        "content": "She kisses another actress across the table for the pleasure of it, and then the director puts his arm round her and they tell the table together, and one person at that table cannot make her face do anything.",
+        "participants": [
+          "Dana",
+          "Vivien",
+          "Gil"
+        ],
+        "location": "the director's house",
+        "pre": {
+          "dana_at_the_party": true
+        },
+        "post": {
+          "dana_humiliated": true
+        },
+        "learns": {
+          "Dana": [
+            "she has been brought here to watch this"
+          ],
+          "reader": [
+            "intro:Gil",
+            "the humiliation, in full, and in company"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Dana",
+          "pays",
+          "the hitman"
+        ],
+        "content": "A booth, a photograph pushed across the table, an envelope of money, and a man explaining that when it is done there will be a blue key, and refusing to say what it opens.",
+        "participants": [
+          "Dana",
+          "the hitman"
+        ],
+        "location": "a coffee shop",
+        "pre": {
+          "dana_humiliated": true
+        },
+        "post": {
+          "murder_commissioned": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the hitman",
+            "the act everything else in the film is arranged around"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q3",
+          "q8",
+          "q9",
+          "q13"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Dana",
+          "wakes",
+          "and finds the key"
+        ],
+        "content": "She comes off the sofa in a flat she has stopped cleaning. On the low table, where there was nothing, there is a small blue key, and she does not go near it for a long time.",
+        "participants": [
+          "Dana"
+        ],
+        "location": "Dana's flat",
+        "pre": {
+          "murder_commissioned": true
+        },
+        "post": {
+          "dana_awake": true,
+          "key_found": true
+        },
+        "learns": {
+          "Dana": [
+            "it has been done"
+          ],
+          "reader": [
+            "the object that tells her, and the collapse that starts here"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Dana",
+          "dreams",
+          "herself as Elise"
+        ],
+        "content": "In the dream she is nobody's second choice: fresh off the plane, absurdly hopeful, with an aunt's flat to stay in and a name that sounds like a girl in a serial.",
+        "participants": [
+          "Dana",
+          "Elise"
+        ],
+        "location": "an airport and a flat in the film capital",
+        "pre": {
+          "key_found": true
+        },
+        "post": {
+          "dream_running": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Elise",
+            "the fantasy begins, and is not announced as one"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "whose story is this, and who is telling it?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "a woman",
+          "survives",
+          "the crash"
+        ],
+        "content": "A car stops on the canyon road and a gun comes out, and then two other cars arrive at speed and the only person who walks away from it is the one who was going to be shot.",
+        "participants": [
+          "Zora"
+        ],
+        "location": "the canyon road",
+        "pre": {
+          "dream_running": true
+        },
+        "post": {
+          "zora_in_the_flat": true
+        },
+        "learns": {
+          "Zora": [
+            "she is alive and does not know who she is"
+          ],
+          "reader": [
+            "intro:Zora",
+            "the dream's rescue of the woman the dreamer had killed"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q11"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who wanted this woman dead?",
+          "q11": "who is the woman with no memory?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Elise and Zora",
+          "find",
+          "the handbag"
+        ],
+        "content": "In the cupboard there is a bag with more cash in it than either of them has seen, and underneath the cash a small blue key with nothing to open.",
+        "participants": [
+          "Elise",
+          "Zora"
+        ],
+        "location": "the aunt's flat",
+        "pre": {
+          "zora_in_the_flat": true
+        },
+        "post": {
+          "handbag_found": true
+        },
+        "learns": {
+          "reader": [
+            "the key from the waking world, given a mystery to belong to"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what is the blue key for?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "a contract killer",
+          "makes",
+          "three corpses"
+        ],
+        "content": "A simple job in an office turns into a shot through a wall, a woman in the next room, a man with a hoover, and a fire alarm, in about ninety seconds.",
+        "participants": [
+          "the hitman"
+        ],
+        "location": "an office building",
+        "pre": {
+          "dream_running": true
+        },
+        "post": {
+          "killer_farce": true
+        },
+        "learns": {
+          "reader": [
+            "the dream renders the man she hired as a clown"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "why is there a hired killer in this at all?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Gil",
+          "is forced",
+          "to cast Vivien"
+        ],
+        "content": "Men in a boardroom show him a photograph and say a name, and when he objects the coffee is thrown at the wall, and a figure in a wide hat behind a corral says it for him again.",
+        "participants": [
+          "Gil",
+          "the man in the wide hat"
+        ],
+        "location": "a boardroom and a ranch",
+        "pre": {
+          "dream_running": true
+        },
+        "post": {
+          "casting_forced": true
+        },
+        "learns": {
+          "Gil": [
+            "the picture is not his"
+          ],
+          "reader": [
+            "intro:the man in the wide hat",
+            "the dream's account of losing the part: it was rigged"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "who is the actress they are forcing on him?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the man in the coffee shop",
+          "dies",
+          "of fright"
+        ],
+        "content": "He describes the dream twice to be sure of it, walks his friend round to the back of the building to prove there is nothing there, and there is something there.",
+        "participants": [
+          "the man in the coffee shop"
+        ],
+        "location": "behind a coffee shop",
+        "pre": {
+          "dream_running": true
+        },
+        "post": {
+          "man_dead_of_fright": true
+        },
+        "learns": {
+          "reader": [
+            "intro:the man in the coffee shop",
+            "the dream keeps returning to this building, and will not say why"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "what is behind the coffee shop?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Elise",
+          "auditions",
+          "brilliantly"
+        ],
+        "content": "She is dreadful in the flat rehearsing it and extraordinary in the room doing it, and by the afternoon she is on a sound stage catching a director's eye across a crowd.",
+        "participants": [
+          "Elise",
+          "Gil"
+        ],
+        "location": "a casting room and a sound stage",
+        "pre": {
+          "handbag_found": true
+        },
+        "post": {
+          "elise_auditioned": true
+        },
+        "learns": {
+          "reader": [
+            "the dream gives her the talent and the notice she was denied"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "why does everything keep being handed to her?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Elise and Zora",
+          "find",
+          "the corpse"
+        ],
+        "content": "There is a flat that keeps coming up and a name on the door, and inside it, on the bed, a woman who has been there some days, and both of them run.",
+        "participants": [
+          "Elise",
+          "Zora"
+        ],
+        "location": "Dana Reeve's flat",
+        "pre": {
+          "handbag_found": true
+        },
+        "post": {
+          "corpse_found": true
+        },
+        "learns": {
+          "reader": [
+            "the dreamer's own body, in the middle of her own dream"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "whose body is in that flat?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Zora",
+          "takes",
+          "Elise to the Vellum"
+        ],
+        "content": "They become lovers, and at two in the morning she wakes saying a word over and over and takes them to a theatre where a man explains that there is no band, and a woman sings and collapses while the song goes on.",
+        "participants": [
+          "Elise",
+          "Zora"
+        ],
+        "location": "the Vellum theatre",
+        "pre": {
+          "corpse_found": true
+        },
+        "post": {
+          "vellum_visited": true
+        },
+        "learns": {
+          "reader": [
+            "the dream announcing that it is a recording"
+          ]
+        },
+        "raises": [
+          "q12"
+        ],
+        "resolves": [],
+        "questions": {
+          "q12": "what is in the blue box?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Zora",
+          "opens",
+          "the blue box"
+        ],
+        "content": "A box appears in the handbag at the theatre. Back in the flat one of them is gone before the key turns, and the other looks into the box and is not there either, and the room is left with nobody in it.",
+        "participants": [
+          "Elise",
+          "Zora"
+        ],
+        "location": "the aunt's flat",
+        "pre": {
+          "vellum_visited": true
+        },
+        "post": {
+          "dream_ended": true
+        },
+        "learns": {
+          "reader": [
+            "the fantasy stops, and the film starts again in a worse world"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q11",
+          "q12"
+        ],
+        "questions": {
+          "q7": "what ends all this?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Dana",
+          "shoots",
+          "herself"
+        ],
+        "content": "The small people come under the door and grow, and she goes over the furniture and into the bedroom ahead of them, and there is a gun in the drawer where she left it.",
+        "participants": [
+          "Dana",
+          "the old couple"
+        ],
+        "location": "Dana's flat",
+        "pre": {
+          "dream_ended": true
+        },
+        "post": {
+          "dana_dead": true
+        },
+        "learns": {
+          "reader": [
+            "what the dream was holding off"
+          ]
+        },
+        "raises": [
+          "q14"
+        ],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {
+          "q14": "who are the old couple?"
+        }
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "the film",
+          "ends",
+          "in silence"
+        ],
+        "content": "A figure looks in at a door, an old couple crawl under it, the theatre is empty except for one woman in the balcony, and she says the word the whole thing has been arranging itself towards.",
+        "participants": [
+          "the man in the wide hat",
+          "the old couple"
+        ],
+        "location": "the Vellum theatre",
+        "pre": {
+          "dana_dead": true
+        },
+        "post": {
+          "silence": true
+        },
+        "learns": {
+          "reader": [
+            "the last image, offered without explanation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q14"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e19"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e14",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e19",
+        "on": "the same two old people, waving her off and coming under her door"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the part she did not get, and the parts she was given instead"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the affair, kept and then ended"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the drive up the canyon after the ending"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the party at the top of the road"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the humiliation and what is bought the next morning"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the blue key, promised and then found"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the sofa, woken on and dreamed from"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e10",
+        "on": "the same stretch of canyon road, in life and in the dream"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the two women the dream puts in one flat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the flat, hidden in and searched"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e15",
+        "on": "the audition lost and the audition triumphed at"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e16",
+        "on": "the name on the door and the body behind it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the night after the flat"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the theatre and the box that comes out of it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the end of the dream and what is waiting on the other side"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e20",
+        "on": "the Vellum, visited and then emptied"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e20",
+        "on": "the figure in the wide hat, giving orders and looking in at a door"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e14",
+        "on": "two of the dream's loose fragments, neither of which resolves"
+      }
+    ]
+  }
+}

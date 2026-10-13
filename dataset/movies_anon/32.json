@@ -1,0 +1,888 @@
+{
+  "story_id": "S32",
+  "source_index": 32,
+  "genre": "Sci-Fi, Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Four engineers - Kell, Orrin, Dov and Prentice - build error-checking devices in a garage at night, funded by whatever they can sell.",
+    "Kell and Orrin cut the other two out and build a box that unexpectedly reduces the weight of anything placed inside it.",
+    "A protein accumulates inside a test object at a rate implying it sat in the field far longer than the machine was switched on.",
+    "Orrin works out that the box loops matter back through time and builds a man-sized version in a rented storage unit.",
+    "Orrin uses it alone, doubling back six hours to prove it works, and only then tells Kell what he has done.",
+    "Orrin walks Kell through the protocol: switch the box on in the morning, stay sealed in a hotel room all day, ride it back, and never meet your other self.",
+    "The pair begin making day-long returns to trade shares whose closing prices they already know.",
+    "Kell admits he has built a third box, has been going back further than agreed, and has been carrying a recorder.",
+    "Kell lives through a party at the Ledgers' house over and over, rehearsing until he can talk down Nora's ex-boyfriend, who arrives with a shotgun.",
+    "Nora's father Owen turns up in the present as a double who has come back from days ahead, and is found half-conscious in a car.",
+    "Owen's double collapses when Kell and Orrin confront him and lapses into a coma.",
+    "Orrin reveals a failsafe box, switched on before he ever told Kell about any of it, that can take him back to before it all started.",
+    "Orrin uses the failsafe to return to the beginning and stop his earlier self from ever entering the machine.",
+    "Kell, who found and used the failsafe first, is already waiting; he drugs the earlier Orrin and takes his place.",
+    "Kell narrates the whole account down the phone to a version of Orrin from a plane bound overseas.",
+    "Orrin stays behind to dismantle the machines and keep his other self away from them.",
+    "Kell builds a full-sized box in a warehouse overseas, using workers who cannot read the plans."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    8,
+    9,
+    12,
+    13,
+    14,
+    16,
+    15,
+    17
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    10,
+    11,
+    12,
+    13
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "A forward account into which two later arrivals are spliced early - a double from days ahead, and journeys that had been running underneath earlier scenes.",
+  "syuzhet_notes": "The surface of the film is a forward-moving account, but it is narrated retrospectively by one man to another over a telephone, and it never marks which duplicate of either is on screen. Told-order bullets 8-9 show a stranger's double arriving from days ahead before the audience has any way to place him, and bullets 10-14 then reach back to fill in journeys that had been happening underneath earlier scenes.",
+  "fabula_notes": "The film resists a single chronology by design: several characters exist as multiple copies at once, each with a personal timeline, and it never confirms which copy is narrating. This ordering follows the account the narration reconstructs, and treats the repeated attempts at the party as one event rather than the many iterations it actually is. How many times either man used the failsafe is never established.",
+  "story_graph": {
+    "characters": {
+      "Kell": {
+        "archetype": "Hero"
+      },
+      "Orrin": {
+        "archetype": "Hero"
+      },
+      "Dov": {
+        "archetype": "Ally"
+      },
+      "Prentice": {
+        "archetype": "Ally"
+      },
+      "Owen": {
+        "archetype": "Threshold Guardian"
+      },
+      "Nora": {
+        "archetype": "Ally"
+      },
+      "Nora's ex-boyfriend": {
+        "archetype": "Shadow"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "four engineers",
+          "build",
+          "in a garage"
+        ],
+        "content": "Suits and ties at the kitchen table by day, and at night a card table in a garage, four men arguing about error correction and selling parts out of their own computers to pay for the next board.",
+        "participants": [
+          "Kell",
+          "Orrin",
+          "Dov",
+          "Prentice"
+        ],
+        "location": "a suburban garage",
+        "pre": {},
+        "post": {
+          "garage_operation": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Kell",
+            "intro:Orrin",
+            "intro:Dov",
+            "intro:Prentice",
+            "four men, and which two of them are the film"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what do they end up building?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Kell and Orrin",
+          "cut out",
+          "the others"
+        ],
+        "content": "The two of them stop mentioning the interesting result at meetings, and the box they build on their own makes whatever is put inside it weigh less than it should.",
+        "participants": [
+          "Kell",
+          "Orrin",
+          "Dov",
+          "Prentice"
+        ],
+        "location": "a suburban garage",
+        "pre": {
+          "garage_operation": true
+        },
+        "post": {
+          "weight_anomaly": true
+        },
+        "learns": {
+          "reader": [
+            "the partnership narrows to two, quietly, and neither says so"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what is the box actually doing?"
+        }
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "a protein",
+          "accumulates",
+          "in the test object"
+        ],
+        "content": "They leave a watch in the field for a few minutes and take it out with more growth on it than a few minutes allows, and then do the arithmetic twice because the answer is in days.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a suburban garage",
+        "pre": {
+          "weight_anomaly": true
+        },
+        "post": {
+          "protein_found": true
+        },
+        "learns": {
+          "Kell": [
+            "whatever is inside the box has been there far longer than the box was on"
+          ],
+          "reader": [
+            "the discovery, arrived at through a measurement rather than a moment"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Orrin",
+          "builds",
+          "the man-sized box"
+        ],
+        "content": "He works out what it is doing and rents a unit in a storage facility off the highway, and puts a version in it that a person can lie down inside.",
+        "participants": [
+          "Orrin"
+        ],
+        "location": "a storage unit",
+        "pre": {
+          "protein_found": true
+        },
+        "post": {
+          "man_sized_box": true
+        },
+        "learns": {
+          "reader": [
+            "the scale changes, and one of them does it alone"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Orrin",
+          "goes",
+          "first"
+        ],
+        "content": "He runs it on himself for six hours and comes out at the beginning of his own afternoon, and only tells the other man about it once it has already worked.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a storage unit",
+        "pre": {
+          "man_sized_box": true
+        },
+        "post": {
+          "orrin_went_first": true
+        },
+        "learns": {
+          "Kell": [
+            "it works, and he was not asked"
+          ],
+          "reader": [
+            "the first breach of trust, and the smallest"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what are the rules of using it?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Orrin",
+          "states",
+          "the protocol"
+        ],
+        "content": "Switch it on in the morning and walk away. Sit in a hotel room with the phone off all day. Ride it back at night. Above all, do not be seen by the version of you that is still living the day forwards.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "orrin_went_first": true
+        },
+        "post": {
+          "protocol_agreed": true
+        },
+        "learns": {
+          "reader": [
+            "the rules, which exist so that the audience can watch them break"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the pair",
+          "trade",
+          "on known prices"
+        ],
+        "content": "Day after day, in and out, buying what they already watched close. It is careful, and boring, and the most sensible use either of them will ever make of it.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a hotel room and a storage unit",
+        "pre": {
+          "protocol_agreed": true
+        },
+        "post": {
+          "trading_begun": true
+        },
+        "learns": {
+          "reader": [
+            "the modest phase, before either of them gets ambitious"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "is either of them keeping to the protocol?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Kell",
+          "admits",
+          "the third box"
+        ],
+        "content": "There is a machine the other one does not know about, in a place the other one has not been, and a recorder in a pocket, and journeys measured in days rather than hours.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a storage unit",
+        "pre": {
+          "trading_begun": true
+        },
+        "post": {
+          "third_box_admitted": true
+        },
+        "learns": {
+          "Orrin": [
+            "he has been lied to for some time"
+          ],
+          "reader": [
+            "the film's real breach, admitted rather than shown"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q2",
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Kell",
+          "rehearses",
+          "the party"
+        ],
+        "content": "The same evening at the same house, over and over, until he knows every line in the room and can meet the man who comes up the drive with a shotgun and take it off him without hurrying.",
+        "participants": [
+          "Kell",
+          "Nora",
+          "Nora's ex-boyfriend",
+          "Owen"
+        ],
+        "location": "the Ledger house",
+        "pre": {
+          "third_box_admitted": true
+        },
+        "post": {
+          "party_rehearsed": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nora",
+            "intro:Nora's ex-boyfriend",
+            "what the machine is actually for, to him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Owen's double",
+          "arrives",
+          "in the present"
+        ],
+        "content": "A man who should be at home is found half-conscious in the back of a car, and he is the wrong number of days old, and nobody can say where the original is.",
+        "participants": [
+          "Kell",
+          "Orrin",
+          "Owen"
+        ],
+        "location": "a car outside a house",
+        "pre": {
+          "trading_begun": true
+        },
+        "post": {
+          "double_arrived": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Owen",
+            "somebody else has been using a box, and the audience is behind"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "how can there be a double of a man who never used the machine?",
+          "q6": "how far back can any of them go?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Owen's double",
+          "collapses",
+          "under questioning"
+        ],
+        "content": "They put it to him in a hallway and he goes grey and sits down on the stairs and does not get up again. He is still breathing when they leave, and the film never comes back to him.",
+        "participants": [
+          "Kell",
+          "Orrin",
+          "Owen"
+        ],
+        "location": "a house",
+        "pre": {
+          "double_arrived": true
+        },
+        "post": {
+          "double_comatose": true
+        },
+        "learns": {
+          "reader": [
+            "a loose end the film never ties off"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why does the double give out like that?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Orrin",
+          "reveals",
+          "the failsafe"
+        ],
+        "content": "There has been a box running in a rented space since before he ever said the word to anyone, and it will take him back to a morning before any of this began.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a rented space",
+        "pre": {
+          "party_rehearsed": true
+        },
+        "post": {
+          "failsafe_revealed": true
+        },
+        "learns": {
+          "Kell": [
+            "the other one never trusted him either"
+          ],
+          "reader": [
+            "the symmetry: both of them were lying from the start"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Orrin",
+          "returns",
+          "to the beginning"
+        ],
+        "content": "He rides it all the way back and goes to the garage to stop the version of himself who is about to climb in, before anything at all has been decided.",
+        "participants": [
+          "Orrin"
+        ],
+        "location": "a suburban garage",
+        "pre": {
+          "failsafe_revealed": true
+        },
+        "post": {
+          "orrin_returned": true
+        },
+        "learns": {
+          "reader": [
+            "the last plan, and the first to be pre-empted"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "why is the earlier one already drugged?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Kell",
+          "takes",
+          "Orrin's place"
+        ],
+        "content": "He got to the failsafe first and has been waiting for days. When the earlier one arrives he is already drugged and folded into the back of a car, and the other man walks into the day wearing his life.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a suburban garage",
+        "pre": {
+          "orrin_returned": true
+        },
+        "post": {
+          "kell_took_his_place": true
+        },
+        "learns": {
+          "reader": [
+            "the substitution, and that the film will not say which copy we have been watching"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Kell",
+          "narrates",
+          "the account"
+        ],
+        "content": "The whole of it goes down a telephone line to a man on an aircraft leaving the country, told flatly and out of order and with no way for the listener to check any of it.",
+        "participants": [
+          "Kell",
+          "Orrin"
+        ],
+        "location": "a telephone line and an aircraft",
+        "pre": {
+          "kell_took_his_place": true
+        },
+        "post": {
+          "account_narrated": true
+        },
+        "learns": {
+          "reader": [
+            "the voice that has been talking over the film, finally placed"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Orrin",
+          "stays",
+          "to dismantle the machines"
+        ],
+        "content": "He remains where the boxes are, taking them apart and keeping his other self away from the storage unit, and does not go with the man on the aeroplane.",
+        "participants": [
+          "Orrin",
+          "Kell"
+        ],
+        "location": "a storage unit",
+        "pre": {
+          "kell_took_his_place": true
+        },
+        "post": {
+          "machines_dismantled": true
+        },
+        "learns": {
+          "reader": [
+            "one of them chooses to stop, which is the closest thing to an ending"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "who is telling this, and to whom?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Kell",
+          "builds",
+          "a full-sized box"
+        ],
+        "content": "In a hangar in another country, with men who cannot read the drawings and are not told what they are building, something is going up that a room could fit inside.",
+        "participants": [
+          "Kell"
+        ],
+        "location": "a warehouse overseas",
+        "pre": {
+          "account_narrated": true
+        },
+        "post": {
+          "warehouse_box": true
+        },
+        "learns": {
+          "reader": [
+            "the other one does not stop, and the scale is now architectural"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the garage, with four men and then with two"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the anomaly and the measurement that explains it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the box, small and then large"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the storage unit"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the first journey and the rules written after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the hotel room, sat in day after day"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the trading, and what one of them was doing underneath it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the third box and what it was built for"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e10",
+        "on": "the days the two of them were sealed in a room while somebody else moved"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the father who arrives from days ahead"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e12",
+        "on": "two secret machines, disclosed one after the other"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the failsafe"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the garage on the morning it all started, visited twice"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the man who took the other's place, and the account he gives of it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e16",
+        "on": "the two of them, one leaving and one staying"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e17",
+        "on": "the narrator, on the telephone and then in a hangar"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e17",
+        "on": "a machine built in a garage and a machine built in a hangar"
+      }
+    ]
+  }
+}

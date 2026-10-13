@@ -1,0 +1,1006 @@
+{
+  "story_id": "S14",
+  "source_index": 14,
+  "genre": "Romance, Comedy, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Day 1: Nolan sees Wren for the first time when she is introduced as the boss's new assistant at the greeting-card company.",
+    "Day 6: Wren overhears Nolan playing a band he loves in the lift and tells him she loves them too.",
+    "Day 19: at a company karaoke night Wren sings, and Nolan's friend Dev drunkenly tells her that Nolan likes her.",
+    "Day 24: Wren kisses Nolan in the office copy room.",
+    "Day 28: Wren tells Nolan she does not believe in love and wants nothing serious.",
+    "Day 31: they sleep together, and Nolan dances through the street to work the next morning.",
+    "Day 71: Nolan and Wren play house through a furniture showroom and are perfectly happy.",
+    "Day 94: Wren shows Nolan her bedroom and tells him things she says she has never told anyone.",
+    "Day 101: Nolan punches a man in a bar for hitting on Wren, and Wren is furious with him for it.",
+    "Day 133: a distance has opened between them, and Wren cries at the end of an old film about an interrupted wedding.",
+    "Day 218: Wren ends the relationship over pancakes in a diner.",
+    "Day 244: Nolan falls apart at work, drinks through the day and writes a bitter greeting card that gets him hauled in front of his boss.",
+    "Day 271: Nolan quits the card company to go back to architecture.",
+    "Day 338: at a colleague's wedding Wren catches the bouquet, and she and Nolan dance and talk warmly all evening.",
+    "Day 341: Nolan goes to Wren's party expecting a reconciliation and finds an engagement ring on her finger, with the screen splitting his expectations from what actually happens.",
+    "Days 379-401: Nolan shuts himself in, then his sister Elsie and his own drawings pull him back towards architecture.",
+    "Day 410: Wren, now married, finds Nolan on their bench and tells him she simply became certain with someone else.",
+    "Day 420: Nolan meets another candidate, Lark, at a job interview and asks her out, and the counter resets to Day 1."
+  ],
+  "syuzhet_order": [
+    17,
+    1,
+    12,
+    2,
+    11,
+    3,
+    4,
+    5,
+    6,
+    10,
+    7,
+    9,
+    8,
+    13,
+    14,
+    15,
+    16,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "The rise runs forward and the collapse runs backward, alternating on the day counter's beat, so each happy scene is answered by its own aftermath.",
+  "syuzhet_notes": "An on-screen day counter labels every scene, and the film uses it to cut constantly between the rise and the collapse of the relationship: told-order bullets 1, 3, 5 and 10 jump forward past their neighbours, and bullets 11 and 13 double back behind them, so a happy scene is repeatedly answered by its own aftermath. Told-order bullet 16 runs expectation and reality side by side in split screen, showing one stretch of time twice at once.",
+  "fabula_notes": "The counter supplies an exact day number for every scene, so the chronology is stated on screen rather than inferred. The weeks covered by told-order bullet 17 are compressed into a single montage.",
+  "story_graph": {
+    "characters": {
+      "Nolan": {
+        "archetype": "Hero"
+      },
+      "Wren": {
+        "archetype": "Shapeshifter"
+      },
+      "Dev": {
+        "archetype": "Ally"
+      },
+      "Elsie": {
+        "archetype": "Mentor"
+      },
+      "Lark": {
+        "archetype": "Herald"
+      },
+      "the boss": {
+        "archetype": "Threshold Guardian"
+      },
+      "the man at the bar": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Nolan",
+          "sees",
+          "Wren"
+        ],
+        "content": "The boss walks her round the floor introducing her, and he loses the thread of whatever he was doing. It is the whole of what happens, and he will spend a year and a half arguing about what it meant.",
+        "participants": [
+          "Nolan",
+          "Wren",
+          "the boss"
+        ],
+        "location": "the office of a greeting-card company",
+        "pre": {},
+        "post": {
+          "they_have_met": true
+        },
+        "learns": {
+          "Nolan": [
+            "she exists"
+          ],
+          "reader": [
+            "intro:Nolan",
+            "intro:Wren",
+            "intro:the boss",
+            "he was struck by her before a word passed between them"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Wren",
+          "shares",
+          "a band"
+        ],
+        "content": "Tinny headphone spill in a lift, four floors, and she says the name of the band as if it settled something. He decides on the spot that this is fate rather than coincidence.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "the office lift",
+        "pre": {
+          "they_have_met": true
+        },
+        "post": {
+          "shared_taste_known": true
+        },
+        "learns": {
+          "Nolan": [
+            "she likes what he likes"
+          ],
+          "Wren": [
+            "he is worth talking to"
+          ],
+          "reader": [
+            "the entire evidence on which he builds his certainty"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Dev",
+          "tells",
+          "Wren the truth"
+        ],
+        "content": "Company karaoke. She sings, badly and beautifully, and his friend leans across the table with a drink in his hand and says the thing Nolan has not said.",
+        "participants": [
+          "Nolan",
+          "Wren",
+          "Dev"
+        ],
+        "location": "a karaoke bar",
+        "pre": {
+          "shared_taste_known": true
+        },
+        "post": {
+          "his_interest_public": true
+        },
+        "learns": {
+          "Wren": [
+            "he likes her"
+          ],
+          "reader": [
+            "intro:Dev",
+            "it was a friend, not him, who moved things along"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Wren",
+          "kisses",
+          "Nolan"
+        ],
+        "content": "Between the shelves and the machine, with no preamble at all, she decides the question for both of them and goes back to work.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "the office copy room",
+        "pre": {
+          "his_interest_public": true
+        },
+        "post": {
+          "they_are_involved": true
+        },
+        "learns": {
+          "Nolan": [
+            "she wants him too"
+          ],
+          "reader": [
+            "she began it, which he will forget later"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Wren",
+          "states",
+          "her terms"
+        ],
+        "content": "She says it plainly, over a table, without cruelty: she does not believe in love and does not want anything serious. He hears the sentence and files it somewhere he will not have to look at it.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a restaurant",
+        "pre": {
+          "they_are_involved": true
+        },
+        "post": {
+          "terms_stated_casual": true
+        },
+        "learns": {
+          "Nolan": [
+            "she has told him exactly what this is"
+          ],
+          "reader": [
+            "she was honest at the start; the misunderstanding is his"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Nolan",
+          "dances",
+          "through the street"
+        ],
+        "content": "The morning after, the pavement organises itself into choreography around him and a bird lands on his hand. Nothing in the world has changed except him.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a city street and a park",
+        "pre": {
+          "terms_stated_casual": true
+        },
+        "post": {
+          "relationship_physical": true
+        },
+        "learns": {
+          "reader": [
+            "what the affair felt like from inside his head"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Nolan",
+          "plays house",
+          "with Wren"
+        ],
+        "content": "They walk a furniture showroom pretending to be a couple choosing a home, and for one afternoon the pretence and the thing itself are indistinguishable.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a furniture showroom",
+        "pre": {
+          "relationship_physical": true
+        },
+        "post": {
+          "peak_happiness": true
+        },
+        "learns": {
+          "Nolan": [
+            "this is what having her would be like"
+          ],
+          "reader": [
+            "the high point, and that it is played as make-believe"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Wren",
+          "shows",
+          "Nolan her room"
+        ],
+        "content": "She takes him into the part of her life she keeps shut and tells him things she says she has never said to anyone. He takes it as a promise. She does not say it is one.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "Wren's bedroom",
+        "pre": {
+          "peak_happiness": true
+        },
+        "post": {
+          "he_believes_it_is_serious": true
+        },
+        "learns": {
+          "Nolan": [
+            "he is the exception to what she said"
+          ],
+          "reader": [
+            "the moment his certainty stops being reasonable"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Nolan",
+          "punches",
+          "the man at the bar"
+        ],
+        "content": "Someone leans too close to her at the bar and he swings, badly, twice. She walks him out into the street and is angrier with him than she has ever been.",
+        "participants": [
+          "Nolan",
+          "Wren",
+          "the man at the bar"
+        ],
+        "location": "a bar",
+        "pre": {
+          "he_believes_it_is_serious": true
+        },
+        "post": {
+          "first_rift": true
+        },
+        "learns": {
+          "Wren": [
+            "he thinks she belongs to him"
+          ],
+          "reader": [
+            "intro:the man at the bar",
+            "the first thing she cannot forgive"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {
+          "q8": "why does another man leaning towards her provoke this?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Wren",
+          "cries",
+          "at an old film"
+        ],
+        "content": "They sit a foot apart through a picture about a wedding that does not happen, and at the end she is crying at something in it and he cannot ask what.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a cinema",
+        "pre": {
+          "first_rift": true
+        },
+        "post": {
+          "distance_open": true
+        },
+        "learns": {
+          "Nolan": [
+            "she is somewhere he cannot follow"
+          ],
+          "reader": [
+            "the ending was decided before it was announced"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "what were they like before this distance opened?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Wren",
+          "ends",
+          "the relationship"
+        ],
+        "content": "Pancakes, a booth, a Sunday. She says it gently and finishes her food, and he sits opposite with his life rearranging itself around a plate.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a diner",
+        "pre": {
+          "distance_open": true
+        },
+        "post": {
+          "relationship_over": true
+        },
+        "learns": {
+          "Nolan": [
+            "it is over"
+          ],
+          "reader": [
+            "the break, and how ordinary the room was while it happened"
+          ]
+        },
+        "raises": [
+          "q5",
+          "q6"
+        ],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {
+          "q5": "what is it that is being ended here?",
+          "q6": "why did it end when he so plainly wanted it not to?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Nolan",
+          "falls apart",
+          "at work"
+        ],
+        "content": "He drinks through the working day and writes a card that says what he actually feels, which is not what the card aisle is for, and is called in to explain himself.",
+        "participants": [
+          "Nolan",
+          "the boss"
+        ],
+        "location": "the office of a greeting-card company",
+        "pre": {
+          "relationship_over": true
+        },
+        "post": {
+          "he_is_unemployable": true
+        },
+        "learns": {
+          "the boss": [
+            "he cannot be left with the product"
+          ],
+          "reader": [
+            "the shape of the collapse"
+          ]
+        },
+        "raises": [
+          "q2",
+          "q3",
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what has happened to him to leave him like this?",
+          "q3": "what did he think the two of them had in common?",
+          "q4": "why is he this angry rather than simply sad?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Nolan",
+          "quits",
+          "the card company"
+        ],
+        "content": "He stands up in a meeting, says out loud that the whole business is a lie sold at a markup, and walks out to go back to buildings.",
+        "participants": [
+          "Nolan",
+          "the boss"
+        ],
+        "location": "a meeting room",
+        "pre": {
+          "he_is_unemployable": true
+        },
+        "post": {
+          "he_quit": true
+        },
+        "learns": {
+          "Nolan": [
+            "he has been doing the wrong work for years"
+          ],
+          "reader": [
+            "the loss dislodged something that needed dislodging"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Wren",
+          "catches",
+          "the bouquet"
+        ],
+        "content": "At a colleague's wedding she takes the flowers out of the air, and the two of them dance and talk all evening as though the diner never happened.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a wedding reception",
+        "pre": {
+          "he_quit": true
+        },
+        "post": {
+          "warmth_restored": true
+        },
+        "learns": {
+          "Nolan": [
+            "nothing is finished"
+          ],
+          "reader": [
+            "she is warm to him, and means nothing by it that he would recognise"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Nolan",
+          "finds",
+          "a ring"
+        ],
+        "content": "He goes to her party with a speech ready. The screen puts what he expects beside what occurs, and on her left hand there is a ring, and the two halves never meet.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "the roof of Wren's building",
+        "pre": {
+          "warmth_restored": true
+        },
+        "post": {
+          "she_is_engaged": true
+        },
+        "learns": {
+          "Nolan": [
+            "she is marrying someone else"
+          ],
+          "reader": [
+            "the gap between his account of her and her"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Elsie",
+          "pulls",
+          "Nolan back"
+        ],
+        "content": "Weeks of drawn curtains, and then his sister will not let it alone, and the drawings he stopped making turn out to still be in the flat.",
+        "participants": [
+          "Nolan",
+          "Elsie"
+        ],
+        "location": "Nolan's flat",
+        "pre": {
+          "she_is_engaged": true
+        },
+        "post": {
+          "he_returns_to_architecture": true
+        },
+        "learns": {
+          "Nolan": [
+            "he can begin again at the thing he actually wanted"
+          ],
+          "reader": [
+            "intro:Elsie",
+            "the recovery is work, not a scene"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Wren",
+          "explains",
+          "herself"
+        ],
+        "content": "On the bench they used to sit on, married now, she tells him she simply woke up certain with someone else, and that she was never sure of anything with him.",
+        "participants": [
+          "Nolan",
+          "Wren"
+        ],
+        "location": "a bench overlooking the city",
+        "pre": {
+          "he_returns_to_architecture": true
+        },
+        "post": {
+          "she_is_married": true,
+          "he_has_an_answer": true
+        },
+        "learns": {
+          "Nolan": [
+            "it was never going to be him, and that is all"
+          ],
+          "reader": [
+            "the answer the whole telling has been circling"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who are these two on the bench, and what were they to each other?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Nolan",
+          "meets",
+          "Lark"
+        ],
+        "content": "Two candidates for the same job, a waiting room, a joke that lands. He asks her out on the stairs, and the counter at the corner of the screen turns over to one.",
+        "participants": [
+          "Nolan",
+          "Lark"
+        ],
+        "location": "the lobby of an architecture practice",
+        "pre": {
+          "he_has_an_answer": true
+        },
+        "post": {
+          "counter_reset": true
+        },
+        "learns": {
+          "Nolan": [
+            "he is able to begin again"
+          ],
+          "reader": [
+            "intro:Lark",
+            "the structure is about to repeat, which is either hope or a warning"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e13",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e12",
+        "on": "the same office floor, before her and after her"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e5",
+        "on": "the two conversations he draws opposite conclusions from"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e15",
+        "on": "a home imagined and a home that belongs to someone else"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "a wedding watched on a screen and a wedding attended"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e18",
+        "on": "the same first meeting, played twice with the names changed"
+      }
+    ]
+  }
+}

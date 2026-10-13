@@ -1,0 +1,53 @@
+{
+  "title": "Betrayal",
+  "release_year": 1978,
+  "genre": "Drama, Romance",
+  "source": "Play",
+  "events_chronological": [
+    "At a party in his best friend Robert's house, the literary agent Jerry takes Emma upstairs and tells her she is beautiful while the guests drink below.",
+    "Jerry and Emma take a flat of their own in a quiet part of the city and furnish it with a tablecloth and crockery so the affair has somewhere domestic to live.",
+    "Emma tells Jerry she is expecting a child by Robert, and the two agree that nothing about the flat need change.",
+    "In a hotel room in Venice, Robert asks Emma about a letter waiting for her at the poste restante in Jerry's handwriting.",
+    "Emma admits the affair, and Robert says only that he has always liked Jerry rather more than he has liked her.",
+    "Emma returns to the flat and tells Jerry nothing at all about Venice, and the afternoon passes as every other one has.",
+    "Robert drinks his way through a long lunch with Jerry, needling him about modern novels and never once saying what he knows.",
+    "At dinner in Robert and Emma's house the two men talk about squash and boys' games until Emma is left out of the conversation altogether.",
+    "Jerry and Emma agree that the flat has become a burden, divide the crockery between them and give up the lease.",
+    "In a pub two years on, Emma tells Jerry that her marriage is finished and that she sat up the previous night telling Robert everything.",
+    "Emma mentions that Robert has been publishing the novelist Casey, whom Jerry represents and whom both men privately despise.",
+    "Jerry telephones Robert in a panic and Robert comes round to his house that evening.",
+    "Robert tells Jerry he has known about the affair for four years, that Emma told him in Venice, and that he has never much cared for Jerry's letters either."
+  ],
+  "syuzhet_order": [
+    10,
+    11,
+    12,
+    13,
+    9,
+    8,
+    4,
+    5,
+    6,
+    7,
+    2,
+    3,
+    1
+  ],
+  "event_scenes": [
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    9
+  ],
+  "syuzhet_notes": "The nine scenes run from 1977 back to 1968. Told-order bullets 1-2 are the latest thing in the story and bullet 13 the earliest, so every revelation arrives before its cause: the audience learns the affair is over before it learns it began.",
+  "fabula_notes": "The chronology is fixed by the dates the play prints above each scene. The 1973 scenes play forward among themselves - the hotel confrontation, the flat, the lunch - because each is one continuous scene."
+}

@@ -1,0 +1,761 @@
+{
+  "story_id": "S68",
+  "source_index": 68,
+  "genre": "Sci-Fi, Thriller, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "A virus let loose in the last years of the century kills most of the human race and drives the survivors below ground.",
+    "Decades on, the scientists running the underground colony send convicts up to gather specimens, and one of them volunteers.",
+    "He is sent back through time, arrives six years too early, and is arrested raving about a plague.",
+    "In the asylum a psychiatrist interviews him, and he meets the son of a celebrated virologist.",
+    "He is hauled back to the future and questioned about a recorded message the scientists have recovered.",
+    "He is sent to the right year and abducts the psychiatrist, who has since written a book about apocalyptic prophecy.",
+    "The two of them find graffiti for a shadowy group and trace the virologist's son to his father's estate.",
+    "The son denies everything and says the idea of stealing the virus was the convict's own, from the asylum.",
+    "The psychiatrist comes across a photograph from the first great war of a soldier who is unmistakably him.",
+    "He decides he has been mad all along and asks to be allowed to stay where he is.",
+    "She finds a bullet fired in the first great war in an X-ray of him and realises he has been telling the truth.",
+    "The shadowy group turn out to be animal rights activists who free the zoo animals and shut the virologist in a cupboard.",
+    "The pair go to the airport in disguise to stop the virologist's assistant, who is the real carrier.",
+    "She spots the carrier, he runs at the man with a gun, and airport police shoot him dead while a small boy watches from the concourse.",
+    "The carrier passes through the gate with the virus in his luggage, taking the next seat to one of the scientists sent back from the future."
+  ],
+  "syuzhet_order": [
+    14,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "Thirteen of fourteen scenes run forward; the exception is the shooting at the airport, shown in fragments from the opening as a recurring dream and only placed at the very end.",
+  "syuzhet_notes": "The telling opens on a fragment of the airport shooting and keeps returning to it as a dream, without the audience or the protagonist being able to place it. Only in the closing minutes is it shown whole and revealed as his own death, watched by his childhood self.",
+  "fabula_notes": "The dream and the ending are one event, counted once here at its chronological position near the end. Everything else runs forward, including the jumps between the two periods, which follow the protagonist's own sequence.",
+  "story_graph": {
+    "characters": {
+      "the convict": {
+        "archetype": "Hero"
+      },
+      "the psychiatrist": {
+        "archetype": "Ally"
+      },
+      "the underground scientists": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Threshold Guardians"
+      },
+      "the virologist's son": {
+        "archetype": "Shapeshifter",
+        "archetype_detail": "Red Herring"
+      },
+      "the virologist": {
+        "archetype": "Threshold Guardian"
+      },
+      "the carrier": {
+        "archetype": "Shadow"
+      },
+      "the animal activists": {
+        "archetype": "Trickster",
+        "archetype_detail": "Tricksters"
+      },
+      "the airport police": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Threshold Guardians"
+      },
+      "the boy witness": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the virus",
+          "destroys",
+          "surface civilisation"
+        ],
+        "content": "Mass death forces the surviving population below ground and turns the lost century into an object of scientific study.",
+        "participants": [
+          "the carrier"
+        ],
+        "location": "the surface world and underground colony",
+        "pre": {},
+        "post": {
+          "pandemic_happened": true,
+          "survivors_underground": true
+        },
+        "learns": {
+          "reader": [
+            "the mission exists because a released virus killed most of humanity"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the underground scientists",
+          "recruit",
+          "the convict"
+        ],
+        "content": "Specimen-gathering duty offers a prisoner the possibility of usefulness and eventual clemency.",
+        "participants": [
+          "the convict",
+          "the underground scientists"
+        ],
+        "location": "the underground colony",
+        "pre": {
+          "survivors_underground": true
+        },
+        "post": {
+          "convict_recruited": true,
+          "mission_active": true
+        },
+        "learns": {
+          "reader": [
+            "the man seen at the airport is a convict sent by future scientists"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the time machine",
+          "sends",
+          "the convict six years early"
+        ],
+        "content": "The inaccurate jump deposits him in police custody before the year in which the virus is supposed to be stopped.",
+        "participants": [
+          "the convict",
+          "the underground scientists"
+        ],
+        "location": "a city six years before the target year",
+        "pre": {
+          "convict_recruited": true
+        },
+        "post": {
+          "convict_in_early_year": true
+        },
+        "learns": {
+          "reader": [
+            "the first time jump misses its intended date"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "can the convict return from the jump that sent him to the wrong year?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the psychiatrist",
+          "interviews",
+          "the convict"
+        ],
+        "content": "His plague warnings are treated as delusion in the asylum where he also meets a famous virologist's volatile son.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the virologist's son"
+        ],
+        "location": "a psychiatric hospital",
+        "pre": {
+          "convict_in_early_year": true
+        },
+        "post": {
+          "psychiatrist_met": true,
+          "son_met": true
+        },
+        "learns": {
+          "reader": [
+            "the psychiatrist initially reads true time-travel knowledge as mental illness"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what part does the virologist's son play in the plague story?"
+        }
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the underground scientists",
+          "retrieve",
+          "the convict"
+        ],
+        "content": "Back in the colony they compare his failed trip with a recorded warning recovered from the past.",
+        "participants": [
+          "the convict",
+          "the underground scientists"
+        ],
+        "location": "the underground colony",
+        "pre": {
+          "convict_in_early_year": true
+        },
+        "post": {
+          "convict_returned_future": true,
+          "recorded_warning_known": true
+        },
+        "learns": {
+          "reader": [
+            "the scientists can pull the convict back and possess a message tied to the outbreak"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the convict",
+          "abducts",
+          "the psychiatrist"
+        ],
+        "content": "Sent to the intended year, he forces the now-published expert on apocalyptic belief to help pursue a real apocalypse.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the underground scientists"
+        ],
+        "location": "the target year",
+        "pre": {
+          "convict_returned_future": true,
+          "mission_active": true
+        },
+        "post": {
+          "convict_in_target_year": true,
+          "psychiatrist_abducted": true
+        },
+        "learns": {
+          "reader": [
+            "the second mission reunites the convict with the psychiatrist at the right date"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the pair",
+          "trace",
+          "the shadowy group"
+        ],
+        "content": "Graffiti and a name lead them from the group's symbols to the virologist's son at his father's estate.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the virologist's son",
+          "the virologist"
+        ],
+        "location": "the virologist's estate",
+        "pre": {
+          "psychiatrist_abducted": true,
+          "son_met": true
+        },
+        "post": {
+          "activist_group_traced": true
+        },
+        "learns": {
+          "reader": [
+            "the investigation initially identifies the activist group and the son as likely culprits"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "is the shadowy group actually responsible for the virus?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the virologist's son",
+          "denies",
+          "the virus plot"
+        ],
+        "content": "He reverses the accusation by claiming the prisoner himself first supplied the theft idea in the asylum.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the virologist's son"
+        ],
+        "location": "the virologist's estate",
+        "pre": {
+          "activist_group_traced": true
+        },
+        "post": {
+          "son_denied_plot": true
+        },
+        "learns": {
+          "reader": [
+            "the apparent suspect says the time traveller originated the threatening idea"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the psychiatrist",
+          "finds",
+          "the wartime photograph"
+        ],
+        "content": "An archival image places the same man's face in the first great war, evidence that ordinary chronology cannot explain.",
+        "participants": [
+          "the psychiatrist"
+        ],
+        "location": "an archive",
+        "pre": {
+          "psychiatrist_met": true
+        },
+        "post": {
+          "wartime_photo_found": true
+        },
+        "learns": {
+          "reader": [
+            "a historical photograph independently supports the convict's time-travel claim"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the convict",
+          "accepts",
+          "the diagnosis of madness"
+        ],
+        "content": "Exhaustion and contradictory evidence make him ask to remain in the present rather than complete the mission.",
+        "participants": [
+          "the convict",
+          "the psychiatrist"
+        ],
+        "location": "the city",
+        "pre": {
+          "son_denied_plot": true
+        },
+        "post": {
+          "convict_doubts_mission": true
+        },
+        "learns": {
+          "reader": [
+            "the convict loses confidence in his own memories just as the psychiatrist begins to believe"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "is the convict mad, or can the psychiatrist verify his account?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the psychiatrist",
+          "proves",
+          "the time-travel wound"
+        ],
+        "content": "A bullet from the first great war remains in his body, converting the impossible photograph into physical evidence.",
+        "participants": [
+          "the convict",
+          "the psychiatrist"
+        ],
+        "location": "a medical facility",
+        "pre": {
+          "wartime_photo_found": true,
+          "convict_doubts_mission": true
+        },
+        "post": {
+          "psychiatrist_believes": true
+        },
+        "learns": {
+          "reader": [
+            "the old bullet convinces the psychiatrist the convict has told the truth"
+          ],
+          "the psychiatrist": [
+            "the convict travelled through the first great war"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the animal activists",
+          "free",
+          "the zoo animals"
+        ],
+        "content": "Their dramatic operation targets captivity rather than humanity and leaves the virologist shut in a cupboard.",
+        "participants": [
+          "the animal activists",
+          "the virologist's son",
+          "the virologist"
+        ],
+        "location": "the city zoo and virologist's office",
+        "pre": {
+          "activist_group_traced": true
+        },
+        "post": {
+          "activists_exonerated": true
+        },
+        "learns": {
+          "reader": [
+            "the shadowy group is disruptive but not responsible for releasing the plague"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the pair",
+          "pursue",
+          "the carrier at the airport"
+        ],
+        "content": "Disguise gets them close enough to recognise that the virologist's assistant, not his son, is taking the samples abroad.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the carrier"
+        ],
+        "location": "an airport concourse",
+        "pre": {
+          "psychiatrist_believes": true,
+          "activists_exonerated": true
+        },
+        "post": {
+          "carrier_identified": true
+        },
+        "learns": {
+          "reader": [
+            "the real carrier is identified at the departure gate"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q9": "can the pair stop the carrier before the virus leaves the airport?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the airport police",
+          "shoot",
+          "the convict"
+        ],
+        "content": "When he runs at the carrier with a gun, officers kill him in front of the psychiatrist and a watching child.",
+        "participants": [
+          "the convict",
+          "the psychiatrist",
+          "the carrier",
+          "the airport police",
+          "the boy witness"
+        ],
+        "location": "the airport concourse",
+        "pre": {
+          "carrier_identified": true
+        },
+        "post": {
+          "convict_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the opening death is the failed attempt to stop the identified carrier"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what catastrophe is the man at the airport trying to prevent?",
+          "q2": "who is the man shot at the airport, and who sent him?",
+          "q3": "why does he run with a gun at this particular traveller?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the carrier",
+          "boards",
+          "with the virus"
+        ],
+        "content": "The luggage passes the gate despite the intervention, beside a future scientist whose presence suggests observation rather than prevention.",
+        "participants": [
+          "the carrier",
+          "the underground scientists"
+        ],
+        "location": "an airport gate and aircraft",
+        "pre": {
+          "carrier_identified": true,
+          "convict_dead": true
+        },
+        "post": {
+          "carrier_escaped": true
+        },
+        "learns": {
+          "reader": [
+            "the carrier escapes with the virus and the temporal loop remains intact"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e15",
+        "on": "the virus outbreak and the carrier departing with its source"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e15",
+        "on": "future scientists observing the past"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "story_id": "S79",
+  "source_index": 79,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "A young woman is taught by nuns that there are two ways through a life, the way of nature and the way of grace.",
+    "She marries, and their first son is born.",
+    "Two more sons follow, and the three boys run wild through the summers of a small southern town.",
+    "Their father drills them in discipline at the dinner table and teaches the middle one the guitar.",
+    "Their mother plays with them on the lawn while the father is away on business.",
+    "The eldest, jealous and confused, breaks a neighbour's window and steals a slip from a woman's drawer.",
+    "The eldest takes his brother into the yard, persuades him to put a finger over an air rifle, and shoots him.",
+    "The father loses his job when the plant closes and the family have to give up the house.",
+    "The eldest asks his brother's forgiveness in a doorway without managing to say any of the words.",
+    "A telegram reports that the middle brother has died at nineteen, and the mother cannot be consoled.",
+    "The father tells his eldest that he was too hard on all of them.",
+    "Galaxies condense, stars burn out, a planet cools, and something first stirs in its oceans.",
+    "A wounded creature lies in a river bed while another sets a foot on its head and then lets it live.",
+    "The eldest, a middle-aged architect in a glass tower, cannot get through the anniversary of his brother's death.",
+    "He walks through a doorway standing alone in a desert and finds everyone he has lost gathered on a shore."
+  ],
+  "syuzhet_order": [
+    1,
+    10,
+    14,
+    12,
+    13,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7,
+    9,
+    8,
+    11,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. A childhood, a bereavement, a middle age and the formation of the universe are cut together by rhyme and by prayer rather than by any order.",
+  "syuzhet_notes": "The telling is cut to whispered prayer rather than to sequence, and a long passage on the formation of the universe interrupts the family story without belonging anywhere inside it. Nothing announces which period a shot is in.",
+  "fabula_notes": "The chronology of the family material is fixed by the boys' ages. The cosmological passage and the closing shore are placed at the points the work's own logic implies, but neither is dated.",
+  "story_graph": {
+    "characters": {
+      "mother": {
+        "archetype": "Hero"
+      },
+      "father": {
+        "archetype": "Shapeshifter"
+      },
+      "eldest son": {
+        "archetype": "Hero"
+      },
+      "middle son": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "youngest son": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "nuns": {
+        "archetype": "Mentor"
+      },
+      "neighbour": {
+        "archetype": "Threshold Guardian"
+      },
+      "ancient creatures": {
+        "archetype": "Herald"
+      },
+      "shore gathering": {
+        "archetype": "Herald"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "nuns",
+          "teach",
+          "the two ways through life"
+        ],
+        "content": "The young woman receives a distinction between self-asserting nature and self-giving grace that becomes the vocabulary of her future family.",
+        "participants": [
+          "mother",
+          "nuns"
+        ],
+        "location": "a religious school",
+        "pre": {},
+        "post": {
+          "mother_taught_nature_and_grace": true
+        },
+        "learns": {
+          "mother": [
+            "a life may follow nature or grace"
+          ],
+          "reader": [
+            "nature and grace will organise the story's moral contrasts"
+          ]
+        },
+        "raises": [
+          "q79_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q79_1": "can a life divided between nature and grace arrive at reconciliation?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "mother",
+          "gives birth to",
+          "eldest son"
+        ],
+        "content": "Marriage and a first child establish a household in which tenderness and ambition will pull in different directions.",
+        "participants": [
+          "mother",
+          "father",
+          "eldest son"
+        ],
+        "location": "a small southern town",
+        "pre": {
+          "mother_taught_nature_and_grace": true
+        },
+        "post": {
+          "family_started": true
+        },
+        "learns": {
+          "reader": [
+            "the young woman of the opening becomes the family's mother"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "mother",
+          "raises",
+          "three sons"
+        ],
+        "content": "Two younger boys join the eldest, and their summers make the streets, riverbanks and unfinished houses into one large field of play.",
+        "participants": [
+          "mother",
+          "father",
+          "eldest son",
+          "middle son",
+          "youngest son"
+        ],
+        "location": "a small southern town",
+        "pre": {
+          "family_started": true
+        },
+        "post": {
+          "three_sons_growing": true
+        },
+        "learns": {
+          "reader": [
+            "the brothers' shared childhood forms the centre of the family memory"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "father",
+          "drills",
+          "his sons in discipline"
+        ],
+        "content": "At meals he demands obedience and toughness, yet the guitar lesson given to the middle son reveals affection inside the severity.",
+        "participants": [
+          "father",
+          "eldest son",
+          "middle son",
+          "youngest son"
+        ],
+        "location": "the family home",
+        "pre": {
+          "three_sons_growing": true
+        },
+        "post": {
+          "fatherly_severity_established": true
+        },
+        "learns": {
+          "eldest son": [
+            "his father equates love with discipline and strength"
+          ],
+          "reader": [
+            "the father's hardness contains both care and domination"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "mother",
+          "plays with",
+          "her sons"
+        ],
+        "content": "During the father's absence she moves lightly through games on the lawn, embodying the grace she learned about as a girl.",
+        "participants": [
+          "mother",
+          "eldest son",
+          "middle son",
+          "youngest son"
+        ],
+        "location": "the family lawn",
+        "pre": {
+          "three_sons_growing": true,
+          "mother_taught_nature_and_grace": true
+        },
+        "post": {
+          "maternal_grace_modelled": true
+        },
+        "learns": {
+          "eldest son": [
+            "his mother's love offers an alternative to his father's rule"
+          ],
+          "reader": [
+            "the mother makes the abstract way of grace visible in family life"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "eldest son",
+          "tests",
+          "forbidden power"
+        ],
+        "content": "Jealousy and curiosity lead him from breaking a window to stealing a private garment, acts that mix shame with the exhilaration of trespass.",
+        "participants": [
+          "eldest son",
+          "neighbour"
+        ],
+        "location": "neighbouring houses",
+        "pre": {
+          "fatherly_severity_established": true
+        },
+        "post": {
+          "eldest_son_transgressed": true
+        },
+        "learns": {
+          "reader": [
+            "the eldest is experimenting with harm, secrecy and control"
+          ]
+        },
+        "raises": [
+          "q79_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q79_2": "can the eldest repair the harm his experiments in power cause?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "eldest son",
+          "shoots",
+          "middle son's finger"
+        ],
+        "content": "He engineers the air-rifle test and pulls the trigger, converting sibling trust into an injury he immediately cannot undo.",
+        "participants": [
+          "eldest son",
+          "middle son"
+        ],
+        "location": "the family yard",
+        "pre": {
+          "eldest_son_transgressed": true
+        },
+        "post": {
+          "middle_son_shot": true
+        },
+        "learns": {
+          "eldest son": [
+            "his desire for power can wound the brother who trusts him"
+          ],
+          "reader": [
+            "the brothers' intimacy now carries guilt"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "father",
+          "loses",
+          "his job and house"
+        ],
+        "content": "A plant closure punctures his authority as provider and forces the family to leave the home around which the remembered childhood was built.",
+        "participants": [
+          "father",
+          "mother",
+          "eldest son",
+          "middle son",
+          "youngest son"
+        ],
+        "location": "a closed plant and family home",
+        "pre": {
+          "three_sons_growing": true
+        },
+        "post": {
+          "family_must_move": true
+        },
+        "learns": {
+          "father": [
+            "his work and the family house are no longer secure"
+          ],
+          "reader": [
+            "economic loss exposes the father's limits"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "eldest son",
+          "seeks",
+          "middle son's forgiveness"
+        ],
+        "content": "At a doorway he cannot shape an apology, but posture and silence allow the injured brother to understand the request.",
+        "participants": [
+          "eldest son",
+          "middle son"
+        ],
+        "location": "a doorway at the family home",
+        "pre": {
+          "middle_son_shot": true,
+          "family_must_move": true
+        },
+        "post": {
+          "brothers_reconciled": true
+        },
+        "learns": {
+          "middle son": [
+            "his brother regrets the shooting"
+          ],
+          "reader": [
+            "forgiveness passes between the boys without adequate words"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q79_2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "a telegram",
+          "announces",
+          "middle son's death"
+        ],
+        "content": "At nineteen the brother is reduced to a message delivered to the family, and the mother's moral language cannot make the loss bearable.",
+        "participants": [
+          "mother",
+          "father",
+          "eldest son",
+          "youngest son"
+        ],
+        "location": "the parents' later home",
+        "pre": {
+          "brothers_reconciled": true
+        },
+        "post": {
+          "middle_son_dead": true
+        },
+        "learns": {
+          "mother": [
+            "her middle son has died at nineteen"
+          ],
+          "reader": [
+            "the childhood brother is the young man whose death structures the family's grief"
+          ]
+        },
+        "raises": [
+          "q79_3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q79_3": "how will the middle son's death alter the father's account of his parenting?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "father",
+          "admits",
+          "his excessive hardness"
+        ],
+        "content": "Bereavement strips away the defence of discipline, and he tells the eldest that ambition made him harsher than his sons deserved.",
+        "participants": [
+          "father",
+          "eldest son"
+        ],
+        "location": "the parents' later home",
+        "pre": {
+          "middle_son_dead": true
+        },
+        "post": {
+          "father_confessed_harshness": true
+        },
+        "learns": {
+          "eldest son": [
+            "his father recognises the damage caused by severity"
+          ],
+          "reader": [
+            "the father can name his failure only after loss"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q79_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the cosmos",
+          "forms",
+          "a living planet"
+        ],
+        "content": "Galaxies, stars and cooling matter stretch the family's questions across an immense creation in which life emerges without human witness.",
+        "participants": [
+          "ancient creatures"
+        ],
+        "location": "cosmic space and a young planet",
+        "pre": {},
+        "post": {
+          "living_world_formed": true
+        },
+        "learns": {
+          "reader": [
+            "the family's grief is placed inside a history vastly older than the family"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "an ancient creature",
+          "spares",
+          "a wounded creature"
+        ],
+        "content": "A foot presses down and then lifts, inserting a primitive gesture of mercy into a world otherwise governed by appetite and survival.",
+        "participants": [
+          "ancient creatures"
+        ],
+        "location": "a prehistoric river bed",
+        "pre": {
+          "living_world_formed": true
+        },
+        "post": {
+          "ancient_mercy_shown": true
+        },
+        "learns": {
+          "reader": [
+            "grace is imagined as possible even before human life"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "eldest son",
+          "mourns",
+          "inside a glass tower"
+        ],
+        "content": "As an adult architect he moves through polished spaces unable to contain the anniversary of his brother's death or the childhood attached to it.",
+        "participants": [
+          "eldest son"
+        ],
+        "location": "a modern city tower",
+        "pre": {
+          "middle_son_dead": true,
+          "father_confessed_harshness": true
+        },
+        "post": {
+          "adult_grief_active": true
+        },
+        "learns": {
+          "reader": [
+            "the surviving brother's adult success has not resolved his grief"
+          ]
+        },
+        "raises": [
+          "q79_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q79_4": "can the adult son find any form in which his lost family is whole?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "eldest son",
+          "finds",
+          "the lost family on a shore"
+        ],
+        "content": "A solitary desert doorway opens onto a beach where parents, brothers and remembered selves meet without the separations imposed by time.",
+        "participants": [
+          "eldest son",
+          "middle son",
+          "youngest son",
+          "mother",
+          "father",
+          "shore gathering"
+        ],
+        "location": "a desert threshold and luminous shore",
+        "pre": {
+          "adult_grief_active": true,
+          "ancient_mercy_shown": true
+        },
+        "post": {
+          "shore_reconciliation_seen": true
+        },
+        "learns": {
+          "eldest son": [
+            "he can imagine the family gathered beyond chronological loss"
+          ],
+          "reader": [
+            "the closing vision answers grief with reunion rather than factual restoration"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q79_1",
+          "q79_4"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e13",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e5",
+        "on": "the mother's lesson about grace and its domestic embodiment"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e13",
+        "on": "grace taught to a person and imagined in prehuman mercy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the family beginning and expanding"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8",
+        "on": "the boys' childhood home before it is lost"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the father's severity and mother's play"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11",
+        "on": "the father's discipline and later regret"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e15",
+        "on": "maternal grace in childhood and on the shore"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the eldest son's escalating transgressions"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9",
+        "on": "the injury and wordless request for forgiveness"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the family departure and apology at the doorway"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the reconciled brothers before the later death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the death and father's confession after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "the telegram's loss carried into adult grief"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e14",
+        "on": "paternal regret remembered by the adult son"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "creation and the ancient act of mercy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e15",
+        "on": "mercy as a bridge to the final reunion"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the grieving architect and his shore vision"
+      }
+    ]
+  }
+}

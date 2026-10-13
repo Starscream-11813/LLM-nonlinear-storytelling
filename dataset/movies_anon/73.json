@@ -1,0 +1,857 @@
+{
+  "story_id": "S73",
+  "source_index": 73,
+  "genre": "Drama, Comedy",
+  "source": "Film",
+  "events_chronological": [
+    "On the hottest morning of the year a disc jockey opens his broadcast from a storefront window on the block.",
+    "A young man gets out of bed at his sister's flat and goes off to deliver pizzas.",
+    "The pizzeria owner opens up with his two sons, the elder saying he hates the neighbourhood and everybody in it.",
+    "The block's old drunk buys his first beer of the day and is scolded for it by a woman watching from her window.",
+    "A regular objects that the photographs on the pizzeria wall are all of the owner's own countrymen and asks where the black faces are.",
+    "The owner throws him into the street, and he starts calling for a boycott that nobody joins.",
+    "A big quiet man walks the block all day with a boombox playing one song at full volume.",
+    "Three older men sit under an umbrella opposite a Korean grocery and talk about the block from morning until night.",
+    "A stammering man works the corner selling hand-coloured photographs of two murdered leaders.",
+    "The delivery man tells the owner's elder son to his face that every one of his heroes is black.",
+    "The old drunk pulls a child out of the path of a car, and the woman at the window softens towards him.",
+    "The hydrant is opened and the whole block plays in the water until a police car pulls up.",
+    "The big man and the boycotter come into the pizzeria at closing with the radio at full volume, demanding the wall be changed.",
+    "The owner smashes the boombox with a baseball bat and the fight spills into the street.",
+    "Police arrive and kill the big man with a chokehold in front of the entire block.",
+    "The delivery man throws a rubbish bin through the pizzeria window and the crowd burns the place down.",
+    "In the morning he comes back for his week's wages, and the two of them argue over the money among the ashes."
+  ],
+  "syuzhet_order": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    12,
+    12,
+    12,
+    13
+  ],
+  "nonlinear_category": "CHRONICLE",
+  "nonlinear_category_reason": "Every strand keeps its own forward order and nothing is ever shown out of turn in time; the inversions are only between strands running at the same moment, which the telling cuts between sideways. One block, one hot day, a dozen strands, and no scene anywhere out of its hour.",
+  "syuzhet_notes": "The telling covers one day on one block, cutting between a dozen people who are all out in the same heat. The order is simply the order of the hours.",
+  "fabula_notes": "Everything falls between one morning and the next. Where two strands share an hour, either ranking would serve.",
+  "story_graph": {
+    "characters": {
+      "disc jockey": {
+        "archetype": "Herald"
+      },
+      "delivery man": {
+        "archetype": "Hero"
+      },
+      "delivery man's sister": {
+        "archetype": "Ally"
+      },
+      "pizzeria owner": {
+        "archetype": "Shapeshifter"
+      },
+      "elder son": {
+        "archetype": "Shadow"
+      },
+      "younger son": {
+        "archetype": "Ally"
+      },
+      "boycotter": {
+        "archetype": "Herald"
+      },
+      "old drunk": {
+        "archetype": "Shapeshifter"
+      },
+      "window woman": {
+        "archetype": "Threshold Guardian"
+      },
+      "boombox man": {
+        "archetype": "Hero"
+      },
+      "three elders": {
+        "archetype": "Herald",
+        "archetype_detail": "Chorus"
+      },
+      "grocer": {
+        "archetype": "Ally"
+      },
+      "photo seller": {
+        "archetype": "Herald"
+      },
+      "neighbourhood child": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "police officers": {
+        "archetype": "Shadow"
+      },
+      "block crowd": {
+        "archetype": "Shapeshifter"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "disc jockey",
+          "opens",
+          "the hottest day"
+        ],
+        "content": "From a storefront booth, the broadcaster names the heat and supplies a public voice that will accompany the block until night.",
+        "participants": [
+          "disc jockey"
+        ],
+        "location": "a storefront radio booth",
+        "pre": {},
+        "post": {
+          "hot_day_started": true
+        },
+        "learns": {
+          "reader": [
+            "the story is confined to one exceptionally hot day on one block"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "delivery man",
+          "begins",
+          "his shift"
+        ],
+        "content": "He leaves his sister's flat for another day carrying food between neighbours whose disputes he knows but does not control.",
+        "participants": [
+          "delivery man",
+          "delivery man's sister"
+        ],
+        "location": "a flat and the block",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "delivery_shift_started": true
+        },
+        "learns": {
+          "reader": [
+            "the delivery man connects the pizzeria to the surrounding block"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "pizzeria owner",
+          "opens",
+          "the restaurant"
+        ],
+        "content": "The owner begins business with both sons, while the elder son's contempt for the neighbourhood turns family routine into open hostility.",
+        "participants": [
+          "pizzeria owner",
+          "elder son",
+          "younger son",
+          "delivery man"
+        ],
+        "location": "a neighbourhood pizzeria",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "pizzeria_open": true
+        },
+        "learns": {
+          "reader": [
+            "racial resentment is already present inside the pizzeria"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "old drunk",
+          "buys",
+          "his morning beer"
+        ],
+        "content": "A woman observes and condemns him from her window, establishing the public judgement under which he spends the day.",
+        "participants": [
+          "old drunk",
+          "window woman"
+        ],
+        "location": "a pavement below an apartment window",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "old_drunk_rebuked": true
+        },
+        "learns": {
+          "reader": [
+            "the window woman regards the old drunk as useless"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "boycotter",
+          "challenges",
+          "the photograph wall"
+        ],
+        "content": "He points out that a business serving a black neighbourhood celebrates only people from the owner's heritage and demands representation.",
+        "participants": [
+          "boycotter",
+          "pizzeria owner",
+          "elder son",
+          "younger son",
+          "delivery man"
+        ],
+        "location": "the pizzeria",
+        "pre": {
+          "pizzeria_open": true
+        },
+        "post": {
+          "wall_dispute_started": true
+        },
+        "learns": {
+          "reader": [
+            "the pizzeria wall has become a dispute over ownership and belonging"
+          ]
+        },
+        "raises": [
+          "q73_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q73_1": "will the ignored demand about the wall return before closing?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "pizzeria owner",
+          "ejects",
+          "boycotter"
+        ],
+        "content": "The owner's refusal and physical expulsion move the argument into the street, where the rejected customer begins a lonely boycott.",
+        "participants": [
+          "pizzeria owner",
+          "boycotter",
+          "delivery man"
+        ],
+        "location": "the pizzeria and pavement",
+        "pre": {
+          "wall_dispute_started": true
+        },
+        "post": {
+          "boycott_declared": true
+        },
+        "learns": {
+          "reader": [
+            "the owner will not alter the wall and the boycotter will not drop the demand"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "boombox man",
+          "carries",
+          "one loud song"
+        ],
+        "content": "His radio fills every corner he crosses, making his physical presence and musical claim impossible for the block to ignore.",
+        "participants": [
+          "boombox man"
+        ],
+        "location": "streets on the block",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "boombox_present": true
+        },
+        "learns": {
+          "reader": [
+            "the boombox is the quiet man's public voice"
+          ]
+        },
+        "raises": [
+          "q73_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q73_2": "what will happen when the boombox enters the pizzeria?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "three elders",
+          "watch",
+          "the changing block"
+        ],
+        "content": "From shade across from the grocery, the men debate work, migration and ownership while the day passes in front of them.",
+        "participants": [
+          "three elders",
+          "grocer"
+        ],
+        "location": "a shaded pavement opposite a grocery",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "elders_observing": true
+        },
+        "learns": {
+          "reader": [
+            "the block's tensions extend beyond the pizzeria"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "photo seller",
+          "offers",
+          "portraits of murdered leaders"
+        ],
+        "content": "His hand-coloured images keep a history of black leadership visible at the street corner throughout the day.",
+        "participants": [
+          "photo seller"
+        ],
+        "location": "a street corner",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "portraits_displayed": true
+        },
+        "learns": {
+          "reader": [
+            "the photo seller carries a dignified counter-image to the pizzeria wall"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "delivery man",
+          "confronts",
+          "elder son"
+        ],
+        "content": "He answers the son's racism by naming the black artists and athletes the son admires, exposing a contradiction without resolving it.",
+        "participants": [
+          "delivery man",
+          "elder son"
+        ],
+        "location": "the pizzeria",
+        "pre": {
+          "delivery_shift_started": true
+        },
+        "post": {
+          "elder_son_hypocrisy_exposed": true
+        },
+        "learns": {
+          "elder son": [
+            "his own heroes contradict his racial contempt"
+          ],
+          "reader": [
+            "the delivery man can articulate the block's grievance inside the restaurant"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "old drunk",
+          "rescues",
+          "neighbourhood child"
+        ],
+        "content": "He pulls a child from a moving car, forcing the woman above the street to revise the judgement she made that morning.",
+        "participants": [
+          "old drunk",
+          "window woman",
+          "neighbourhood child"
+        ],
+        "location": "the street below the window",
+        "pre": {
+          "old_drunk_rebuked": true
+        },
+        "post": {
+          "old_drunk_redeemed": true
+        },
+        "learns": {
+          "window woman": [
+            "the old drunk is capable of courage"
+          ],
+          "reader": [
+            "one relationship on the block has softened before night"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "block crowd",
+          "opens",
+          "the hydrant"
+        ],
+        "content": "Water briefly turns the oppressive street into collective play until police close the valve and restore the day's pressure.",
+        "participants": [
+          "block crowd",
+          "delivery man",
+          "police officers"
+        ],
+        "location": "the street",
+        "pre": {
+          "hot_day_started": true
+        },
+        "post": {
+          "hydrant_closed_by_police": true
+        },
+        "learns": {
+          "reader": [
+            "heat and policing are shared conditions across the neighbourhood"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "boycotter",
+          "returns with",
+          "boombox man"
+        ],
+        "content": "At closing time the wall demand and the radio enter together, concentrating two all-day assertions inside the owner's small room.",
+        "participants": [
+          "boycotter",
+          "boombox man",
+          "pizzeria owner",
+          "delivery man",
+          "elder son",
+          "younger son"
+        ],
+        "location": "the pizzeria",
+        "pre": {
+          "boycott_declared": true,
+          "boombox_present": true
+        },
+        "post": {
+          "closing_confrontation_started": true
+        },
+        "learns": {
+          "reader": [
+            "the ignored boycott has joined the boombox in a final confrontation"
+          ]
+        },
+        "raises": [
+          "q73_3"
+        ],
+        "resolves": [
+          "q73_1"
+        ],
+        "questions": {
+          "q73_3": "can the closing confrontation be contained without violence?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "pizzeria owner",
+          "smashes",
+          "the boombox"
+        ],
+        "content": "A baseball bat destroys the music, and the immediate fight pushes every grievance out through the doorway into public view.",
+        "participants": [
+          "pizzeria owner",
+          "boombox man",
+          "boycotter",
+          "delivery man",
+          "elder son",
+          "younger son",
+          "block crowd"
+        ],
+        "location": "the pizzeria and street",
+        "pre": {
+          "closing_confrontation_started": true
+        },
+        "post": {
+          "street_fight_active": true
+        },
+        "learns": {
+          "reader": [
+            "the owner has answered a symbolic demand with physical force"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q73_2",
+          "q73_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "police officers",
+          "kill",
+          "boombox man"
+        ],
+        "content": "Officers seize him from the fight and maintain a chokehold while the whole block watches his resistance stop.",
+        "participants": [
+          "police officers",
+          "boombox man",
+          "delivery man",
+          "boycotter",
+          "pizzeria owner",
+          "block crowd"
+        ],
+        "location": "the street outside the pizzeria",
+        "pre": {
+          "street_fight_active": true
+        },
+        "post": {
+          "boombox_man_dead": true
+        },
+        "learns": {
+          "block crowd": [
+            "the police have killed the boombox man"
+          ],
+          "reader": [
+            "state violence has transformed the restaurant fight into a communal crisis"
+          ]
+        },
+        "raises": [
+          "q73_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q73_4": "how will the block answer the killing it has just witnessed?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "delivery man",
+          "breaks",
+          "the pizzeria window"
+        ],
+        "content": "After looking from the dead man to his employer, he throws a bin through the glass; the crowd follows the opening and fire consumes the business.",
+        "participants": [
+          "delivery man",
+          "pizzeria owner",
+          "elder son",
+          "younger son",
+          "boycotter",
+          "block crowd"
+        ],
+        "location": "the pizzeria",
+        "pre": {
+          "boombox_man_dead": true
+        },
+        "post": {
+          "pizzeria_burned": true
+        },
+        "learns": {
+          "pizzeria owner": [
+            "his employee has redirected the crowd towards the restaurant"
+          ],
+          "reader": [
+            "the delivery man's act turns grief into destruction of the pizzeria"
+          ]
+        },
+        "raises": [
+          "q73_5"
+        ],
+        "resolves": [
+          "q73_4"
+        ],
+        "questions": {
+          "q73_5": "what remains between the owner and delivery man after the fire?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "delivery man",
+          "claims",
+          "his wages"
+        ],
+        "content": "Morning leaves employee and owner among ashes, arguing over money because their ordinary economic tie survives even the night's rupture.",
+        "participants": [
+          "delivery man",
+          "pizzeria owner"
+        ],
+        "location": "the burned pizzeria",
+        "pre": {
+          "pizzeria_burned": true
+        },
+        "post": {
+          "wages_settled": true
+        },
+        "learns": {
+          "reader": [
+            "the relationship ends in unresolved anger rather than reconciliation"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q73_5"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e17",
+        "on": "the single day from morning broadcast to morning ashes"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the delivery man's work inside the pizzeria"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e10",
+        "on": "the delivery man moving between neighbourhood and employer"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5",
+        "on": "the pizzeria and its wall of photographs"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11",
+        "on": "the old drunk under the window woman's gaze"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e9",
+        "on": "competing public images of racial belonging"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e13",
+        "on": "the boycott returning at closing"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e13",
+        "on": "the boombox carried all day and into the restaurant"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e12",
+        "on": "the block observed through the hottest hours"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e15",
+        "on": "the memory of murdered black figures and a new public death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e16",
+        "on": "the delivery man's conflict with the owner's family"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e15",
+        "on": "the block's capacity to save one life and witness another lost"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e15",
+        "on": "police intervention first at play and later at the fight"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the final argument inside the pizzeria"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the fight moving from restaurant to police custody"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the killing and the crowd's immediate response"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the pizzeria destroyed and revisited"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+a,b,model,A1_no_causal,A2_no_state,A3_no_epistemic,A4_no_questions,A5_no_grounding,G0_fabula_only,G1_full_graph,G2_order_only,tie
+G1_full_graph,A1_no_causal,Claude Sonnet 5,0.214,0.0,0.0,0.0,0.0,0.0,0.429,0.0,0.357
+G1_full_graph,A1_no_causal,Gemini 3.6 Flash,0.571,0.0,0.0,0.0,0.0,0.0,0.214,0.0,0.214
+G1_full_graph,A2_no_state,Claude Sonnet 5,0.0,0.429,0.0,0.0,0.0,0.0,0.357,0.0,0.214
+G1_full_graph,A2_no_state,Gemini 3.6 Flash,0.0,0.286,0.0,0.0,0.0,0.0,0.5,0.0,0.214
+G1_full_graph,A3_no_epistemic,Claude Sonnet 5,0.0,0.0,0.286,0.0,0.0,0.0,0.429,0.0,0.286
+G1_full_graph,A3_no_epistemic,Gemini 3.6 Flash,0.0,0.0,0.429,0.0,0.0,0.0,0.571,0.0,0.0
+G1_full_graph,A4_no_questions,Claude Sonnet 5,0.0,0.0,0.0,0.214,0.0,0.0,0.5,0.0,0.286
+G1_full_graph,A4_no_questions,Gemini 3.6 Flash,0.0,0.0,0.0,0.357,0.0,0.0,0.357,0.0,0.286
+G1_full_graph,A5_no_grounding,Claude Sonnet 5,0.0,0.0,0.0,0.0,0.357,0.0,0.357,0.0,0.286
+G1_full_graph,A5_no_grounding,Gemini 3.6 Flash,0.0,0.0,0.0,0.0,0.429,0.0,0.214,0.0,0.357
+G1_full_graph,G0_fabula_only,Claude Sonnet 5,0.0,0.0,0.0,0.0,0.0,0.214,0.5,0.0,0.286
+G1_full_graph,G0_fabula_only,DeepSeek V4 Flash,0.0,0.0,0.0,0.0,0.0,0.357,0.5,0.0,0.143
+G1_full_graph,G0_fabula_only,GLM-5.2,0.0,0.0,0.0,0.0,0.0,0.214,0.5,0.0,0.286
+G1_full_graph,G0_fabula_only,Gemini 3.6 Flash,0.0,0.0,0.0,0.0,0.0,0.214,0.714,0.0,0.071
+G1_full_graph,G2_order_only,Claude Sonnet 5,0.0,0.0,0.0,0.0,0.0,0.0,0.571,0.143,0.286
+G1_full_graph,G2_order_only,DeepSeek V4 Flash,0.0,0.0,0.0,0.0,0.0,0.0,0.429,0.429,0.143
+G1_full_graph,G2_order_only,GLM-5.2,0.0,0.0,0.0,0.0,0.0,0.0,0.214,0.643,0.143
+G1_full_graph,G2_order_only,Gemini 3.6 Flash,0.0,0.0,0.0,0.0,0.0,0.0,0.429,0.357,0.214

@@ -1,0 +1,862 @@
+{
+  "story_id": "S82",
+  "source_index": 82,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "In a border town a married mother of four meets a farmer and the two begin an affair in a trailer out in the fields.",
+    "Her eldest daughter discovers the affair and follows her mother out to the trailer.",
+    "A gas leak sets the trailer burning and both the woman and the farmer die in it.",
+    "The daughter is left to bring up her younger sisters while her father drinks and blames himself.",
+    "The farmer's son comes to the town to look at the wreck and to find out who the woman was.",
+    "The two children of the dead recognise each other and, out of grief more than anything else, become lovers.",
+    "The girl burns down her own family's house with her father's photographs inside it.",
+    "She finds she is pregnant, and the two of them run away together.",
+    "The boy is badly injured when their car leaves the road, and she is told he has died.",
+    "She gives birth to a daughter, leaves the baby with the boy's family, and vanishes.",
+    "Under another name she runs a restaurant on the northern coast, sleeps with men she does not know, and cuts herself.",
+    "The boy, alive and badly scarred, works as a crop duster with his own small daughter beside him.",
+    "He crashes his aircraft, and the child is brought north by a friend to look for her mother.",
+    "The friend finds the restaurant owner and tells her that the boy is alive and that her daughter is with him.",
+    "She flies south, and mother and daughter meet in a hospital corridor."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    1,
+    13,
+    2,
+    6,
+    3,
+    14,
+    4,
+    7,
+    5,
+    8,
+    9,
+    10,
+    15
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. Four timelines are diced together with no captions and no establishing order, and the audience is not told for an hour that two of the women are the same person.",
+  "syuzhet_notes": "Four strands separated by up to fifteen years are cut into one another with no captions, and the central move is to let the audience take two of them for separate women for most of the running time.",
+  "fabula_notes": "The chronology is recoverable once the identity is established, from the child's age and the sequence of the fire, the crash and the birth.",
+  "story_graph": {
+    "characters": {
+      "married mother": {
+        "archetype": "Shapeshifter"
+      },
+      "farmer": {
+        "archetype": "Shapeshifter"
+      },
+      "eldest daughter": {
+        "archetype": "Hero"
+      },
+      "daughter's father": {
+        "archetype": "Threshold Guardian"
+      },
+      "younger sisters": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "farmer's son": {
+        "archetype": "Hero"
+      },
+      "pilot family": {
+        "archetype": "Ally"
+      },
+      "their daughter": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "pilot's friend": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "married mother",
+          "begins",
+          "an affair with the farmer"
+        ],
+        "content": "Two adults from neighbouring families use an isolated field trailer for a relationship hidden from spouses and children.",
+        "participants": [
+          "married mother",
+          "farmer"
+        ],
+        "location": "a trailer in border-country fields",
+        "pre": {},
+        "post": {
+          "secret_trailer_affair_active": true
+        },
+        "learns": {
+          "reader": [
+            "the trailer joins two families through a concealed affair"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "eldest daughter",
+          "discovers",
+          "the trailer affair"
+        ],
+        "content": "Suspicion leads the girl out through the fields, where seeing her mother enter the trailer turns domestic unhappiness into a secret she now carries.",
+        "participants": [
+          "eldest daughter",
+          "married mother",
+          "farmer"
+        ],
+        "location": "fields around the trailer",
+        "pre": {
+          "secret_trailer_affair_active": true
+        },
+        "post": {
+          "daughter_knows_affair": true
+        },
+        "learns": {
+          "eldest daughter": [
+            "her mother is meeting the farmer in secret"
+          ],
+          "reader": [
+            "the eldest child has become witness to the affair"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the trailer",
+          "burns with",
+          "both lovers inside"
+        ],
+        "content": "Leaking gas turns the isolated meeting place into a sudden fire, killing the mother and farmer and leaving both families to interpret the wreck.",
+        "participants": [
+          "married mother",
+          "farmer",
+          "eldest daughter"
+        ],
+        "location": "the field trailer",
+        "pre": {
+          "daughter_knows_affair": true
+        },
+        "post": {
+          "trailer_lovers_dead": true
+        },
+        "learns": {
+          "eldest daughter": [
+            "her mother and the farmer died in the trailer"
+          ],
+          "reader": [
+            "one fire becomes the concealed origin of the later identities"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q82_1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "eldest daughter",
+          "raises",
+          "her younger sisters"
+        ],
+        "content": "Grief incapacitates her father, so the adolescent takes on the household and absorbs blame that nobody around her can fully name.",
+        "participants": [
+          "eldest daughter",
+          "daughter's father",
+          "younger sisters"
+        ],
+        "location": "the border-town family home",
+        "pre": {
+          "trailer_lovers_dead": true
+        },
+        "post": {
+          "daughter_parentified": true
+        },
+        "learns": {
+          "reader": [
+            "the fire makes the eldest daughter responsible for the surviving household"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "farmer's son",
+          "investigates",
+          "the burned trailer"
+        ],
+        "content": "The farmer's child crosses family boundaries to inspect the wreck and identify the woman who died beside his father.",
+        "participants": [
+          "farmer's son"
+        ],
+        "location": "the burned trailer and border town",
+        "pre": {
+          "trailer_lovers_dead": true
+        },
+        "post": {
+          "farmers_son_seeking_other_family": true
+        },
+        "learns": {
+          "farmer's son": [
+            "the other person killed with his father belonged to a local family"
+          ],
+          "reader": [
+            "the bereaved son is moving towards the bereaved daughter"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q82_5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the bereaved children",
+          "become",
+          "lovers"
+        ],
+        "content": "Recognition at the wreck turns shared anger and loss into an intense attachment between the daughter and the farmer's son.",
+        "participants": [
+          "eldest daughter",
+          "farmer's son"
+        ],
+        "location": "the border town and burned field",
+        "pre": {
+          "farmers_son_seeking_other_family": true,
+          "daughter_parentified": true
+        },
+        "post": {
+          "bereaved_children_in_love": true
+        },
+        "learns": {
+          "reader": [
+            "the affair's children repeat the bond between their dead parents"
+          ]
+        },
+        "raises": [
+          "q82_5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q82_5": "what brought the dead farmer's son into the eldest daughter's life?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "eldest daughter",
+          "burns",
+          "her family home"
+        ],
+        "content": "She destroys the house and her father's photographs, attacking the physical archive of a family identity she can no longer bear.",
+        "participants": [
+          "eldest daughter"
+        ],
+        "location": "the border-town family home",
+        "pre": {
+          "daughter_parentified": true,
+          "bereaved_children_in_love": true
+        },
+        "post": {
+          "family_house_burned": true
+        },
+        "learns": {
+          "reader": [
+            "the daughter's guilt and anger now take a second house by fire"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "eldest daughter",
+          "runs away with",
+          "the farmer's son"
+        ],
+        "content": "Pregnancy offers both escape and a new family, so the pair leave the town before either household can absorb their decision.",
+        "participants": [
+          "eldest daughter",
+          "farmer's son"
+        ],
+        "location": "a road out of the border town",
+        "pre": {
+          "bereaved_children_in_love": true,
+          "family_house_burned": true
+        },
+        "post": {
+          "young_couple_pregnant_and_fleeing": true
+        },
+        "learns": {
+          "farmer's son": [
+            "the eldest daughter is pregnant"
+          ],
+          "reader": [
+            "the two children of the affair are attempting a shared future"
+          ]
+        },
+        "raises": [
+          "q82_6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q82_6": "can the young couple's flight from both families succeed?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the couple's car",
+          "leaves",
+          "the road"
+        ],
+        "content": "The crash gravely injures the young man, and a false report of his death reaches the pregnant girl before she can see him again.",
+        "participants": [
+          "eldest daughter",
+          "farmer's son"
+        ],
+        "location": "a rural road and hospital",
+        "pre": {
+          "young_couple_pregnant_and_fleeing": true
+        },
+        "post": {
+          "farmers_son_injured": true,
+          "daughter_believes_partner_dead": true
+        },
+        "learns": {
+          "eldest daughter": [
+            "she has been told the farmer's son died in the crash"
+          ],
+          "reader": [
+            "the separation rests on false knowledge rather than his death"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q82_3",
+          "q82_6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "eldest daughter",
+          "abandons",
+          "her newborn daughter"
+        ],
+        "content": "Believing herself alone and unfit, she leaves the baby with the injured man's family and disappears into a new name.",
+        "participants": [
+          "eldest daughter",
+          "their daughter",
+          "pilot family"
+        ],
+        "location": "a hospital and the pilot family home",
+        "pre": {
+          "daughter_believes_partner_dead": true
+        },
+        "post": {
+          "baby_left_with_pilot_family": true
+        },
+        "learns": {
+          "pilot family": [
+            "the mother has left the infant in their care"
+          ],
+          "reader": [
+            "the child's mother vanishes because she believes the father is dead"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q82_2",
+          "q82_4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "eldest daughter",
+          "lives as",
+          "a self-punishing restaurateur"
+        ],
+        "content": "Far north, a changed name, anonymous sex and repeated cutting keep adult life separate from the family she abandoned without quieting the guilt.",
+        "participants": [
+          "eldest daughter"
+        ],
+        "location": "a restaurant and flat on the northern coast",
+        "pre": {
+          "baby_left_with_pilot_family": true
+        },
+        "post": {
+          "restaurant_identity_established": true
+        },
+        "learns": {
+          "reader": [
+            "the restaurant owner is living inside unresolved self-punishment"
+          ]
+        },
+        "raises": [
+          "q82_1",
+          "q82_2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q82_1": "what catastrophe lies behind the restaurateur's self-punishment?",
+          "q82_2": "what family did she abandon before taking another name?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "farmer's son",
+          "raises",
+          "their daughter"
+        ],
+        "content": "Alive but visibly scarred, he works as a crop pilot with the child beside him, carrying the crash on his body and the absent mother in her questions.",
+        "participants": [
+          "farmer's son",
+          "their daughter"
+        ],
+        "location": "a crop-dusting airfield",
+        "pre": {
+          "farmers_son_injured": true,
+          "baby_left_with_pilot_family": true
+        },
+        "post": {
+          "father_and_daughter_flying": true
+        },
+        "learns": {
+          "reader": [
+            "the supposedly dead young man survived and became the child's parent"
+          ]
+        },
+        "raises": [
+          "q82_3",
+          "q82_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q82_3": "how did the scarred crop pilot receive his injuries?",
+          "q82_4": "why is the crop pilot raising the child without her mother?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "farmer's son",
+          "crashes",
+          "his crop aircraft"
+        ],
+        "content": "A work flight ends in another wreck, sending the child north with a trusted friend to find the mother she has never known.",
+        "participants": [
+          "farmer's son",
+          "their daughter",
+          "pilot's friend"
+        ],
+        "location": "farmland and a hospital",
+        "pre": {
+          "father_and_daughter_flying": true
+        },
+        "post": {
+          "crop_plane_crashed": true
+        },
+        "learns": {
+          "their daughter": [
+            "her injured father may need the absent mother"
+          ],
+          "reader": [
+            "the new crash forces the separated timelines towards one another"
+          ]
+        },
+        "raises": [
+          "q82_7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q82_7": "will the aircraft crash finally bring the absent mother back into the family?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "pilot's friend",
+          "identifies",
+          "the restaurant owner"
+        ],
+        "content": "He reaches the northern coast and tells the self-hidden woman that her former lover survived, raised their daughter and now lies injured.",
+        "participants": [
+          "pilot's friend",
+          "eldest daughter",
+          "their daughter"
+        ],
+        "location": "the northern restaurant",
+        "pre": {
+          "crop_plane_crashed": true,
+          "restaurant_identity_established": true
+        },
+        "post": {
+          "mother_told_family_alive": true
+        },
+        "learns": {
+          "eldest daughter": [
+            "the farmer's son is alive and their daughter has come north"
+          ],
+          "reader": [
+            "the restaurant owner and the runaway girl are the same person"
+          ]
+        },
+        "raises": [
+          "q82_8"
+        ],
+        "resolves": [
+          "q82_7"
+        ],
+        "questions": {
+          "q82_8": "will the restaurant owner face the daughter she left behind?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "eldest daughter",
+          "reunites with",
+          "her daughter"
+        ],
+        "content": "She flies south instead of fleeing again, and the first meeting occurs in the exposed passage of a hospital corridor.",
+        "participants": [
+          "eldest daughter",
+          "their daughter"
+        ],
+        "location": "a southern hospital corridor",
+        "pre": {
+          "mother_told_family_alive": true
+        },
+        "post": {
+          "mother_and_daughter_met": true
+        },
+        "learns": {
+          "their daughter": [
+            "the woman from the restaurant is her mother"
+          ],
+          "reader": [
+            "the separated family finally occupies one place and time"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q82_8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the secret affair and the daughter following it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e6",
+        "on": "the parents' affair repeated by their bereaved children"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the trailer discovered and then burned"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the mother's death and the eldest daughter's new burden"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5",
+        "on": "both bereaved families returning to the trailer wreck"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11",
+        "on": "the fire and adult self-punishment built around it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7",
+        "on": "the family responsibility the daughter destroys with the house"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the farmer's son seeking and finding the other family"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e8",
+        "on": "the young relationship and pregnancy"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e11",
+        "on": "two burned homes and the identity left afterwards"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the couple's flight and road crash"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e12",
+        "on": "the injured young man and scarred adult pilot"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the abandoned infant and mother's hidden later life"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12",
+        "on": "the child left with the family and raised by her surviving father"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e14",
+        "on": "the northern identity discovered by the pilot's friend"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "father and daughter before the crop-plane crash"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the crash and message carried north"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the truth delivered and reunion chosen"
+      }
+    ]
+  }
+}

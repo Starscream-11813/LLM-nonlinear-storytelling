@@ -1,0 +1,168 @@
+story_id,model,condition,category,replicate,reveal_event,question,status,error,reveal_sentence,n_sentences,reveal_told_frac,n_prefix_events,tau_pre,tau_post,rcg,guess_correct,n_options,cost,reason,n_events,solver,tau_none,exact,rank,quadrant
+S01,Claude Sonnet 5,G0_fabula_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,21.0,29.0,0.69,12.0,1.0,1.0,0.0,1.0,5.0,0.048230028,,,,,,1,broken reveal
+S01,Claude Sonnet 5,G1_full_graph,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,15.0,25.0,0.56,11.0,0.12727272727272732,0.12727272727272732,0.0,1.0,5.0,0.040074408,,,,,,1,broken reveal
+S01,Claude Sonnet 5,G2_order_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,24.0,25.0,0.92,17.0,0.9117647058823529,0.9411764705882353,0.02941176470588236,1.0,2.0,0.051712452,,,,,,1,transparent telling
+S01,DeepSeek V4 Flash,G0_fabula_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,198.0,222.0,0.887,8.0,1.0,0.9285714285714286,-0.0714285714285714,1.0,5.0,0.066507408,,,,,,1,broken reveal
+S01,DeepSeek V4 Flash,G1_full_graph,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,16.0,27.0,0.556,4.0,1.0,1.0,0.0,1.0,5.0,0.032247864,,,,,,1,broken reveal
+S01,DeepSeek V4 Flash,G2_order_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,42.0,46.0,0.891,17.0,0.9264705882352942,1.0,0.07352941176470584,1.0,2.0,0.050505048000000004,,,,,,1,transparent telling
+S01,GLM-5.2,G0_fabula_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,7.0,20.0,0.3,5.0,1.0,1.0,0.0,1.0,5.0,0.020308068,,,,,,1,broken reveal
+S01,GLM-5.2,G1_full_graph,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,109.0,137.0,0.788,8.0,1.0,1.0,0.0,1.0,5.0,0.065082204,,,,,,1,broken reveal
+S01,GLM-5.2,G2_order_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,70.0,73.0,0.945,17.0,0.9264705882352942,1.0,0.07352941176470584,1.0,2.0,0.05222804400000001,,,,,,1,transparent telling
+S01,Gemini 3.6 Flash,G0_fabula_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,16.0,23.0,0.652,12.0,1.0,1.0,0.0,1.0,5.0,0.034987788,,,,,,1,broken reveal
+S01,Gemini 3.6 Flash,G1_full_graph,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,6.0,23.0,0.217,5.0,1.0,1.0,0.0,1.0,5.0,0.023280048,,,,,,1,broken reveal
+S01,Gemini 3.6 Flash,G2_order_only,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,19.0,20.0,0.9,17.0,1.0,1.0,0.0,1.0,2.0,0.10845766799999998,,,,,,1,broken reveal
+S01,[reference] human (gold),H_gold_telling,SYLLEPSIS,1.0,7.0,why are two men who work in suits delivering a briefcase in borrowed shorts and T-shirts?,ok,,18.0,19.0,0.895,17.0,1.0,0.9852941176470589,-0.014705882352941124,1.0,2.0,0.052291404,,,,,,1,broken reveal
+S02,Claude Sonnet 5,G0_fabula_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,"ValueError: no JSON object: ```json
+{
+  ""1"": 5,
+  ""2"": 5,
+  ""3"": 11,
+  ""4"": 2,
+  ""5"": 19,
+  ""6"": 5,
+  ""7"":",20.0,26.0,0.731,11.0,0.9636363636363636,0.9272727272727272,-0.036363636363636376,0.0,5.0,0.061323768,,,,,,1,confusing mess
+S02,Claude Sonnet 5,G1_full_graph,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,39.0,41.0,0.927,16.0,0.65,0.7833333333333333,0.1333333333333333,1.0,2.0,0.041696028,,,,,,1,transparent telling
+S02,Claude Sonnet 5,G2_order_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,32.0,32.0,0.969,17.0,0.5735294117647058,0.7941176470588236,0.22058823529411775,1.0,5.0,0.094265028,,,,,,1,transparent telling
+S02,DeepSeek V4 Flash,G0_fabula_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,43.0,44.0,0.955,11.0,0.9272727272727272,0.9636363636363636,0.036363636363636376,1.0,5.0,0.092795868,,,,,,1,transparent telling
+S02,DeepSeek V4 Flash,G1_full_graph,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,17.0,252.0,0.063,10.0,0.6888888888888889,0.5555555555555556,-0.1333333333333333,0.0,5.0,0.07097904,,,,,,1,confusing mess
+S02,DeepSeek V4 Flash,G2_order_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,50.0,59.0,0.831,16.0,0.7666666666666666,0.8,0.03333333333333344,1.0,2.0,0.08238186,,,,,,1,transparent telling
+S02,GLM-5.2,G0_fabula_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,114.0,114.0,0.991,11.0,0.8909090909090909,1.0,0.10909090909090913,1.0,5.0,0.044949564,,,,,,1,transparent telling
+S02,GLM-5.2,G1_full_graph,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,36.0,136.0,0.257,10.0,0.8666666666666667,0.9555555555555556,0.0888888888888889,0.0,5.0,0.037225584,,,,,,1,well-made enigma
+S02,GLM-5.2,G2_order_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,91.0,93.0,0.968,17.0,0.6764705882352942,0.8088235294117647,0.13235294117647056,0.0,5.0,0.06058998,,,,,,1,well-made enigma
+S02,Gemini 3.6 Flash,G0_fabula_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,8.0,17.0,0.412,7.0,0.9047619047619048,1.0,0.09523809523809523,1.0,5.0,0.032457744000000004,,,,,,1,transparent telling
+S02,Gemini 3.6 Flash,G1_full_graph,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,15.0,23.0,0.609,11.0,0.7454545454545455,0.8909090909090909,0.1454545454545454,0.0,5.0,0.043864524,,,,,,1,well-made enigma
+S02,Gemini 3.6 Flash,G2_order_only,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,18.0,18.0,0.944,17.0,0.5735294117647058,0.8823529411764706,0.3088235294117647,0.0,5.0,0.064462068,,,,,,1,well-made enigma
+S02,[reference] human (gold),H_gold_telling,ZIGZAG,1.0,12.0,why is Martin so sure this is the man he has been hunting?,ok,,18.0,18.0,0.944,17.0,0.7794117647058824,0.9705882352941176,0.19117647058823528,0.0,5.0,0.053550288,,,,,,1,well-made enigma
+S03,Claude Sonnet 5,G0_fabula_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,31.0,33.0,0.909,17.0,0.9705882352941176,0.9852941176470589,0.014705882352941235,1.0,2.0,0.060448608,,,,,,1,transparent telling
+S03,Claude Sonnet 5,G1_full_graph,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,33.0,42.0,0.762,14.0,0.9560439560439561,0.978021978021978,0.0219780219780219,1.0,5.0,0.048645828,,,,,,1,transparent telling
+S03,Claude Sonnet 5,G2_order_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,27.0,35.0,0.743,15.0,0.9809523809523809,0.8095238095238095,-0.17142857142857137,1.0,4.0,0.071110908,,,,,,1,broken reveal
+S03,DeepSeek V4 Flash,G0_fabula_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,40.0,63.0,0.619,12.0,1.0,1.0,0.0,0.0,5.0,0.07157026799999999,,,,,,1,confusing mess
+S03,DeepSeek V4 Flash,G1_full_graph,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,182.0,234.0,0.774,7.0,1.0,1.0,0.0,1.0,5.0,0.072089028,,,,,,1,broken reveal
+S03,DeepSeek V4 Flash,G2_order_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,38.0,64.0,0.578,14.0,0.6263736263736264,0.978021978021978,0.3516483516483516,1.0,5.0,0.063218628,,,,,,1,transparent telling
+S03,GLM-5.2,G0_fabula_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,23.0,136.0,0.162,11.0,0.6727272727272727,1.0,0.32727272727272727,1.0,5.0,0.033911064000000005,,,,,,1,transparent telling
+S03,GLM-5.2,G1_full_graph,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,19.0,20.0,0.9,12.0,1.0,0.9696969696969697,-0.030303030303030276,0.0,5.0,0.056785608,,,,,,1,confusing mess
+S03,GLM-5.2,G2_order_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,45.0,55.0,0.8,15.0,0.9809523809523809,0.9809523809523809,0.0,1.0,4.0,0.041743548000000005,,,,,,1,broken reveal
+S03,Gemini 3.6 Flash,G0_fabula_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,7.0,7.0,0.857,5.0,0.8,0.8,0.0,1.0,5.0,0.037967688,,,,,,1,broken reveal
+S03,Gemini 3.6 Flash,G1_full_graph,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,34.0,35.0,0.943,18.0,0.9869281045751634,1.0,0.013071895424836555,1.0,5.0,0.039706128,,,,,,1,transparent telling
+S03,Gemini 3.6 Flash,G2_order_only,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,18.0,24.0,0.708,15.0,0.9809523809523809,0.9809523809523809,0.0,1.0,4.0,0.041133708,,,,,,1,broken reveal
+S03,[reference] human (gold),H_gold_telling,ZIGZAG,1.0,14.0,why does a man who never does anything on impulse get on this train?,ok,,18.0,21.0,0.81,15.0,0.9809523809523809,0.9809523809523809,0.0,1.0,4.0,0.037987488,,,,,,1,broken reveal
+S05,Claude Sonnet 5,G0_fabula_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,17.0,22.0,0.727,18.0,1.0,1.0,0.0,0.0,2.0,0.054692748,,,,,,1,confusing mess
+S05,Claude Sonnet 5,G1_full_graph,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,22.0,27.0,0.778,18.0,1.0,1.0,0.0,1.0,2.0,0.047855808,,,,,,1,broken reveal
+S05,Claude Sonnet 5,G2_order_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,30.0,33.0,0.879,17.0,1.0,1.0,0.0,0.0,3.0,0.04833496799999999,,,,,,1,confusing mess
+S05,DeepSeek V4 Flash,G0_fabula_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,21.0,30.0,0.667,14.0,1.0,1.0,0.0,0.0,5.0,0.044161128,,,,,,1,confusing mess
+S05,DeepSeek V4 Flash,G2_order_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,28.0,33.0,0.818,17.0,0.9852941176470589,0.9852941176470589,0.0,0.0,3.0,0.044026488,,,,,,1,confusing mess
+S05,GLM-5.2,G0_fabula_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,30.0,49.0,0.592,17.0,1.0,1.0,0.0,1.0,3.0,0.060403464000000004,,,,,,1,broken reveal
+S05,GLM-5.2,G1_full_graph,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,30.0,43.0,0.674,14.0,1.0,1.0,0.0,0.0,5.0,0.045626723999999994,,,,,,1,confusing mess
+S05,GLM-5.2,G2_order_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,34.0,42.0,0.786,17.0,1.0,1.0,0.0,0.0,3.0,0.042471,,,,,,1,confusing mess
+S05,Gemini 3.6 Flash,G0_fabula_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,26.0,33.0,0.758,16.0,1.0,1.0,0.0,1.0,4.0,0.036312408,,,,,,1,broken reveal
+S05,Gemini 3.6 Flash,G1_full_graph,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,17.0,24.0,0.667,14.0,1.0,1.0,0.0,0.0,5.0,0.036558324,,,,,,1,confusing mess
+S05,Gemini 3.6 Flash,G2_order_only,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,18.0,20.0,0.85,17.0,0.9852941176470589,0.9852941176470589,0.0,1.0,3.0,0.042094404,,,,,,1,broken reveal
+S05,[reference] human (gold),H_gold_telling,ANALEPSIS,1.0,15.0,why will she not say a word about the man she was married to?,ok,,18.0,20.0,0.85,17.0,1.0,1.0,0.0,0.0,3.0,0.036670788,,,,,,1,confusing mess
+S06,Claude Sonnet 5,G0_fabula_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,19.0,32.0,0.562,6.0,1.0,1.0,0.0,1.0,5.0,0.033578027999999996,,,,,,1,broken reveal
+S06,Claude Sonnet 5,G1_full_graph,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,16.0,32.0,0.469,7.0,0.7142857142857143,0.7142857142857143,0.0,1.0,5.0,0.039185388,,,,,,1,broken reveal
+S06,Claude Sonnet 5,G2_order_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,22.0,27.0,0.778,11.0,0.6363636363636364,0.7454545454545455,0.10909090909090913,1.0,5.0,0.036645048,,,,,,1,transparent telling
+S06,DeepSeek V4 Flash,G0_fabula_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,205.0,246.0,0.829,8.0,1.0,1.0,0.0,1.0,5.0,0.076589568,,,,,,1,broken reveal
+S06,DeepSeek V4 Flash,G1_full_graph,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,26.0,90.0,0.278,3.0,1.0,1.0,0.0,1.0,5.0,0.042200928,,,,,,1,broken reveal
+S06,DeepSeek V4 Flash,G2_order_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,68.0,91.0,0.736,11.0,0.7454545454545455,0.7454545454545455,0.0,1.0,5.0,0.040373783999999996,,,,,,1,broken reveal
+S06,GLM-5.2,G0_fabula_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,14.0,58.0,0.224,3.0,1.0,1.0,0.0,1.0,5.0,0.03043854,,,,,,1,broken reveal
+S06,GLM-5.2,G2_order_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,81.0,98.0,0.816,11.0,0.8909090909090909,0.9636363636363636,0.07272727272727275,1.0,5.0,0.046182707999999996,,,,,,1,transparent telling
+S06,Gemini 3.6 Flash,G0_fabula_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,23.0,29.0,0.759,12.0,1.0,1.0,0.0,1.0,4.0,0.03250288800000001,,,,,,1,broken reveal
+S06,Gemini 3.6 Flash,G2_order_only,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,25.0,33.0,0.727,11.0,0.8909090909090909,0.8909090909090909,0.0,1.0,5.0,0.025667928,,,,,,1,broken reveal
+S06,[reference] human (gold),H_gold_telling,ANALEPSIS,1.0,7.0,"what happened out there, and how did he get like this?",ok,,24.0,31.0,0.742,11.0,0.8909090909090909,0.8545454545454545,-0.036363636363636376,1.0,5.0,0.047503368000000004,,,,,,1,broken reveal
+S07,Claude Sonnet 5,G0_fabula_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,"ValueError: no JSON object: ```json
+{
+  ""1"": 1,
+  ""2"": 2,
+  ""3"": 5,
+  ""4"": 10,
+  ""5"": 7,
+  ""6"": 10,",10.0,31.0,0.29,5.0,1.0,1.0,0.0,1.0,5.0,0.073983888,,,,,,1,broken reveal
+S07,Claude Sonnet 5,G1_full_graph,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,15.0,27.0,0.519,11.0,0.7454545454545455,0.6363636363636364,-0.10909090909090913,1.0,5.0,0.099537768,,,,,,1,broken reveal
+S07,Claude Sonnet 5,G2_order_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,9.0,23.0,0.348,7.0,0.33333333333333337,0.6190476190476191,0.2857142857142857,1.0,5.0,0.028273608000000002,,,,,,1,transparent telling
+S07,DeepSeek V4 Flash,G0_fabula_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,7.0,84.0,0.071,4.0,0.0,1.0,1.0,1.0,5.0,0.08832106799999999,,,,,,1,transparent telling
+S07,DeepSeek V4 Flash,G2_order_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,18.0,49.0,0.347,7.0,0.6190476190476191,0.6190476190476191,0.0,1.0,5.0,0.052069248,,,,,,1,broken reveal
+S07,GLM-5.2,G0_fabula_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,61.0,89.0,0.674,12.0,0.5757575757575757,0.6060606060606061,0.030303030303030387,1.0,5.0,0.048077568,,,,,,1,transparent telling
+S07,GLM-5.2,G1_full_graph,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,15.0,45.0,0.311,4.0,0.33333333333333337,0.33333333333333337,0.0,1.0,5.0,0.05386194,,,,,,1,broken reveal
+S07,GLM-5.2,G2_order_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,19.0,57.0,0.316,6.0,0.7333333333333334,0.7333333333333334,0.0,1.0,5.0,0.036841068,,,,,,1,broken reveal
+S07,Gemini 3.6 Flash,G0_fabula_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,9.0,23.0,0.348,6.0,0.4666666666666667,0.7333333333333334,0.2666666666666667,1.0,5.0,0.029386368,,,,,,1,transparent telling
+S07,Gemini 3.6 Flash,G1_full_graph,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,6.0,27.0,0.185,3.0,-0.33333333333333326,1.0,1.3333333333333333,0.0,5.0,0.036926208,,,,,,1,well-made enigma
+S07,Gemini 3.6 Flash,G2_order_only,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,9.0,22.0,0.364,7.0,0.5238095238095238,0.5238095238095238,0.0,1.0,5.0,0.032721084000000004,,,,,,1,broken reveal
+S07,[reference] human (gold),H_gold_telling,ACHRONY,1.0,6.0,what has happened to this woman?,ok,,8.0,18.0,0.389,7.0,0.6190476190476191,0.6190476190476191,0.0,1.0,5.0,0.036736524000000007,,,,,,1,broken reveal
+S09,Claude Sonnet 5,G0_fabula_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,16.0,21.0,0.714,15.0,0.8476190476190476,0.9809523809523809,0.1333333333333333,1.0,5.0,0.084487788,,,,,,1,transparent telling
+S09,Claude Sonnet 5,G1_full_graph,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,23.0,27.0,0.815,16.0,0.9333333333333333,0.9333333333333333,0.0,1.0,4.0,0.08957876399999999,,,,,,1,broken reveal
+S09,Claude Sonnet 5,G2_order_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,20.0,25.0,0.76,15.0,0.9428571428571428,0.9428571428571428,0.0,1.0,5.0,0.049041828,,,,,,1,broken reveal
+S09,DeepSeek V4 Flash,G0_fabula_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,16.0,58.0,0.259,5.0,0.19999999999999996,1.0,0.8,0.0,5.0,0.038511,,,,,,1,well-made enigma
+S09,DeepSeek V4 Flash,G1_full_graph,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,40.0,54.0,0.722,15.0,0.9238095238095239,0.9238095238095239,0.0,1.0,5.0,0.06977916,,,,,,1,broken reveal
+S09,DeepSeek V4 Flash,G2_order_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,45.0,62.0,0.71,16.0,0.95,0.6666666666666667,-0.2833333333333332,1.0,4.0,0.08202704400000001,,,,,,1,broken reveal
+S09,GLM-5.2,G1_full_graph,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,32.0,43.0,0.721,15.0,0.9619047619047619,0.7904761904761904,-0.17142857142857149,1.0,5.0,0.09701762400000001,,,,,,1,broken reveal
+S09,GLM-5.2,G2_order_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,50.0,60.0,0.817,15.0,0.9428571428571428,0.9428571428571428,0.0,1.0,5.0,0.051871248,,,,,,1,broken reveal
+S09,Gemini 3.6 Flash,G1_full_graph,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,6.0,43.0,0.116,3.0,1.0,1.0,0.0,1.0,5.0,0.031432104,,,,,,1,broken reveal
+S09,Gemini 3.6 Flash,G2_order_only,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,22.0,28.0,0.75,15.0,0.9428571428571428,0.9428571428571428,0.0,1.0,5.0,0.039037284,,,,,,1,broken reveal
+S09,[reference] human (gold),H_gold_telling,PROLEPSIS,1.0,15.0,"who is the dead man, and how did he end up in a ditch?",ok,,16.0,20.0,0.75,15.0,0.8476190476190476,0.9238095238095239,0.07619047619047625,1.0,5.0,0.06712952400000001,,,,,,1,transparent telling
+S10,Claude Sonnet 5,G1_full_graph,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,11.0,37.0,0.27,4.0,1.0,1.0,0.0,0.0,5.0,0.034096788,,,,,,1,confusing mess
+S10,Claude Sonnet 5,G2_order_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,13.0,35.0,0.343,4.0,1.0,1.0,0.0,1.0,5.0,0.025824348,,,,,,1,broken reveal
+S10,DeepSeek V4 Flash,G0_fabula_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,19.0,30.0,0.6,14.0,0.8901098901098901,0.8241758241758241,-0.06593406593406592,0.0,5.0,0.057666708,,,,,,1,confusing mess
+S10,DeepSeek V4 Flash,G1_full_graph,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,11.0,35.0,0.286,5.0,1.0,1.0,0.0,0.0,5.0,0.034053624000000005,,,,,,1,confusing mess
+S10,DeepSeek V4 Flash,G2_order_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,12.0,34.0,0.324,5.0,1.0,1.0,0.0,1.0,5.0,0.026054028,,,,,,1,broken reveal
+S10,GLM-5.2,G0_fabula_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,8.0,33.0,0.212,4.0,1.0,1.0,0.0,1.0,5.0,0.026145108,,,,,,1,broken reveal
+S10,GLM-5.2,G1_full_graph,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,11.0,36.0,0.278,4.0,1.0,1.0,0.0,1.0,5.0,0.025462007999999998,,,,,,1,broken reveal
+S10,GLM-5.2,G2_order_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,25.0,73.0,0.329,5.0,1.0,1.0,0.0,1.0,5.0,0.025973244,,,,,,1,broken reveal
+S10,Gemini 3.6 Flash,G0_fabula_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,6.0,23.0,0.217,4.0,1.0,1.0,0.0,1.0,5.0,0.024371028000000003,,,,,,1,broken reveal
+S10,Gemini 3.6 Flash,G1_full_graph,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,9.0,31.0,0.258,4.0,1.0,1.0,0.0,0.0,5.0,0.029962944,,,,,,1,confusing mess
+S10,Gemini 3.6 Flash,G2_order_only,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,6.0,22.0,0.227,5.0,1.0,1.0,0.0,1.0,5.0,0.021050568,,,,,,1,broken reveal
+S10,[reference] human (gold),H_gold_telling,SYLLEPSIS,1.0,6.0,"who is driving, and what is he running from?",ok,,6.0,20.0,0.25,5.0,1.0,1.0,0.0,1.0,5.0,0.044739684,,,,,,1,broken reveal
+S12,Claude Sonnet 5,G0_fabula_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,42.0,48.0,0.854,14.0,1.0,1.0,0.0,1.0,5.0,0.039078468,,,,,,1,broken reveal
+S12,Claude Sonnet 5,G1_full_graph,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,30.0,36.0,0.806,15.0,0.9428571428571428,1.0,0.05714285714285716,0.0,4.0,0.040890168000000005,,,,,,1,well-made enigma
+S12,Claude Sonnet 5,G2_order_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,38.0,46.0,0.804,15.0,0.9238095238095239,0.9809523809523809,0.05714285714285705,1.0,4.0,0.045630288,,,,,,1,transparent telling
+S12,DeepSeek V4 Flash,G0_fabula_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,6.0,31.0,0.161,3.0,1.0,1.0,0.0,1.0,5.0,0.030992544,,,,,,1,broken reveal
+S12,DeepSeek V4 Flash,G1_full_graph,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,44.0,58.0,0.741,15.0,1.0,1.0,0.0,1.0,4.0,0.041254488000000006,,,,,,1,broken reveal
+S12,DeepSeek V4 Flash,G2_order_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,53.0,69.0,0.754,15.0,1.0,1.0,0.0,1.0,4.0,0.037787508,,,,,,1,broken reveal
+S12,GLM-5.2,G0_fabula_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,76.0,214.0,0.35,15.0,0.9619047619047619,0.9619047619047619,0.0,0.0,4.0,0.09882338400000001,,,,,,1,confusing mess
+S12,GLM-5.2,G1_full_graph,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,48.0,60.0,0.783,15.0,1.0,1.0,0.0,1.0,4.0,0.042526044,,,,,,1,broken reveal
+S12,GLM-5.2,G2_order_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,62.0,74.0,0.824,15.0,1.0,1.0,0.0,1.0,4.0,0.03807936000000001,,,,,,1,broken reveal
+S12,Gemini 3.6 Flash,G0_fabula_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,6.0,6.0,0.833,5.0,1.0,1.0,0.0,1.0,5.0,0.024885828000000002,,,,,,1,broken reveal
+S12,Gemini 3.6 Flash,G1_full_graph,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,20.0,27.0,0.704,15.0,1.0,1.0,0.0,1.0,4.0,0.030293604000000002,,,,,,1,broken reveal
+S12,Gemini 3.6 Flash,G2_order_only,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,20.0,24.0,0.792,15.0,1.0,1.0,0.0,1.0,4.0,0.031071348,,,,,,1,broken reveal
+S12,[reference] human (gold),H_gold_telling,PROLEPSIS,1.0,15.0,how does a man arrive at holding a gun in his own mouth?,ok,,16.0,19.0,0.789,15.0,0.9428571428571428,0.9238095238095239,-0.01904761904761898,1.0,4.0,0.047491488,,,,,,1,broken reveal
+S13,Claude Sonnet 5,G0_fabula_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,14.0,21.0,0.619,10.0,1.0,1.0,0.0,0.0,3.0,0.027885528000000003,,,,,,1,confusing mess
+S13,Claude Sonnet 5,G1_full_graph,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,24.0,34.0,0.676,10.0,1.0,1.0,0.0,0.0,3.0,0.031514868,,,,,,1,confusing mess
+S13,Claude Sonnet 5,G2_order_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,22.0,29.0,0.724,12.0,0.696969696969697,0.696969696969697,0.0,0.0,5.0,0.034781868,,,,,,1,confusing mess
+S13,DeepSeek V4 Flash,G0_fabula_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,39.0,61.0,0.623,10.0,1.0,1.0,0.0,0.0,3.0,0.038255184,,,,,,1,confusing mess
+S13,DeepSeek V4 Flash,G1_full_graph,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,41.0,57.0,0.702,10.0,1.0,1.0,0.0,0.0,3.0,0.040521888,,,,,,1,confusing mess
+S13,DeepSeek V4 Flash,G2_order_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,44.0,47.0,0.915,12.0,1.0,1.0,0.0,1.0,5.0,0.032057784,,,,,,1,broken reveal
+S13,GLM-5.2,G0_fabula_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,39.0,51.0,0.745,10.0,1.0,1.0,0.0,0.0,3.0,0.028800684000000003,,,,,,1,confusing mess
+S13,GLM-5.2,G1_full_graph,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,40.0,52.0,0.75,10.0,1.0,1.0,0.0,0.0,3.0,0.031594068,,,,,,1,confusing mess
+S13,GLM-5.2,G2_order_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,69.0,72.0,0.944,12.0,0.9696969696969697,0.9696969696969697,0.0,0.0,5.0,0.031403987999999994,,,,,,1,confusing mess
+S13,Gemini 3.6 Flash,G0_fabula_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,16.0,20.0,0.75,10.0,1.0,1.0,0.0,1.0,3.0,0.030461904,,,,,,1,broken reveal
+S13,Gemini 3.6 Flash,G1_full_graph,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,20.0,24.0,0.792,10.0,1.0,1.0,0.0,1.0,3.0,0.030984228000000003,,,,,,1,broken reveal
+S13,Gemini 3.6 Flash,G2_order_only,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,18.0,18.0,0.944,12.0,0.9696969696969697,0.9696969696969697,0.0,1.0,5.0,0.03540358799999999,,,,,,1,broken reveal
+S13,[reference] human (gold),H_gold_telling,RETROGRADE,1.0,3.0,what did this day look like before it went wrong?,ok,,13.0,13.0,0.923,12.0,1.0,0.696969696969697,-0.303030303030303,1.0,5.0,0.025709508000000002,,,,,,1,broken reveal
+S27,Claude Sonnet 5,G2_order_only,CHRONICLE,1.0,3.0,whose birthday is being prepared for?,ok,,8.0,22.0,0.318,6.0,0.6,0.6,0.0,1.0,5.0,0.049703148,,,,,,1,broken reveal
+S27,DeepSeek V4 Flash,G2_order_only,CHRONICLE,1.0,3.0,whose birthday is being prepared for?,ok,,8.0,25.0,0.28,6.0,0.7333333333333334,0.7333333333333334,0.0,1.0,5.0,0.027568727999999997,,,,,,1,broken reveal
+S27,GLM-5.2,G2_order_only,CHRONICLE,1.0,3.0,whose birthday is being prepared for?,ok,,24.0,67.0,0.343,6.0,0.4666666666666667,0.8666666666666667,0.4,1.0,5.0,0.050389416,,,,,,1,transparent telling
+S27,Gemini 3.6 Flash,G2_order_only,CHRONICLE,1.0,3.0,whose birthday is being prepared for?,ok,,7.0,21.0,0.286,6.0,0.6,0.6,0.0,1.0,5.0,0.028361124,,,,,,1,broken reveal
+S27,[reference] human (gold),H_gold_telling,CHRONICLE,1.0,3.0,whose birthday is being prepared for?,ok,,7.0,20.0,0.3,6.0,-0.19999999999999996,0.6,0.7999999999999999,1.0,5.0,0.032938884,,,,,,1,transparent telling
+S51,Claude Sonnet 5,G0_fabula_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,36.0,37.0,0.946,12.0,0.9393939393939394,0.9393939393939394,0.0,1.0,5.0,0.044986788,,,,,,1,broken reveal
+S51,Claude Sonnet 5,G1_full_graph,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,15.0,23.0,0.609,8.0,0.9285714285714286,1.0,0.0714285714285714,1.0,5.0,0.058672548,,,,,,1,transparent telling
+S51,Claude Sonnet 5,G2_order_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,21.0,21.0,0.952,12.0,1.0,1.0,0.0,1.0,5.0,0.033902748,,,,,,1,broken reveal
+S51,DeepSeek V4 Flash,G1_full_graph,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,43.0,44.0,0.955,12.0,0.9696969696969697,1.0,0.030303030303030276,1.0,5.0,0.051540588,,,,,,1,transparent telling
+S51,DeepSeek V4 Flash,G2_order_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,28.0,31.0,0.871,12.0,1.0,0.9696969696969697,-0.030303030303030276,1.0,5.0,0.041138064,,,,,,1,broken reveal
+S51,GLM-5.2,G0_fabula_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,42.0,45.0,0.911,12.0,1.0,1.0,0.0,1.0,5.0,0.037132128,,,,,,1,broken reveal
+S51,GLM-5.2,G1_full_graph,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,40.0,40.0,0.975,12.0,1.0,1.0,0.0,1.0,5.0,0.078019524,,,,,,1,broken reveal
+S51,GLM-5.2,G2_order_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,43.0,44.0,0.955,12.0,0.8787878787878788,0.8787878787878788,0.0,1.0,5.0,0.113760108,,,,,,1,broken reveal
+S51,Gemini 3.6 Flash,G0_fabula_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,26.0,26.0,0.962,12.0,1.0,1.0,0.0,1.0,5.0,0.032736924,,,,,,1,broken reveal
+S51,Gemini 3.6 Flash,G1_full_graph,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,19.0,19.0,0.947,12.0,1.0,1.0,0.0,1.0,5.0,0.024911568,,,,,,1,broken reveal
+S51,Gemini 3.6 Flash,G2_order_only,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,23.0,23.0,0.957,12.0,1.0,1.0,0.0,1.0,5.0,0.025258464,,,,,,1,broken reveal
+S51,[reference] human (gold),H_gold_telling,RETROGRADE,1.0,1.0,how did the affair now being confessed begin?,ok,,13.0,13.0,0.923,12.0,1.0,1.0,0.0,1.0,5.0,0.039811464000000005,,,,,,1,broken reveal
+S75,Claude Sonnet 5,G0_fabula_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,20.0,27.0,0.704,13.0,1.0,1.0,0.0,1.0,5.0,0.031075308000000003,,,,,,1,broken reveal
+S75,Claude Sonnet 5,G1_full_graph,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,15.0,33.0,0.424,13.0,1.0,1.0,0.0,1.0,5.0,0.032324688000000004,,,,,,1,broken reveal
+S75,Claude Sonnet 5,G2_order_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,20.0,20.0,0.95,17.0,0.9705882352941176,0.9705882352941176,0.0,1.0,5.0,0.040416948,,,,,,1,broken reveal
+S75,DeepSeek V4 Flash,G0_fabula_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,18.0,49.0,0.347,12.0,1.0,1.0,0.0,1.0,5.0,0.049033908,,,,,,1,broken reveal
+S75,DeepSeek V4 Flash,G2_order_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,33.0,43.0,0.744,13.0,0.9487179487179487,0.641025641025641,-0.3076923076923077,1.0,5.0,0.06823396799999999,,,,,,1,broken reveal
+S75,GLM-5.2,G0_fabula_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,20.0,38.0,0.5,9.0,1.0,1.0,0.0,1.0,5.0,0.029873844,,,,,,1,broken reveal
+S75,GLM-5.2,G1_full_graph,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,1.0,18.0,0.0,13.0,0.8717948717948718,0.8717948717948718,0.0,1.0,5.0,0.039593268,,,,,,1,broken reveal
+S75,GLM-5.2,G2_order_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,82.0,85.0,0.953,17.0,0.9852941176470589,0.9705882352941176,-0.014705882352941235,1.0,5.0,0.040504464000000004,,,,,,1,broken reveal
+S75,Gemini 3.6 Flash,G0_fabula_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,11.0,18.0,0.556,10.0,0.7333333333333334,0.9111111111111111,0.1777777777777777,1.0,5.0,0.041056488,,,,,,1,transparent telling
+S75,Gemini 3.6 Flash,G1_full_graph,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,11.0,17.0,0.588,10.0,1.0,1.0,0.0,1.0,5.0,0.028598328,,,,,,1,broken reveal
+S75,Gemini 3.6 Flash,G2_order_only,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,18.0,18.0,0.944,17.0,0.9705882352941176,0.9558823529411765,-0.014705882352941124,1.0,5.0,0.035663364,,,,,,1,broken reveal
+S75,[reference] human (gold),H_gold_telling,ACHRONY,1.0,10.0,why is the speaker assassinated at the death he predicted?,ok,,18.0,18.0,0.944,17.0,0.9558823529411765,0.9705882352941176,0.014705882352941124,1.0,5.0,0.033507144,,,,,,1,transparent telling

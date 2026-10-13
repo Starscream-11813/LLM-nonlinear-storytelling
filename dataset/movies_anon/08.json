@@ -1,0 +1,1000 @@
+{
+  "story_id": "S08",
+  "source_index": 8,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "In a city in the east, the deaf teenager Suki is the one who finds her mother dead after she takes her own life.",
+    "On a hunting trip in a desert country, the businessman Ken Arata makes a gift of his rifle to his guide Rashid.",
+    "Rashid sells the rifle on to the goatherd Nasser, who needs it for the jackals taking his flock.",
+    "Nasser hands the rifle to his sons Idris and Tarek and sends them into the hills with the goats.",
+    "The boys argue about how far the rifle will carry, and Tarek fires at a distant tourist bus to settle it.",
+    "Foreign tourists Alan and Ruth Craven, travelling to repair a marriage broken by the cot death of their baby, are on that bus.",
+    "The bullet goes through Ruth's shoulder and the bus turns off for a mountain village.",
+    "Alan begs his embassy for a helicopter while a village vet stitches Ruth and the other tourists grow mutinous and drive away.",
+    "Back home, the Cravens' nanny Rosalva, unable to find anyone to cover for her, takes Ben and Lily across the border to her son's wedding.",
+    "Suki is humiliated at a volleyball match and then brushed off by boys in a restaurant because she cannot speak.",
+    "Suki takes off her underwear at the table and later exposes herself to her dentist, hunting for any reaction at all.",
+    "Police trace the rifle back to Rashid and beat his family until he names Nasser.",
+    "A helicopter finally lifts Ruth out to a hospital in the capital.",
+    "Rosalva's nephew Beto drives the children back drunk, panics at the border checkpoint and abandons the three of them in the desert.",
+    "Rosalva walks into the desert with the children, leaves them under a tree to find help, and is arrested by the border patrol.",
+    "Police corner Nasser's family in the rocks; Idris is shot dead and Tarek surrenders, confessing that he fired the shot.",
+    "Rosalva is deported after sixteen years in the country, though the children are found alive.",
+    "A detective named Sano tells Suki that the police only wanted to confirm what became of the rifle her father legally gave away.",
+    "Suki meets Sano naked at her door, then weeps in his arms and hands him a folded note.",
+    "Ken Arata comes home and holds his daughter on the balcony high above the city."
+  ],
+  "syuzhet_order": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    8,
+    11,
+    1,
+    12,
+    14,
+    15,
+    16,
+    13,
+    17,
+    18,
+    2,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    13,
+    14,
+    15,
+    16,
+    17,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "A forward-moving braid holds 15 of 17 scenes, with the gift of the rifle and the mother's death - the two earliest events - held back as late insertions.",
+  "syuzhet_notes": "The four strands are intercut without captions and are not simultaneous: the eastern-city material - told-order bullets 7, 9, 10 and 17-20 - runs days after the shooting, even though it is cut in as if concurrent. The two events that set the rifle in motion, the gift and the mother's death, are held back as late revelations at told-order bullets 18 and 10 despite being the earliest things in the story.",
+  "fabula_notes": "The death of the tourists' baby, which is why they are abroad at all, exists only in a line of dialogue. The interval between the hunting trip and the sale of the rifle is never stated, and the children's rescue in the desert happens off screen and is reported after the fact.",
+  "story_graph": {
+    "characters": {
+      "Suki": {
+        "archetype": "Hero"
+      },
+      "Ken": {
+        "archetype": "Mentor"
+      },
+      "Suki's mother": {
+        "archetype": "Herald"
+      },
+      "Sano": {
+        "archetype": "Herald"
+      },
+      "Rashid": {
+        "archetype": "Threshold Guardian"
+      },
+      "Nasser": {
+        "archetype": "Ally"
+      },
+      "Idris": {
+        "archetype": "Ally"
+      },
+      "Tarek": {
+        "archetype": "Trickster"
+      },
+      "Alan": {
+        "archetype": "Hero"
+      },
+      "Ruth": {
+        "archetype": "Ally"
+      },
+      "Rosalva": {
+        "archetype": "Ally"
+      },
+      "Beto": {
+        "archetype": "Trickster"
+      },
+      "Ben": {
+        "archetype": "Ally"
+      },
+      "Lily": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Suki",
+          "finds",
+          "her mother dead"
+        ],
+        "content": "A deaf girl comes home from school, goes through the flat looking for somebody to sign to, and finds the balcony door open and her mother on the paving a long way below.",
+        "participants": [
+          "Suki",
+          "Suki's mother"
+        ],
+        "location": "a flat in a city in the east",
+        "pre": {},
+        "post": {
+          "sukis_mother_dead": true
+        },
+        "learns": {
+          "Suki": [
+            "she was the one who found her"
+          ],
+          "reader": [
+            "intro:Suki",
+            "intro:Suki's mother",
+            "the girl's silence has a second cause"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Ken",
+          "gives",
+          "the rifle to Rashid"
+        ],
+        "content": "At the end of a week of shooting in a desert country a foreign businessman takes the rifle off his shoulder and puts it into the hands of the man who has been walking ahead of him, because it is easier than the paperwork.",
+        "participants": [
+          "Ken",
+          "Rashid"
+        ],
+        "location": "a desert country",
+        "pre": {},
+        "post": {
+          "rifle_given_to_rashid": true
+        },
+        "learns": {
+          "Rashid": [
+            "he owns a hunting rifle he could sell"
+          ],
+          "reader": [
+            "intro:Ken",
+            "intro:Rashid",
+            "the weapon enters the story as a courtesy"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Rashid",
+          "sells",
+          "the rifle to Nasser"
+        ],
+        "content": "A goatherd who has been losing animals to jackals every week comes down to the road with cash and a box of shells, and goes home with a rifle that has already been round the world once.",
+        "participants": [
+          "Rashid",
+          "Nasser"
+        ],
+        "location": "a road in the hills",
+        "pre": {
+          "rifle_given_to_rashid": true
+        },
+        "post": {
+          "rifle_with_nasser": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nasser",
+            "the rifle changes hands for a practical reason"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "where does a goatherd get a foreign hunting rifle?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Nasser",
+          "arms",
+          "his sons"
+        ],
+        "content": "He hands the rifle to the older boy on the way out of the yard, tells him it is for the jackals and nothing else, and sends the two of them up with the goats for the day.",
+        "participants": [
+          "Nasser",
+          "Idris",
+          "Tarek"
+        ],
+        "location": "a hillside farm",
+        "pre": {
+          "rifle_with_nasser": true
+        },
+        "post": {
+          "rifle_with_the_boys": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Idris",
+            "intro:Tarek",
+            "two children are alone on a hill with a rifle"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Tarek",
+          "fires",
+          "at the bus"
+        ],
+        "content": "They argue about how far it will really carry and settle it the way boys do. He puts the sights on something moving on the road two miles below and squeezes, and then both of them wait to see nothing happen.",
+        "participants": [
+          "Idris",
+          "Tarek"
+        ],
+        "location": "a hillside above the road",
+        "pre": {
+          "rifle_with_the_boys": true
+        },
+        "post": {
+          "shot_fired_at_the_bus": true
+        },
+        "learns": {
+          "reader": [
+            "a bet between brothers is the whole cause"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Alan",
+          "travels",
+          "with Ruth"
+        ],
+        "content": "A couple who have not been able to be in a room together since the cot found empty are three days into a bus tour of somewhere hot, sitting a seat apart and being careful with each other.",
+        "participants": [
+          "Alan",
+          "Ruth"
+        ],
+        "location": "a tourist bus",
+        "pre": {},
+        "post": {
+          "cravens_abroad": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Alan",
+            "intro:Ruth",
+            "the marriage is the reason they are on that road at all"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the bullet",
+          "strikes",
+          "Ruth"
+        ],
+        "content": "The window goes and she is thrown into her husband's lap with her shoulder open. The driver turns off the highway for the only settlement anyone can name.",
+        "participants": [
+          "Alan",
+          "Ruth"
+        ],
+        "location": "the tourist bus",
+        "pre": {
+          "shot_fired_at_the_bus": true,
+          "cravens_abroad": true
+        },
+        "post": {
+          "ruth_wounded": true,
+          "bus_diverted": true
+        },
+        "learns": {
+          "Alan": [
+            "she will bleed out unless somebody comes"
+          ],
+          "reader": [
+            "the shot fired to settle an argument has hit a stranger"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Alan",
+          "begs",
+          "the embassy"
+        ],
+        "content": "He shouts into a village telephone at officials who keep putting him on hold while a local vet stitches her on a rug on the floor, and the rest of the tourists decide they are not dying for her and take the bus.",
+        "participants": [
+          "Alan",
+          "Ruth"
+        ],
+        "location": "a mountain village",
+        "pre": {
+          "ruth_wounded": true,
+          "bus_diverted": true
+        },
+        "post": {
+          "cravens_stranded": true
+        },
+        "learns": {
+          "Alan": [
+            "nobody is coming quickly"
+          ],
+          "reader": [
+            "the couple are alone in a village with no help arriving"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Rosalva",
+          "takes",
+          "the children over the border"
+        ],
+        "content": "The woman who has raised their children for six years cannot get anybody to cover for her and will not miss her own son's wedding, so she puts both of them in the back of a car and drives south.",
+        "participants": [
+          "Rosalva",
+          "Ben",
+          "Lily",
+          "Beto"
+        ],
+        "location": "the road south",
+        "pre": {
+          "cravens_stranded": true
+        },
+        "post": {
+          "children_across_the_border": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Rosalva",
+            "intro:Ben",
+            "intro:Lily",
+            "intro:Beto",
+            "two children are out of the country with no parent's permission"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "why is there nobody else to look after these children?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Suki",
+          "is brushed off",
+          "by the boys"
+        ],
+        "content": "She is put on the bench at the volleyball for arguing with an official who cannot understand her, and then sits in a restaurant while boys who were interested five minutes ago work out that she cannot speak and turn their chairs.",
+        "participants": [
+          "Suki"
+        ],
+        "location": "a sports hall and a restaurant",
+        "pre": {
+          "sukis_mother_dead": true
+        },
+        "post": {
+          "suki_isolated": true
+        },
+        "learns": {
+          "Suki": [
+            "she is going to be alone in exactly this way permanently"
+          ],
+          "reader": [
+            "the girl is cut off in a way nobody around her registers"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "why is this girl so far past ordinary teenage misery?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Suki",
+          "exposes",
+          "herself"
+        ],
+        "content": "She takes her underwear off under the table and lets the boys see, and later stands up in a dentist's chair and opens her clothes, watching his face the whole time for anything at all.",
+        "participants": [
+          "Suki"
+        ],
+        "location": "a restaurant and a dental surgery",
+        "pre": {
+          "suki_isolated": true
+        },
+        "post": {
+          "suki_escalating": true
+        },
+        "learns": {
+          "reader": [
+            "she is not seeking sex, she is testing whether she registers"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what is she actually trying to get from these men?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "police",
+          "trace",
+          "the rifle"
+        ],
+        "content": "The serial number goes back through a shop, a road and a guide. They take the guide's family out into the yard and hit them in front of each other until somebody says the goatherd's name.",
+        "participants": [
+          "Rashid",
+          "Nasser"
+        ],
+        "location": "a police post in the desert country",
+        "pre": {
+          "shot_fired_at_the_bus": true,
+          "rifle_given_to_rashid": true
+        },
+        "post": {
+          "nasser_named": true
+        },
+        "learns": {
+          "reader": [
+            "the paperwork the gift avoided is now being extracted by force"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "a helicopter",
+          "lifts",
+          "Ruth out"
+        ],
+        "content": "After a day and a half of telephones a helicopter finally comes over the ridge, and she is carried out on a door and flown to a hospital in the capital with an hour or so in hand.",
+        "participants": [
+          "Alan",
+          "Ruth"
+        ],
+        "location": "a mountain village and the capital",
+        "pre": {
+          "cravens_stranded": true
+        },
+        "post": {
+          "ruth_evacuated": true,
+          "cravens_stranded": false
+        },
+        "learns": {
+          "reader": [
+            "she lives, two days after a boy settled a bet"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Beto",
+          "abandons",
+          "the children"
+        ],
+        "content": "Driving them home at four in the morning with the wedding still on him, the nephew loses his nerve at the checkpoint, puts his foot down through the barrier, and then puts the three of them out in the dark and drives off.",
+        "participants": [
+          "Beto",
+          "Rosalva",
+          "Ben",
+          "Lily"
+        ],
+        "location": "a border checkpoint",
+        "pre": {
+          "children_across_the_border": true
+        },
+        "post": {
+          "children_abandoned_in_the_desert": true
+        },
+        "learns": {
+          "reader": [
+            "a panic at a barrier strands two children in a desert"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Rosalva",
+          "leaves",
+          "the children under a tree"
+        ],
+        "content": "She walks them until they cannot walk, sits them in the only shade there is, tells them not to move, and goes on alone to find a road. The patrol picks her up four hours later with no water left.",
+        "participants": [
+          "Rosalva",
+          "Ben",
+          "Lily"
+        ],
+        "location": "the desert",
+        "pre": {
+          "children_abandoned_in_the_desert": true
+        },
+        "post": {
+          "rosalva_arrested": true
+        },
+        "learns": {
+          "Rosalva": [
+            "she has left them and cannot lead anyone back"
+          ],
+          "reader": [
+            "the woman who has raised them loses them to save them"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "police",
+          "corner",
+          "Nasser's family"
+        ],
+        "content": "They come up the hill in a line and open fire into the rocks the family is lying behind. The older boy is hit and does not get up, and the younger one walks out with his hands up saying it was him.",
+        "participants": [
+          "Nasser",
+          "Idris",
+          "Tarek"
+        ],
+        "location": "the rocks above the farm",
+        "pre": {
+          "nasser_named": true
+        },
+        "post": {
+          "idris_dead": true,
+          "tarek_confessed": true
+        },
+        "learns": {
+          "reader": [
+            "a child is killed over a shot fired at nothing in particular"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "the state",
+          "deports",
+          "Rosalva"
+        ],
+        "content": "Sixteen years in the country and she signs the paper in a corridor, is walked to a bus and put across the line. The children are found alive, which is the only thing anybody tells her.",
+        "participants": [
+          "Rosalva"
+        ],
+        "location": "a border facility",
+        "pre": {
+          "rosalva_arrested": true
+        },
+        "post": {
+          "rosalva_deported": true,
+          "children_found": true
+        },
+        "learns": {
+          "reader": [
+            "the children survive and the woman who kept them alive loses everything"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Sano",
+          "tells",
+          "Suki about the rifle"
+        ],
+        "content": "A detective comes to the flat, sits down carefully and explains that nobody is accusing anybody of anything; they only need to confirm what happened to a rifle her father handed over abroad, entirely legally, some time ago.",
+        "participants": [
+          "Suki",
+          "Sano"
+        ],
+        "location": "a flat in a city in the east",
+        "pre": {
+          "tarek_confessed": true,
+          "rifle_given_to_rashid": true
+        },
+        "post": {
+          "suki_told_about_the_rifle": true
+        },
+        "learns": {
+          "Suki": [
+            "the police are here about her father's gun and not about her mother"
+          ],
+          "reader": [
+            "intro:Sano",
+            "the two ends of the story are joined by a piece of paperwork"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what rifle, and when did her father let it go?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Suki",
+          "gives",
+          "Sano the note"
+        ],
+        "content": "She opens the door to him with nothing on and stands there until he looks away, and then falls against him and cries for a long time, and puts a folded piece of paper into his hand as he goes.",
+        "participants": [
+          "Suki",
+          "Sano"
+        ],
+        "location": "a flat in a city in the east",
+        "pre": {
+          "suki_told_about_the_rifle": true,
+          "suki_escalating": true
+        },
+        "post": {
+          "suki_gave_the_note": true
+        },
+        "learns": {
+          "Sano": [
+            "there is something in this house that is not about a rifle"
+          ],
+          "reader": [
+            "the girl finally makes contact, in writing, with a stranger"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Ken",
+          "holds",
+          "his daughter"
+        ],
+        "content": "He comes home late to find her out on the balcony in a nightdress, high above a city of lights, and stands behind her and puts both arms round her without asking anything.",
+        "participants": [
+          "Ken",
+          "Suki"
+        ],
+        "location": "a balcony above the city",
+        "pre": {
+          "suki_gave_the_note": true
+        },
+        "post": {
+          "ken_and_suki_together": true
+        },
+        "learns": {
+          "reader": [
+            "the father who gave away the rifle is the one who is finally standing there"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e2",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e7",
+        "on": "the single bullet fired to settle an argument"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e20"
+      }
+    ]
+  }
+}

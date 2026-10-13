@@ -1,0 +1,800 @@
+{
+  "story_id": "S57",
+  "source_index": 57,
+  "genre": "Drama, War",
+  "source": "Novel",
+  "events_chronological": [
+    "A young man grows up in a small provincial town on the continent and qualifies in medicine.",
+    "He marries, and the child born to the couple dies as an infant.",
+    "He takes a post at an institute where the disabled are put to death by injection and by gas.",
+    "He is posted to a camp in the east and stands beside the senior physician during selections on the platform.",
+    "Inside the camp he performs dental procedures and experiments on the prisoners.",
+    "He takes a prisoner as a mistress and sends her to the chamber once he has tired of her.",
+    "The camp is cleared before the advancing army arrives and he walks west with forged papers in his coat.",
+    "He spends years in hiding on the southern coast under an assumed name, living quietly on gold.",
+    "He crosses the ocean under a second false name, given fresh papers by a clergyman who asks him nothing.",
+    "Working in hospitals abroad, he inflicts pain on his patients and persuades himself that he is curing them.",
+    "He carries on a long affair with a woman who never learns a single true thing about him.",
+    "He grows old under a third name, gardening, hoarding tinned food, and waking from dreams of a man in a white coat.",
+    "He collapses among his flowerbeds and dies in a hospital far from where he began."
+  ],
+  "syuzhet_order": [
+    13,
+    12,
+    10,
+    11,
+    9,
+    8,
+    7,
+    6,
+    4,
+    5,
+    3,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10
+  ],
+  "nonlinear_category": "RETROGRADE",
+  "nonlinear_category_reason": "Scene order runs from the latest stretch to the earliest throughout, with no present-day level the telling returns to. A narrator riding inside a doctor's body experiences the life from death to birth, so the whole of it is told in reverse.",
+  "syuzhet_notes": "The narration runs strictly from the death back to the birth, so the doctor looks like a healer and the camp looks like a place where people are assembled. The first told bullet is the last thing that happens and the last bullet the first.",
+  "fabula_notes": "Because the narrating voice reads every action in reverse, the surface of the prose inverts cause and effect. These bullets record what actually happened, in the order it happened.",
+  "story_graph": {
+    "characters": {
+      "the doctor": {
+        "archetype": "Shadow"
+      },
+      "his wife": {
+        "archetype": "Shapeshifter"
+      },
+      "their infant child": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the senior physician": {
+        "archetype": "Shadow"
+      },
+      "the prisoners": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the prisoner mistress": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the clergyman": {
+        "archetype": "Threshold Guardian"
+      },
+      "the overseas lover": {
+        "archetype": "Shapeshifter"
+      },
+      "the hospital patients": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the young man",
+          "qualifies",
+          "in medicine"
+        ],
+        "content": "A provincial upbringing culminates in professional training that gives him the knowledge and status later used both in killing institutions and under false identities.",
+        "participants": [
+          "the doctor"
+        ],
+        "location": "a provincial town and medical school",
+        "pre": {},
+        "post": {
+          "doctor_qualified": true
+        },
+        "learns": {
+          "reader": [
+            "the central man begins as a conventionally trained physician"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the doctor",
+          "loses",
+          "his infant child"
+        ],
+        "content": "His marriage survives the death in formal terms, but the family future closes before the public crimes and repeated identities that follow.",
+        "participants": [
+          "the doctor",
+          "his wife",
+          "their infant child"
+        ],
+        "location": "the couple's home",
+        "pre": {},
+        "post": {
+          "doctor_married": true,
+          "infant_dead": true
+        },
+        "learns": {
+          "the doctor": [
+            "his child has died in infancy"
+          ],
+          "reader": [
+            "the doctor's private family loss precedes but does not excuse his later choices"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the doctor",
+          "joins",
+          "a killing institute"
+        ],
+        "content": "Medical procedure is reorganised around selecting disabled people for lethal injections and gas, making professional language serve systematic murder.",
+        "participants": [
+          "the doctor",
+          "the prisoners"
+        ],
+        "location": "an institute for the disabled",
+        "pre": {
+          "doctor_qualified": true
+        },
+        "post": {
+          "doctor_in_killing_programme": true
+        },
+        "learns": {
+          "the doctor": [
+            "the institute uses physicians to kill disabled patients"
+          ],
+          "reader": [
+            "the doctor's participation in organised killing begins before the eastern camp"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the doctor",
+          "assists",
+          "camp selections"
+        ],
+        "content": "Beside a senior physician on an arrival platform, he helps divide prisoners into temporary labour and immediate death.",
+        "participants": [
+          "the doctor",
+          "the senior physician",
+          "the prisoners"
+        ],
+        "location": "an eastern camp platform",
+        "pre": {
+          "doctor_in_killing_programme": true
+        },
+        "post": {
+          "doctor_at_camp": true,
+          "doctor_selected_prisoners": true
+        },
+        "learns": {
+          "the doctor": [
+            "his medical authority determines which arrivals are killed"
+          ],
+          "reader": [
+            "the physician is an active agent in the camp's selection process"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the camp doctor",
+          "experiments on",
+          "prisoners"
+        ],
+        "content": "Dental work and procedures without therapeutic purpose turn captive bodies into material while he retains the title of healer.",
+        "participants": [
+          "the doctor",
+          "the prisoners",
+          "the senior physician"
+        ],
+        "location": "the eastern camp",
+        "pre": {
+          "doctor_at_camp": true
+        },
+        "post": {
+          "doctor_committed_experiments": true
+        },
+        "learns": {
+          "reader": [
+            "the doctor's camp role includes direct experimentation and pain"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the doctor",
+          "sends",
+          "his prisoner mistress to death"
+        ],
+        "content": "When his private use of a captive woman ends, he exercises institutional power to place her in the same killing process from which proximity had briefly spared her.",
+        "participants": [
+          "the doctor",
+          "the prisoner mistress",
+          "the prisoners"
+        ],
+        "location": "the eastern camp",
+        "pre": {
+          "doctor_at_camp": true
+        },
+        "post": {
+          "prisoner_mistress_dead": true
+        },
+        "learns": {
+          "the prisoner mistress": [
+            "the doctor will not protect her after tiring of the relationship"
+          ],
+          "reader": [
+            "the doctor's intimacy reproduces rather than interrupts the camp's violence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the doctor",
+          "flees",
+          "the advancing army"
+        ],
+        "content": "As the camp is cleared, forged papers in his coat convert a perpetrator into an anonymous westbound refugee before liberators arrive.",
+        "participants": [
+          "the doctor",
+          "the prisoners"
+        ],
+        "location": "roads west of the camp",
+        "pre": {
+          "doctor_at_camp": true
+        },
+        "post": {
+          "doctor_fled_camp": true,
+          "first_false_papers": true
+        },
+        "learns": {
+          "the doctor": [
+            "the camp's collapse requires him to conceal his identity"
+          ],
+          "reader": [
+            "the chain of aliases begins as escape from accountability"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the fugitive doctor",
+          "hides",
+          "on the southern coast"
+        ],
+        "content": "An assumed name, quiet habits and portable gold sustain years in which survival depends on being unremarkable.",
+        "participants": [
+          "the doctor"
+        ],
+        "location": "a southern coast",
+        "pre": {
+          "doctor_fled_camp": true,
+          "first_false_papers": true
+        },
+        "post": {
+          "doctor_hidden_on_coast": true
+        },
+        "learns": {
+          "reader": [
+            "the doctor's apparent quiet life is financed and protected by concealment"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "why is the doctor hiding under an assumed name on the coast?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the doctor",
+          "crosses",
+          "the ocean under another name"
+        ],
+        "content": "A clergyman supplies fresh papers without questions, allowing the fugitive to replace one hidden life with a more distant one.",
+        "participants": [
+          "the doctor",
+          "the clergyman"
+        ],
+        "location": "a port and ocean crossing",
+        "pre": {
+          "doctor_hidden_on_coast": true
+        },
+        "post": {
+          "doctor_overseas": true,
+          "second_false_identity": true
+        },
+        "learns": {
+          "the doctor": [
+            "the clergyman's papers permit a new life overseas"
+          ],
+          "reader": [
+            "institutional trust helps the doctor escape scrutiny"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the doctor",
+          "works on",
+          "hospital patients abroad"
+        ],
+        "content": "Under the second identity he continues to cause pain in clinical settings while interpreting his own actions as treatment.",
+        "participants": [
+          "the doctor",
+          "the hospital patients"
+        ],
+        "location": "overseas hospitals",
+        "pre": {
+          "doctor_overseas": true,
+          "doctor_qualified": true
+        },
+        "post": {
+          "doctor_practising_overseas": true
+        },
+        "learns": {
+          "the hospital patients": [
+            "the doctor controls painful treatment"
+          ],
+          "reader": [
+            "medical work abroad continues the moral inversion of his earlier career"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q5",
+          "q7"
+        ],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {
+          "q1": "how did the troubling hospital worker acquire medical authority?",
+          "q2": "what earlier institution shaped his inversion of harm into treatment?",
+          "q5": "why does his later medical practice appear organised around pain?",
+          "q7": "how did the doctor reach this overseas country under a usable identity?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the doctor",
+          "deceives",
+          "a long-term lover"
+        ],
+        "content": "Years of intimacy never include his real name, origin or crimes, so the relationship protects the false person rather than knowing the man.",
+        "participants": [
+          "the doctor",
+          "the overseas lover"
+        ],
+        "location": "the overseas city",
+        "pre": {
+          "second_false_identity": true
+        },
+        "post": {
+          "lover_kept_ignorant": true
+        },
+        "learns": {
+          "the doctor": [
+            "his lover accepts the identity and history he invented"
+          ],
+          "reader": [
+            "even sustained intimacy never breaks the doctor's concealment"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the old doctor",
+          "lives",
+          "under a third identity"
+        ],
+        "content": "Gardening and stored food construct a harmless old age, but dreams of a white-coated man preserve an unintegrated trace of the institutions he escaped.",
+        "participants": [
+          "the doctor"
+        ],
+        "location": "a quiet overseas home",
+        "pre": {
+          "second_false_identity": true,
+          "lover_kept_ignorant": true
+        },
+        "post": {
+          "third_false_identity": true,
+          "doctor_old": true
+        },
+        "learns": {
+          "reader": [
+            "the peaceful elderly persona remains haunted by the concealed medical crimes"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q4",
+          "q8"
+        ],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {
+          "q3": "why does the harmless old gardener dream of a man in a white coat?",
+          "q4": "what history is concealed beneath the old man's later names?",
+          "q8": "what work lies behind the old man's apparently quiet retirement?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the doctor",
+          "dies",
+          "far from his birthplace"
+        ],
+        "content": "A collapse among flowers ends in a hospital where staff know only the last of several names, leaving chronological death as the reverse narrative's unexplained opening.",
+        "participants": [
+          "the doctor"
+        ],
+        "location": "a garden and overseas hospital",
+        "pre": {
+          "doctor_old": true,
+          "third_false_identity": true
+        },
+        "post": {
+          "doctor_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the man dies without his surrounding community learning the identity or crimes gradually exposed by the reverse telling"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q9": "who is the man dying under this final name?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e3",
+        "on": "the doctor's training and first killing post"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e10",
+        "on": "medical work at the beginning and under an alias"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e11",
+        "on": "the doctor's intimate lives built on withheld truth"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the progression between killing institutions"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e12",
+        "on": "the white-coated past in the old man's dreams"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e5",
+        "on": "the doctor's camp work"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7",
+        "on": "the camp and its evacuation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e10",
+        "on": "harm inflicted under medical authority"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e11",
+        "on": "intimacy controlled through unequal knowledge"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the first fugitive identity"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e9",
+        "on": "the forged-paper escape route"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "successive hidden lives"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the overseas identity"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e12",
+        "on": "the doctor's later aliases"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12",
+        "on": "the overseas medical career before retirement"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the relationship and solitary old age"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the doctor's final identity and death"
+      }
+    ]
+  }
+}

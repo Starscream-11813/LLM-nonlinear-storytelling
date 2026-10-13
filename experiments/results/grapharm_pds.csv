@@ -1,0 +1,9 @@
+,authenticity,empathy,engagement,emotion_provocation,narrative_complexity,pds_mean
+A1 graph -CAUSES/-FORESHADOWS,3.893,3.607,4.571,3.929,4.893,4.179
+A2 graph -pre/post,3.929,3.571,4.464,3.893,4.857,4.143
+A3 graph -learns,3.821,3.464,4.321,3.893,4.75,4.05
+A4 graph -questions/-REVEALS,3.679,3.464,4.393,3.679,4.714,3.986
+A5 graph -participants/-location,3.821,3.5,4.393,3.786,4.714,4.043
+G0 fabula only,3.446,3.179,3.964,3.473,4.589,3.73
+G1 full graph,3.607,3.25,4.152,3.598,4.589,3.839
+G2 told order (oracle),3.67,3.339,4.223,3.714,4.75,3.939

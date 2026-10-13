@@ -1,0 +1,5 @@
+condition,n,tau_pre,tau_post,rcg,guess_correct,reveal_told_frac,prefix_events
+G0_fabula_only,44,0.9033,0.9673,0.064,0.7727,0.6029,10.0455
+G1_full_graph,43,0.884,0.9178,0.0337,0.6744,0.585,10.3721
+G2_order_only,52,0.8608,0.8863,0.0255,0.8654,0.7207,12.6346
+H_gold_telling,13,0.8321,0.8866,0.0545,0.8462,0.7315,12.7692

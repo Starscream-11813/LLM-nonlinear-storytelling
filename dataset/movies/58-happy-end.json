@@ -1,0 +1,50 @@
+{
+  "title": "Happy End",
+  "release_year": 1967,
+  "genre": "Comedy, Crime",
+  "source": "Film",
+  "events_chronological": [
+    "Bedrich, a butcher, marries Julie and the two set up house above the shop.",
+    "Julie takes a lover called Ptacek, and Bedrich works out what is going on.",
+    "Bedrich kills Julie and dismembers her on the block in his own shop.",
+    "Bedrich distributes the parts around the city in parcels and a suitcase.",
+    "Bedrich takes up with a young woman named Vera who knows nothing about any of it.",
+    "Bedrich kills Ptacek and disposes of him in the same way.",
+    "The parcels are found and the police open a murder investigation.",
+    "Bedrich is arrested in his flat and taken away in front of the neighbours.",
+    "Bedrich stands trial while the court hears what was in the parcels.",
+    "Bedrich is sentenced to death.",
+    "Bedrich is beheaded in the prison yard.",
+    "Bedrich's body is buried and his effects are returned to nobody in particular."
+  ],
+  "syuzhet_order": [
+    11,
+    12,
+    9,
+    10,
+    8,
+    7,
+    6,
+    5,
+    3,
+    4,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    8
+  ],
+  "syuzhet_notes": "Every shot is printed and played in reverse, and a narrator reads the result as though it were the right way round, so the film opens on the execution and calls it a birth. Told-order bullet 1 is the last thing in the story and bullet 12 the first.",
+  "fabula_notes": "The bullets record the events in the order a clock would put them, not in the order the reversed narration claims for them."
+}

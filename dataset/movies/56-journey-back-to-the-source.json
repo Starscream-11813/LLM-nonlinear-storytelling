@@ -1,0 +1,50 @@
+{
+  "title": "Journey Back to the Source",
+  "release_year": 1944,
+  "genre": "Fantasy, Drama",
+  "source": "Short story",
+  "events_chronological": [
+    "Marcial is born in the great house and carried up to a nursery hung with muslin.",
+    "As a small boy Marcial crawls beneath the furniture and learns the house by its undersides and its smells.",
+    "Marcial is put into his first formal clothes and taught to sit still through long meals.",
+    "As a young man Marcial gambles, drinks and keeps company with actresses in the capital.",
+    "Marcial's father dies and he inherits the title, the house and the debts together.",
+    "Marcial marries Dona Maria de las Mercedes in the cathedral.",
+    "Maria dies of a fever, and the house fills with candles, black cloth and murmuring relatives.",
+    "Marcial sells the furniture piece by piece as the creditors begin coming to the door.",
+    "Old and alone, Marcial dies in the bed he was born in while a priest administers the last rites.",
+    "The mourners go home and the shutters of the house are closed.",
+    "Workmen pull the great house down course by course while an old man with a stick watches from the gate.",
+    "Nothing is left on the site but bare ground, and the palms and the grass stand where the walls were."
+  ],
+  "syuzhet_order": [
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    1,
+    2,
+    12
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "syuzhet_notes": "The story opens on the demolition and then runs the entire life backwards - deathbed, mourning, ruin, marriage, inheritance, youth, childhood, birth - before the last told-order bullet returns to the empty site.",
+  "fabula_notes": "The reversal is presented as literally happening rather than as a way of narrating: candles grow taller, the dead sit up. The bullets record the events themselves, in the order a clock would put them."
+}

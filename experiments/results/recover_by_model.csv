@@ -1,0 +1,7 @@
+,tau,tau,tau,tau,exact,exact,exact,exact
+,R0_orig_notext,R1_orig_told,R2_dedated_notext,R3_dedated_told,R0_orig_notext,R1_orig_told,R2_dedated_notext,R3_dedated_told
+model,,,,,,,,
+Claude Opus 5,0.8647,0.8955,0.8551,0.8856,0.0843,0.1928,0.0843,0.1807
+Gemini 3.6 Flash,0.8543,0.8862,0.8498,0.8738,0.122,0.2073,0.1325,0.1566
+Grok 4.5,0.8281,0.8701,0.8282,0.8737,0.0482,0.2048,0.0723,0.2048
+Llama 4 Maverick,0.4684,0.6253,0.4259,0.5625,0.0,0.0244,0.0,0.0

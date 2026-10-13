@@ -1,0 +1,1063 @@
+{
+  "story_id": "S22",
+  "source_index": 22,
+  "genre": "Drama, Fantasy, Adventure",
+  "source": "Film",
+  "events_chronological": [
+    "As a boy in Hollow Creek, Errol Doone looks into the eye of the witch in the swamp and sees how he will die, and so knows he will survive everything before it.",
+    "Errol grows into the town's champion at everything and saves Hollow Creek from the giant Torvald by befriending him.",
+    "Errol and Torvald leave together and part at a fork in the road, Errol taking the hard path through the woods.",
+    "Errol stumbles into a hidden town called Willow, where nobody wears shoes and nobody ever leaves, and meets a little girl called Pella.",
+    "Errol leaves Willow anyway and joins the ringmaster Grubb's circus, working three years unpaid for one fact a month about a girl he glimpsed across the tent.",
+    "Errol learns the girl is Marguerite, fills a field with daffodils for her, and takes a beating from her fiance Byrne.",
+    "Errol marries Marguerite and is drafted into the war, where he steals secret papers and is carried home by a pair of conjoined singers.",
+    "Reported dead, Errol walks back into Marguerite's life, and Byrne drops dead of a heart attack.",
+    "Errol becomes a travelling salesman away from home for weeks at a time and robs a bank with the poet Lomax.",
+    "Errol tells his tall tales at his son Sam's birth and at every family occasion afterwards.",
+    "Errol hijacks Sam's wedding reception with the story of catching the uncatchable catfish using his own wedding ring as bait.",
+    "Humiliated, Sam stops speaking to his father for three years.",
+    "Errol goes back to Willow, finds it derelict and repossessed, buys the town to save it, and meets the grown Pella.",
+    "Sam, living abroad with his pregnant wife Ilse, is told by his mother that Errol is dying.",
+    "Sam comes home and tries to get one true story out of his father, who will only tell the same tales.",
+    "Sam finds the deed to Willow among the papers and drives out to meet Pella, who tells him the truth: Errol never left Marguerite.",
+    "Errol has a stroke, and from his hospital bed he asks Sam to tell him how he dies.",
+    "Sam invents an ending in which he carries his father to the river and Errol turns into a great silver fish and swims away, and Errol dies happy.",
+    "At the funeral every character from the stories turns up, ordinary and real, and Sam sees how much of it was true after all.",
+    "Sam tells the same stories to his own small son by the river."
+  ],
+  "syuzhet_order": [
+    10,
+    11,
+    12,
+    14,
+    15,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The son's return to his dying father is the present, and the tall tales are flashbacks the father narrates.",
+  "syuzhet_notes": "The frame is a son's return to his dying father. Told-order bullets 1-3 are a prologue of childhood and wedding-day memories, and bullets 6-14 are the father's tall tales, flashbacks he narrates and the film stages at face value with no marker that they are unreliable. Bullet 15 is a flashback the son assembles from documents rather than from his father, and the last five bullets return to the present.",
+  "fabula_notes": "Most of the flashbacks are the father's embroidered version rather than what happened, and the film shows them as told; the funeral is what reveals which characters were real. The salesman years are compressed into a montage, and the father's decline happens between the son's visits.",
+  "story_graph": {
+    "characters": {
+      "Errol": {
+        "archetype": "Hero"
+      },
+      "Sam": {
+        "archetype": "Hero"
+      },
+      "Marguerite": {
+        "archetype": "Ally"
+      },
+      "Ilse": {
+        "archetype": "Ally"
+      },
+      "Pella": {
+        "archetype": "Herald"
+      },
+      "Torvald": {
+        "archetype": "Ally"
+      },
+      "Grubb": {
+        "archetype": "Trickster"
+      },
+      "Byrne": {
+        "archetype": "Threshold Guardian"
+      },
+      "Lomax": {
+        "archetype": "Trickster"
+      },
+      "the witch": {
+        "archetype": "Mentor"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Errol",
+          "looks",
+          "into the witch's eye"
+        ],
+        "content": "The boys dare each other as far as the porch. Only one of them looks into the glass eye, and what he sees there is the last minute of his own life, which makes every minute before it survivable.",
+        "participants": [
+          "Errol",
+          "the witch"
+        ],
+        "location": "a shack in the swamp outside Hollow Creek",
+        "pre": {},
+        "post": {
+          "errol_knows_his_end": true
+        },
+        "learns": {
+          "Errol": [
+            "how he will die"
+          ],
+          "reader": [
+            "intro:Errol",
+            "intro:the witch",
+            "he is fearless because he thinks he knows the ending"
+          ]
+        },
+        "raises": [
+          "q9"
+        ],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {
+          "q9": "how does he die?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Errol",
+          "befriends",
+          "Torvald"
+        ],
+        "content": "The town is losing sheep and sending men with torches. He walks up to the giant on his own and works out that the problem is not appetite but that there is nothing here big enough for him.",
+        "participants": [
+          "Errol",
+          "Torvald"
+        ],
+        "location": "a cave above Hollow Creek",
+        "pre": {
+          "errol_knows_his_end": true
+        },
+        "post": {
+          "giant_befriended": true
+        },
+        "learns": {
+          "Torvald": [
+            "somebody has spoken to him rather than at him"
+          ],
+          "reader": [
+            "intro:Torvald",
+            "his method is to talk to the monster"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Errol",
+          "takes",
+          "the hard road"
+        ],
+        "content": "They leave together and the track splits, one way flat and long and the other straight through the woods. He takes the woods, because a story about the flat road is not worth telling.",
+        "participants": [
+          "Errol",
+          "Torvald"
+        ],
+        "location": "a fork in the road out of Hollow Creek",
+        "pre": {
+          "giant_befriended": true
+        },
+        "post": {
+          "hard_road_taken": true
+        },
+        "learns": {
+          "reader": [
+            "he chooses the version that will make a better account"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Errol",
+          "finds",
+          "Willow"
+        ],
+        "content": "He comes out of the woods with his boots gone into a town where the grass is cut short, nobody wears shoes and nobody has ever needed to leave. A small girl tells him he is early.",
+        "participants": [
+          "Errol",
+          "Pella"
+        ],
+        "location": "the hidden town of Willow",
+        "pre": {
+          "hard_road_taken": true
+        },
+        "post": {
+          "willow_found": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Pella",
+            "the place he is told he will come back to"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Errol",
+          "joins",
+          "the circus"
+        ],
+        "content": "He leaves anyway, and signs on with a ringmaster who pays him nothing and gives him, once a month, one fact about a girl he saw for three seconds across a crowded tent.",
+        "participants": [
+          "Errol",
+          "Grubb"
+        ],
+        "location": "a travelling circus",
+        "pre": {
+          "willow_found": true
+        },
+        "post": {
+          "circus_years": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Grubb",
+            "three years bought a name, a flower and a hometown"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Errol",
+          "fills",
+          "a field with daffodils"
+        ],
+        "content": "He learns her name at last, empties every florist in the state, and stands in a yellow field asking her to marry him while her fiance hits him and he does not put his hands up.",
+        "participants": [
+          "Errol",
+          "Marguerite",
+          "Byrne"
+        ],
+        "location": "a college lawn",
+        "pre": {
+          "circus_years": true
+        },
+        "post": {
+          "marguerite_named": true
+        },
+        "learns": {
+          "Marguerite": [
+            "someone has spent three years on her"
+          ],
+          "reader": [
+            "intro:Marguerite",
+            "intro:Byrne",
+            "he wins her by being unembarrassable"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Errol",
+          "marries",
+          "and goes to war"
+        ],
+        "content": "A wedding, and then a uniform. Behind the lines he takes papers off a desk that is not his, and is carried out of the country by a pair of singers joined at the hip.",
+        "participants": [
+          "Errol",
+          "Marguerite"
+        ],
+        "location": "a chapel and a foreign theatre",
+        "pre": {
+          "marguerite_named": true
+        },
+        "post": {
+          "errol_married": true,
+          "errol_at_war": true
+        },
+        "learns": {
+          "reader": [
+            "the marriage and the war are one movement in his account"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Errol",
+          "comes back",
+          "from the dead"
+        ],
+        "content": "The telegram has already been delivered. He walks up the path anyway, and across town the man who was going to marry her puts a hand on his chest and sits down and does not get up.",
+        "participants": [
+          "Errol",
+          "Marguerite",
+          "Byrne"
+        ],
+        "location": "the front path of Marguerite's house",
+        "pre": {
+          "errol_at_war": true
+        },
+        "post": {
+          "errol_home": true
+        },
+        "learns": {
+          "Marguerite": [
+            "he is alive"
+          ],
+          "reader": [
+            "the rival is disposed of by the story rather than by him"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Errol",
+          "sells",
+          "on the road"
+        ],
+        "content": "Weeks at a time in other towns, a sample case in the boot, and one night a bank robbery with a poet who has run out of ways to say what he means.",
+        "participants": [
+          "Errol",
+          "Lomax",
+          "Marguerite"
+        ],
+        "location": "roads and small towns",
+        "pre": {
+          "errol_home": true
+        },
+        "post": {
+          "salesman_years": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Lomax",
+            "he is absent for most of the marriage, and it is all made into anecdote"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Errol",
+          "tells",
+          "the birth story"
+        ],
+        "content": "He is not in the room. He is in a river, or a bar, depending which year he is telling it in, and the fish he catches is the size of the boy being born.",
+        "participants": [
+          "Errol",
+          "Sam",
+          "Marguerite"
+        ],
+        "location": "a hospital, and a river in the telling",
+        "pre": {
+          "salesman_years": true
+        },
+        "post": {
+          "sam_born": true
+        },
+        "learns": {
+          "Sam": [
+            "the first of the stories, before he can object to it"
+          ],
+          "reader": [
+            "intro:Sam",
+            "the son's own birth reaches him as a tall tale"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "where do these stories come from, and why will he not stop?",
+          "q8": "were any of these people real?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Errol",
+          "hijacks",
+          "the wedding"
+        ],
+        "content": "He stands up at his son's reception with a glass and tells the room about the uncatchable fish and the gold ring he used as bait, and the room loves it, and his son does not.",
+        "participants": [
+          "Errol",
+          "Sam",
+          "Ilse",
+          "Marguerite"
+        ],
+        "location": "a wedding reception",
+        "pre": {
+          "sam_born": true
+        },
+        "post": {
+          "wedding_hijacked": true
+        },
+        "learns": {
+          "Sam": [
+            "his father will take any room, including this one"
+          ],
+          "reader": [
+            "intro:Ilse",
+            "the grievance, in its clearest form"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "what is the ring in the fish story?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Sam",
+          "stops",
+          "speaking to Errol"
+        ],
+        "content": "Three years of not calling. There is no scene and no ultimatum; there is a number that does not get dialled and a father who keeps telling the story anyway.",
+        "participants": [
+          "Sam",
+          "Errol"
+        ],
+        "location": "two countries",
+        "pre": {
+          "wedding_hijacked": true
+        },
+        "post": {
+          "estrangement": true
+        },
+        "learns": {
+          "reader": [
+            "the estrangement is silence rather than argument"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why does the son find his father unbearable?",
+          "q7": "will the two of them be reconciled before it is too late?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Errol",
+          "buys",
+          "Willow"
+        ],
+        "content": "He goes back and finds it boarded and repossessed, so he buys the whole town off the bank and hands it back to the people in it. The girl who told him he was early is grown up now.",
+        "participants": [
+          "Errol",
+          "Pella"
+        ],
+        "location": "the town of Willow",
+        "pre": {
+          "estrangement": true
+        },
+        "post": {
+          "willow_bought": true
+        },
+        "learns": {
+          "Pella": [
+            "he came back after all"
+          ],
+          "reader": [
+            "the one large thing he did that he never made a story of"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Marguerite",
+          "calls",
+          "Sam home"
+        ],
+        "content": "A telephone in a flat in another country, a pregnant wife in the next room, and a mother saying the word that ends the three years in one syllable.",
+        "participants": [
+          "Sam",
+          "Ilse",
+          "Marguerite",
+          "Errol"
+        ],
+        "location": "a flat abroad",
+        "pre": {
+          "estrangement": true
+        },
+        "post": {
+          "sam_summoned": true
+        },
+        "learns": {
+          "Sam": [
+            "his father is dying"
+          ],
+          "reader": [
+            "the clock the frame runs on"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what has the old man been doing with himself?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Sam",
+          "asks",
+          "for one true story"
+        ],
+        "content": "He sits by the bed and asks, without much hope, for one thing that actually happened. He gets the giant, and the town in the woods, and the fish, told exactly as they always were.",
+        "participants": [
+          "Sam",
+          "Errol",
+          "Marguerite"
+        ],
+        "location": "the Doone house",
+        "pre": {
+          "sam_summoned": true
+        },
+        "post": {
+          "sam_at_bedside": true
+        },
+        "learns": {
+          "reader": [
+            "the son's demand, which the film will answer sideways"
+          ]
+        },
+        "raises": [
+          "q5",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "is any of it true?",
+          "q6": "which parts of the stories actually happened?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Pella",
+          "tells",
+          "Sam the truth"
+        ],
+        "content": "He finds a deed among the papers, drives out to a town that turns out to exist, and is told by a woman who loved his father that nothing ever happened, because he never left his wife.",
+        "participants": [
+          "Sam",
+          "Pella"
+        ],
+        "location": "the town of Willow",
+        "pre": {
+          "sam_at_bedside": true
+        },
+        "post": {
+          "truth_found": true
+        },
+        "learns": {
+          "Sam": [
+            "the story with the most obvious lie in it was the truest thing about him"
+          ],
+          "reader": [
+            "the answer arrives from a document, not from the father"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Errol",
+          "asks",
+          "for his ending"
+        ],
+        "content": "The stroke takes most of his speech. What he can still do is ask his son, who has never made anything up in his life, to tell him how this one finishes.",
+        "participants": [
+          "Errol",
+          "Sam",
+          "Marguerite"
+        ],
+        "location": "a hospital room",
+        "pre": {
+          "truth_found": true
+        },
+        "post": {
+          "errol_stroke": true
+        },
+        "learns": {
+          "reader": [
+            "the handover: the teller asks to be told"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Sam",
+          "invents",
+          "the ending"
+        ],
+        "content": "He carries his father out through a corridor of everyone in the stories, down to the river, and puts him into the water, and a very large silver fish goes away downstream.",
+        "participants": [
+          "Sam",
+          "Errol",
+          "Marguerite",
+          "Ilse"
+        ],
+        "location": "a hospital and a river",
+        "pre": {
+          "errol_stroke": true
+        },
+        "post": {
+          "errol_dead": true
+        },
+        "learns": {
+          "Errol": [
+            "his son can do it too"
+          ],
+          "reader": [
+            "the death he saw in the eye, delivered by the person who doubted it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7",
+          "q9"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "the funeral",
+          "assembles",
+          "the cast"
+        ],
+        "content": "The giant is a tall man with a bad back. The ringmaster is short and sells insurance. The joined singers are sisters who stand close together. All of them came.",
+        "participants": [
+          "Sam",
+          "Marguerite",
+          "Torvald",
+          "Grubb",
+          "Lomax",
+          "Ilse"
+        ],
+        "location": "a churchyard in Hollow Creek",
+        "pre": {
+          "errol_dead": true
+        },
+        "post": {
+          "funeral_held": true
+        },
+        "learns": {
+          "Sam": [
+            "they were all real, and only the sizes were wrong"
+          ],
+          "reader": [
+            "how much of it was true, shown rather than argued"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Sam",
+          "tells",
+          "the stories on"
+        ],
+        "content": "A river, a small boy, and a man who has finally worked out what the stories were for, saying the words in the order his father said them.",
+        "participants": [
+          "Sam",
+          "Ilse"
+        ],
+        "location": "a river",
+        "pre": {
+          "funeral_held": true
+        },
+        "post": {
+          "stories_passed_on": true
+        },
+        "learns": {
+          "reader": [
+            "the son becomes the teller, which is the only immortality on offer"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e10"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e18"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the boy who is not frightened of anything in Hollow Creek"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the giant, befriended and then walked out of town with"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the road through the woods and where it comes out"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e13",
+        "on": "the hidden town, found young and bought old"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the girl glimpsed across the tent and the girl in the field"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the courtship and the wedding"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the war and the return from it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the marriage he keeps leaving"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the roads he is on while his son is being born"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the fish story, told at a birth and again at a wedding"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the reception and the silence after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e16",
+        "on": "the deed to a town, signed and then found in a drawer"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the summons home and the bedside"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e17",
+        "on": "the son at the bedside, asking and then being asked"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the request for an ending and the ending"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19",
+        "on": "the death and the burial"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20",
+        "on": "the cast assembled and the stories carried on"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e20",
+        "on": "a story about the end of a life, told by two different people"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e19",
+        "on": "the giant, as a story and as a tall man with a bad back"
+      }
+    ]
+  }
+}

@@ -1,0 +1,966 @@
+{
+  "story_id": "S34",
+  "source_index": 34,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Between the wars, in a suburb outside the city, the novelist Vera Holt begins writing The Hostess while her husband Edmund and the servants manage her illness.",
+    "Vera's sister Nell visits with her children, and a dying bird is buried in the garden.",
+    "Vera tells Edmund at the railway station that she will die if she is kept in the suburb, and he agrees to move back to the city.",
+    "Vera decides that her heroine will live and that someone else - a poet - will die instead.",
+    "Years later Vera fills her coat pockets with stones and walks into the river, leaving a letter for Edmund.",
+    "In the post-war years, the pregnant housewife Hazel Fenn reads The Hostess in bed rather than get up for her husband Walter's birthday.",
+    "Hazel and her small son Robin fail at making a birthday cake and start it again from scratch.",
+    "Hazel's neighbour June comes to ask her to feed the dog while she goes into hospital, and Hazel kisses her.",
+    "Hazel leaves Robin with a sitter, takes a hotel room and lays out sleeping pills, and then decides to live.",
+    "Hazel comes home, gets through the birthday dinner, and leaves her family for good once the second baby is born.",
+    "In the present, Miriam Crest buys flowers for a party for her friend Gideon, a poet dying of an incurable illness who calls her by the name of the novel's heroine.",
+    "Miriam argues with Gideon, who will not be consoled and wants neither the party nor the prize.",
+    "Gideon's former lover Ansel visits, and Miriam breaks down in her kitchen over the summer they were all happy.",
+    "Miriam's daughter Fern and her partner Marnie watch her hold the whole day together.",
+    "Gideon tells Miriam he stayed alive for her, and lets go of the window ledge.",
+    "Hazel Fenn, now old, arrives from overseas for the wake and tells Miriam what she did and why.",
+    "Miriam lets Hazel stay the night, and Fern takes her upstairs.",
+    "Vera's letter to Edmund is read over all three women: to look life in the face, always, and to put it away."
+  ],
+  "syuzhet_order": [
+    5,
+    1,
+    6,
+    11,
+    12,
+    7,
+    2,
+    8,
+    13,
+    3,
+    9,
+    4,
+    14,
+    15,
+    10,
+    16,
+    17,
+    18
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    11,
+    12,
+    13,
+    14,
+    15,
+    15,
+    16
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "Three women's single days, each in a different decade, rotate as blocks matched on gesture and object rather than sequenced by date.",
+  "syuzhet_notes": "Three days spread across most of a century are cut together as though they were one day, matched on gesture and object - a vase of flowers, a kiss at a kitchen door, an egg cracked in one decade and caught in another. Told-order bullet 1 is a prologue from years ahead of the material that immediately follows it, and the film uses no captions at all, so every jump between the three periods is carried by hair, furniture and light.",
+  "fabula_notes": "The three strands are not causally simultaneous but are cut as if they were, so a single chronology pulls apart scenes the film deliberately fuses. The link between the housewife and the dying poet - that she is his mother, and that the boy of the middle period is the poet of the present - is withheld until near the end, and it is what makes this ordering legible at all.",
+  "story_graph": {
+    "characters": {
+      "Vera": {
+        "archetype": "Hero"
+      },
+      "Edmund": {
+        "archetype": "Ally"
+      },
+      "Nell": {
+        "archetype": "Herald"
+      },
+      "Hazel": {
+        "archetype": "Hero"
+      },
+      "Walter": {
+        "archetype": "Threshold Guardian"
+      },
+      "Robin": {
+        "archetype": "Herald"
+      },
+      "June": {
+        "archetype": "Herald"
+      },
+      "Miriam": {
+        "archetype": "Hero"
+      },
+      "Gideon": {
+        "archetype": "Herald"
+      },
+      "Ansel": {
+        "archetype": "Ally"
+      },
+      "Fern": {
+        "archetype": "Ally"
+      },
+      "Marnie": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Vera",
+          "begins",
+          "The Hostess"
+        ],
+        "content": "A house in a suburb she did not choose, a doctor's regime she did not agree to, and a first sentence about a woman going out to buy flowers herself.",
+        "participants": [
+          "Vera",
+          "Edmund"
+        ],
+        "location": "a house in the suburbs",
+        "pre": {},
+        "post": {
+          "novel_begun": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Vera",
+            "intro:Edmund",
+            "the sentence the other two strands will live inside"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {
+          "q7": "who dies in the novel?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Nell",
+          "visits",
+          "with her children"
+        ],
+        "content": "Tea laid out too early, a sister who is good at ordinary life, and three children who find a dead bird on the path and bury it before the grown-ups can decide whether they should.",
+        "participants": [
+          "Vera",
+          "Nell"
+        ],
+        "location": "a house in the suburbs",
+        "pre": {
+          "novel_begun": true
+        },
+        "post": {
+          "sister_visited": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nell",
+            "a small death, handled by children with great composure"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Vera",
+          "demands",
+          "the city"
+        ],
+        "content": "She walks to the station and is found on the platform, and tells him plainly that she is dying of the quiet here, and that she would rather have the city and the risk.",
+        "participants": [
+          "Vera",
+          "Edmund"
+        ],
+        "location": "a railway station",
+        "pre": {
+          "sister_visited": true
+        },
+        "post": {
+          "move_agreed": true
+        },
+        "learns": {
+          "Edmund": [
+            "the cure is killing her"
+          ],
+          "reader": [
+            "the film's one direct statement of its subject"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Vera",
+          "decides",
+          "the poet dies"
+        ],
+        "content": "She had meant to kill the woman giving the party. She changes her mind at the table and hands the death to somebody else instead, so that the hostess can be left alive to notice it.",
+        "participants": [
+          "Vera"
+        ],
+        "location": "a house in the suburbs",
+        "pre": {
+          "move_agreed": true
+        },
+        "post": {
+          "heroine_lives": true
+        },
+        "learns": {
+          "reader": [
+            "the structural decision that decides the other two strands"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Vera",
+          "walks",
+          "into the river"
+        ],
+        "content": "She writes to him at the desk, walks down through the field with her pockets weighted, and goes in without stopping at the edge.",
+        "participants": [
+          "Vera",
+          "Edmund"
+        ],
+        "location": "a river",
+        "pre": {
+          "heroine_lives": true
+        },
+        "post": {
+          "vera_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the first image of the film, and the last thing to be explained"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who is the woman walking into the river?",
+          "q2": "what was it she could not bear?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Hazel",
+          "reads",
+          "in bed"
+        ],
+        "content": "There is a cake to make and a husband whose birthday it is, and she stays where she is with the novel open, reading the sentence about the flowers.",
+        "participants": [
+          "Hazel",
+          "Walter"
+        ],
+        "location": "a house in the post-war suburbs",
+        "pre": {
+          "heroine_lives": true
+        },
+        "post": {
+          "hazel_reading": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Hazel",
+            "intro:Walter",
+            "the book reaches its second reader"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "does she stay?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Hazel and Robin",
+          "start",
+          "the cake again"
+        ],
+        "content": "The first one comes out wrong and she scrapes it into the bin with a boy watching her do it, and they begin again from the eggs as though the first attempt had been a rehearsal.",
+        "participants": [
+          "Hazel",
+          "Robin"
+        ],
+        "location": "a kitchen in the post-war suburbs",
+        "pre": {
+          "hazel_reading": true
+        },
+        "post": {
+          "cake_restarted": true
+        },
+        "learns": {
+          "Robin": [
+            "something is wrong with his mother that nobody names"
+          ],
+          "reader": [
+            "intro:Robin",
+            "the child's whole education, delivered in a kitchen"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [],
+        "questions": {
+          "q10": "what becomes of the boy in the kitchen?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "June",
+          "asks",
+          "Hazel to feed the dog"
+        ],
+        "content": "A neighbour going into hospital for something she will not name, a kitchen door, and a kiss that neither of them will refer to again.",
+        "participants": [
+          "Hazel",
+          "June"
+        ],
+        "location": "a kitchen in the post-war suburbs",
+        "pre": {
+          "cake_restarted": true
+        },
+        "post": {
+          "june_visited": true
+        },
+        "learns": {
+          "reader": [
+            "intro:June",
+            "the one moment of the day in which she is not performing"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "what is she going to do?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Hazel",
+          "chooses",
+          "to live"
+        ],
+        "content": "A hotel room paid for in cash, the bottles set out on the counterpane, and a woman lying down and then, an hour later, putting them back in her bag.",
+        "participants": [
+          "Hazel"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "june_visited": true
+        },
+        "post": {
+          "hazel_chose_to_live": true
+        },
+        "learns": {
+          "reader": [
+            "she decides not to, which the film treats as the harder decision"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Hazel",
+          "leaves",
+          "her family"
+        ],
+        "content": "She gets through the cake and the candles and the evening. Then the second child is born, and she puts them all down and goes, and does not come back.",
+        "participants": [
+          "Hazel",
+          "Walter",
+          "Robin"
+        ],
+        "location": "a house in the post-war suburbs",
+        "pre": {
+          "hazel_chose_to_live": true
+        },
+        "post": {
+          "hazel_left": true
+        },
+        "learns": {
+          "reader": [
+            "the choice she actually made, and what it cost the boy"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Miriam",
+          "buys",
+          "the flowers"
+        ],
+        "content": "She says she will buy them herself and goes out into a morning full of noise, planning a party for a man who is winning a prize for poems about being ill.",
+        "participants": [
+          "Miriam",
+          "Gideon"
+        ],
+        "location": "a city street",
+        "pre": {
+          "hazel_left": true
+        },
+        "post": {
+          "party_planned": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Miriam",
+            "intro:Gideon",
+            "the novel's first line, being lived by somebody"
+          ]
+        },
+        "raises": [
+          "q3",
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "where did this dying man come from?",
+          "q6": "does the party ever happen?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Gideon",
+          "refuses",
+          "to be consoled"
+        ],
+        "content": "He sits in a chair by a window in a flat with the curtains half down and tells her that the prize is for still being alive, and that he does not want the party or the afternoon.",
+        "participants": [
+          "Miriam",
+          "Gideon"
+        ],
+        "location": "Gideon's flat",
+        "pre": {
+          "party_planned": true
+        },
+        "post": {
+          "gideon_refuses": true
+        },
+        "learns": {
+          "reader": [
+            "he calls her by the name of a character in a novel, and it is not a joke"
+          ]
+        },
+        "raises": [
+          "q4",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "what happened to him when he was small?",
+          "q9": "why is he like this?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Ansel",
+          "visits",
+          "Miriam"
+        ],
+        "content": "The man he lived with years ago turns up wanting to be useful, and in the kitchen, over the crab, she comes apart about a summer when the three of them were happy and did not know it.",
+        "participants": [
+          "Miriam",
+          "Ansel"
+        ],
+        "location": "Miriam's kitchen",
+        "pre": {
+          "gideon_refuses": true
+        },
+        "post": {
+          "ansel_visited": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ansel",
+            "the past the present strand is grieving"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Fern and Marnie",
+          "watch",
+          "Miriam"
+        ],
+        "content": "A daughter and her partner move round the flat carrying chairs and saying nothing, watching a woman hold an entire day together with both hands.",
+        "participants": [
+          "Miriam",
+          "Fern",
+          "Marnie"
+        ],
+        "location": "Miriam's flat",
+        "pre": {
+          "ansel_visited": true
+        },
+        "post": {
+          "day_held_together": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Fern",
+            "intro:Marnie",
+            "the labour of the hostess, seen from outside"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Gideon",
+          "lets go",
+          "of the ledge"
+        ],
+        "content": "She comes to fetch him and he is sitting in the open window. He tells her that he stayed alive for her, thanks her for the years, and leans back off it.",
+        "participants": [
+          "Miriam",
+          "Gideon"
+        ],
+        "location": "Gideon's flat",
+        "pre": {
+          "day_held_together": true
+        },
+        "post": {
+          "gideon_dead": true
+        },
+        "learns": {
+          "Miriam": [
+            "the party was never the point"
+          ],
+          "reader": [
+            "the death the novelist gave away in the first strand"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Hazel",
+          "arrives",
+          "for the wake"
+        ],
+        "content": "An old woman off a long flight, in a good coat, who sits down in the kitchen and says who she is - which is the boy from the birthday cake's mother, and therefore the poet's.",
+        "participants": [
+          "Miriam",
+          "Hazel"
+        ],
+        "location": "Miriam's kitchen",
+        "pre": {
+          "gideon_dead": true
+        },
+        "post": {
+          "hazel_arrived": true
+        },
+        "learns": {
+          "Miriam": [
+            "the woman who left him is in her kitchen"
+          ],
+          "reader": [
+            "the fact that makes the three strands one thing"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q9",
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Miriam",
+          "lets",
+          "Hazel stay"
+        ],
+        "content": "There is a bed made up, and a daughter taking a stranger's bag upstairs, and a decision not to say any of the things that could be said.",
+        "participants": [
+          "Miriam",
+          "Hazel",
+          "Fern"
+        ],
+        "location": "Miriam's flat",
+        "pre": {
+          "hazel_arrived": true
+        },
+        "post": {
+          "hazel_stays": true
+        },
+        "learns": {
+          "reader": [
+            "the film's judgement on her, which is to give her a bed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Vera's letter",
+          "is read",
+          "over all three"
+        ],
+        "content": "The words written at a desk before the river are laid over the other two women, and they say to look life in the face, always, and to know it for what it is, and then to put it away.",
+        "participants": [
+          "Vera",
+          "Edmund",
+          "Hazel",
+          "Miriam"
+        ],
+        "location": "three houses and a river",
+        "pre": {
+          "hazel_stays": true
+        },
+        "post": {
+          "letter_read": true
+        },
+        "learns": {
+          "reader": [
+            "the three periods are gathered into one sentence"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e1",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e4",
+        "on": "the novel, begun and then decided"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2",
+        "on": "the house in the suburbs"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e3",
+        "on": "the sister's visit and the argument at the station"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5",
+        "on": "the woman who said she would rather have the risk"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6",
+        "on": "the novel, written in one decade and read in the next"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the birthday, avoided and then attempted"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the kitchen door, in one afternoon"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the neighbour's visit and the hotel room after it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the decision to live and what living meant"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e15",
+        "on": "the poet the novelist decided to kill, and the poet who goes out of a window"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the party, planned and refused"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the flat and the kitchen it drives her back to"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the day, held together"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the hours before the window"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e16",
+        "on": "the same woman, leaving a boy and arriving at his wake"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the death and the woman it brings across an ocean"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "the night after"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18",
+        "on": "the letter, read over the house"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e18",
+        "on": "the river and the words written before it"
+      }
+    ]
+  }
+}

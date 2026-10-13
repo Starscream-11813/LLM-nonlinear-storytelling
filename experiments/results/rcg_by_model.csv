@@ -1,0 +1,5 @@
+model,tau_pre,tau_post,rcg,guess_correct
+Claude Sonnet 5,0.8691,0.8918,0.0227,0.7778
+DeepSeek V4 Flash,0.8758,0.9192,0.0434,0.7273
+GLM-5.2,0.9025,0.9315,0.0291,0.7429
+Gemini 3.6 Flash,0.8783,0.9448,0.0664,0.8571

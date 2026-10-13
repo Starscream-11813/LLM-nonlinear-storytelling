@@ -1,0 +1,9 @@
+# Normalise line endings of text files in the repository.
+* text=auto
+
+# The corpus CSVs are written by Python's csv module, which ends rows with CRLF
+# (RFC 4180). Store them byte for byte so that rebuilding the corpus reproduces
+# the committed files exactly.
+dataset/dataset.csv            -text
+dataset/dataset_anonymized.csv -text
+dataset/anonymization_key.csv  -text

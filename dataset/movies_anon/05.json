@@ -1,0 +1,1001 @@
+{
+  "story_id": "S05",
+  "source_index": 5,
+  "genre": "Drama, Mystery",
+  "source": "Film",
+  "events_chronological": [
+    "In a mining boarding house out west, Emmett Rusk's mother signs her son over to the banker Barrow after a defaulted lodger's mine deed makes the family rich.",
+    "The boy drives his sled into Barrow's stomach and is taken east away from his parents anyway.",
+    "On his twenty-fifth birthday Emmett takes control of the fortune and tells Barrow that of all his holdings he wants to run a failing city newspaper, the Clarion.",
+    "Emmett moves into the Clarion, installs his manager Marsh and his friend Devlin, and prints a signed statement of principles on the front page.",
+    "Emmett hires away the entire staff of the rival paper and throws a party with a brass band and a chorus line.",
+    "Emmett returns from a buying trip abroad engaged to Adele, the governor's niece.",
+    "A run of breakfast-table scenes charts the marriage cooling into silence behind separate newspapers.",
+    "Emmett meets the shopgirl Nora Kell on the street with mud on his coat and starts visiting her rooms in secret.",
+    "Mid-campaign for governor, the party boss Halloran brings Adele to Nora's rooms and threatens exposure, and Emmett refuses to withdraw.",
+    "Emmett loses the election, Devlin asks to be transferred to another city, and the marriage collapses.",
+    "Emmett marries Nora and forces her into an opera career for which she has no voice.",
+    "Nora's debut is a humiliation, and a drunk Devlin begins the savage review that Emmett finishes, prints, and fires him for.",
+    "Nora swallows poison rather than sing again, and Emmett finally lets her stop.",
+    "Emmett shuts Nora away in the half-finished palace he calls Silvermount, where she works jigsaw puzzles in the vast empty hall.",
+    "After a joyless beach picnic and a quarrel, Nora packs and leaves him.",
+    "Emmett wrecks Nora's bedroom, finds a glass snow globe, murmurs \"Bluebell\", and carries it past the endless mirrors.",
+    "Alone at Silvermount, Emmett dies with the word \"Bluebell\" on his lips and drops the snow globe on the floor.",
+    "A newsreel obituary recaps Emmett's public life and closes without explaining his last word.",
+    "The reporter Nash is sent to find out what \"Bluebell\" means and is turned away by a drunk Nora in a seaside nightclub.",
+    "Nash reads Barrow's memoir and interviews Marsh, Devlin, Nora and the butler Colm before concluding that no single word explains a life, as workmen shovel a sled marked Bluebell into the furnace."
+  ],
+  "syuzhet_order": [
+    17,
+    18,
+    19,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    11,
+    13,
+    14,
+    15,
+    16,
+    20
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nonlinear_category": "ANALEPSIS",
+  "nonlinear_category_reason": "The reporter's investigation is the narrating present, opening and closing the film, and the whole life between it is recounted flashback.",
+  "syuzhet_notes": "The present tense is only told-order bullets 1-3 and the last bullet - the death and the reporter's investigation. Everything between is flashback, and the flashbacks are not one continuous line but five overlapping first-hand accounts, delivered by a memoir and four interviews. Told-order bullet 15 doubles back behind bullet 14 because the singer's account restarts earlier than the friend's had finished, retelling the opera years from her side.",
+  "fabula_notes": "The sled's marking is withheld until the final shot and no character ever learns it. The tycoon's years abroad and the collapse of his fortune are summarised by the newsreel rather than dramatised, and the singer's account covers the same opening night the friend has already narrated.",
+  "story_graph": {
+    "characters": {
+      "Emmett": {
+        "archetype": "Hero"
+      },
+      "Barrow": {
+        "archetype": "Mentor"
+      },
+      "Emmett's mother": {
+        "archetype": "Herald"
+      },
+      "Adele": {
+        "archetype": "Ally"
+      },
+      "Nora": {
+        "archetype": "Shapeshifter"
+      },
+      "Devlin": {
+        "archetype": "Ally"
+      },
+      "Marsh": {
+        "archetype": "Ally"
+      },
+      "Halloran": {
+        "archetype": "Shadow"
+      },
+      "Nash": {
+        "archetype": "Herald"
+      },
+      "Colm": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Emmett's mother",
+          "signs",
+          "her son away"
+        ],
+        "content": "A lodger who could not pay his board left a worthless deed behind, and the seam under it has turned out to be enormous. At the kitchen table his mother signs the boy and the money over to a banker from the east, with the boy's father objecting from the doorway and being ignored.",
+        "participants": [
+          "Emmett",
+          "Emmett's mother",
+          "Barrow"
+        ],
+        "location": "a mining boarding house out west",
+        "pre": {},
+        "post": {
+          "family_rich": true,
+          "emmett_signed_to_barrow": true
+        },
+        "learns": {
+          "Emmett's mother": [
+            "her son can be bought a life she cannot give him"
+          ],
+          "reader": [
+            "intro:Emmett",
+            "intro:Barrow",
+            "the boy was handed over the moment the family got money"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Emmett",
+          "strikes",
+          "Barrow"
+        ],
+        "content": "The boy is out in the snow with a sled when they come down the steps to collect him. He puts the sled into the banker's stomach hard enough to sit him down, and is taken east that evening regardless.",
+        "participants": [
+          "Emmett",
+          "Barrow"
+        ],
+        "location": "the yard of the boarding house",
+        "pre": {
+          "emmett_signed_to_barrow": true
+        },
+        "post": {
+          "emmett_taken_east": true
+        },
+        "learns": {
+          "Emmett": [
+            "nothing he does will change it"
+          ],
+          "reader": [
+            "the child fought and lost, in the snow, with a sled in his hands"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Emmett",
+          "buys",
+          "the Clarion"
+        ],
+        "content": "On the morning he turns twenty-five the whole estate becomes his, and the banker reads him the list of holdings. Out of all of it he says he would like to run the loss-making newspaper, because he thinks it might be fun.",
+        "participants": [
+          "Emmett",
+          "Barrow"
+        ],
+        "location": "a lawyer's office",
+        "pre": {
+          "emmett_taken_east": true,
+          "family_rich": true
+        },
+        "post": {
+          "emmett_controls_the_fortune": true,
+          "emmett_owns_the_clarion": true
+        },
+        "learns": {
+          "Barrow": [
+            "the boy will spend the fortune to spite him"
+          ],
+          "reader": [
+            "the newspaper is chosen as a toy, not a business"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Emmett",
+          "prints",
+          "his principles"
+        ],
+        "content": "He moves a bed into the newspaper offices, installs a manager and a friend on either side of him, and sets a signed declaration of what the paper will always do on the front page, over his own name.",
+        "participants": [
+          "Emmett",
+          "Marsh",
+          "Devlin"
+        ],
+        "location": "the Clarion offices",
+        "pre": {
+          "emmett_owns_the_clarion": true
+        },
+        "post": {
+          "statement_of_principles_printed": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Marsh",
+            "intro:Devlin",
+            "there is a signed promise in existence that can be produced later"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Emmett",
+          "hires",
+          "the rival staff"
+        ],
+        "content": "He takes the entire staff of the better paper across the street by simply paying them more, and holds a party for them with a brass band and a line of dancers, dancing in the middle of it himself.",
+        "participants": [
+          "Emmett",
+          "Marsh",
+          "Devlin"
+        ],
+        "location": "the Clarion offices",
+        "pre": {
+          "statement_of_principles_printed": true
+        },
+        "post": {
+          "clarion_ascendant": true
+        },
+        "learns": {
+          "reader": [
+            "the paper is won with money rather than with work"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Emmett",
+          "marries",
+          "Adele"
+        ],
+        "content": "He goes abroad to buy statuary and comes back engaged to a young woman whose uncle is the governor, and the wedding is on every front page but his own.",
+        "participants": [
+          "Emmett",
+          "Adele"
+        ],
+        "location": "abroad and the city",
+        "pre": {
+          "clarion_ascendant": true
+        },
+        "post": {
+          "emmett_married_to_adele": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Adele",
+            "the marriage is also a political acquisition"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Adele",
+          "withdraws",
+          "from Emmett"
+        ],
+        "content": "A run of breakfasts, further apart each time. The talk shortens, the table lengthens, and finally the two of them sit at either end of it reading rival newspapers, one of which he owns.",
+        "participants": [
+          "Emmett",
+          "Adele"
+        ],
+        "location": "the breakfast room",
+        "pre": {
+          "emmett_married_to_adele": true
+        },
+        "post": {
+          "first_marriage_cold": true
+        },
+        "learns": {
+          "Adele": [
+            "she has married an appetite"
+          ],
+          "reader": [
+            "the first marriage dies without an argument"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Emmett",
+          "meets",
+          "Nora"
+        ],
+        "content": "Splashed by a cab on his way somewhere else, he is laughing at the mud on his coat outside a chemist's when a shopgirl with toothache laughs back. He starts calling at her rooms in the evenings and tells nobody.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "a street corner and Nora's rooms",
+        "pre": {
+          "first_marriage_cold": true
+        },
+        "post": {
+          "emmett_visiting_nora": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nora",
+            "the affair begins by accident, with somebody who wants nothing"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Halloran",
+          "exposes",
+          "the affair"
+        ],
+        "content": "Ten days before the ballot the party boss brings the wife up the stairs to the rooms and offers a straight trade: withdraw on grounds of health, or be on every front page by Monday. He is told to get out of the building.",
+        "participants": [
+          "Emmett",
+          "Adele",
+          "Nora",
+          "Halloran"
+        ],
+        "location": "Nora's rooms",
+        "pre": {
+          "emmett_visiting_nora": true
+        },
+        "post": {
+          "affair_exposed": true
+        },
+        "learns": {
+          "Adele": [
+            "there has been somebody else for a year"
+          ],
+          "reader": [
+            "intro:Halloran",
+            "he would rather lose everything than be seen to be told"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Emmett",
+          "loses",
+          "the election"
+        ],
+        "content": "The paper he owns prints FRAUD AT THE POLLS across six columns. The friend who wrote the principles asks to be sent to another city, and the wife goes without either of them raising a voice.",
+        "participants": [
+          "Emmett",
+          "Devlin",
+          "Adele"
+        ],
+        "location": "the Clarion offices",
+        "pre": {
+          "affair_exposed": true
+        },
+        "post": {
+          "election_lost": true,
+          "emmett_married_to_adele": false,
+          "devlin_transferred": true
+        },
+        "learns": {
+          "Devlin": [
+            "the man he signed on with is not there any more"
+          ],
+          "reader": [
+            "the public life and the private one end in the same week"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "Emmett",
+          "forces",
+          "Nora onto the stage"
+        ],
+        "content": "He marries her, buys her a teacher, and then buys her a house to sing in, on the grounds that people are going to be made to think of her as a singer whether or not she is one.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "the city",
+        "pre": {
+          "election_lost": true
+        },
+        "post": {
+          "emmett_married_to_nora": true,
+          "nora_on_stage": true
+        },
+        "learns": {
+          "Nora": [
+            "what he wants from her"
+          ],
+          "reader": [
+            "the second marriage begins as a project to be seen winning"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Devlin",
+          "reviews",
+          "the debut"
+        ],
+        "content": "The debut is unbearable, and the friend brought back to cover it gets drunk rather than write it kindly and falls asleep over half a paragraph. Emmett finishes the sentence in the same savage direction, sets it, prints it, and dismisses him.",
+        "participants": [
+          "Emmett",
+          "Nora",
+          "Devlin"
+        ],
+        "location": "the opera house and the Clarion offices",
+        "pre": {
+          "nora_on_stage": true
+        },
+        "post": {
+          "review_printed": true,
+          "devlin_fired": true
+        },
+        "learns": {
+          "Devlin": [
+            "the promise on the front page was worth nothing"
+          ],
+          "reader": [
+            "he keeps the letter of his principles and loses the last friend"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why is a woman with no voice standing on that stage at all?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Nora",
+          "swallows",
+          "poison"
+        ],
+        "content": "She is found in a dark room with the glass beside her and a note that is not a note, and when she can speak she says she would rather have died than go out in front of them again. He tells her she may stop.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "review_printed": true
+        },
+        "post": {
+          "nora_off_stage": true,
+          "nora_on_stage": false
+        },
+        "learns": {
+          "Emmett": [
+            "she meant it"
+          ],
+          "reader": [
+            "she has to nearly die to be allowed to stop"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "how much further will he push her?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Emmett",
+          "shuts",
+          "Nora away"
+        ],
+        "content": "He moves her out to the half-finished palace on the hill, where the ceilings are too high to heat and the crates are never unpacked, and she does jigsaw puzzles on the floor of a hall the size of a station.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "Silvermount",
+        "pre": {
+          "nora_off_stage": true
+        },
+        "post": {
+          "nora_shut_in_silvermount": true
+        },
+        "learns": {
+          "Nora": [
+            "she has been put somewhere rather than lived with"
+          ],
+          "reader": [
+            "the collector's last acquisition is a wife"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Nora",
+          "leaves",
+          "Emmett"
+        ],
+        "content": "After a picnic on a black beach where nobody enjoys anything, and a quarrel that carries through the canvas, she packs in the morning. He asks her not to go in the only way he knows, which is to tell her she cannot.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "a beach and Silvermount",
+        "pre": {
+          "nora_shut_in_silvermount": true
+        },
+        "post": {
+          "nora_gone": true
+        },
+        "learns": {
+          "Emmett": [
+            "she will go anyway"
+          ],
+          "reader": [
+            "the last person in the house leaves it"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Emmett",
+          "wrecks",
+          "the bedroom"
+        ],
+        "content": "He takes her room apart with his hands, and stops with a glass globe with snow in it, says one word to nobody, and carries it out past a facing pair of mirrors that give back an old man repeated until he is too small to see.",
+        "participants": [
+          "Emmett",
+          "Nora"
+        ],
+        "location": "Silvermount",
+        "pre": {
+          "nora_gone": true
+        },
+        "post": {
+          "emmett_holds_the_globe": true
+        },
+        "learns": {
+          "reader": [
+            "the one word arrives attached to a toy full of snow"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "why does a glass globe full of snow stop him dead?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Emmett",
+          "dies",
+          "alone"
+        ],
+        "content": "In a bed in a room in the unfinished palace, with a nurse somewhere down the corridor, he says the word again and lets the globe go. It rolls off the boards and breaks on the step.",
+        "participants": [
+          "Emmett"
+        ],
+        "location": "Silvermount",
+        "pre": {
+          "emmett_holds_the_globe": true
+        },
+        "post": {
+          "emmett_dead": true,
+          "globe_broken": true
+        },
+        "learns": {
+          "reader": [
+            "the richest man of his generation dies saying one word nobody in the room knows"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "what does the dying man's last word mean?"
+        }
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "the newsreel",
+          "recaps",
+          "Emmett's life"
+        ],
+        "content": "A screening room full of reporters watches the obituary reel assembled that week: the palace, the papers, the two wives, the politics, the collapse. It runs for nine minutes and explains nothing.",
+        "participants": [
+          "Nash"
+        ],
+        "location": "a screening room",
+        "pre": {
+          "emmett_dead": true
+        },
+        "post": {
+          "obituary_broadcast": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Nash",
+            "the public facts of the life are all on the record and are not the answer"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "how did a boy from a boarding house come to own all of this?"
+        }
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Nash",
+          "is turned away",
+          "by Nora"
+        ],
+        "content": "The reporter is sent to find out what the word means and starts with the second wife, who is drunk at a table in a seaside club at four in the afternoon and tells him to get out before he has finished the sentence.",
+        "participants": [
+          "Nash",
+          "Nora"
+        ],
+        "location": "a seaside nightclub",
+        "pre": {
+          "obituary_broadcast": true
+        },
+        "post": {
+          "nash_investigating": true
+        },
+        "learns": {
+          "Nash": [
+            "nobody wants to talk about the man"
+          ],
+          "reader": [
+            "the investigation begins at the person with most reason to refuse"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why will she not say a word about the man she was married to?"
+        }
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Nash",
+          "abandons",
+          "the investigation"
+        ],
+        "content": "He reads the banker's memoir in a marble library, and sits with the manager, the friend, the singer a second time and the old butler, and puts his notebook away saying that no one word ever explains a life, while below him workmen clear a hall of crates and put a small sled into the furnace.",
+        "participants": [
+          "Nash",
+          "Marsh",
+          "Devlin",
+          "Nora",
+          "Colm"
+        ],
+        "location": "Silvermount",
+        "pre": {
+          "nash_investigating": true
+        },
+        "post": {
+          "investigation_abandoned": true,
+          "sled_burned": true
+        },
+        "learns": {
+          "reader": [
+            "the answer is burned in front of the reader and never reaches anybody in the story"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1",
+          "q5"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e3",
+        "to": "e18"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e15",
+        "to": "e19"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e20"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e1",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e20",
+        "on": "the sled the boy was riding when he was signed away"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e5"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e20",
+        "on": "the word the dying man said and the object he said it to"
+      },
+      {
+        "type": "SHARES",
+        "from": "e18",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20"
+      }
+    ]
+  }
+}

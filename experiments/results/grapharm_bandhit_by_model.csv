@@ -1,0 +1,5 @@
+model,A1 graph -CAUSES/-FORESHADOWS,A2 graph -pre/post,A3 graph -learns,A4 graph -questions/-REVEALS,A5 graph -participants/-location,G0 fabula only,G1 full graph,G2 told order (oracle),delta G1-G0
+Claude Sonnet 5,0.357,0.5,0.5,0.5,0.571,0.357,0.607,0.964,0.25
+DeepSeek V4 Flash,,,,,,0.286,0.286,0.964,0.0
+GLM-5.2,,,,,,0.429,0.429,0.893,0.0
+Gemini 3.6 Flash,0.5,0.429,0.429,0.429,0.429,0.464,0.429,1.0,-0.035

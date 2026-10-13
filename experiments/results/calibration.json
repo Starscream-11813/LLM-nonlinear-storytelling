@@ -1,0 +1,102 @@
+{
+ "classifier_calibration": {
+  "overall_acc": 0.46987951807228917,
+  "structural_acc": 0.5806451612903226,
+  "per_class": {
+   "ACHRONY": 0.3,
+   "CHRONICLE": 0.9,
+   "RETROGRADE": 0.9,
+   "ZIGZAG": 0.3,
+   "ANALEPSIS": 0.318,
+   "PROLEPSIS": 0.8,
+   "SYLLEPSIS": 0.0
+  },
+  "confusion": {
+   "SYLLEPSIS": {
+    "ANALEPSIS": 3,
+    "PROLEPSIS": 6,
+    "ACHRONY": 2
+   },
+   "ZIGZAG": {
+    "ACHRONY": 1,
+    "ANALEPSIS": 1,
+    "PROLEPSIS": 4,
+    "CHRONICLE": 1,
+    "ZIGZAG": 3
+   },
+   "ANALEPSIS": {
+    "PROLEPSIS": 9,
+    "ANALEPSIS": 7,
+    "CHRONICLE": 5,
+    "ACHRONY": 1
+   },
+   "ACHRONY": {
+    "PROLEPSIS": 7,
+    "ACHRONY": 3
+   },
+   "PROLEPSIS": {
+    "PROLEPSIS": 8,
+    "CHRONICLE": 2
+   },
+   "RETROGRADE": {
+    "RETROGRADE": 9,
+    "ACHRONY": 1
+   },
+   "CHRONICLE": {
+    "PROLEPSIS": 1,
+    "CHRONICLE": 9
+   }
+  }
+ },
+ "gold_bands": {
+  "ACHRONY": {
+   "tau_min": 0.11764705882352944,
+   "tau_max": 0.6209150326797386,
+   "lis_min": 0.3333333333333333,
+   "lis_max": 0.6666666666666666,
+   "n": 10
+  },
+  "CHRONICLE": {
+   "tau_min": 0.6210526315789473,
+   "tau_max": 0.9738562091503268,
+   "lis_min": 0.6,
+   "lis_max": 0.9,
+   "n": 10
+  },
+  "RETROGRADE": {
+   "tau_min": -0.9230769230769231,
+   "tau_max": -0.4285714285714286,
+   "lis_min": 0.15384615384615385,
+   "lis_max": 0.35714285714285715,
+   "n": 10
+  },
+  "ZIGZAG": {
+   "tau_min": -0.08496732026143783,
+   "tau_max": 0.9411764705882353,
+   "lis_min": 0.5,
+   "lis_max": 0.8235294117647058,
+   "n": 10
+  },
+  "ANALEPSIS": {
+   "tau_min": 0.3464052287581699,
+   "tau_max": 0.9415204678362573,
+   "lis_min": 0.5,
+   "lis_max": 0.95,
+   "n": 22
+  },
+  "PROLEPSIS": {
+   "tau_min": 0.5163398692810457,
+   "tau_max": 0.9264705882352942,
+   "lis_min": 0.8235294117647058,
+   "lis_max": 0.9473684210526315,
+   "n": 10
+  },
+  "SYLLEPSIS": {
+   "tau_min": 0.1473684210526316,
+   "tau_max": 0.8,
+   "lis_min": 0.3888888888888889,
+   "lis_max": 0.8125,
+   "n": 11
+  }
+ }
+}

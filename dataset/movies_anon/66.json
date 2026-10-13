@@ -1,0 +1,807 @@
+{
+  "story_id": "S66",
+  "source_index": 66,
+  "genre": "Thriller, Drama",
+  "source": "Film",
+  "events_chronological": [
+    "The lead barrister on a six-year class action defending a chemicals conglomerate stops taking his medication.",
+    "He strips during a deposition in a midwestern city and runs into the car park announcing that he is the servant of a corrupt design.",
+    "The firm's fixer, a ruined gambler, is sent out to bring him back.",
+    "The fixer, in debt to loan sharks over a failed restaurant, asks his partners for an advance against his bonus and is turned down.",
+    "The conglomerate's general counsel is briefed about the barrister and rehearses her answers alone in a hotel bathroom.",
+    "The barrister has obtained an internal memorandum showing the company knew its weedkiller was killing people.",
+    "He telephones one of the claimants and orders six hundred bound copies of the memorandum printed.",
+    "The general counsel authorises two contractors to put him under full surveillance.",
+    "The contractors kill him in his flat and dress it as a suicide by injection.",
+    "The fixer refuses to accept the suicide and finds the printer's receipt among the dead man's papers.",
+    "His brother's debts and his son's telephone calls close in on him from every direction at once.",
+    "He collects the annotated copy of the memorandum from the printers.",
+    "The contractors put a device in his car while he has stopped at the roadside to look at three horses in a field.",
+    "The car explodes, and he throws his watch and rings into the fire so the body will be taken for his own.",
+    "He confronts the general counsel at a board meeting, records her offering him money to keep quiet, and has the police waiting downstairs.",
+    "He gets into a taxi, hands the driver fifty dollars and tells him to just drive."
+  ],
+  "syuzhet_order": [
+    13,
+    14,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    11,
+    12,
+    13
+  ],
+  "nonlinear_category": "PROLEPSIS",
+  "nonlinear_category_reason": "Twelve of thirteen scenes run forward over four days; the exception is the car bomb, shown first and then reached in sequence after a caption sends the film back four days.",
+  "syuzhet_notes": "The telling opens on the last night - the horses, the device, the explosion - and then a caption reading four days earlier sends it back to the start, after which it runs forward until it catches up with the fire.",
+  "fabula_notes": "The dead lawyer's voice is heard over the opening, but it comes from a message left on an answering machine and belongs to a scene inside the chronology rather than to a frame outside it.",
+  "story_graph": {
+    "characters": {
+      "the fixer": {
+        "archetype": "Hero"
+      },
+      "the barrister": {
+        "archetype": "Herald"
+      },
+      "the general counsel": {
+        "archetype": "Shadow"
+      },
+      "the two contractors": {
+        "archetype": "Shadow",
+        "archetype_detail": "Shadows"
+      },
+      "the claimant": {
+        "archetype": "Ally"
+      },
+      "the fixer's brother": {
+        "archetype": "Shapeshifter"
+      },
+      "the fixer's son": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "the firm's partners": {
+        "archetype": "Threshold Guardian",
+        "archetype_detail": "Threshold Guardians"
+      },
+      "the loan sharks": {
+        "archetype": "Shadow",
+        "archetype_detail": "Shadows"
+      },
+      "the police": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the barrister",
+          "stops",
+          "his medication"
+        ],
+        "content": "The lead lawyer's untreated illness begins to loosen six years of disciplined defence work.",
+        "participants": [
+          "the barrister"
+        ],
+        "location": "a midwestern hotel",
+        "pre": {},
+        "post": {
+          "barrister_off_medication": true
+        },
+        "learns": {
+          "reader": [
+            "the barrister's mental state changes before his public break"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "what happens when the lead barrister stops taking his medication?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the barrister",
+          "denounces",
+          "the corrupt defence"
+        ],
+        "content": "Naked in a deposition car park, he names the case itself as the design he has been serving.",
+        "participants": [
+          "the barrister",
+          "the claimant"
+        ],
+        "location": "a deposition office and car park",
+        "pre": {
+          "barrister_off_medication": true
+        },
+        "post": {
+          "barrister_broke_with_defence": true
+        },
+        "learns": {
+          "reader": [
+            "the defence lawyer publicly turns against the conglomerate's case"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the firm",
+          "sends",
+          "the fixer"
+        ],
+        "content": "The indebted problem-solver is dispatched to recover the barrister and contain the damage.",
+        "participants": [
+          "the fixer",
+          "the barrister",
+          "the firm's partners"
+        ],
+        "location": "the law firm and midwestern city",
+        "pre": {
+          "barrister_broke_with_defence": true
+        },
+        "post": {
+          "fixer_assigned": true
+        },
+        "learns": {
+          "reader": [
+            "the fixer enters the case as the firm's containment specialist"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "can the fixer contain the crisis before the barrister is harmed?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the firm's partners",
+          "deny",
+          "the fixer's advance"
+        ],
+        "content": "Restaurant losses and loan-shark debt leave him asking the institution for money it refuses to release.",
+        "participants": [
+          "the fixer",
+          "the firm's partners"
+        ],
+        "location": "the law firm's offices",
+        "pre": {},
+        "post": {
+          "fixer_financially_trapped": true
+        },
+        "learns": {
+          "reader": [
+            "personal debt limits the fixer's freedom and increases the value of any payoff"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the general counsel",
+          "prepares",
+          "to contain the barrister"
+        ],
+        "content": "A corporate briefing is followed by a solitary rehearsal in which polished answers fail to calm her fear.",
+        "participants": [
+          "the general counsel"
+        ],
+        "location": "a hotel bathroom",
+        "pre": {
+          "barrister_broke_with_defence": true
+        },
+        "post": {
+          "counsel_alarm": true
+        },
+        "learns": {
+          "reader": [
+            "the conglomerate's counsel understands the barrister as a corporate threat"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the barrister",
+          "obtains",
+          "the internal memorandum"
+        ],
+        "content": "The document states that the company knew its weedkiller was lethal while continuing to defend it.",
+        "participants": [
+          "the barrister"
+        ],
+        "location": "the barrister's temporary office",
+        "pre": {},
+        "post": {
+          "memo_found": true
+        },
+        "learns": {
+          "reader": [
+            "the barrister possesses documentary proof of deliberate corporate harm"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "will the barrister preserve the memorandum beyond his own copy?"
+        }
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the barrister",
+          "orders",
+          "copies of the memorandum"
+        ],
+        "content": "A call to the claimant and a large print order prepare the evidence to survive any attack on its holder.",
+        "participants": [
+          "the barrister",
+          "the claimant"
+        ],
+        "location": "the barrister's flat",
+        "pre": {
+          "memo_found": true
+        },
+        "post": {
+          "copies_ordered": true
+        },
+        "learns": {
+          "reader": [
+            "the barrister begins distributing the incriminating evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the general counsel",
+          "authorises",
+          "contractor surveillance"
+        ],
+        "content": "She crosses from crisis management into covert action by placing the barrister under continuous watch.",
+        "participants": [
+          "the general counsel",
+          "the two contractors"
+        ],
+        "location": "a corporate office",
+        "pre": {
+          "counsel_alarm": true
+        },
+        "post": {
+          "contractors_active": true,
+          "barrister_surveilled": true
+        },
+        "learns": {
+          "reader": [
+            "the general counsel activates the contractors against the barrister"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "what will the contractors do after surveillance is authorised?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the two contractors",
+          "murder",
+          "the barrister"
+        ],
+        "content": "A controlled injection and staged room turn corporate assassination into an apparent suicide.",
+        "participants": [
+          "the barrister",
+          "the two contractors"
+        ],
+        "location": "the barrister's flat",
+        "pre": {
+          "contractors_active": true,
+          "barrister_surveilled": true
+        },
+        "post": {
+          "barrister_dead": true,
+          "death_staged_suicide": true
+        },
+        "learns": {
+          "reader": [
+            "the same covert team is willing and able to stage a killing"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [
+          "q1",
+          "q4",
+          "q6"
+        ],
+        "questions": {
+          "q7": "will the fixer accept the staged suicide?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the fixer",
+          "rejects",
+          "the suicide story"
+        ],
+        "content": "A printer's receipt among the dead man's papers gives his doubt a concrete direction.",
+        "participants": [
+          "the fixer",
+          "the barrister"
+        ],
+        "location": "the barrister's flat",
+        "pre": {
+          "barrister_dead": true,
+          "copies_ordered": true
+        },
+        "post": {
+          "fixer_suspicious": true,
+          "printer_receipt_found": true
+        },
+        "learns": {
+          "reader": [
+            "the fixer suspects murder and learns that copies were printed"
+          ],
+          "the fixer": [
+            "the barrister arranged a large printing before his death"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [
+          "q7"
+        ],
+        "questions": {
+          "q8": "where does the printer's receipt lead?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the fixer's family",
+          "adds",
+          "competing pressures"
+        ],
+        "content": "His brother's debts and his son's attempts to reach him make the corporate crisis one demand among several.",
+        "participants": [
+          "the fixer",
+          "the fixer's brother",
+          "the fixer's son",
+          "the loan sharks"
+        ],
+        "location": "the city",
+        "pre": {
+          "fixer_financially_trapped": true
+        },
+        "post": {
+          "fixer_pressures_peak": true
+        },
+        "learns": {
+          "reader": [
+            "family obligations compound the fixer's financial and moral pressure"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the fixer",
+          "collects",
+          "the annotated memorandum"
+        ],
+        "content": "Following the receipt leads him to the printed evidence the barrister was killed to suppress.",
+        "participants": [
+          "the fixer"
+        ],
+        "location": "a print shop",
+        "pre": {
+          "printer_receipt_found": true,
+          "memo_found": true
+        },
+        "post": {
+          "fixer_has_memo": true
+        },
+        "learns": {
+          "reader": [
+            "the fixer acquires the proof and becomes the next dangerous holder"
+          ],
+          "the fixer": [
+            "the company knew the weedkiller was deadly"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the two contractors",
+          "plant",
+          "a car bomb"
+        ],
+        "content": "They work on the vehicle while its owner has stepped into a field to look at three horses.",
+        "participants": [
+          "the fixer",
+          "the two contractors"
+        ],
+        "location": "a rural roadside",
+        "pre": {
+          "contractors_active": true,
+          "fixer_has_memo": true
+        },
+        "post": {
+          "car_bomb_planted": true
+        },
+        "learns": {
+          "reader": [
+            "the contractors target the fixer after he obtains the memorandum"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2",
+          "q9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who are the methodical people planting the device in the fixer's car?",
+          "q2": "what has the fixer obtained that makes him a target for assassination?",
+          "q9": "does the fixer survive the device planted in his car?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the fixer",
+          "survives",
+          "the car explosion"
+        ],
+        "content": "Outside the vehicle when it detonates, he feeds watch and rings to the fire so his enemies will believe he died.",
+        "participants": [
+          "the fixer",
+          "the two contractors"
+        ],
+        "location": "the rural roadside",
+        "pre": {
+          "car_bomb_planted": true
+        },
+        "post": {
+          "car_destroyed": true,
+          "fixer_presumed_dead": true
+        },
+        "learns": {
+          "reader": [
+            "the failed assassination gives the fixer the cover of presumed death"
+          ]
+        },
+        "raises": [
+          "q10"
+        ],
+        "resolves": [
+          "q9"
+        ],
+        "questions": {
+          "q10": "how will he use the enemies' belief that he is dead?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "the fixer",
+          "records",
+          "the counsel's bribe offer"
+        ],
+        "content": "Presumed dead, he enters the board meeting with the memorandum and lets her incriminate herself before revealing the waiting police.",
+        "participants": [
+          "the fixer",
+          "the general counsel",
+          "the police"
+        ],
+        "location": "a corporate boardroom",
+        "pre": {
+          "fixer_presumed_dead": true,
+          "fixer_has_memo": true
+        },
+        "post": {
+          "counsel_exposed": true,
+          "police_waiting": true
+        },
+        "learns": {
+          "reader": [
+            "the fixer converts the cover and evidence into an admissible confession"
+          ],
+          "the police": [
+            "the general counsel offers money to suppress evidence"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q10"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "the fixer",
+          "rides",
+          "away in a taxi"
+        ],
+        "content": "With the immediate conspiracy exposed, he buys fifty dollars of directionless distance and sits with what remains.",
+        "participants": [
+          "the fixer"
+        ],
+        "location": "a city taxi",
+        "pre": {
+          "counsel_exposed": true
+        },
+        "post": {
+          "fixer_departed": true
+        },
+        "learns": {
+          "reader": [
+            "the fixer leaves the case alive but without a restored ordinary life"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e12",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e5",
+        "on": "the same corporate crisis seen by opposing lawyers"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e15"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e12",
+        "on": "the memorandum moving from barrister to fixer"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,972 @@
+{
+  "story_id": "S81",
+  "source_index": 81,
+  "genre": "Drama, Literary",
+  "source": "Novel",
+  "events_chronological": [
+    "A girl is brought to a farm in the border states and chooses one of the men there for herself.",
+    "The man's mother is bought out of slavery by his extra labour and settles in a house outside a northern city.",
+    "A new owner the slaves nickname after his schooling arrives and starts measuring them and writing them up in a ledger.",
+    "The young woman overhears him instructing his nephews to list her animal characteristics on one side of the page and her human ones on the other.",
+    "The men at the farm lay a plan to run for it, and the plan falls apart.",
+    "The nephews hold her down in the barn and take her milk while her husband watches from the loft and loses his reason.",
+    "Pregnant and beaten, she walks north alone, and a white girl delivers her baby in a beached boat.",
+    "She reaches the house and has twenty-eight days of freedom, and her mother-in-law holds a feast for ninety people.",
+    "The owner comes to the house to take her and the children back.",
+    "She carries the children into the woodshed and cuts her elder daughter's throat with a handsaw.",
+    "She is jailed and released, her mother-in-law takes to her bed and dies, and the neighbours stop calling.",
+    "Her two sons run away from a house haunted by the dead baby.",
+    "One of the men from the farm arrives after eighteen years and drives the ghost out of the house.",
+    "A young woman walks out of the water, gives the dead child's name as her own, and comes to live with them.",
+    "The man is moved out of the house room by room and is finally taken to bed by the visitor in the shed.",
+    "An old friend shows him the newspaper cutting about the killing, and he leaves.",
+    "The visitor swells and consumes the mother, until thirty women come into the yard and sing until she is gone."
+  ],
+  "syuzhet_order": [
+    13,
+    12,
+    1,
+    14,
+    8,
+    3,
+    15,
+    2,
+    6,
+    16,
+    4,
+    5,
+    11,
+    7,
+    10,
+    9,
+    17
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. The killing at the centre is approached from a different direction each time it recurs, and the past arrives in fragments as the characters become able to bear it.",
+  "syuzhet_notes": "The telling withholds the killing and approaches it repeatedly from different directions, so the same afternoon is entered five or six times before it is finished. Past and present interrupt each other mid-sentence with nothing to mark the change.",
+  "fabula_notes": "The chronology is recoverable from the ages of the children and from the dated newspaper cutting, though the prose never lays it out in order.",
+  "story_graph": {
+    "characters": {
+      "young mother": {
+        "archetype": "Hero"
+      },
+      "husband": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "mother-in-law": {
+        "archetype": "Mentor"
+      },
+      "schooling owner": {
+        "archetype": "Shadow"
+      },
+      "owner's nephews": {
+        "archetype": "Shadow"
+      },
+      "farm men": {
+        "archetype": "Ally",
+        "archetype_detail": "Allies"
+      },
+      "white helper": {
+        "archetype": "Ally"
+      },
+      "elder daughter": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "younger children": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "two sons": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "returning farm man": {
+        "archetype": "Hero"
+      },
+      "water visitor": {
+        "archetype": "Shapeshifter"
+      },
+      "old friend": {
+        "archetype": "Herald"
+      },
+      "neighbour women": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "young mother",
+          "chooses",
+          "her husband"
+        ],
+        "content": "Brought to the farm as a girl, she exercises the narrow choice available to her by selecting one enslaved man as partner.",
+        "participants": [
+          "young mother",
+          "husband",
+          "farm men"
+        ],
+        "location": "a border-state farm",
+        "pre": {},
+        "post": {
+          "farm_couple_formed": true
+        },
+        "learns": {
+          "reader": [
+            "the mother's family begins under slavery at the farm"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "husband",
+          "buys freedom for",
+          "his mother"
+        ],
+        "content": "Years of extra labour purchase the older woman's release and establish a northern house as a possible destination beyond the farm.",
+        "participants": [
+          "husband",
+          "mother-in-law",
+          "young mother"
+        ],
+        "location": "the farm and a northern house",
+        "pre": {
+          "farm_couple_formed": true
+        },
+        "post": {
+          "mother_in_law_free_in_north": true
+        },
+        "learns": {
+          "young mother": [
+            "her mother-in-law has a free home in the north"
+          ],
+          "reader": [
+            "the northern house exists because of labour performed under bondage"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "schooling owner",
+          "takes control of",
+          "the farm"
+        ],
+        "content": "Measurement, notebooks and pseudo-scientific scrutiny replace the previous management and turn every person into material for classification.",
+        "participants": [
+          "schooling owner",
+          "owner's nephews",
+          "young mother",
+          "husband",
+          "farm men"
+        ],
+        "location": "the border-state farm",
+        "pre": {
+          "farm_couple_formed": true
+        },
+        "post": {
+          "schooling_owner_controls_farm": true
+        },
+        "learns": {
+          "reader": [
+            "a new owner applies systematic dehumanisation to the enslaved people"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "young mother",
+          "overhears",
+          "her own classification"
+        ],
+        "content": "The owner's lesson asks his nephews to divide her features into animal and human columns, making the ideology behind their observation explicit.",
+        "participants": [
+          "young mother",
+          "schooling owner",
+          "owner's nephews"
+        ],
+        "location": "the border-state farm",
+        "pre": {
+          "schooling_owner_controls_farm": true
+        },
+        "post": {
+          "mother_heard_dehumanisation": true
+        },
+        "learns": {
+          "young mother": [
+            "the owner is recording her as partly animal"
+          ],
+          "reader": [
+            "the ledger formalises the violence the farm is preparing to enact"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "farm men",
+          "plan",
+          "an escape"
+        ],
+        "content": "Signals and routes promise collective flight, but surveillance and mismatched timing break the plan before everyone can leave together.",
+        "participants": [
+          "young mother",
+          "husband",
+          "returning farm man",
+          "farm men"
+        ],
+        "location": "the border-state farm",
+        "pre": {
+          "schooling_owner_controls_farm": true
+        },
+        "post": {
+          "farm_escape_plan_failed": true
+        },
+        "learns": {
+          "reader": [
+            "the group will have to face captivity and escape in fragments"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "owner's nephews",
+          "steal",
+          "the young mother's milk"
+        ],
+        "content": "They pin her in the barn while her husband watches from concealment, and the assault destroys his ability to act or later explain himself.",
+        "participants": [
+          "young mother",
+          "husband",
+          "owner's nephews"
+        ],
+        "location": "a farm barn and loft",
+        "pre": {
+          "mother_heard_dehumanisation": true,
+          "farm_escape_plan_failed": true
+        },
+        "post": {
+          "mother_assaulted": true,
+          "husband_broken": true
+        },
+        "learns": {
+          "young mother": [
+            "the nephews can violate her with the owner's authority"
+          ],
+          "reader": [
+            "the husband witnesses the assault and cannot intervene"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "young mother",
+          "escapes to",
+          "the north"
+        ],
+        "content": "Pregnant, beaten and alone, she walks until a white girl helps deliver the baby in a boat stranded away from the river.",
+        "participants": [
+          "young mother",
+          "white helper"
+        ],
+        "location": "roads north and a beached boat",
+        "pre": {
+          "mother_assaulted": true,
+          "mother_in_law_free_in_north": true
+        },
+        "post": {
+          "mother_and_baby_reached_north": true
+        },
+        "learns": {
+          "reader": [
+            "the mother's passage to freedom depends on aid from another young woman"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q81_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "mother-in-law",
+          "welcomes",
+          "the escaped family"
+        ],
+        "content": "Twenty-eight free days culminate in a lavish feast whose abundance strains neighbours already wary of unequal fortune.",
+        "participants": [
+          "young mother",
+          "mother-in-law",
+          "elder daughter",
+          "younger children",
+          "neighbour women"
+        ],
+        "location": "the northern house",
+        "pre": {
+          "mother_and_baby_reached_north": true,
+          "mother_in_law_free_in_north": true
+        },
+        "post": {
+          "twenty_eight_days_free": true
+        },
+        "learns": {
+          "reader": [
+            "the family briefly experiences community and freedom at the northern house"
+          ]
+        },
+        "raises": [
+          "q81_3",
+          "q81_7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q81_3": "how did the pregnant woman reach these twenty-eight days of freedom?",
+          "q81_7": "why do the family's free days end after only twenty-eight days?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "schooling owner",
+          "comes to reclaim",
+          "the family"
+        ],
+        "content": "The owner crosses into the free state with legal papers and approaches the house as though the people inside remain recoverable property.",
+        "participants": [
+          "schooling owner",
+          "owner's nephews",
+          "young mother",
+          "elder daughter",
+          "younger children"
+        ],
+        "location": "the road to the northern house",
+        "pre": {
+          "twenty_eight_days_free": true
+        },
+        "post": {
+          "recapture_imminent": true
+        },
+        "learns": {
+          "reader": [
+            "the owner has arrived to carry the mother and children back into slavery"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q81_6",
+          "q81_7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "young mother",
+          "kills",
+          "her elder daughter"
+        ],
+        "content": "She gathers the children in the woodshed and cuts one throat, choosing death over the return she sees approaching.",
+        "participants": [
+          "young mother",
+          "elder daughter",
+          "younger children",
+          "schooling owner"
+        ],
+        "location": "a woodshed behind the northern house",
+        "pre": {
+          "recapture_imminent": true
+        },
+        "post": {
+          "elder_daughter_dead": true,
+          "northern_house_haunted": true
+        },
+        "learns": {
+          "schooling owner": [
+            "the mother will destroy what he claims rather than surrender it"
+          ],
+          "reader": [
+            "the haunting, imprisonment and newspaper report all originate in this killing"
+          ]
+        },
+        "raises": [
+          "q81_6"
+        ],
+        "resolves": [
+          "q81_1",
+          "q81_2",
+          "q81_4",
+          "q81_5"
+        ],
+        "questions": {
+          "q81_6": "what immediate threat drove the mother to attack her own children?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "young mother",
+          "returns to",
+          "an isolated house"
+        ],
+        "content": "After jail and release she loses the mother-in-law and the neighbours' company, leaving the surviving family alone with the dead child's presence.",
+        "participants": [
+          "young mother",
+          "mother-in-law",
+          "younger children",
+          "two sons",
+          "neighbour women"
+        ],
+        "location": "the northern house",
+        "pre": {
+          "elder_daughter_dead": true
+        },
+        "post": {
+          "mother_released_and_isolated": true
+        },
+        "learns": {
+          "reader": [
+            "punishment continues as bereavement, haunting and communal withdrawal"
+          ]
+        },
+        "raises": [
+          "q81_4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q81_4": "what act sent the mother to jail and cut her off from the neighbours?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "two sons",
+          "flee",
+          "the haunted house"
+        ],
+        "content": "The dead baby's attacks and their mother's refusal to abandon the address eventually drive both boys away from home.",
+        "participants": [
+          "young mother",
+          "two sons",
+          "elder daughter"
+        ],
+        "location": "the northern house",
+        "pre": {
+          "northern_house_haunted": true,
+          "mother_released_and_isolated": true
+        },
+        "post": {
+          "sons_left_haunted_house": true
+        },
+        "learns": {
+          "reader": [
+            "the household has been reduced to mother, surviving daughter and ghost"
+          ]
+        },
+        "raises": [
+          "q81_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q81_1": "what death made the house so violent that both sons fled?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "returning farm man",
+          "drives out",
+          "the ghost"
+        ],
+        "content": "Eighteen years after the farm, a former companion enters the house, confronts its violent presence and imagines ordinary life can begin.",
+        "participants": [
+          "returning farm man",
+          "young mother",
+          "elder daughter"
+        ],
+        "location": "the northern house",
+        "pre": {
+          "sons_left_haunted_house": true
+        },
+        "post": {
+          "old_ghost_expulsion_attempted": true
+        },
+        "learns": {
+          "returning farm man": [
+            "the house and mother remain governed by the dead child"
+          ],
+          "reader": [
+            "a survivor from the farm has returned to the mother's present"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "water visitor",
+          "enters",
+          "the northern house"
+        ],
+        "content": "A fully grown young woman rises from water, takes the dead child's name and accepts shelter with an appetite that feels both helpless and possessive.",
+        "participants": [
+          "water visitor",
+          "young mother",
+          "returning farm man",
+          "younger children"
+        ],
+        "location": "a riverbank and the northern house",
+        "pre": {
+          "old_ghost_expulsion_attempted": true
+        },
+        "post": {
+          "water_visitor_installed": true
+        },
+        "learns": {
+          "young mother": [
+            "the visitor claims the name of her dead daughter"
+          ],
+          "reader": [
+            "the expelled haunting may have returned in bodily form"
+          ]
+        },
+        "raises": [
+          "q81_2",
+          "q81_8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q81_2": "what history lies behind the dead child's name claimed by the water visitor?",
+          "q81_8": "can the household survive the visitor's consuming return?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "water visitor",
+          "displaces",
+          "the returning farm man"
+        ],
+        "content": "Room by room she narrows his place in the house and finally takes him in the shed, turning desire and supernatural coercion into the same pressure.",
+        "participants": [
+          "water visitor",
+          "returning farm man",
+          "young mother"
+        ],
+        "location": "the northern house and shed",
+        "pre": {
+          "water_visitor_installed": true
+        },
+        "post": {
+          "returning_man_displaced": true
+        },
+        "learns": {
+          "returning farm man": [
+            "the visitor is deliberately separating him from the mother"
+          ],
+          "reader": [
+            "the visitor is consuming the household's new stability"
+          ]
+        },
+        "raises": [
+          "q81_9"
+        ],
+        "resolves": [],
+        "questions": {
+          "q81_9": "what will finally drive the returning man out of the house?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "old friend",
+          "shows",
+          "the newspaper cutting"
+        ],
+        "content": "The printed account fixes the mother's act in public language; unable to reconcile it with the woman he knows, the returning man leaves.",
+        "participants": [
+          "old friend",
+          "returning farm man",
+          "young mother"
+        ],
+        "location": "a meeting place and the northern house",
+        "pre": {
+          "returning_man_displaced": true
+        },
+        "post": {
+          "returning_man_left": true
+        },
+        "learns": {
+          "returning farm man": [
+            "the mother killed her daughter when the owner came"
+          ],
+          "reader": [
+            "the old public record reopens the concealed event in the present relationship"
+          ]
+        },
+        "raises": [
+          "q81_5"
+        ],
+        "resolves": [
+          "q81_9"
+        ],
+        "questions": {
+          "q81_5": "what killing is described in the old newspaper cutting?"
+        }
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "neighbour women",
+          "sing out",
+          "the water visitor"
+        ],
+        "content": "As the visitor swells and the mother diminishes, thirty women restore the community withdrawn years earlier and drive the embodied haunting away.",
+        "participants": [
+          "neighbour women",
+          "young mother",
+          "water visitor",
+          "younger children"
+        ],
+        "location": "the yard of the northern house",
+        "pre": {
+          "returning_man_left": true
+        },
+        "post": {
+          "water_visitor_gone": true,
+          "community_returned": true
+        },
+        "learns": {
+          "reader": [
+            "collective witness succeeds where private exorcism and denial failed"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q81_8"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e5"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e15"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e10",
+        "to": "e16"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e10"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e15"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e8",
+        "to": "e17"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e11",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e5",
+        "on": "the farm family and collective escape plan"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e13",
+        "on": "two men from the farm separated across eighteen years"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e8",
+        "on": "the free northern house purchased and then occupied"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e4",
+        "on": "the owner's measurement system and the lesson overheard"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6",
+        "on": "dehumanising classification and physical violation"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the failed escape and punishment on the farm"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "the assault survived during the solitary escape"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "arrival at the northern house and brief freedom"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "the free household and owner's approach"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the attempted recapture and the woodshed response"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the killing and its legal and communal aftermath"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e14",
+        "on": "the dead daughter and visitor using her name"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e16",
+        "on": "the private act and its newspaper record"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the isolated haunted household and sons' departure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the emptied house before the former farm companion arrives"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "one haunting expelled and another form entering"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e15",
+        "on": "the visitor taking control of the household"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e16",
+        "on": "the returning man's displacement and departure"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e17",
+        "on": "private abandonment followed by communal return"
+      }
+    ]
+  }
+}

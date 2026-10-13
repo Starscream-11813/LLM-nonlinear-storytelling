@@ -1,0 +1,751 @@
+{
+  "story_id": "S83",
+  "source_index": 83,
+  "genre": "Sci-Fi, Drama, Romance",
+  "source": "Film",
+  "events_chronological": [
+    "A man meets a woman at a party and the two of them begin living together.",
+    "She is cold and low all the time and keeps the heating up in a flat he finds airless.",
+    "The pair take a holiday in the north, where she is happier for a fortnight.",
+    "He has an affair with a colleague and says nothing whatever about it to her.",
+    "She dies of gas in the flat while he is out walking.",
+    "The police question him, conclude it was an accident, and he says nothing about the tap.",
+    "He tries to shoot himself and only wounds himself.",
+    "He spends a year in hospital and comes out with nothing to do and nobody expecting him.",
+    "Two researchers stop him at the hospital gates and ask him to be their first human subject, on the grounds that a man indifferent to whether he lives is exactly what they want.",
+    "He is driven to a laboratory in the country and shown a machine shaped like an enormous soft brain.",
+    "He is sealed inside it with a mouse and sent back exactly one year for exactly one minute, to swim in the sea.",
+    "The machine misfires, and he starts reliving fragments of his life in no order at all, the same seconds again and again.",
+    "The researchers lose control of the machine, cannot retrieve him, and search the grounds.",
+    "He is found on the lawn outside the laboratory, shot through the chest by his own hand, and dies."
+  ],
+  "syuzhet_order": [
+    9,
+    10,
+    11,
+    1,
+    3,
+    12,
+    5,
+    2,
+    4,
+    13,
+    6,
+    8,
+    7,
+    14
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "nonlinear_category": "ACHRONY",
+  "nonlinear_category_reason": "No timeline dominates, the scenes do not fall into two alternating bands, and no non-temporal principle groups them into blocks; the order is associative, so none of the other six shapes applies. A malfunctioning machine replays one year of a man's life in fragments of a few seconds each, in an order the film makes no attempt to justify.",
+  "syuzhet_notes": "Once the machine fails, the telling becomes a sequence of fragments a few seconds long, repeating and reshuffling, with no rule governing which moment follows which. The premise makes the disorder literal rather than figurative.",
+  "fabula_notes": "The chronology is fully recoverable because the machine's target is a fixed date and the events around the death are established by the police scene.",
+  "story_graph": {
+    "characters": {
+      "subject": {
+        "archetype": "Hero"
+      },
+      "woman": {
+        "archetype": "Shapeshifter"
+      },
+      "colleague": {
+        "archetype": "Shadow"
+      },
+      "police": {
+        "archetype": "Threshold Guardian"
+      },
+      "researchers": {
+        "archetype": "Mentor"
+      },
+      "laboratory mouse": {
+        "archetype": "Ally",
+        "archetype_detail": "Innocent"
+      },
+      "hospital staff": {
+        "archetype": "Ally"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "subject",
+          "begins living with",
+          "the woman"
+        ],
+        "content": "A party introduces two people who move quickly into a shared flat, making ordinary domestic time the material the machine will later fracture.",
+        "participants": [
+          "subject",
+          "woman"
+        ],
+        "location": "a party and shared flat",
+        "pre": {},
+        "post": {
+          "couple_living_together": true
+        },
+        "learns": {
+          "reader": [
+            "the subject's defining relationship begins in an unremarkable social encounter"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "woman",
+          "withdraws into",
+          "cold unhappiness"
+        ],
+        "content": "She keeps the flat oppressively warm while remaining emotionally unreachable, and the subject experiences care as airlessness.",
+        "participants": [
+          "subject",
+          "woman"
+        ],
+        "location": "the shared flat",
+        "pre": {
+          "couple_living_together": true
+        },
+        "post": {
+          "woman_chronically_low": true
+        },
+        "learns": {
+          "subject": [
+            "the woman's suffering persists inside their life together"
+          ],
+          "reader": [
+            "heat and emotional coldness define the shared flat"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the couple",
+          "finds",
+          "brief happiness on holiday"
+        ],
+        "content": "For two northern weeks the woman is lighter and the relationship appears possible, creating a memory whose brevity makes it recur with particular force.",
+        "participants": [
+          "subject",
+          "woman"
+        ],
+        "location": "a northern holiday coast",
+        "pre": {
+          "couple_living_together": true
+        },
+        "post": {
+          "northern_holiday_remembered": true
+        },
+        "learns": {
+          "reader": [
+            "the couple possesses one concentrated interval of happiness"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "subject",
+          "hides",
+          "an affair with a colleague"
+        ],
+        "content": "He separates the infidelity from domestic life by saying nothing, adding private guilt to a relationship already closed around silence.",
+        "participants": [
+          "subject",
+          "colleague"
+        ],
+        "location": "a workplace and the shared flat",
+        "pre": {
+          "couple_living_together": true
+        },
+        "post": {
+          "secret_affair_occurred": true
+        },
+        "learns": {
+          "reader": [
+            "the subject withholds a betrayal from the woman"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "woman",
+          "dies from",
+          "gas in the flat"
+        ],
+        "content": "While the subject walks outside, gas fills the overheated home and leaves the woman dead before his return.",
+        "participants": [
+          "subject",
+          "woman"
+        ],
+        "location": "the shared flat and nearby streets",
+        "pre": {
+          "woman_chronically_low": true,
+          "secret_affair_occurred": true
+        },
+        "post": {
+          "woman_dead_from_gas": true
+        },
+        "learns": {
+          "subject": [
+            "the woman died while he was away"
+          ],
+          "reader": [
+            "the death is the life fragment around which the later reliving will circle"
+          ]
+        },
+        "raises": [
+          "q83_4"
+        ],
+        "resolves": [
+          "q83_1",
+          "q83_2"
+        ],
+        "questions": {
+          "q83_4": "will the police determine whether the gas death was accidental?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "police",
+          "classify",
+          "the death as accidental"
+        ],
+        "content": "Questioning closes without a charge, while the subject protects an unspoken fact about the gas tap from the official account.",
+        "participants": [
+          "subject",
+          "police"
+        ],
+        "location": "a police interview room",
+        "pre": {
+          "woman_dead_from_gas": true
+        },
+        "post": {
+          "gas_death_ruled_accidental": true
+        },
+        "learns": {
+          "police": [
+            "the available evidence supports an accident"
+          ],
+          "reader": [
+            "the subject knows something about the tap that the police do not"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q83_4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "subject",
+          "shoots",
+          "himself"
+        ],
+        "content": "Grief and concealed responsibility lead to a suicide attempt that fails, leaving a wound and prolonging the life he meant to end.",
+        "participants": [
+          "subject",
+          "hospital staff"
+        ],
+        "location": "the subject's room and a hospital",
+        "pre": {
+          "gas_death_ruled_accidental": true
+        },
+        "post": {
+          "subject_survived_suicide_attempt": true
+        },
+        "learns": {
+          "reader": [
+            "the subject has already tried and failed to die by his own hand"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q83_3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "subject",
+          "leaves",
+          "a year of hospital care"
+        ],
+        "content": "Discharge returns him to the world without work, relationship or anyone waiting, making continued life feel administratively accidental.",
+        "participants": [
+          "subject",
+          "hospital staff"
+        ],
+        "location": "a hospital gate",
+        "pre": {
+          "subject_survived_suicide_attempt": true
+        },
+        "post": {
+          "subject_discharged_indifferent": true
+        },
+        "learns": {
+          "reader": [
+            "the subject leaves hospital socially unattached and indifferent to survival"
+          ]
+        },
+        "raises": [
+          "q83_3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q83_3": "what event put the apparently abandoned man in hospital for a year?"
+        }
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "researchers",
+          "recruit",
+          "the indifferent subject"
+        ],
+        "content": "At the gate they present emotional detachment as ideal qualification for a dangerous first human trial.",
+        "participants": [
+          "subject",
+          "researchers"
+        ],
+        "location": "outside a hospital",
+        "pre": {
+          "subject_discharged_indifferent": true
+        },
+        "post": {
+          "human_subject_recruited": true
+        },
+        "learns": {
+          "subject": [
+            "the researchers want a volunteer with little fear of death"
+          ],
+          "reader": [
+            "his damaged life is being treated as experimental suitability"
+          ]
+        },
+        "raises": [
+          "q83_1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q83_1": "what loss left the recruited man indifferent to whether he survives?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "researchers",
+          "show",
+          "the memory machine"
+        ],
+        "content": "A drive into the country ends at a soft, brain-shaped chamber whose reassuring surface conceals untested human risk.",
+        "participants": [
+          "subject",
+          "researchers"
+        ],
+        "location": "a rural laboratory",
+        "pre": {
+          "human_subject_recruited": true
+        },
+        "post": {
+          "memory_machine_introduced": true
+        },
+        "learns": {
+          "subject": [
+            "the machine is meant to send him into one past minute"
+          ],
+          "reader": [
+            "the subject has been brought to an untested apparatus for the first human trial"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "researchers",
+          "send",
+          "the subject one year backward"
+        ],
+        "content": "Sealed with the mouse, he reaches the prescribed minute of swimming in the sea, apparently satisfying the experiment's narrow design.",
+        "participants": [
+          "subject",
+          "researchers",
+          "laboratory mouse"
+        ],
+        "location": "the memory machine and remembered sea",
+        "pre": {
+          "memory_machine_introduced": true
+        },
+        "post": {
+          "target_minute_reached": true
+        },
+        "learns": {
+          "reader": [
+            "the machine initially reaches the intended date and memory"
+          ]
+        },
+        "raises": [
+          "q83_5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q83_5": "will the first human journey remain confined to its intended minute?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the memory machine",
+          "scatters",
+          "the subject across his life"
+        ],
+        "content": "The controlled minute breaks into repeated seconds from the relationship, holiday, death and hospital, with no rule keeping one fragment beside another.",
+        "participants": [
+          "subject",
+          "woman",
+          "researchers",
+          "laboratory mouse"
+        ],
+        "location": "the memory machine and relived locations",
+        "pre": {
+          "target_minute_reached": true
+        },
+        "post": {
+          "memory_machine_out_of_sequence": true
+        },
+        "learns": {
+          "subject": [
+            "he cannot choose or leave the fragments he is reliving"
+          ],
+          "reader": [
+            "the film's achrony is the machine's literal malfunction"
+          ]
+        },
+        "raises": [
+          "q83_2"
+        ],
+        "resolves": [
+          "q83_5"
+        ],
+        "questions": {
+          "q83_2": "which central loss keeps returning among the failed experiment's fragments?"
+        }
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "researchers",
+          "lose",
+          "the subject"
+        ],
+        "content": "Controls no longer retrieve him and the sealed experiment gives way to a physical search of the laboratory grounds.",
+        "participants": [
+          "researchers"
+        ],
+        "location": "the rural laboratory and grounds",
+        "pre": {
+          "memory_machine_out_of_sequence": true
+        },
+        "post": {
+          "subject_missing_from_machine": true
+        },
+        "learns": {
+          "researchers": [
+            "the subject is no longer recoverable through the controls"
+          ],
+          "reader": [
+            "the temporal failure has become a present physical disappearance"
+          ]
+        },
+        "raises": [
+          "q83_6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q83_6": "where has the machine sent the missing subject, and will he be found alive?"
+        }
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "researchers",
+          "find",
+          "the dying subject"
+        ],
+        "content": "On the lawn he bears the fatal shot from his own hand, as though the old attempt has crossed through the machine to finish in the present.",
+        "participants": [
+          "subject",
+          "researchers"
+        ],
+        "location": "the laboratory lawn",
+        "pre": {
+          "subject_missing_from_machine": true
+        },
+        "post": {
+          "subject_dead_on_lawn": true
+        },
+        "learns": {
+          "researchers": [
+            "the missing subject has reappeared with a fatal gunshot"
+          ],
+          "reader": [
+            "the experiment ends by completing the self-inflicted death it repeatedly revisited"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q83_6"
+        ],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e5"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e6"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e7",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e12",
+        "on": "the relationship begun and later replayed in fragments"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e5",
+        "on": "the overheated flat and gas death"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e12",
+        "on": "the woman's coldness among the repeated life fragments"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e11",
+        "on": "the remembered sea as holiday and experimental target"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e12",
+        "on": "the happy fortnight repeatedly sampled by the malfunction"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e6",
+        "on": "the subject's affair and later concealment from police"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e6",
+        "on": "the gas death and its official account"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e12",
+        "on": "the death around which the fragments reorganise"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7",
+        "on": "concealed knowledge followed by self-directed violence"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8",
+        "on": "the suicide attempt and year of recovery"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e14",
+        "on": "the earlier gunshot and fatal reappearance"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e9",
+        "on": "hospital discharge and immediate recruitment"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10",
+        "on": "the recruited subject introduced to the experiment"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11",
+        "on": "the machine described and activated"
+      },
+      {
+        "type": "SHARES",
+        "from": "e11",
+        "to": "e12",
+        "on": "the successful target minute becoming uncontrolled reliving"
+      },
+      {
+        "type": "SHARES",
+        "from": "e12",
+        "to": "e13",
+        "on": "the malfunction and researchers' loss of control"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e14",
+        "on": "the search and discovery on the lawn"
+      }
+    ]
+  }
+}

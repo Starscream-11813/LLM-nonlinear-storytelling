@@ -1,0 +1,53 @@
+{
+  "title": "Merrily We Roll Along",
+  "release_year": 1981,
+  "genre": "Musical, Drama",
+  "source": "Musical",
+  "events_chronological": [
+    "On a New York rooftop the composer Franklin Shepard, the lyricist Charley Kringas and the writer Mary Flynn watch a satellite cross the sky and promise each other they will make something that matters.",
+    "Frank and Charley write songs together in a cramped apartment while Mary starts a novel.",
+    "Frank marries Beth, and the three friends scrape a living out of revue material.",
+    "Their revue opens off Broadway, and the producer's wife Gussie Carnegie takes a close interest in Frank.",
+    "Frank and Beth's son is born.",
+    "Frank and Gussie begin an affair at a party in Gussie's house, and Beth watches it happen.",
+    "Beth divorces Frank and is given custody of their son in court.",
+    "Frank and Charley's musical becomes a hit, and Frank starts producing shows instead of writing them.",
+    "During a live television interview Charley sings a public denunciation of Frank, and the partnership ends on air.",
+    "Mary's novel is dismissed by the critics and she begins drinking in earnest.",
+    "Frank marries Gussie and moves to California to produce films.",
+    "At a party at Frank's house on the coast, Gussie throws iodine into the face of Frank's young lover.",
+    "A drunk Mary tells Frank at the same party that he has thrown away everything he had, and walks out on him for good."
+  ],
+  "syuzhet_order": [
+    12,
+    13,
+    11,
+    9,
+    10,
+    8,
+    7,
+    5,
+    6,
+    4,
+    3,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    9,
+    9
+  ],
+  "syuzhet_notes": "The nine scenes run backwards from 1976 to 1957, with a transition between each pair that literally reverses the action. Told-order bullets 1-3 are the ruin and bullets 12-13 the rooftop where it started.",
+  "fabula_notes": "Every scene carries a year, so the chronology is exact. The first two told-order bullets belong to one continuous party and therefore play in order, as do the last two."
+}

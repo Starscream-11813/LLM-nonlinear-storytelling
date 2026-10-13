@@ -1,0 +1,675 @@
+{
+  "story_id": "S60",
+  "source_index": 60,
+  "genre": "Musical, Romance, Drama",
+  "source": "Musical",
+  "events_chronological": [
+    "A young novelist meets a woman from entirely outside the world he was raised in and is elated by her.",
+    "Their first evening together ends with her telling him about the man she almost settled for.",
+    "His first book is taken by a publisher and he is celebrating before he has finished telling her.",
+    "She sits through a casting call at which nobody behind the table lifts their eyes from the papers.",
+    "He gives her a gift and swears to her that he will never walk out.",
+    "The two of them marry.",
+    "She takes a summer engagement at a provincial theatre and writes home from a bare rented room.",
+    "His book succeeds and he is made much of at parties she will not go to.",
+    "She tells him he has never once come to watch her perform in anything.",
+    "A young woman propositions him at a publishing party and he argues himself into it.",
+    "She admits to herself that she cannot make herself glad about her husband's success.",
+    "He sleeps with someone else and concedes privately that the marriage is over.",
+    "He writes a letter, puts his key on the table and lets himself out.",
+    "She comes home to the empty flat and finds the letter."
+  ],
+  "syuzhet_order": [
+    14,
+    1,
+    11,
+    3,
+    9,
+    5,
+    6,
+    7,
+    8,
+    4,
+    10,
+    2,
+    12,
+    13
+  ],
+  "event_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    7,
+    8,
+    9,
+    10,
+    11,
+    11,
+    12
+  ],
+  "nonlinear_category": "ZIGZAG",
+  "nonlinear_category_reason": "Two strands alternate strictly, one running forward from the first meeting and one running backward from the last day, and they cross exactly once, at the wedding that both of them share.",
+  "syuzhet_notes": "The two never share a scene except the wedding. His numbers run forward from the first date to the last morning; hers run backward from the last morning to the first date. The seventh told bullet is the wedding, where the strands cross, and afterwards each carries on in its own direction.",
+  "fabula_notes": "Chronology is recoverable because each number is dated within the five years. The wedding is the single event both strands occupy.",
+  "story_graph": {
+    "characters": {
+      "the novelist": {
+        "archetype": "Hero"
+      },
+      "the actress": {
+        "archetype": "Hero"
+      },
+      "the party guest": {
+        "archetype": "Shapeshifter",
+        "archetype_detail": "Temptress"
+      },
+      "the casting panel": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "the novelist",
+          "meets",
+          "the actress"
+        ],
+        "content": "He treats their difference in background as exhilarating rather than threatening.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "a first meeting",
+        "pre": {},
+        "post": {
+          "couple_met": true
+        },
+        "learns": {
+          "reader": [
+            "the relationship begins in mutual attraction"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "the actress",
+          "describes",
+          "her former alternative"
+        ],
+        "content": "At the end of their first evening she admits how close she came to choosing a safer life with someone else.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "the actress's home",
+        "pre": {
+          "couple_met": true
+        },
+        "post": {
+          "first_evening_complete": true
+        },
+        "learns": {
+          "reader": [
+            "the actress once nearly chose a more conventional partner"
+          ],
+          "the novelist": [
+            "she had nearly settled for another man"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "the novelist",
+          "celebrates",
+          "his first book's acceptance"
+        ],
+        "content": "He rushes to celebrate the professional breakthrough with his partner before the news has settled.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "their apartment",
+        "pre": {},
+        "post": {
+          "book_accepted": true
+        },
+        "learns": {
+          "reader": [
+            "the novelist's career begins to accelerate"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "what effect will the novelist's early success have on the couple?"
+        }
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "the casting panel",
+          "ignores",
+          "the actress"
+        ],
+        "content": "Her audition is met by lowered eyes and rustling papers rather than attention to the performance.",
+        "participants": [
+          "the actress",
+          "the casting panel"
+        ],
+        "location": "an audition room",
+        "pre": {},
+        "post": {
+          "actress_discouraged": true
+        },
+        "learns": {
+          "reader": [
+            "the actress faces professional rejection and invisibility"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "the novelist",
+          "promises",
+          "never to leave"
+        ],
+        "content": "A gift accompanies an absolute assurance that their relationship will outlast professional strain.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "their apartment",
+        "pre": {
+          "couple_met": true
+        },
+        "post": {
+          "permanence_promised": true
+        },
+        "learns": {
+          "reader": [
+            "the novelist explicitly promises permanence"
+          ]
+        },
+        "raises": [
+          "q8"
+        ],
+        "resolves": [],
+        "questions": {
+          "q8": "will his promise never to leave be kept?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "the couple",
+          "marry",
+          "each other"
+        ],
+        "content": "Their two personal timelines meet in the one ceremony both of them inhabit together.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "a wedding venue",
+        "pre": {
+          "permanence_promised": true
+        },
+        "post": {
+          "couple_married": true
+        },
+        "learns": {
+          "reader": [
+            "the relationship becomes a marriage"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "the actress",
+          "takes",
+          "a provincial engagement"
+        ],
+        "content": "A bare rented room holds the letters she sends back while working away for the summer.",
+        "participants": [
+          "the actress"
+        ],
+        "location": "a provincial theatre town",
+        "pre": {
+          "couple_married": true
+        },
+        "post": {
+          "couple_separated_by_work": true
+        },
+        "learns": {
+          "reader": [
+            "the actress works away from her husband"
+          ]
+        },
+        "raises": [
+          "q6"
+        ],
+        "resolves": [],
+        "questions": {
+          "q6": "will the marriage survive the couple's growing separation?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "the novelist",
+          "enjoys",
+          "literary success"
+        ],
+        "content": "Parties and public attention expand around him while his wife increasingly stays outside them.",
+        "participants": [
+          "the novelist"
+        ],
+        "location": "publishing parties",
+        "pre": {
+          "book_accepted": true,
+          "couple_married": true
+        },
+        "post": {
+          "novelist_famous": true,
+          "couple_socially_divided": true
+        },
+        "learns": {
+          "reader": [
+            "his success creates a social world she does not share"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2",
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "the actress",
+          "confronts",
+          "the novelist's absence"
+        ],
+        "content": "She names the concrete neglect beneath their general resentment: he has not attended any of her performances.",
+        "participants": [
+          "the novelist",
+          "the actress"
+        ],
+        "location": "their apartment",
+        "pre": {
+          "couple_socially_divided": true
+        },
+        "post": {
+          "career_resentment_spoken": true
+        },
+        "learns": {
+          "reader": [
+            "the marriage conflict centres on unequal attention to their careers"
+          ],
+          "the novelist": [
+            "his wife experiences his success as abandonment"
+          ]
+        },
+        "raises": [
+          "q1",
+          "q2"
+        ],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {
+          "q1": "what professional hurt lies beneath the actress's accusation?",
+          "q2": "how did the novelist's success become a source of distance?"
+        }
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "the party guest",
+          "propositions",
+          "the novelist"
+        ],
+        "content": "At a publishing celebration he turns a clear invitation into an argument for crossing the line.",
+        "participants": [
+          "the novelist",
+          "the party guest"
+        ],
+        "location": "a publishing party",
+        "pre": {
+          "novelist_famous": true
+        },
+        "post": {
+          "infidelity_opportunity": true
+        },
+        "learns": {
+          "reader": [
+            "the novelist is offered an affair and entertains it"
+          ]
+        },
+        "raises": [
+          "q7"
+        ],
+        "resolves": [],
+        "questions": {
+          "q7": "will the novelist act on the proposition?"
+        }
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "the actress",
+          "resents",
+          "her husband's success"
+        ],
+        "content": "She recognizes that disappointment has made genuine happiness for him inaccessible to her.",
+        "participants": [
+          "the actress"
+        ],
+        "location": "their apartment",
+        "pre": {
+          "career_resentment_spoken": true
+        },
+        "post": {
+          "marriage_alienated": true
+        },
+        "learns": {
+          "reader": [
+            "the actress can no longer celebrate her husband's career"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "why can the actress no longer feel glad for her husband?"
+        }
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "the novelist",
+          "commits",
+          "infidelity"
+        ],
+        "content": "Sleeping with someone else turns a contemplated betrayal into his private decision that the marriage is finished.",
+        "participants": [
+          "the novelist",
+          "the party guest"
+        ],
+        "location": "a hotel room",
+        "pre": {
+          "infidelity_opportunity": true,
+          "marriage_alienated": true
+        },
+        "post": {
+          "affair_committed": true,
+          "marriage_abandoned": true
+        },
+        "learns": {
+          "reader": [
+            "the novelist acts on the proposition and gives up on the marriage"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q6",
+          "q7"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "the novelist",
+          "leaves",
+          "a farewell letter"
+        ],
+        "content": "He puts the decision into writing, returns his key to the table and exits the shared home.",
+        "participants": [
+          "the novelist"
+        ],
+        "location": "the couple's apartment",
+        "pre": {
+          "marriage_abandoned": true
+        },
+        "post": {
+          "letter_left": true,
+          "novelist_departed": true
+        },
+        "learns": {
+          "reader": [
+            "the novelist makes the separation final in writing"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4",
+          "q8"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "the actress",
+          "finds",
+          "the empty apartment"
+        ],
+        "content": "She returns to the absence, the key and the letter that announce the marriage is over.",
+        "participants": [
+          "the actress"
+        ],
+        "location": "the couple's apartment",
+        "pre": {
+          "letter_left": true,
+          "novelist_departed": true
+        },
+        "post": {
+          "separation_discovered": true
+        },
+        "learns": {
+          "reader": [
+            "the actress discovers that her husband has left"
+          ],
+          "the actress": [
+            "her husband has ended the marriage"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "why is the apartment empty when the actress comes home?"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e11",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e12",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e4",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e8",
+        "to": "e9"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e9",
+        "to": "e11"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e13",
+        "to": "e14"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e4",
+        "to": "e9"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e14",
+        "on": "the relationship's first and final encounters"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e14"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e10",
+        "on": "separate nights away from the marriage"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e11",
+        "on": "the novelist's success and the actress's resentment of it"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Two Friends",
+  "release_year": 1986,
+  "genre": "Drama",
+  "source": "Film",
+  "events_chronological": [
+    "Kelly and Louise, inseparable friends, both sit the entrance examination for a selective girls' school and both pass it.",
+    "Kelly's stepfather Malcolm refuses to let her take the place, saying the uniform and the fees are beyond them.",
+    "Louise starts at the new school in the new uniform without Kelly.",
+    "Kelly stays on at the local school and begins going about with older boys.",
+    "Kelly's mother and stepfather fight through the evenings and Kelly starts staying out.",
+    "Louise's mother Janet makes it plain that she thinks Kelly a bad influence.",
+    "Kelly leaves home and moves into a share house with a boy called Matthew.",
+    "Kelly dyes her hair, takes a job in a shop and stops attending school altogether.",
+    "Louise visits the share house once and is frightened by what she finds there.",
+    "The two girls quarrel at a party and stop speaking to each other.",
+    "Louise settles into the new school, makes new friends and wins a music prize.",
+    "Kelly turns up at Louise's front door months later and the two of them can find nothing at all to say."
+  ],
+  "syuzhet_order": [
+    12,
+    11,
+    10,
+    9,
+    7,
+    8,
+    6,
+    4,
+    5,
+    3,
+    1,
+    2
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "syuzhet_notes": "The film runs backwards in dated blocks from the estrangement to the exam result, so the audience meets the two girls as strangers and only gradually learns what they were to each other.",
+  "fabula_notes": "Chronology is fixed by captions. The blocks play forward inside themselves, so the reversal is at the level of the blocks."
+}

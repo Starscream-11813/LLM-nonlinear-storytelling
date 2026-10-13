@@ -1,0 +1,1021 @@
+{
+  "story_id": "S10",
+  "source_index": 10,
+  "genre": "Drama, Thriller",
+  "source": "Film",
+  "events_chronological": [
+    "Ruben shares a cramped house with his mother, his brother Nestor, Nestor's wife Alma and their baby.",
+    "Nestor robs a pharmacy by night and beats Alma at home, and Ruben begins pressing her to run away with him.",
+    "Ruben discovers that Nestor's rottweiler Tigre kills other dogs on sight and starts entering him in the local dogfights, winning steadily.",
+    "Ruben pays two thugs to beat Nestor, who responds by taking Alma, the baby and Ruben's hidden savings and disappearing.",
+    "Model Celine Vaz's lover Hector walks out on his wife and daughters and moves her into a new flat facing her own billboard.",
+    "In a last fight the promoter Chaco shoots Tigre in the ring, Ruben stabs him and flees with his friend Pipo.",
+    "Ruben runs a red light at speed and ploughs into Celine's car.",
+    "Cardo, a former guerrilla turned vagrant contract killer, is at the junction and drags the bleeding Tigre out of the wreck.",
+    "Celine wakes in hospital with her leg pinned together and her lapdog Chispa lost somewhere in the new flat.",
+    "Chispa falls through a hole in the floorboards, and Hector tears up the floor while Celine's leg turns gangrenous.",
+    "Celine's leg is amputated and the billboard carrying her image is taken down.",
+    "Nestor is shot dead robbing a bank, and at the funeral Alma refuses Ruben's last offer to leave with him.",
+    "Cardo nurses Tigre back to health among his own pack of strays.",
+    "The businessman Elian hires Cardo to murder his half-brother and business partner Sergio.",
+    "Cardo watches from a distance as his estranged wife is buried, then follows his grown daughter Perla home.",
+    "Tigre kills every other dog in Cardo's yard while he is out, and Cardo puts a gun to the dog's head and cannot fire.",
+    "Cardo abducts Sergio but chains him up in his lair instead of killing him.",
+    "Cardo brings Elian face to face with his brother, leaves a loaded pistol between them, and walks out having taken money from both.",
+    "Cardo breaks into Perla's flat, leaves a long confession of who he is on her answering machine and takes her photograph.",
+    "Shaved and in clean clothes, Cardo leaves his money for Perla and walks out into the wasteland with Tigre."
+  ],
+  "syuzhet_order": [
+    7,
+    1,
+    2,
+    3,
+    4,
+    6,
+    12,
+    5,
+    9,
+    10,
+    11,
+    14,
+    15,
+    8,
+    13,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "event_scenes": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "nonlinear_category": "SYLLEPSIS",
+  "nonlinear_category_reason": "Three consecutive chapters, one per protagonist, each restarting around the crash they share.",
+  "syuzhet_notes": "The film opens on the crash (told-order bullet 1) and then restarts three times, telling three stories that overlap around it. The first chapter runs up to the crash, the second begins before it and continues past it, and the third takes it in stride at told-order bullet 14. Because the strands are largely simultaneous rather than consecutive, strict chronology interleaves bullets the film keeps in separate blocks.",
+  "fabula_notes": "The three chapters overlap in time, so the placement of the second and third strands relative to the first is inferred from the shared crash rather than stated on screen. The fatal bank robbery happens off screen and is only reported at the funeral.",
+  "story_graph": {
+    "characters": {
+      "Ruben": {
+        "archetype": "Hero"
+      },
+      "Nestor": {
+        "archetype": "Shadow"
+      },
+      "Alma": {
+        "archetype": "Ally"
+      },
+      "Ruben's mother": {
+        "archetype": "Ally"
+      },
+      "Tigre": {
+        "archetype": "Shapeshifter"
+      },
+      "Pipo": {
+        "archetype": "Ally"
+      },
+      "Chaco": {
+        "archetype": "Threshold Guardian"
+      },
+      "Celine": {
+        "archetype": "Shapeshifter"
+      },
+      "Hector": {
+        "archetype": "Ally"
+      },
+      "Chispa": {
+        "archetype": "Ally"
+      },
+      "Cardo": {
+        "archetype": "Hero"
+      },
+      "Perla": {
+        "archetype": "Ally"
+      },
+      "Cardo's wife": {
+        "archetype": "Herald"
+      },
+      "Elian": {
+        "archetype": "Shadow"
+      },
+      "Sergio": {
+        "archetype": "Threshold Guardian"
+      }
+    },
+    "events": [
+      {
+        "id": "e1",
+        "story_time": 1,
+        "core": [
+          "Ruben",
+          "lives",
+          "in the crowded house"
+        ],
+        "content": "Four adults, a baby and a dog in a house built for two. He sleeps on the couch, his mother keeps the peace, and he spends most of the day watching his brother's wife move about the kitchen.",
+        "participants": [
+          "Ruben",
+          "Nestor",
+          "Alma",
+          "Ruben's mother",
+          "Tigre"
+        ],
+        "location": "the family house",
+        "pre": {},
+        "post": {
+          "ruben_at_home": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Ruben",
+            "intro:Nestor",
+            "intro:Alma",
+            "intro:Ruben's mother",
+            "intro:Tigre"
+          ]
+        },
+        "raises": [
+          "q5"
+        ],
+        "resolves": [],
+        "questions": {
+          "q5": "how does a young man get out of a house like this?"
+        }
+      },
+      {
+        "id": "e2",
+        "story_time": 2,
+        "core": [
+          "Nestor",
+          "beats",
+          "Alma"
+        ],
+        "content": "He robs a chemist's at night with a scarf over his face and comes home to knock his wife across the kitchen for asking where the money is. His brother starts saying, quietly and then not quietly, that she should come away with him.",
+        "participants": [
+          "Nestor",
+          "Alma",
+          "Ruben"
+        ],
+        "location": "a chemist's shop and the family house",
+        "pre": {
+          "ruben_at_home": true
+        },
+        "post": {
+          "alma_beaten": true,
+          "ruben_wants_alma": true
+        },
+        "learns": {
+          "Alma": [
+            "her husband will not stop"
+          ],
+          "reader": [
+            "the plan to run is born out of the violence, not out of romance"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e3",
+        "story_time": 3,
+        "core": [
+          "Ruben",
+          "enters",
+          "Tigre in the fights"
+        ],
+        "content": "The dog comes back off the street having killed something bigger than itself, and a neighbour explains what that is worth. Within a month it is going into a ring twice a week and coming out of it every time.",
+        "participants": [
+          "Ruben",
+          "Tigre",
+          "Nestor",
+          "Pipo"
+        ],
+        "location": "a dog pit",
+        "pre": {
+          "ruben_at_home": true
+        },
+        "post": {
+          "tigre_fighting": true,
+          "ruben_saving_money": true
+        },
+        "learns": {
+          "Ruben": [
+            "there is enough money in this to leave with"
+          ],
+          "reader": [
+            "intro:Pipo",
+            "the escape is being financed by the dog"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q5"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e4",
+        "story_time": 4,
+        "core": [
+          "Ruben",
+          "pays",
+          "for the beating"
+        ],
+        "content": "He gives two men in a bar the address of his own brother. His brother comes out of hospital, works out who arranged it in about a day, and leaves with the wife, the baby and every note hidden in the wardrobe.",
+        "participants": [
+          "Ruben",
+          "Nestor",
+          "Alma"
+        ],
+        "location": "a bar and the family house",
+        "pre": {
+          "ruben_saving_money": true,
+          "ruben_wants_alma": true
+        },
+        "post": {
+          "nestor_gone": true,
+          "ruben_robbed": true
+        },
+        "learns": {
+          "Nestor": [
+            "his brother paid to have him hurt"
+          ],
+          "reader": [
+            "the plan destroys itself and takes the money with it"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e5",
+        "story_time": 5,
+        "core": [
+          "Hector",
+          "leaves",
+          "his family"
+        ],
+        "content": "A married man walks out on a wife and two daughters at a birthday party and moves a model into a new flat with a floor-to-ceiling window, directly opposite the hoarding carrying her own face.",
+        "participants": [
+          "Hector",
+          "Celine"
+        ],
+        "location": "a new flat",
+        "pre": {},
+        "post": {
+          "celine_with_hector": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Celine",
+            "intro:Hector",
+            "the life she has just been moved into is the one on the hoarding"
+          ]
+        },
+        "raises": [
+          "q4"
+        ],
+        "resolves": [],
+        "questions": {
+          "q4": "does the life in the new flat hold?"
+        }
+      },
+      {
+        "id": "e6",
+        "story_time": 6,
+        "core": [
+          "Chaco",
+          "shoots",
+          "Tigre"
+        ],
+        "content": "The promoter loses too much on one fight and puts a pistol into the dog's side in the middle of the ring. The handler goes over the rope with a knife into him and is out of the door and into the truck with his friend before anyone moves.",
+        "participants": [
+          "Ruben",
+          "Tigre",
+          "Chaco",
+          "Pipo"
+        ],
+        "location": "a dog pit",
+        "pre": {
+          "tigre_fighting": true
+        },
+        "post": {
+          "tigre_shot": true,
+          "ruben_fleeing": true,
+          "chaco_stabbed": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Chaco",
+            "the flight from the pit is why the truck is going that fast"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q1"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e7",
+        "story_time": 7,
+        "core": [
+          "Ruben",
+          "crashes",
+          "into Celine"
+        ],
+        "content": "The truck comes through a red light at sixty with the dog bleeding across the back seat and takes the side out of a small car turning across the junction.",
+        "participants": [
+          "Ruben",
+          "Celine",
+          "Tigre",
+          "Pipo"
+        ],
+        "location": "a city junction",
+        "pre": {
+          "ruben_fleeing": true,
+          "celine_with_hector": true
+        },
+        "post": {
+          "crash_happened": true,
+          "celine_injured": true
+        },
+        "learns": {
+          "reader": [
+            "three separate lives are joined at one junction"
+          ]
+        },
+        "raises": [
+          "q1"
+        ],
+        "resolves": [],
+        "questions": {
+          "q1": "who is driving, and what is he running from?"
+        }
+      },
+      {
+        "id": "e8",
+        "story_time": 8,
+        "core": [
+          "Cardo",
+          "takes",
+          "Tigre"
+        ],
+        "content": "A vagrant pushing a cart of scrap through the same junction stands in the smoke, looks at the two wrecks and the people running towards them, and takes the bleeding dog out of the back seat and walks away with it.",
+        "participants": [
+          "Cardo",
+          "Tigre"
+        ],
+        "location": "a city junction",
+        "pre": {
+          "crash_happened": true,
+          "tigre_shot": true
+        },
+        "post": {
+          "cardo_has_tigre": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Cardo",
+            "the only thing taken out of the wreck is the dog"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e9",
+        "story_time": 9,
+        "core": [
+          "Celine",
+          "wakes",
+          "in hospital"
+        ],
+        "content": "She comes round with a cage of steel pins holding her leg together and asks first about the dog, which was in the new flat with nobody in it and has not been seen since.",
+        "participants": [
+          "Celine",
+          "Hector",
+          "Chispa"
+        ],
+        "location": "a hospital ward",
+        "pre": {
+          "celine_injured": true
+        },
+        "post": {
+          "celine_hospitalised": true,
+          "chispa_lost": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Chispa",
+            "the small dog is missing inside the new flat"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e10",
+        "story_time": 10,
+        "core": [
+          "Chispa",
+          "falls",
+          "under the floor"
+        ],
+        "content": "The lapdog goes through a gap in the boards and cannot get back, and its whining comes up through the floor of every room. He takes the boards up one by one with a crowbar while her leg goes bad above him.",
+        "participants": [
+          "Celine",
+          "Hector",
+          "Chispa"
+        ],
+        "location": "the new flat",
+        "pre": {
+          "chispa_lost": true
+        },
+        "post": {
+          "floor_torn_up": true,
+          "celine_gangrenous": true
+        },
+        "learns": {
+          "reader": [
+            "the flat is destroyed hunting the dog while the injury is ignored"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e11",
+        "story_time": 11,
+        "core": [
+          "surgeons",
+          "amputate",
+          "Celine's leg"
+        ],
+        "content": "It goes above the knee in the end. In the same week the hoarding across the road is stripped and pasted over with something else, and the two of them sit in the wrecked flat looking at a blank frame.",
+        "participants": [
+          "Celine",
+          "Hector"
+        ],
+        "location": "a hospital and the new flat",
+        "pre": {
+          "celine_gangrenous": true
+        },
+        "post": {
+          "celine_amputated": true,
+          "billboard_down": true
+        },
+        "learns": {
+          "Celine": [
+            "the thing she was is gone from the wall opposite"
+          ],
+          "reader": [
+            "the life in the new flat ends without anybody leaving"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q4"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e12",
+        "story_time": 12,
+        "core": [
+          "Nestor",
+          "dies",
+          "robbing a bank"
+        ],
+        "content": "He goes into a bank with the same scarf and is shot on the floor of it. At the funeral his brother makes the offer one last time, and his widow looks at him and says no and means it.",
+        "participants": [
+          "Nestor",
+          "Alma",
+          "Ruben"
+        ],
+        "location": "a bank and a cemetery",
+        "pre": {
+          "nestor_gone": true
+        },
+        "post": {
+          "nestor_dead": true,
+          "alma_refused_ruben": true
+        },
+        "learns": {
+          "Ruben": [
+            "she was never going to come"
+          ],
+          "reader": [
+            "everything he did it for refuses him at the graveside"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e13",
+        "story_time": 13,
+        "core": [
+          "Cardo",
+          "nurses",
+          "Tigre"
+        ],
+        "content": "He gets the dog back on its feet over weeks in a yard full of strays, feeding it by hand, and it sleeps against him and follows him out into the street in the morning.",
+        "participants": [
+          "Cardo",
+          "Tigre"
+        ],
+        "location": "Cardo's yard",
+        "pre": {
+          "cardo_has_tigre": true
+        },
+        "post": {
+          "tigre_recovered": true
+        },
+        "learns": {
+          "reader": [
+            "the killer keeps the only thing he has ever nursed"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e14",
+        "story_time": 14,
+        "core": [
+          "Elian",
+          "hires",
+          "Cardo"
+        ],
+        "content": "A man in a good suit meets him behind a church, hands him a photograph of his own half-brother and business partner, and names a figure. He takes half in advance and asks no questions about the reason.",
+        "participants": [
+          "Elian",
+          "Cardo",
+          "Sergio"
+        ],
+        "location": "behind a church",
+        "pre": {},
+        "post": {
+          "cardo_hired": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Elian",
+            "intro:Sergio",
+            "the contract that will not be carried out"
+          ]
+        },
+        "raises": [
+          "q3"
+        ],
+        "resolves": [],
+        "questions": {
+          "q3": "does he do the job he has been paid for?"
+        }
+      },
+      {
+        "id": "e15",
+        "story_time": 15,
+        "core": [
+          "Cardo",
+          "follows",
+          "Perla"
+        ],
+        "content": "He stands a long way back at his own wife's burial among people who think he died twenty years ago, and then walks behind his grown daughter through three streets and stops outside her building.",
+        "participants": [
+          "Cardo",
+          "Perla",
+          "Cardo's wife"
+        ],
+        "location": "a cemetery and a city street",
+        "pre": {},
+        "post": {
+          "cardo_watching_perla": true
+        },
+        "learns": {
+          "reader": [
+            "intro:Perla",
+            "intro:Cardo's wife",
+            "the man has a family that has buried him"
+          ]
+        },
+        "raises": [
+          "q2"
+        ],
+        "resolves": [],
+        "questions": {
+          "q2": "who is the young woman he is following?"
+        }
+      },
+      {
+        "id": "e16",
+        "story_time": 16,
+        "core": [
+          "Tigre",
+          "kills",
+          "the pack"
+        ],
+        "content": "He comes home to a yard of dead dogs and one standing in the middle of them with its muzzle wet. He puts the gun against its head, holds it there, and then sits down on the ground and cannot do it.",
+        "participants": [
+          "Cardo",
+          "Tigre"
+        ],
+        "location": "Cardo's yard",
+        "pre": {
+          "tigre_recovered": true
+        },
+        "post": {
+          "cardos_pack_dead": true
+        },
+        "learns": {
+          "Cardo": [
+            "he cannot kill the one thing he saved, having killed everything else he was paid to"
+          ],
+          "reader": [
+            "the professional discovers where his limit actually is"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e17",
+        "story_time": 17,
+        "core": [
+          "Cardo",
+          "chains",
+          "Sergio"
+        ],
+        "content": "He takes the man off a pavement into a van without difficulty, and then, instead of doing the job, drives him back to the yard and chains him to a bed frame among the empty kennels.",
+        "participants": [
+          "Cardo",
+          "Sergio"
+        ],
+        "location": "Cardo's yard",
+        "pre": {
+          "cardo_hired": true
+        },
+        "post": {
+          "sergio_captive": true
+        },
+        "learns": {
+          "reader": [
+            "the killing is deferred for a reason he has not stated"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q3"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e18",
+        "story_time": 18,
+        "core": [
+          "Cardo",
+          "confronts",
+          "the brothers"
+        ],
+        "content": "He goes back for the man who hired him, brings him in and sits him down opposite the man he paid to have killed, puts a loaded pistol on the floor exactly between the two of them, and leaves with money from both.",
+        "participants": [
+          "Cardo",
+          "Elian",
+          "Sergio"
+        ],
+        "location": "Cardo's yard",
+        "pre": {
+          "sergio_captive": true
+        },
+        "post": {
+          "brothers_confronted": true,
+          "cardo_paid_twice": true
+        },
+        "learns": {
+          "reader": [
+            "he hands the decision back to the men who wanted it made for them"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      },
+      {
+        "id": "e19",
+        "story_time": 19,
+        "core": [
+          "Cardo",
+          "confesses",
+          "to Perla"
+        ],
+        "content": "He gets into her flat while she is at work, sits on her bed for an hour, and leaves a very long message on the machine saying who he is, where he went and why, and takes one photograph off the shelf on his way out.",
+        "participants": [
+          "Cardo",
+          "Perla"
+        ],
+        "location": "Perla's flat",
+        "pre": {
+          "cardo_watching_perla": true,
+          "cardos_pack_dead": true
+        },
+        "post": {
+          "perla_told": true
+        },
+        "learns": {
+          "Perla": [
+            "her father did not die and has been in the city the whole time"
+          ],
+          "reader": [
+            "the confession is made to an answering machine because it cannot be made to a face"
+          ]
+        },
+        "raises": [],
+        "resolves": [
+          "q2"
+        ],
+        "questions": {}
+      },
+      {
+        "id": "e20",
+        "story_time": 20,
+        "core": [
+          "Cardo",
+          "walks",
+          "into the wasteland"
+        ],
+        "content": "Shaved, in clean clothes that do not fit him, he leaves the money on her table, takes the dog, and walks out across the flat grey ground at the edge of the city with nowhere in particular to be.",
+        "participants": [
+          "Cardo",
+          "Tigre",
+          "Perla"
+        ],
+        "location": "the wasteland at the edge of the city",
+        "pre": {
+          "perla_told": true,
+          "cardo_paid_twice": true
+        },
+        "post": {
+          "cardo_gone": true
+        },
+        "learns": {
+          "reader": [
+            "the man and the dog leave with nothing between them and the horizon"
+          ]
+        },
+        "raises": [],
+        "resolves": [],
+        "questions": {}
+      }
+    ],
+    "edges": [
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e1",
+        "to": "e3"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e4"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e7"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e7",
+        "to": "e9"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e13",
+        "to": "e16"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e15",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e16",
+        "to": "e19"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e19",
+        "to": "e20"
+      },
+      {
+        "type": "CAUSES",
+        "from": "e18",
+        "to": "e20"
+      },
+      {
+        "type": "REVEALS",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e3",
+        "to": "e16"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e2",
+        "to": "e12"
+      },
+      {
+        "type": "FORESHADOWS",
+        "from": "e15",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e2"
+      },
+      {
+        "type": "SHARES",
+        "from": "e1",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e4"
+      },
+      {
+        "type": "SHARES",
+        "from": "e2",
+        "to": "e15",
+        "on": "a man watching a family he has put himself outside of"
+      },
+      {
+        "type": "SHARES",
+        "from": "e3",
+        "to": "e6"
+      },
+      {
+        "type": "SHARES",
+        "from": "e4",
+        "to": "e12"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e9"
+      },
+      {
+        "type": "SHARES",
+        "from": "e5",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e6",
+        "to": "e7"
+      },
+      {
+        "type": "SHARES",
+        "from": "e7",
+        "to": "e8"
+      },
+      {
+        "type": "SHARES",
+        "from": "e8",
+        "to": "e13"
+      },
+      {
+        "type": "SHARES",
+        "from": "e9",
+        "to": "e10"
+      },
+      {
+        "type": "SHARES",
+        "from": "e10",
+        "to": "e11"
+      },
+      {
+        "type": "SHARES",
+        "from": "e13",
+        "to": "e16"
+      },
+      {
+        "type": "SHARES",
+        "from": "e14",
+        "to": "e17"
+      },
+      {
+        "type": "SHARES",
+        "from": "e15",
+        "to": "e19"
+      },
+      {
+        "type": "SHARES",
+        "from": "e16",
+        "to": "e20"
+      },
+      {
+        "type": "SHARES",
+        "from": "e17",
+        "to": "e18"
+      },
+      {
+        "type": "SHARES",
+        "from": "e19",
+        "to": "e20"
+      }
+    ]
+  }
+}
