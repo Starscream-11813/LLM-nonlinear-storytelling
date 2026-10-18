@@ -91,11 +91,33 @@ Each work has a label and a short justification in its anonymized annotation. La
 | `RETROGRADE` | 10 | Runs backward without returning to a dominant narrative present |
 | `ACHRONY` | 10 | No other category's ordering rule applies, although chronology remains recoverable |
 
+The story curves below make these patterns visible. Moving from left to right follows the telling; moving upward follows chronology. Flashbacks interrupt a dominant forward trajectory, ZIGZAG alternates between periods, and SYLLEPSIS groups events into blocks. These are examples from published works, with the variations that occur in actual tellings.
+
+<p align="center">
+  <a href="images/narrative-shapes.png">
+    <img src="images/narrative-shapes.png" alt="Seven story curves from published works, showing Chronicle, Analepsis, Prolepsis, Zigzag, Syllepsis, Retrograde, and Achrony against a dotted chronological diagonal" width="900">
+  </a>
+  <br>
+  <sub><strong>Seven narrative shapes in the corpus.</strong> Each panel shows the work nearest its category's median in the (tau, LIS) plane. The horizontal axis is telling position and the vertical axis is chronological position; the dotted diagonal is strict chronology. Colors match the human-band plots below. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=16">Figure 6 in Appendix A of the paper</a>.</sub>
+</p>
+
+The RETROGRADE curve is especially important: published reverse chronology descends by scene while retaining short forward runs inside each scene. Reversing every event produces a different pattern. This distinction helps explain the low RETROGRADE band-hit rate discussed under [human bands and structural control](#human-bands-and-structural-control).
+
 ### Story graphs
 
 The event list records what happens. The graph adds **causal dependencies, world state, character and reader knowledge, grounding, and questions raised and resolved**. Its four edge types are `CAUSES`, `FORESHADOWS`, `REVEALS`, and `SHARES`.
 
 A `REVEALS` edge links an explanation to the event it explains: the explanation comes earlier in chronology but later in the telling. This makes withheld information explicit rather than treating any backward jump as a revelation.
+
+<p align="center">
+  <a href="images/story-graph.png">
+    <img src="images/story-graph.png" alt="Story graph for ZIGZAG work S60, with 14 events in chronological order, their telling positions beneath, causal and foreshadowing arcs above, and four question-linked reveal arcs below" width="900">
+  </a>
+  <br>
+  <sub><strong>A story graph across both event orders.</strong> This example is S60, a musical labeled ZIGZAG. Nodes run in chronological order, with telling positions underneath. Solid blue CAUSES and dashed cyan FORESHADOWS arcs run above the nodes; violet REVEALS arcs below connect explanations to the earlier-told events they explain, labeled by reader question. SHARES edges are omitted. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=4">Figure 3 of the paper</a>.</sub>
+</p>
+
+S60 opens with the actress finding the flat empty: chronological event 14 is told first. The farewell letter, event 13, is told last. The `REVEALS` edge from 13 to 14 therefore answers the opening question about the empty flat only at the end. The graph records this relationship alongside causal dependencies; its full annotation also includes world state and character knowledge. The position labels in this illustration are withheld from graph-generation prompts.
 
 <p align="center">
   <a href="images/story-graph-reveal.png">
@@ -213,6 +235,22 @@ For prose, a judge aligns the generated text back to the event list before struc
 
 Reference rows include identity, reverse, and random baselines, plus `[reference] human (gold)`, which means the annotated published telling. It is not newly collected human prose. Exclude baseline/reference rows and names ending in `[high]` when pooling the 19-model main cohort. Common-subset tables repeat comparisons on stories answered by every model to account for uneven refusals.
 
+### Human bands and structural control
+
+For each category, its **human band** is the rectangle bounded by the minimum and maximum tau and LIS values of its published tellings. A model output counts as a band hit only when both coordinates fall inside that rectangle. The reference comes from the corpus annotations; it is separate from the reader-preference study.
+
+<p align="center">
+  <a href="images/human-band-hit.png">
+    <img src="images/human-band-hit.png" alt="Seven category panels plotting Kendall's tau against LIS ratio, with published works, cued model tellings, corpus-derived human bands, and large violet markers for exact identity or reversal" width="900">
+  </a>
+  <br>
+  <sub><strong>Where cued model tellings fall relative to published works.</strong> Large colored marks show corpus works, small gray dots show valid cued outputs, and shaded rectangles with dashed boundaries show the human bands. Violet circles combine exact identities or reversals, with area proportional to their share. Ticks along the axes show marginal distributions. Panel titles give rounded band-hit rates. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=22">Figure 8 in Appendix E of the paper</a>.</sub>
+</p>
+
+The two most pronounced mismatches are **CHRONICLE (5.3% band hit)** and **RETROGRADE (1.1%)**. Models return the exact identity in **88.9%** of CHRONICLE outputs and the exact event reversal in **93.6%** of RETROGRADE outputs. The published works stop short of those extremes: chronicles can contain simultaneous events, and retrograde tellings preserve forward order within scenes. Because the prompts express the shapes as rules over event ranks without marking scenes or simultaneity, these failures expose a gap between literal instruction-following and the scene-level patterns in the corpus. Whether explicit scene markers close that gap remains untested.
+
+Band hit also has limits in the better-performing categories. **ZIGZAG reaches 82.6%**, but two coordinates cannot establish whether a telling alternates regularly between periods. Different permutations can share tau and LIS, so the plots measure structural resemblance without proving the requested shape or the quality of the resulting prose. See [Section 5.1.2 and Appendix E](https://arxiv.org/pdf/2610.21468) for the category breakdowns and scene-level analysis.
+
 ## Repository guide
 
 | Path | Contents |
@@ -223,7 +261,7 @@ Reference rows include identity, reverse, and random baselines, plus `[reference
 | [`experiments/raw/`](experiments/raw/) | 144 JSONL files containing stored generation and judging records |
 | [`experiments/results/`](experiments/results/) | 49 derived result files rebuilt by the offline scoring scripts |
 | [`humaneval/responses2.csv`](humaneval/responses2.csv) | Human-evaluation responses in long format |
-| [`images/`](images/) | Three cropped figures from the arXiv paper used in this README |
+| [`images/`](images/) | Six cropped figures from the arXiv paper used in this README |
 
 ### Experiment and artifact map
 
