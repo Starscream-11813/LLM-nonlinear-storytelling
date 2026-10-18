@@ -1,443 +1,354 @@
-# LLM-nonlinear-storytelling
+<div align="center">
 
-Data and code for a study of how large language models handle **nonlinear storytelling**:
-telling the events of a story in an order different from the order in which they happen.
-This repository accompanies a paper under anonymous review.
+# Can LLMs Tell Stories Out of Order?
 
-It contains three things:
+### A Corpus and Benchmark for Nonlinear Narrative Generation
 
-1. **A corpus of 83 nonlinear narratives**, each annotated with the same set of events in
-   two orders, plus a hand-authored narrative graph for every work.
-2. **A benchmark run across 19 LLMs**, with every model and judge reply stored, and the code
-   that scores them.
-3. **The human-evaluation responses.**
+<a href="https://arxiv.org/abs/2610.21468"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2610.21468-b31b1b?style=flat&logo=arxiv&logoColor=white"></a>
+<a href="https://nonlinear-narrative.github.io/"><img alt="Project page" src="https://img.shields.io/badge/Project_Page-Website-00b8d4?style=flat&logo=githubpages&logoColor=white"></a>
+<a href="#the-corpus"><img alt="Corpus: 83 works" src="https://img.shields.io/badge/Corpus-83_works-6f42c1?style=flat"></a>
+<a href="#the-benchmark"><img alt="Benchmark: 19 models" src="https://img.shields.io/badge/Benchmark-19_models-blue?style=flat"></a>
+<a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-2b8a3e?style=flat"></a>
+<a href="https://hits.sh/github.com/Starscream-11813/LLM-nonlinear-storytelling/"><img alt="Visitors" src="https://hits.sh/github.com/Starscream-11813/LLM-nonlinear-storytelling.svg?style=flat&logo=github&label=Visitors&color=b57edc"></a>
 
-No API key is needed to inspect or reproduce anything reported. Every table in
-`experiments/results/` is regenerated offline from the stored replies in `experiments/raw/`.
+</div>
 
----
+This repository contains the annotated corpus, code, stored model outputs, and human-evaluation responses for the paper [**Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation**](https://arxiv.org/abs/2610.21468).
+
+## Overview
+
+Every story has two orders: **fabula**, the order in which events happen, and **syuzhet**, the order in which they are told. The paper studies whether language models can control the difference between them, and whether that control produces stories people prefer to read.
+
+We annotate **83 published works** with paired event orders and story graphs, evaluate **19 LLMs** across ordering, reconstruction, classification, and prose generation, and compare automated evaluation with **3,528 blind judgments from 71 readers**. Models can follow instructions to reorder events, but their instructed nonlinear stories often lose to their default, more chronological tellings.
+
+<p align="center">
+  <a href="images/ordering-example.png">
+    <img src="images/ordering-example.png" alt="Three tellings of the same events: an uncued model stays near chronology, a backward cue produces exact event reversal, and the published telling preserves forward runs within scenes" width="560">
+  </a>
+  <br>
+  <sub><strong>Reordering is only part of nonlinear storytelling.</strong> A backward cue produces exact event reversal, while the published telling preserves forward runs within scenes. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=1">Figure 1 of the paper</a>.</sub>
+</p>
 
 ## Contents
 
-```
-dataset/
-  movies/                  83 source annotations, one JSON per work (with titles)
-  movies_anon/             83 anonymised annotations with gold story graphs (S01-S83)
-  dataset.csv              the titled corpus, built from movies/
-  dataset_anonymized.csv   the anonymised corpus, built from movies_anon/ (what models saw)
-  anonymization_key.csv    story_id -> original title and year
-  build_dataset.py         validates movies/ and builds dataset.csv
-  build_anonymized.py      validates movies_anon/ against its source; builds the anonymised CSV
-  verify_dataset.py        independent round-trip check of both CSVs
-experiments/
-  tasks.py                 prompts and strict output parsers
-  metrics.py               Kendall tau, LIS ratio and the other structural measures
-  runner.py                resumable API runner for the benchmark tasks
-  judge.py, judge_grapharm.py         LLM judges: prose-to-event alignment, PDS, pairwise
-  rcg.py, rcg_baseline.py             retrospective-coherence experiment and its no-text baseline
-  dedate.py, recover.py               de-dating and the recoverability experiment
-  score*.py, analysis.py              offline scoring: raw/ -> results/
-  models.json, models_effort.json     the evaluated models
-  dedated_events.json      de-dated event lists used by the recoverability experiment
-  raw/                     144 JSONL files: every model and judge reply
-  results/                 49 derived tables
-humaneval/
-  responses2.csv           human-evaluation responses
-```
+- [Key findings](#key-findings)
+- [The corpus](#the-corpus)
+- [The benchmark](#the-benchmark)
+- [Repository guide](#repository-guide)
+- [Using this repository](#using-this-repository)
+- [Human evaluation](#human-evaluation)
+- [Scope and interpretation](#scope-and-interpretation)
+- [Authors](#authors)
+- [Citation](#citation)
+- [License](#license)
 
-## Quick start: reproduce everything offline
+## Key findings
 
-Python 3.10 or newer. Only `pandas` is needed beyond the standard library, and only for scoring.
+| Finding | Evidence from the paper |
+|:---|:---|
+| **Default tellings stay closer to chronology.** | All 19 models are more chronological on average than the selected published works. Pooled Kendall's tau is **0.638**, compared with **0.456** for the corpus. |
+| **A named structure gives only partial control.** | Cued tellings fall within the requested category's corpus-derived structural band **47.9%** of the time. Band hit measures resemblance in the structural plane, not prose quality or complete compliance with a shape. |
+| **Reconstruction scores need a no-story control.** | Three strong solvers reach **tau = 0.849** when given event sentences without the telling order, versus **0.884** with it. Much of the chronology is recoverable without reading the telling. |
+| **Readers prefer the default telling.** | Free tellings beat instructed tellings in **75.8%** of decisive better-story judgments (**200/264**). Readers find the instructed version harder to follow in **80.7%** of decisive difficulty judgments (**197/244**). |
+| **A graph can beat a supplied order, but the judge misses the preference.** | Readers prefer full-graph stories to stories constrained to the published telling order in **72.1%** of decisive judgments (**181/251**); the length-adjusted rate is **70.7%**. The automated judge detects no preference on this comparison. |
 
-```bash
-python -m pip install -r requirements.txt
+Reader percentages exclude ties and refer to the prose study's **14 works**, not the full 83-work corpus. The reconstruction comparison uses three solvers and is not a separate no-story control for every benchmark model. See [Sections 5.1, 5.2, and 5.5](https://arxiv.org/pdf/2610.21468) for the complete analyses.
 
-# 1. Validate the corpus (writes nothing)
-cd dataset
-python build_dataset.py --check
-python build_anonymized.py --check
-python verify_dataset.py
+<p align="center">
+  <a href="images/reader-preferences.png">
+    <img src="images/reader-preferences.png" alt="Unadjusted preference rates from readers and the automated judge for instructed versus free stories, graph versus supplied order, graph versus event list, and graph versus a removed layer" width="560">
+  </a>
+  <br>
+  <sub><strong>Readers and the judge do not always agree.</strong> These are unadjusted preference rates. The graph's advantage over an event list disappears after length adjustment, and removing one graph layer can help readers. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=8">Figure 5 of the paper</a>.</sub>
+</p>
 
-# 2. Rebuild every table in experiments/results/ from the stored replies
-cd ../experiments
-python score.py            # T1-T4 tables, per-row scores, classifier calibration
-python analysis.py         # breakdowns by category, cost and effort; common-subset tables
-python score_prose.py      # prose arm (T5/T5b) and inter-judge agreement
-python score_grapharm.py   # graph-scaffolding arm (G0, G1, G2, A1-A5)
-python score_rcg.py        # retrospective coherence gain and reveal placement
-python score_recover.py    # recoverability experiment and the no-story floor
-```
+## The corpus
 
-Step 2 makes no network calls. We verified that it regenerates all 49 files in
-`experiments/results/` with identical contents. On Windows, pandas writes CRLF line
-endings, so `git status` may list the regenerated tables as modified even though
-`git diff` shows no change.
+The corpus contains **73 nonlinear works and 10 predominantly chronological controls**. Each work has one hand-written list of events, read in chronological order or in the work's telling order. Both orders therefore describe exactly the same event set: the relationship is a **permutation by construction**.
 
----
+| Annotation | Count |
+|:---|---:|
+| Published works | 83: 71 films, 7 novels, 2 plays, 2 musicals, 1 short story |
+| Events | 1,433, with 12-20 per work |
+| Scenes | 1,221 |
+| Characters | 857 |
+| Story graphs | 83 |
+| Typed graph edges | 3,478 |
+| Reader-question threads | 657 |
+| Character and reader knowledge claims | 2,504 |
 
-## 1. The corpus
+### Seven narrative shapes
 
-### What is annotated
+Each work has a label and a short justification in its anonymized annotation. Labels describe how the scene order departs from chronology.
 
-Narratology distinguishes the **fabula**, the order in which events happen in the story
-world, from the **syuzhet**, the order in which the work tells them. Every work in the
-corpus is annotated with one set of events, written once in chronological order, plus the
-order in which the work presents them. Because both orders describe the same event set,
-the pair is a **permutation by construction**.
+| Category | Works | Telling pattern |
+|:---|---:|:---|
+| `CHRONICLE` | 10 | Moves forward; scenes presented as simultaneous may arrive in either order |
+| `ANALEPSIS` | 22 | A dominant narrative present with flashbacks to earlier events |
+| `PROLEPSIS` | 10 | A dominant narrative present with flash-forwards to later events |
+| `ZIGZAG` | 10 | Two bands alternate regularly, each internally monotone |
+| `SYLLEPSIS` | 11 | Blocks organized by a non-temporal principle, such as character, place, or theme |
+| `RETROGRADE` | 10 | Runs backward without returning to a dominant narrative present |
+| `ACHRONY` | 10 | No other category's ordering rule applies, although chronology remains recoverable |
 
-| | |
-|---|---:|
-| works | 83 (71 films, 7 novels, 2 plays, 2 musicals, 1 short story) |
-| events | 1,433 (12-20 per work) |
-| scenes | 1,221 |
-| characters | 857 |
-| typed graph edges | 3,478 |
-| reader-question threads | 657 |
-| character and reader knowledge claims | 2,504 |
+### Story graphs
 
-### Files
+The event list records what happens. The graph adds **causal dependencies, world state, character and reader knowledge, grounding, and questions raised and resolved**. Its four edge types are `CAUSES`, `FORESHADOWS`, `REVEALS`, and `SHARES`.
 
-The JSON files are the source of truth; both CSVs are build artifacts.
+A `REVEALS` edge links an explanation to the event it explains: the explanation comes earlier in chronology but later in the telling. This makes withheld information explicit rather than treating any backward jump as a revelation.
 
-- `movies/NN-slug.json` holds `title`, `release_year`, `genre`, `source`,
-  `events_chronological`, `syuzhet_order`, `event_scenes`, `syuzhet_notes` and
-  `fabula_notes`. `NN` is the work's position in the canonical list in `build_dataset.py`.
-- `movies_anon/NN.json` holds the anonymised twin of the same work: `story_id`,
-  `source_index`, `genre`, `source`, `events_chronological`, `syuzhet_order`,
-  `event_scenes`, `nonlinear_category`, `nonlinear_category_reason`, the notes, and
-  `story_graph`.
+<p align="center">
+  <a href="images/story-graph-reveal.png">
+    <img src="images/story-graph-reveal.png" alt="The same 18 events in chronological and telling order, with a question raised by an opening death and answered by an explanation withheld until the final event" width="900">
+  </a>
+  <br>
+  <sub><strong>The same events, two orders.</strong> An explanation precedes its consequence in chronology but arrives last in the telling, resolving the question raised at the opening. Cropped from <a href="https://arxiv.org/pdf/2610.21468#page=2">Figure 2 of the paper</a>.</sub>
+</p>
 
-`dataset.csv` columns: `title, release_year, genre, source, fabula, syuzhet, fabula_order,
-syuzhet_order, fabula_scene_order, syuzhet_scene_order, tau, lis, syuzhet_notes,
-fabula_notes`.
+### Files and anonymization
 
-`dataset_anonymized.csv` columns: `story_id, genre, source, fabula, syuzhet, fabula_order,
-syuzhet_order, fabula_scene_order, syuzhet_scene_order, tau, lis, nonlinear_category,
-syuzhet_notes, fabula_notes, story_graph`.
+The JSON annotations are the source of truth; the CSVs are validated build artifacts.
 
-| column | content |
-|---|---|
-| `fabula`, `syuzhet` | the event bullets in chronological and in told order, joined by `" \| "` |
-| `fabula_order`, `syuzhet_order` | the same two orders as space-separated 1-based event indices. Events are numbered by chronological position, so `fabula_order` is always `1 2 ... n`, and the k-th entry of `syuzhet_order` is the chronological index of the k-th event told |
-| `fabula_scene_order`, `syuzhet_scene_order` | one scene id per bullet, aligned with the two orders above. Collapsing runs of repeats gives the scene-level permutation |
-| `tau` | Kendall's tau of the told order against chronology: +1 chronological, -1 fully reversed |
-| `lis` | length of the longest increasing subsequence of the told order, divided by n: 1.0 when the telling never doubles back |
-| `nonlinear_category` | one of the seven structure labels below |
-| `story_graph` | the gold narrative graph, as compact JSON |
+| Path | Contents |
+|:---|:---|
+| [`dataset/movies/`](dataset/movies/) | 83 source annotations with titles and release years |
+| [`dataset/movies_anon/`](dataset/movies_anon/) | 83 anonymized annotations, `S01`-`S83`, with gold story graphs |
+| [`dataset/dataset.csv`](dataset/dataset.csv) | Titled corpus |
+| [`dataset/dataset_anonymized.csv`](dataset/dataset_anonymized.csv) | Anonymized corpus used to construct model inputs |
+| [`dataset/anonymization_key.csv`](dataset/anonymization_key.csv) | Mapping from story IDs to original titles and years |
 
-Reading a row:
+Anonymization replaces names, places, organizations, quotations, distinctive props, and other surface identifiers while preserving event counts, order, scene structure, and causal relations. It reduces recall cues but cannot hide a distinctive premise. The titled corpus, title key, and order metadata are evaluation references, not inputs to the main benchmark.
+
+Read an anonymized work from the repository root:
 
 ```python
 import csv
-row = next(csv.DictReader(open("dataset/dataset_anonymized.csv", encoding="utf-8", newline="")))
-events = row["fabula"].split(" | ")                      # chronological order
-told = [int(i) for i in row["syuzhet_order"].split()]    # a permutation of 1..n
-telling = [events[i - 1] for i in told]                  # == row["syuzhet"].split(" | ")
+import json
+
+with open("dataset/dataset_anonymized.csv", encoding="utf-8", newline="") as f:
+    row = next(csv.DictReader(f))
+
+events = row["fabula"].split(" | ")
+told_order = [int(i) for i in row["syuzhet_order"].split()]
+telling = [events[i - 1] for i in told_order]
+graph = json.loads(row["story_graph"])
+
+assert telling == row["syuzhet"].split(" | ")
 ```
 
-**Scenes.** A scene is a stretch the work presents as one continuous unit. Several events
-can share a scene. Every scene is required to be contiguous in *both* orders, which is what
-makes the scene sequence a permutation as well.
-
-### Nonlinear categories
-
-Each work carries one of seven labels describing how its told scene order departs from
-chronology, with a one-sentence justification in `nonlinear_category_reason`. Every
-category has at least ten works (Analepsis 22, Syllepsis 11, and 10 each for the rest).
-
-| label | told order |
-|---|---|
-| `CHRONICLE` | runs forward; scenes presented as simultaneous may arrive in either order |
-| `RETROGRADE` | runs backward throughout, with no present the telling returns to |
-| `ZIGZAG` | two bands alternating on a regular beat, each internally monotone |
-| `ANALEPSIS` | one timeline (the narrative present) dominates; the rest are insertions from earlier |
-| `PROLEPSIS` | as above, but the insertions are genuine flash-forwards from later |
-| `SYLLEPSIS` | no dominant timeline; blocks grouped by a non-temporal principle (place, character, theme, object) |
-| `ACHRONY` | none of the above; the told order follows no statable rule |
-
-All `ACHRONY` works are achronic by shuffle: their chronology is recoverable. Works whose
-chronology cannot be reconstructed at all are excluded from the corpus.
-
-### The story graph
-
-The bullets say *what* happens. The graph says *why*, *who knew what when*, and *what the
-telling withholds*. It has three parts:
-
-- `characters`: name -> `{"archetype": ...}`, using Vogler's eight roles (Hero, Mentor,
-  Ally, Herald, Trickster, Shapeshifter, Threshold Guardian, Shadow). Where a finer label
-  was annotated it is kept in `archetype_detail`.
-- `events`: node `ei` is bullet `i`, with `story_time == i`.
-
-  | field | content |
-  |---|---|
-  | `core` | subject-verb-object triple |
-  | `content` | one to three sentences elaborating the bullet |
-  | `participants`, `location` | who is present and where; participants are declared in `characters` |
-  | `pre`, `post` | world-state flags before and after the event |
-  | `learns` | per character, and for `reader`, the propositions the event teaches |
-  | `raises`, `resolves` | question ids; question text is in `questions` |
-
-- `edges`: four typed relations. `σ` is chronological position and `told` is told position.
-
-  | type | constraint enforced by the build |
-  |---|---|
-  | `CAUSES` | σ(from) < σ(to) |
-  | `FORESHADOWS` | σ(from) < σ(to) |
-  | `REVEALS` | σ(from) < σ(to) **and** told(from) > told(to): the explanation is told after what it explains, backed by a matching raises/resolves pair |
-  | `SHARES` | undirected; the endpoints share a participant, or the edge names what they share in `on` |
-
-The build also replays `post` flags in chronological order and requires every `pre` to be
-satisfied, and requires every question to be raised exactly once and resolved exactly
-once. The told position is deliberately not stored on nodes: it is derivable from
-`syuzhet_order`, and storing it would put the answer to the reordering tasks inside the
-graph.
-
-### Anonymisation
-
-The anonymised twin is what models under test were given. Relative to the source it keeps
-the event count, `syuzhet_order`, scene structure, `tau`, `lis`, `genre`, `source`, causal
-structure and granularity identical, so the two CSVs join row-for-row. It replaces every
-character name, place, organisation, in-world title, quotation, distinctive prop,
-signature number, real person and real historical event, and drops `title` and
-`release_year` in favour of `story_id`. `build_anonymized.py` refuses to emit a story that
-contains a proper noun from its source, shares a bullet verbatim with its source, or
-disagrees with its source on any structural column.
-
-`dataset.csv`, `anonymization_key.csv`, and the `story_time` field of the graph are the
-answer key. **None of them should appear in a prompt to a model under test.**
-
-Anonymisation removes surface recall cues but cannot hide a premise. A work whose concept
-is unique remains recognisable from its structure, so contamination is reduced rather than
-eliminated.
-
-### Validation
-
-- `build_dataset.py --check` validates every source annotation: `syuzhet_order` is a
-  permutation of `1..n`, `n` is between 10 and 20, scenes are numbered chronologically and
-  contiguous in both orders, and the remaining fields are well-formed.
-- `build_anonymized.py --check` validates every anonymised annotation and its graph against
-  the source, including the leak checks above.
-- `verify_dataset.py` reads both CSVs the way a consumer would. It rebuilds each
-  permutation from the prose columns alone, recomputes `tau` and `lis` with its own
-  implementation, re-derives the graph anchors, checks the scene columns, and requires the
-  two files to agree on every column they share. It exits non-zero on any problem.
-
----
-
-## 2. The benchmark
-
-### Models
-
-19 models accessed through OpenRouter: 9 closed and 10 open-weight. `models.json` lists
-each model's ID, lab and access type. `models_effort.json` lists four of them re-run at
-high reasoning effort.
-
-### Tasks
-
-| id | input | output |
-|---|---|---|
-| `T1_transpose_cued` | events in chronological order + a named category | a told order |
-| `T2_transpose_free` | events in chronological order | a told order |
-| `T3_reconstruct` | events in the gold told order | the chronology |
-| `T4_classify` | events in the gold told order | one of the seven categories |
-| `T5_prose_cued` / `T5b_prose_free` | events (+ category) | a written story |
-
-A model under test never sees `story_id`, either order column, either scene column, `tau`,
-`lis`, the notes, the story graph, or the title key. T3 and T4 are given the gold told
-order because reading it is the task.
-
-Decoding is fixed across models: `temperature=0`, `reasoning.effort=low`,
-`max_tokens=8000` for the ordering tasks; `temperature=0.7`, `max_tokens=4000` for prose.
-
-### Further experiments
-
-**Graph scaffolding.** A 550-750 word story realising a named category, under eight
-conditions that differ only in what accompanies the event list:
-
-| condition | given beyond the events and category |
-|---|---|
-| `G0_fabula_only` | nothing |
-| `G1_full_graph` | the full story graph |
-| `G2_order_only` | the gold told order (an oracle control, since the graph partly constrains the told order) |
-| `A1_no_causal` | the graph without `CAUSES`/`FORESHADOWS` |
-| `A2_no_state` | the graph without `pre`/`post` |
-| `A3_no_epistemic` | the graph without `learns` |
-| `A4_no_questions` | the graph without questions and `REVEALS` |
-| `A5_no_grounding` | the graph without `participants`/`location` |
-
-The ablation prompts are identical to `G1` except for the removed layer and its line of
-explanation. Prose experiments use 14 stories, two per category.
-
-**Retrospective coherence gain (RCG).** For each generated story, a solver reconstructs
-the chronology from the text before the story's designated reveal and from the full text,
-over the same events. RCG is the difference in Kendall tau. A paired guess task asks
-whether the withheld cause could be named before it is revealed. `rcg_baseline.py` runs
-the same solver with no story at all.
-
-**Recoverability.** A 2×2 on reconstruction: the solver either sees the events shuffled or
-in told order, with the events either as written or de-dated (explicit time anchors
-removed by a guarded rewrite, stored in `dedated_events.json`). The four cells are
-`R0_orig_notext`, `R1_orig_told`, `R2_dedated_notext` and `R3_dedated_told`.
-
-Prose order is recovered by an LLM judge that aligns each story back to its events. A
-second judge aligns a subsample independently, and `results/interjudge.json` reports their
-agreement.
-
-### Scoring
-
-All scores are computed from the permutation alone.
-
-- **tau**, **LIS**: how far the told order departs from chronology.
-- **band hit**: whether a telling's (tau, LIS) lies inside the range occupied by real works
-  of the requested category. The bands come from the corpus, so no threshold is hand-set.
-- **agreement with gold**: tau between the model's telling and the work's own telling.
-- **scene contiguity**: the fraction of gold scenes kept as one unbroken run.
-- **exact match** (T3): whether the reconstructed chronology is entirely correct.
-
-Reference rows are scored through the same code: `[baseline] identity`,
-`[baseline] reverse`, `[baseline] random` and `[reference] human (gold)`. When pooling over
-models under test, exclude rows whose model name starts with `[` or ends with `[high]`.
-`[reference] human (gold)` is the annotation of the published work, not newly collected
-human writing.
-
-### Stored replies: `experiments/raw/`
-
-One JSONL file per run, one JSON object per line.
-
-| file | contents |
-|---|---|
-| `<model>__<task>.jsonl` | benchmark replies. Model names are made filename-safe, so the high-effort re-run `Claude Opus 5 [high]` becomes `Claude_Opus_5__high_`. A `__r2` suffix marks a second replicate |
-| `judge_<judge>__<instrument>.jsonl` | prose-arm judging |
-| `gjudge_<judge>__<instrument>.jsonl` | graph-arm judging; instruments are `align`, `pds` and `pairwise` |
-| `rcg_<solver>.jsonl`, `rcg_none_<solver>.jsonl` | RCG cells and the no-text baseline |
-| `recover.jsonl` | the recoverability 2×2 |
-
-Generation records include `story_id`, `task`, `model`, `model_id`, `category`, `decode`,
-token counts, `cost`, the unedited reply in `raw`, the parsed result (`order` for ordering
-tasks, `text` and `word_count` for prose), `parse_mode` and `status`. `parse_mode` is
-`strict` when the reply contains only the indices, and `lenient` when they had to be located
-inside wrapper text such as a code fence, a reasoning block or an answer line. A reply that
-does not contain an exact permutation is recorded as a failed row; it is never repaired.
-`skipped` RCG cells are stories whose gold graph designates no reveal, or whose reveal is
-narrated with fewer than three events before it.
-
-### Derived tables: `experiments/results/`
-
-| files | written by |
-|---|---|
-| `table_T1`-`table_T4`, `per_row.csv`, `calibration.json`, `classifier_calibration.csv` | `score.py` |
-| `breakdown_*.csv`, `common_subset_*.csv` | `analysis.py` |
-| `table_T5_*.csv`, `prose_*_rows.csv`, `interjudge.json` | `score_prose.py` |
-| `grapharm_*.csv` | `score_grapharm.py` |
-| `rcg_*.csv` | `score_rcg.py` |
-| `recover_*.csv` | `score_recover.py` |
-
-`common_subset_*.csv` repeat each comparison on the stories every model answered, because
-refusals are not evenly distributed across models.
-
----
-
-## 3. Human evaluation: `humaneval/responses2.csv`
-
-Long format: one row per recorded value. 71 participants with pseudonymous IDs `1`-`71`,
-13,823 rows. The stories are the 14 used in the prose experiments, written by 11 of the
-generator models. Participants never saw which condition produced a story.
-
-| column | content |
-|---|---|
-| `participant_id` | pseudonymous participant number |
-| `submitted_at` | UTC timestamp |
-| `block` | `background`, `literacy`, `pairwise` or `single` |
-| `item_index` | position of the item within its block |
-| `task_id` | item identifier; for literacy items, the corpus `story_id` |
-| `kind` | comparison kind (pairwise) or condition (single) |
-| `story_id`, `model`, `category` | the corpus story, the generating model and its nonlinear category |
-| `condition_left`, `condition_right` | condition shown as Story A and Story B (pairwise); the condition read (single) |
-| `words_left`, `words_right` | word counts of the two stories (pairwise); of the story (single) |
-| `measure`, `value` | what was recorded, and the answer |
-| `rt_ms` | time on the item in milliseconds, where recorded |
-
-### `background`
-
-`reads_fiction` and `writing_experience` (multiple choice), and `user_agent_width`, the
-browser viewport width in pixels.
-
-### `literacy`: reading the story-curve diagram
-
-Each item shows the curve of a corpus story's gold telling, which plots told position
-against chronological position, and asks three questions. `value` is the 0-based index of
-the option chosen. Every answer is a deterministic function of the story's
-`syuzhet_order` `o`, with `n` events:
-
-| measure | question | options | correct |
-|---|---|---|---|
-| `literacy_choice_0` | Does the telling open at, or near, the earliest event? | `0` yes, `1` no | `1` if `o[0] > 0.6n`, else `0` |
-| `literacy_choice_1` | How many times does the telling jump backwards? | `sorted({max(0,b-2), b, b+2, max(0,b-1)+4})`, where `b` is the number of positions `j` with `o[j] < o[j-1]` | the index of `b` |
-| `literacy_choice_2` | Is the last scene shown also the last event? | `0` yes, `1` no | `0` if `o[-1] == n`, else `1` |
-
-### `pairwise`: blind comparison of two tellings
-
-Both stories come from the same model telling the same events under two conditions.
-
-| `kind` | conditions compared |
-|---|---|
-| `cued_vs_free` | `T5_prose_cued` vs `T5b_prose_free` |
-| `graph_vs_none` | `G1_full_graph` vs `G0_fabula_only` |
-| `graph_vs_order` | `G1_full_graph` vs `G2_order_only` |
-| `graph_vs_no_causal` | `G1_full_graph` vs `A1_no_causal` |
-| `graph_vs_no_state` | `G1_full_graph` vs `A2_no_state` |
-| `graph_vs_no_epistemic` | `G1_full_graph` vs `A3_no_epistemic` |
-| `graph_vs_no_questions` | `G1_full_graph` vs `A4_no_questions` |
-| `graph_vs_no_grounding` | `G1_full_graph` vs `A5_no_grounding` |
-
-| measure | value |
-|---|---|
-| `better` | which is the better story overall: `A`, `B` or `tie` |
-| `confusing` | which was harder to follow: `A`, `B` or `tie` |
-| `ending` | whose ending tied things together better: `A`, `B` or `tie` |
-| `confidence` | how sure the participant is of the `better` choice: 1 (a coin toss) to 5 (completely sure) |
-| `reason` | optional free text |
-
-`A` is the left story and `B` the right, so the chosen condition is `condition_left` for
-`A` and `condition_right` for `B`. Measures ending in `_repeat` record a hidden repeat of an
-earlier pair shown with the sides swapped, for measuring rater consistency.
-
-### `single`: close reading of one story
-
-`kind` and `condition_left` give the condition: `T5_prose_cued`, `G1_full_graph` or
-`G0_fabula_only`.
-
-| measure | value |
-|---|---|
-| `reading_time` | time spent reading the story, in `rt_ms` |
-| `pds_authenticity`, `pds_empathy`, `pds_engagement`, `pds_emotion_provocation`, `pds_narrative_complexity` | Psychological Depth Scale items, 1 to 5 |
-| `chronology_order` | the participant's ordering of the story's shuffled events, as space-separated chronological indices, earliest first. The correct answer is `1 2 ... n` |
-| `question_status_0`-`question_status_3` | for each of up to four questions from the story's gold graph, taken in event order: `answered`, `open` or `not_raised` |
-| `check_anchored`, `check_spoiler`, `check_jump_unjustified`, `check_knowledge`, `check_world`, `check_uncaused` | `1` if the participant reported the problem: a scene that could not be placed, a premature reveal, an unmotivated time jump, impossible character knowledge, a physical inconsistency, an unexplained event |
-| `authorship_guess` | `human`, `machine` or `unsure`. Every story shown was machine-written |
-
----
-
-## 4. Re-running generation (optional)
-
-Inspecting or reproducing the reported results does not require this. The stored replies
-are the record of the experiments, and re-running will not reproduce them exactly: prose is
-sampled at temperature 0.7, and hosted models change over time.
-
-These scripts call the API and incur cost: `runner.py`, `judge.py`, `judge_grapharm.py`,
-`rcg.py`, `rcg_baseline.py`, `recover.py` and `dedate.py`. They read the key from the
-environment:
+<details>
+<summary><strong>Annotation schema and validation</strong></summary>
+
+Source JSONs contain `title`, `release_year`, `genre`, `source`, `events_chronological`, `syuzhet_order`, `event_scenes`, `syuzhet_notes`, and `fabula_notes`. Anonymized JSONs replace the identifying fields with `story_id` and `source_index`, and add `nonlinear_category`, its justification, and `story_graph`.
+
+The CSVs expose both event-text columns (`fabula`, `syuzhet`), both order columns (`fabula_order`, `syuzhet_order`), both scene-order columns, `tau`, `lis`, and annotation notes. The anonymized CSV also includes `nonlinear_category` and the graph as JSON. Event indices are 1-based chronological positions, so `fabula_order` is always `1 2 ... n`.
+
+Scenes are contiguous in both orders. Several events may share a scene; collapsing repeated adjacent scene IDs gives a scene-level permutation.
+
+A graph contains `characters`, `events`, and `edges`. Node `ei` corresponds to chronological event `i`:
+
+| Event field | Contents |
+|:---|:---|
+| `core`, `content` | Subject-verb-object triple and an expanded description |
+| `participants`, `location` | Who is present and where |
+| `pre`, `post` | World-state flags before and after the event |
+| `learns` | Propositions learned by each character and by the reader |
+| `raises`, `resolves`, `questions` | Reader-question IDs and their text |
+| `story_time` | Chronological event index in the gold annotation |
+
+The build checks permutations, scene contiguity, field structure, anonymization leaks, and agreement between source and anonymized annotations. It also replays world-state flags chronologically, checks that questions are raised and resolved exactly once, and enforces graph-edge constraints. A separate verifier reconstructs the orders from the CSV prose, recomputes tau and LIS independently, and checks both CSVs against each other.
+
+</details>
+
+## The benchmark
+
+### Tasks and models
+
+The main benchmark evaluates **19 models: 9 closed and 10 open-weight**, queried through OpenRouter. Exact identifiers and roster labels are in [`experiments/models.json`](experiments/models.json); four models also have high-reasoning-effort runs listed in [`models_effort.json`](experiments/models_effort.json).
+
+| Task | Input | Output |
+|:---|:---|:---|
+| `T1_transpose_cued` | Chronological events and a named shape | A telling order |
+| `T2_transpose_free` | Chronological events | A freely chosen telling order |
+| `T3_reconstruct` | Events in the published telling order | The chronology |
+| `T4_classify` | Events in the published telling order | One of the seven shape labels |
+| `T5_prose_cued` / `T5b_prose_free` | Chronological events, with or without a named shape | A prose story |
+
+The main prompts omit story identifiers, titles, notes, scene and order metadata, and graphs. T3 and T4 receive events in the gold telling order because reading that order is the task. Ordering and classification use temperature 0, low reasoning effort, and an 8,000-token limit; prose uses temperature 0.7 and a 4,000-token limit. The prose experiments use **14 works, two per category**, and a smaller model subset.
+
+### Graph scaffolding and further experiments
+
+The graph arm asks for a 550-750 word story under eight conditions:
+
+| Condition | Information supplied beyond events and the requested shape |
+|:---|:---|
+| `G0_fabula_only` | None |
+| `G1_full_graph` | Full narrative graph, with positional metadata removed |
+| `G2_order_only` | Gold telling order, an oracle control |
+| `A1_no_causal` | G1 without `CAUSES` and `FORESHADOWS` |
+| `A2_no_state` | G1 without `pre` and `post` |
+| `A3_no_epistemic` | G1 without `learns` |
+| `A4_no_questions` | G1 without questions and `REVEALS` |
+| `A5_no_grounding` | G1 without participants and location |
+
+Graph prompts strip `story_time` and `told_at`, but semantic constraints such as `REVEALS` still partly constrain telling order. G2 therefore supplies an explicit order control. The ablation prompts keep the same instructions apart from the removed layer and its explanation.
+
+Two further experiments test what the evaluation can recover:
+
+- **Retrospective coherence gain (RCG):** compare a solver's reconstruction from a pre-reveal prefix and from the full story, alongside a cause-guessing task and a no-text baseline. Interpret RCG with the qualifications in the paper's Section 5.4 and Appendix J.
+- **Recoverability:** cross shuffled versus gold telling order with original versus de-dated event sentences. The four cells are `R0_orig_notext`, `R1_orig_told`, `R2_dedated_notext`, and `R3_dedated_told`.
+
+### Structural and prose evaluation
+
+| Measure | Interpretation |
+|:---|:---|
+| Kendall's tau | Agreement of a telling with chronology: +1 is chronological, -1 is exact reversal |
+| LIS ratio | Longest increasing subsequence length divided by the event count |
+| Band hit | Whether a telling's `(tau, LIS)` falls inside the corpus-derived range for the requested category |
+| Gold-order agreement | Kendall's tau against the published telling |
+| Scene contiguity | Fraction of gold scenes kept in one unbroken run |
+| Reconstruction exact match | Whether the entire recovered chronology is correct |
+
+For prose, a judge aligns the generated text back to the event list before structural scoring. Additional instruments assess psychological depth and blind pairwise preferences. A second judge independently aligns a subsample; agreement is reported in [`interjudge.json`](experiments/results/interjudge.json).
+
+Reference rows include identity, reverse, and random baselines, plus `[reference] human (gold)`, which means the annotated published telling. It is not newly collected human prose. Exclude baseline/reference rows and names ending in `[high]` when pooling the 19-model main cohort. Common-subset tables repeat comparisons on stories answered by every model to account for uneven refusals.
+
+## Repository guide
+
+| Path | Contents |
+|:---|:---|
+| [`dataset/`](dataset/) | Source and anonymized annotations, corpus CSVs, builders, and independent verification |
+| [`experiments/tasks.py`](experiments/tasks.py), [`metrics.py`](experiments/metrics.py) | Prompts, strict parsers, and structural measures |
+| [`experiments/runner.py`](experiments/runner.py) | Resumable API generation runner |
+| [`experiments/raw/`](experiments/raw/) | 144 JSONL files containing stored generation and judging records |
+| [`experiments/results/`](experiments/results/) | 49 derived result files rebuilt by the offline scoring scripts |
+| [`humaneval/responses2.csv`](humaneval/responses2.csv) | Human-evaluation responses in long format |
+| [`images/`](images/) | Three cropped figures from the arXiv paper used in this README |
+
+### Experiment and artifact map
+
+| Stage | Offline script | Main outputs in `experiments/results/` |
+|:---|:---|:---|
+| T1-T4 and calibration | [`score.py`](experiments/score.py) | `table_T1`-`table_T4`, `per_row.csv`, `calibration.json`, `classifier_calibration.csv` |
+| Category, cost, effort, common subsets | [`analysis.py`](experiments/analysis.py) | `breakdown_*.csv`, `common_subset_*.csv` |
+| Prose and judge agreement | [`score_prose.py`](experiments/score_prose.py) | `table_T5_*.csv`, `prose_*_rows.csv`, `interjudge.json` |
+| Graph conditions and ablations | [`score_grapharm.py`](experiments/score_grapharm.py) | `grapharm_*.csv` |
+| Retrospective coherence | [`score_rcg.py`](experiments/score_rcg.py) | `rcg_*.csv` |
+| Recoverability | [`score_recover.py`](experiments/score_recover.py) | `recover_*.csv` |
+
+<details>
+<summary><strong>Stored-record formats</strong></summary>
+
+Each raw file contains one JSON object per line. Generation records include story, task, model, category, decoding settings, token counts, cost, status, and parsed output. The runner's `raw` field retains up to 8,000 characters of the reply; parsed prose is stored in full in `text`.
+
+| Filename pattern | Contents |
+|:---|:---|
+| `<model>__<task>.jsonl` | Main benchmark or graph-arm generation; `__r2` marks a second replicate |
+| `judge_<judge>__<instrument>.jsonl` | Prose judging |
+| `gjudge_<judge>__<instrument>.jsonl` | Graph-arm alignment, depth ratings, and pairwise judging |
+| `rcg_<solver>.jsonl`, `rcg_none_<solver>.jsonl` | RCG and its no-text baseline |
+| `recover.jsonl` | Recoverability experiment |
+
+`parse_mode` distinguishes strict outputs from permutations extracted from wrapper text. A reply without an exact permutation is recorded as failed and is not repaired. `skipped` RCG records include stories without a designated reveal or with fewer than three events before it.
+
+</details>
+
+## Using this repository
+
+### Rebuild the derived results offline
+
+Use **Python 3.10 or newer**. The corpus and API scripts use the standard library; scoring additionally requires pandas. Run these commands from the repository root:
 
 ```bash
-export OPENROUTER_API_KEY=...
-cd experiments
-python runner.py --tasks T1_transpose_cued --only "Claude Opus 5"
+git clone https://github.com/Starscream-11813/LLM-nonlinear-storytelling.git
+cd LLM-nonlinear-storytelling
+python -m pip install -r requirements.txt
+
+# Validate the corpus without rewriting it.
+python dataset/build_dataset.py --check
+python dataset/build_anonymized.py --check
+python dataset/verify_dataset.py
+
+# Rebuild the 49 derived result files from stored replies.
+python experiments/score.py
+python experiments/analysis.py
+python experiments/score_prose.py
+python experiments/score_grapharm.py
+python experiments/score_rcg.py
+python experiments/score_recover.py
 ```
 
-`runner.py` is resumable: it skips every cell already present in `raw/`, so to generate
-fresh replies, move or empty `raw/` first. Useful options are `--tasks`, `--only`,
-`--per-category` and `--replicates`.
+No API key or network access is needed for validation or scoring after installing dependencies. The six scoring commands regenerate all **49 files** in `experiments/results/`, matching the checked-in contents after normalizing line endings. `score_rcg.py` also writes an ignored plot at `dataset/figures/rcg_plane.svg`. Windows may produce CRLF rather than LF line endings.
+
+These commands rebuild the released automated result files. Human responses are provided separately; the repository does not include scripts to regenerate the paper's human-evaluation analyses.
+
+### Generate new model outputs
+
+The generation and judging scripts call OpenRouter and incur provider charges. Set `OPENROUTER_API_KEY` in your shell using `export OPENROUTER_API_KEY="your-key"` in Bash or `$env:OPENROUTER_API_KEY = "your-key"` in PowerShell.
+
+For fresh generations, use a separate checkout and move its `experiments/raw/` directory aside before running; the runner creates a new directory. For example:
+
+```bash
+python experiments/runner.py --tasks T1_transpose_cued --only "Claude Opus 5"
+```
+
+The runner skips successful cells already in `raw/` and retries failed cells. Useful options include `--tasks`, `--only`, `--per-category`, and `--replicates`. Other API entry points are `judge.py`, `judge_grapharm.py`, `rcg.py`, `rcg_baseline.py`, `recover.py`, and `dedate.py` under `experiments/`.
+
+Hosted model snapshots can change, and prose is sampled at temperature 0.7, so fresh generations need not match the stored outputs.
+
+## Human evaluation
+
+[`humaneval/responses2.csv`](humaneval/responses2.csv) contains **13,823 recorded values from 71 participants**, covering **14 stories and 11 generator models**. Participants saw stories without generation-condition labels. The paper's **3,528 blind judgments** are distinct from the CSV row count: each comparison records several values.
+
+| Block | Recorded information |
+|:---|:---|
+| `background` | Fiction-reading habits, writing experience, and viewport width |
+| `literacy` | Three questions about a published work's story-curve diagram |
+| `pairwise` | Better story, harder to follow, better ending, confidence, and optional reasoning |
+| `single` | Reading time, five Psychological Depth Scale items, chronology reconstruction, question status, consistency checks, and authorship guess |
+
+Rows identify the participant, item, story, model, category, displayed conditions, word counts, measure, value, and response time where recorded. Pairwise `A` and `B` mean the left and right stories, so interpret them through `condition_left` and `condition_right`. Measures ending in `_repeat` record a hidden comparison repeated with the sides swapped. All stories shown in the authorship-guess task were machine-written.
+
+The full instruments and reader-analysis methods appear in [Section 5.5 and Appendices F and M of the paper](https://arxiv.org/pdf/2610.21468).
+
+## Scope and interpretation
+
+- The corpus deliberately selects nonlinear works and includes chronological controls. Models receive chronological input in the generation tasks, so default chronology can reflect input-order copying as well as a preference for chronological telling.
+- Anonymization removes surface identifiers, but distinctive plots may remain recognizable. The recoverability control cannot separate inference from prior knowledge of a work.
+- Structural measures describe ordering. They do not establish literary quality, suspense, or reader understanding, and an LLM judge can miss preferences readers express.
+- Graph versus supplied-order comparisons also differ in ordering freedom and prompt content. The graph's raw advantage over a bare event list disappears after length adjustment. Benefits from removing graph layers are concentrated in one generator.
+- Prose and reader results cover 14 works and model subsets. Generation logs date from **6-10 August 2026**, and the reader study ran **8-17 September 2026**; rankings describe these experimental snapshots.
+
+## Authors
+
+**Syed Rifat Raiyan**<sup>1,*</sup>, **Md. Tariquzzaman**<sup>1,*</sup>, **Md Farhan Ishmam**<sup>2,&dagger;</sup>, **Tenghao Huang**<sup>3</sup>
+
+<sup>1</sup> Islamic University of Technology, Bangladesh<br>
+<sup>2</sup> University of Utah, USA<br>
+<sup>3</sup> University of Southern California, USA
+
+<sup>*</sup> Equal contribution. <sup>&dagger;</sup> Corresponding author.
+
+Contact: `rifatraiyan@iut-dhaka.edu`, `tariquzzaman@iut-dhaka.edu`, `farhan.ishmam@utah.edu`, `tenghaoh@usc.edu`.
+
+## Citation
+
+If you use the corpus, benchmark, or released results, please cite:
+
+```bibtex
+@misc{raiyan2026llmstellstoriesorder,
+  title         = {Can {LLMs} Tell Stories Out of Order? A Corpus and Benchmark
+                   for Nonlinear Narrative Generation},
+  author        = {Syed Rifat Raiyan and Md. Tariquzzaman and
+                   Md Farhan Ishmam and Tenghao Huang},
+  year          = {2026},
+  eprint        = {2610.21468},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.21468}
+}
+```
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+This repository is released under the [MIT License](LICENSE). The arXiv manuscript's deposit license is listed separately on its [arXiv record](https://arxiv.org/abs/2610.21468).
