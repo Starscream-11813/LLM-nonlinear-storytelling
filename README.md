@@ -359,13 +359,13 @@ The full instruments and reader-analysis methods appear in [Section 5.5 and Appe
 
 ## Authors
 
-**Syed Rifat Raiyan**<sup>1,*</sup>, **Md. Tariquzzaman**<sup>1,*</sup>, **Md Farhan Ishmam**<sup>2,&dagger;</sup>, **Tenghao Huang**<sup>3</sup>
+**Syed Rifat Raiyan**<sup>1,&dagger;</sup>, **Md. Tariquzzaman**<sup>1,&dagger;</sup>, **Md Farhan Ishmam**<sup>2,&Dagger;</sup>, **Tenghao Huang**<sup>3</sup>
 
 <sup>1</sup> Islamic University of Technology, Bangladesh<br>
 <sup>2</sup> University of Utah, USA<br>
 <sup>3</sup> University of Southern California, USA
 
-<sup>*</sup> Equal contribution. <sup>&dagger;</sup> Corresponding author.
+<sup>&dagger;</sup> Equal contribution. <sup>&Dagger;</sup> Corresponding author.
 
 Contact: `rifatraiyan@iut-dhaka.edu`, `tariquzzaman@iut-dhaka.edu`, `farhan.ishmam@utah.edu`, `tenghaoh@usc.edu`.
 
