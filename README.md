@@ -374,7 +374,7 @@ Contact: `rifatraiyan@iut-dhaka.edu`, `tariquzzaman@iut-dhaka.edu`, `farhan.ishm
 If you use the corpus, benchmark, or released results, please cite:
 
 ```bibtex
-@misc{raiyan2026llmstellstoriesorder,
+@misc{raiyan2026-llm-nonlinear-storytelling,
   title         = {Can {LLMs} Tell Stories Out of Order? A Corpus and Benchmark
                    for Nonlinear Narrative Generation},
   author        = {Syed Rifat Raiyan and Md. Tariquzzaman and
